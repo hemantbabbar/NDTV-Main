@@ -1,0 +1,237 @@
+
+
+
+/*----====== Card I ======----*/
+.bod_glr {
+    background-color: var(--vj-cl-glr);
+}
+.glr_mb-30 {
+    margin-bottom: 30px;
+}
+
+.glr-ttl.scr_pg-ttl-wrp {
+    margin-bottom: 16px;
+}
+.glr-ttl .scr_pg-ttl {
+    background-color: rgb(74 53 189);
+    background: rgb(74 53 189) url(https://sports.ndtv.com/nstatic/responsive/images/gallery-bg.svg) no-repeat center center / cover;
+    background-size: cover;
+    /* font-size: 22px; */
+    /* font-weight: 900; */
+    color: #fff;
+}
+.glr-ttl .scr_pg-ss {
+    background-color: #295cf6;
+    background-image: linear-gradient(315deg, #4d36bf 0%, #6943de 100%);
+}
+.glr-ttl .crd_shr .vj_icn.vj_share {
+    color: #fff;
+}
+
+.glr-tp {
+    display: inline-block;
+    width: 100%;
+    background-color: var(--vj-cl-lg5);
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.17);
+    flex-direction: column;
+    position: relative;
+    margin: 0 0 35px;
+}
+.glr-tp_wrp {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+.glr-tp_img {
+    margin: 0 0 10px;
+    width: 100%;
+}
+.glr-tp_img-wr .img-gr {
+    border-radius: 12px 12px 0 0;
+}
+
+.glr-tp_txt {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 12px 15px;
+    margin: 0 0 0;
+}
+
+.glr-tp_ttl {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.glr-tp_sub-txt {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--vj-cl-dr5);
+    padding: 0 0 0;
+    display: -webkit-box;
+    position: relative;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.glr-tp_lnk {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: var(--vj-cl-dr1);
+    padding: 0 0 0;
+}
+.glr-tp_lnk:hover {
+    color: var(--vj-cl-dr1);
+}
+
+.glr-tp_txt .crd_shr {
+    background-color: var(--vj-cl-glr8);
+}
+
+.glr-tp_img-wr {
+    border-radius: 12px 12px 0 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    min-height: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.glr-tp_txt .crd-ft_bt {
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+
+
+
+
+
+/*Shapes*/
+.glr-tp_shp1, .glr-tp_shp2 { display: none; }
+
+
+
+
+/*Video Icon*/
+.glr-ply {
+        background: linear-gradient(135deg,#ffffff 0%,rgb(239 239 239) 100%);
+        border-radius: 25px;
+        box-shadow: 0 6px 16px rgb(0 0 0 / 67%);
+        display: inline-block;
+        float: left;
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        right: 16px;
+        bottom: 14px;
+        padding: 11px 0 0 11px;
+        position: absolute;
+        z-index: 9;
+}
+.glr-ply .vj_icn {
+    font-size: 14px;
+    float: left;
+    color: #ff492a;
+}
+.glr-tp_img .glr-ply {
+    padding: 16px 0 0 16px;
+    width: 45px;
+    height: 45px;
+}
+
+.glr-tp_img .vj_icn {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    .glr-rpd {
+        padding-right: 60px;
+    }
+    .glr-tp_wrp {
+        display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    }
+    .glr-tp_img {
+        margin: 0;
+        width: 570px;
+    }
+    .glr-tp_img-wr, .glr-tp_img-wr .img-gr {
+        border-radius: 12px 0 0 12px;
+        }
+    .glr-tp_txt {
+        width: calc(100% - 570px);
+        padding: 0;
+        margin: 32px;
+    }
+    .glr-tp_ttl {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 31px;
+        margin-bottom: 16px;
+        padding-bottom: 0;
+    }
+    .glr-tp_lnk {
+        font-size: 21px;
+        line-height: 31px;
+        font-weight: 700;
+        padding: 0;
+        margin-bottom: 25px;
+    }
+
+    .glr-tp_txt .crd-ft_bt {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+.glr-tp_shp1 {
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    top: -100px;
+    left: -90px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.glr-tp_shp2 {
+    display: inline-block;
+    width: 260px;
+    position: absolute;
+    bottom: -60px;
+    right: -70px;
+    z-index: -1;
+    pointer-events: none;
+}
+
+    
+    .glr-ttl .ss.scr_pg-ss .vj_icn {
+    color: #f5f5ff;
+    font-size: 15px;
+}
+
+
+}

@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-pinup1: #fff;
+    --vj-cl-pinup2:
+    rgba(255,255,255,0.1);
+    --vj-cl-pinup3:
+    rgba(255,255,255,0.6);
+    --vj-cl-pinup4: #cccccc;
+    --vj-cl-pinup5:
+    rgb(0 0 0 / 08%);
+}
+
+
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-pinup1: #2c2c2c;
+    --vj-cl-pinup2:
+    rgba(39,39,39,0.1);
+    --vj-cl-pinup3:
+    rgba(39,39,39,0.6);
+    --vj-cl-pinup4: #406291;
+    --vj-cl-pinup5:
+    rgb(0 0 0 / 23%);
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+    --vj-cl-pinup1: #272727;
+    --vj-cl-pinup2: rgba(39,39,39,0.1);
+    --vj-cl-pinup3: rgba(39,39,39,0.6);
+    --vj-cl-pinup4: #385b8b;
+    --vj-cl-pinup5: rgb(0 0 0 / 23%);
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {
+    --vj-cl-pinup1: #fff;
+    --vj-cl-pinup2: rgba(255,255,255,0.1);
+    --vj-cl-pinup3: rgba(255,255,255,0.6);
+    --vj-cl-pinup4: #4280d3;
+    --vj-cl-pinup5: rgb(0 0 0 / 08%);
+    }
+}
+
+
+
+
+/*----====== Card dot extension ======----*/
+
+    .crd_dot {
+            /* background-image: radial-gradient(rgb(98 145 147 / 49%) 1px, transparent 1px); */
+            /* background-size: calc(10 * 1px) calc(10 * 1px); */
+            background-image: repeating-linear-gradient(45deg, var(--vj-cl-pinup4) 0, var(--vj-cl-pinup4) 1px, transparent 0, transparent 50%);
+            background-size: 8px 8px;
+            bottom: -2px;
+            right: -14px;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            z-index: -1;
+}
+
+.crd_dot-wrp {
+    position: relative;
+}
+
+.crd_dot-wrp .img-gr {
+    padding-bottom: 38%;
+}
+
+
+
+@media (max-width: 768px) {
+.crd_dot { display: none; }
+.crd_dot-wrp .crd_img {
+    box-shadow: 0 0 0 rgb(0 0 0 / 0%);
+}
+    
+.crd_dot-wrp .img-gr {
+    padding-bottom: 100%;
+}
+}
+
+
+
+

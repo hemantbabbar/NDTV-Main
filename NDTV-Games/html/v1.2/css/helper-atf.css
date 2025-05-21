@@ -1,0 +1,31 @@
+.clear-fix { 
+    clear: both; 
+}
+.img__full, .full__view {
+    margin-bottom: 15px;
+    margin: 0 -15px 15px;
+    width: calc(100% + 30px);
+}
+.img__full img, .full__view img {
+    border-radius: 0;
+}
+.w-100 {
+    width: 100%;
+}
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
+.fnone {
+    float: none;
+}
+.fcenter {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clear {
+    clear: both;
+}

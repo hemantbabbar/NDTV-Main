@@ -1,0 +1,247 @@
+
+.m-nv {
+    background-color: var(--vj-cl-lg);
+    /* border-bottom: 1px solid var(--vj-cl-lg4); */
+    display: inline-block;
+    float: left;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    z-index: 991;
+}
+
+
+.stk-t_wr:after {
+    border: solid transparent;
+    border-width: 6px;
+    border-top-color: var(--vj-cl-m);
+    bottom: -24px;
+    content:  "";
+    height: 6px;
+    left: 18px;
+    position: absolute;
+    width: 6px;
+    z-index: 9;
+}
+.nav_stk .m-nv:before {
+    /* box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2); */
+}
+.m-nv_ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    float: left;
+}
+.m-nv_li {
+    display: inline-block;
+    float: left;
+}
+.m-nv_lnk {
+    color: var(--vj-cl-dr1);
+    display: inline-block;
+    font-family: var(--ff-two);
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    text-transform: capitalize;
+    margin: 0 4px;
+    padding: 23px 6px;
+}
+
+.m-nv_lbl {
+    background-color: #ca2525;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.17);
+    color: #ffffff;
+    display: inline-block;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 10px;
+    min-height: 12px;
+    padding: 1px 4px 0;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.m-nv_lbl:after {
+    top: 100%;
+    left: 10px;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border: solid transparent;
+    border-top-color: #ca2525;
+    border-width: 4px;
+    margin-left: -4px;
+}
+
+
+.m-nv_li.dd-nav_hvr .dd-nav{
+    /* min-height: 268px; */
+}
+.t-icn-ltv.m-nv_li.dd-nav_hvr .dd-nav {
+    min-height: auto;
+}
+.dd-nav_hvr:hover > .m-nv_lnk, .m-nv_lnk:hover {
+    color: var(--vj-cl-dr);
+}
+.m-nv_lnk:before {
+    content: "";
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    opacity: 0;
+    margin: auto;
+    background: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+.dd-nav_hvr:hover > .m-nv_lnk:before, .m-nv_lnk:hover:before, .m-nv_lnk:focus:before {
+    /* width: 100%; */
+    opacity: 1;
+}
+.m-nv_act {
+}
+
+
+.m-nv_ul:hover .m-nv_li:not(:hover) {
+  opacity: 0.6;
+}
+.m-nv_li {
+  opacity: 1;
+  transition: 0.3s ease all;
+}
+.m-nv_li:hover {
+  opacity: 1;
+}
+.m-nv_drp-icn {
+    font-size: 10px;
+    margin-left: 5px;
+}
+.m-nv_clr .m-nv_lnk.dd-nav_act {
+    color: #fff;
+}
+.dd-nav_act:after {
+    background: #cfd3da;
+    bottom: 18px;
+    content: "";
+    height: 1px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+.vj_icn-nv {
+    opacity: 0.6;
+    font-size: 7px;
+    margin: 9px 0 0 6px;
+    position: absolute;
+}
+.t-icn-nv .dd-nav_ltv-ful {
+    background: var(--vj-cl-ot2);
+    color: #333;
+    max-width: 100%;
+    margin: 10px;
+    text-shadow: 0 0;
+}
+
+.t-icn-nv .dd-nav_ltv-ful:hover {
+    background: #fff5a0;
+    color: #333;
+}
+.m-nv_bkp {
+    height: 68px;
+    position: absolute;
+    width: 100%;
+}
+
+.j-stk-dn.j-stk-up .m-nv {
+    position:  fixed;
+    top:  0;
+    left:  0;
+    width: 100%;
+}
+
+.j-stk-dn.j-stk-up .m-nv_bkp {
+    position: relative;
+}
+
+
+
+
+.ltv__vd.img__full {
+    background-color: var(--vj-cl-dr);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    font-size: 0;
+    position: relative;
+    width: 100%;
+}
+.ltv__lo {
+/*    background-image: url(../images/NDTV_24x7.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 126px;*/
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+
+.ltv__rpl {
+    display: inline-block;
+    position:  relative;
+    width: 100%;
+}
+
+.ltv__lk {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+
+@media (max-width: 420px) {
+    .m-nv {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+}
+
+
+@media (max-width: 1200px) {
+
+    .m-nv_lf {
+        display: none;
+    }
+}
+
+
+@media (min-width: 1400px) {
+.m-nv_lnk {
+    margin: 0 8px;
+}
+}
+@media (min-width: 1600px) {
+.m-nv_lnk {
+    margin: 0 12px;
+}
+}

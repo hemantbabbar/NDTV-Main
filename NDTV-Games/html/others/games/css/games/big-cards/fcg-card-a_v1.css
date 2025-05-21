@@ -1,0 +1,38 @@
+
+
+/*----====== Card B ======----*/
+.FCrd-a_v1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+.FCrd-a_v1_h-at {
+    height: auto;
+}
+
+
+.FCrd-a_v2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+.FCrd-a_v2_h-at {
+    height: auto;
+}
+
+.FCrd-a_v2 .FCrd_txt-wrp{position: absolute; bottom:0; padding:50px 15px 10px; background: #000;
+    background: -moz-linear-gradient(0deg,rgba(0,0,0,.72) 33%,rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(0deg,rgba(0,0,0,.72) 33%,rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg,rgba(0,0,0,.72) 33%,rgba(0,0,0,0) 100%);}
+
+    .FCrd-a_v2 .FCrd_lnk{color:var(--vj-cl-lg)}

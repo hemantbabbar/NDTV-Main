@@ -1,0 +1,22 @@
+
+
+
+
+
+/*----====== Card B ======----*/
+.crd-b_v1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 16px;
+    height: 100%;
+    width: 100%;
+}
+.crd-b_v1-h-at {
+    height: auto;
+}
+@media (max-width: 768px) {
+}
+

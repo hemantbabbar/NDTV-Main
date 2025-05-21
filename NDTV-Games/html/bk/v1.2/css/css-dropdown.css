@@ -1,0 +1,69 @@
+
+
+/*--====== Select ======--*/
+
+.css-drop {
+    display: inline-block;
+    max-width: 100%;
+    margin-left: 12px;
+    position: relative;
+    z-index: 4;
+}
+
+.css-drop_sel {
+    background: var(--vj-cl-lg5);
+    color: inherit;
+    cursor: pointer;
+    font-family: var(--ff-one);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    max-width: 100%;
+    outline: 0;
+    border: 0px;
+    border-radius: 6px;
+    padding: 7px 21px 7px 10px;
+    position: relative;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+/* hide ms expand */
+.css-drop_sel::-ms-expand {
+    display: none
+}
+
+/* add the down pointer, replacing the webkit version */
+.css-drop::after {
+    right: 10px;
+    z-index: 5;
+    border: 2px solid;
+    border-radius: 1px;
+    border-right: 0;
+    border-top: 0;
+    content: "";
+    display: block;
+    height: 7px;
+    margin-top: -6px;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    width: 7px;
+}
+
+/* change colour on hover */
+.css-drop:hover::after {
+    border-color: var(--vj-lc-m);
+}
+
+
+@media (max-width: 340px) {
+    .amp-lst_wrp .css-drop {
+        margin-left: 6px;
+    }
+}
+
+
+

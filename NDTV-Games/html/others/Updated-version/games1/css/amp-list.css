@@ -1,0 +1,298 @@
+
+
+
+/*----====== AMP List Page ======----*/
+
+.sp-wrp {
+    padding: 0 60px 0 15px;
+}
+.amp-lst_ttl-wrp, .amp-lst_sub-ttl, .amp-lst_hr-wrp {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.amp-lst_ttl-wrp {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 6;
+}
+.amp-lst_wrp .in-pg_ttl {
+    width: auto;
+}
+.amp-lst_icn {
+    display: inline-block;
+    font-size: 21px;
+    float: left;
+    margin: 0 8px 0 0;
+}
+.amp-lst_ttl-wrp .crd_shr {
+    top: 5px;
+    margin-left: 11px;
+}
+.amp-lst_ttl, .amp-lst_txt {
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: auto;
+}
+.amp-lst_sub-ttl {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.amp-lst_hr-wrp {
+    margin-bottom: 20px;
+    background: var(--vj-cl-lg1);
+    border-radius: 6px;
+    padding: 0 0 0 10px;
+    position: relative;
+    z-index: 1;
+}
+.amp-cat .swiper-slide {
+    width: 57%;
+    margin-right: 15px;
+    display: inline-block;
+    flex-shrink: 0;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.amp-lst_wrp {
+    display: inline-block;
+    padding: 0 45px 0 0;
+    width: 100%;
+}
+.amp-lst_hd {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.amp-lst_ul {display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-right: -15px;margin-left: -15px;}
+.amp-lst-a-li {/* border-bottom: 1px solid var(--vj-cl-rg1); */display: inline-block;float: left;margin-bottom: 30px;padding: 0 15px;width: 33.333%;}
+
+.amp-lst-a-li:last-child {
+    border-bottom: 0 none;
+    padding-bottom: 0;
+}
+.amp-lst-a .amp-lst_ttl-wrp, .amp-lst-a .amp-lst_txt {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.amp-lst-a {background-color: var(--vj-cl-lg);border: 1px solid var(--vj-cl-rg3);border-radius: 8px;box-shadow: 0 3px 6px var(--vj-cl-rg1);float: left;display: -webkit-box;display: -ms-flexbox;display: flex;flex-direction: column;-webkit-box-align: start;-ms-flex-align: start;align-items: flex-start;position: relative;width: 100%;height: 100%;}
+.amp-lst-a .amp-lst_ttl {
+    color: var(--vj-cl-dr);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    margin-bottom: 4px;
+}
+.amp-lst_img, .amp-lst_txt-wrp {display: flex;flex-direction: column;/* float: left; */width: 100%;}
+.amp-lst-a .amp-lst_txt {
+    color: var(--vj-cl-dr5);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin-bottom: 8px;
+}
+.amp-lst-a .amp-lst_txt-wrp {padding: 0 15px 15px;-webkit-box-flex: 1;-ms-flex: 1;flex: 1;}
+.amp-lst-a .amp-lst_img {margin: 0 0 13px;border-radius: 8px 8px 0 0;overflow: hidden;position: relative;width: 100%;}
+
+
+.amp-lst_img .img-gr {
+    border-radius: 8px 8px 0 0;
+    padding-bottom: 126%;
+}
+
+
+
+
+
+.amp-lst_bt {
+    display: inline-block;
+    float: left;
+    min-height: 30px;
+    width: 100%;
+    margin-top: auto;
+}
+.amp-lst_dt {
+    color: var(--vj-cl-dr7);
+    display: inline-block;
+    float: left;
+    font-size: 11px;
+    font-family: var(--ff-two);
+    font-weight: 400;
+    line-height: 12px;
+    padding: 9px 0 0;
+    position: relative;
+}
+.amp-lst_bt-lgo {
+    display: inline-block;
+    float: right;
+    height: 21px;
+}
+
+
+
+.amp-lst_hr-wrp .sub-nv_li:first-child .sub-nav_lnk {
+    margin-left: 0;
+}
+
+.amp-lst_hr-wrp .sub-nav_lnk, .amp-lst_hr-wrp .sub-nav_lft {
+    padding: 11px 11px 11px;
+}
+.amp-lst_hr-wrp .sub-nav_lnk:hover:after, .amp-lst_hr-wrp .sub-nav_act:after {
+    opacity: 1;
+    width: 100%;
+}
+
+
+/*----====== AMP category Page ======----*/
+.amp-cat {
+    display: inline-block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    margin-bottom: 40px;
+    padding: 0 0 50px;
+    /* Fix of Webkit flickering */
+    z-index: 1;
+}
+
+
+.amp-cat .swiper-button-prev, .amp-cat .swiper-button-next {
+    margin-top: -60px;
+}
+.swiper-button-prev .vj_icn, .swiper-button-next .vj_icn {
+    font-size: 17px;
+}
+
+.amp-lst_pg {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 6px;
+}
+.amp-lst_pg em {
+    background-color: rgba(255, 255, 255, 0.78);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    border-radius: 3px;
+    display: block;
+    height: 3px;
+    margin-right: 3px;
+    width: 100%;
+}
+.amp-lst_pg-wrp {
+    bottom: 12px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.amp-lst_pg-bt {
+    bottom: 12px;
+}
+.amp-lst_pg-tp {
+    top: 12px;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .amp_ful {
+        display: inline-block;
+        float: left;
+        width: calc(100% + 40px);
+        margin-left: -20px;
+    }
+    .amp_ful .amp-cat {
+        padding: 0 20px 50px;
+    }
+    .amp-lst_ttl {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 31.5px;
+    }
+    .amp-lst_ul {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .amp-lst_ttl-wrp .crd_shr {
+        top: 1px;
+    }
+    .amp-lst-a-li {
+        padding: 0 6px;
+        width: 50%;
+    }
+    .amp-lst_wrp {
+        padding: 0 0 0 0;
+    }
+    .amp-lst-a  {}
+    .amp-lst-a .amp-lst_img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .amp-lst-a .amp-lst_txt-wrp {
+        padding: 0 10px 10px;
+    }
+    .amp-lst-a .amp-lst_ttl {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .amp-lst_dt {
+    }
+
+
+
+
+    .amp-cat .swiper-button-prev, .amp-cat .swiper-button-next {
+        display: none;
+    }
+}
+
+
+@media (max-width: 340px) {
+    .amp-lst_wrp .in-pg_txt {
+        font-size: 18px;
+        padding-left: 12px;
+    }
+    .amp-lst_icn {
+        margin: 0 6px 0 0;
+        width: 18px;
+    }
+}
+
+
+
+.day_night .amp-lst-a {
+    background-color: #313131;
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.17);
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    .amp-lst-a {
+        background-color: #313131;
+        border: 1px solid rgba(0,0,0,0.4);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.17);
+    }
+    .day_night .amp-lst-a {
+        background-color: #fff;
+        border: 1px solid rgba(0,0,0,0.4);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.17);
+    }
+
+}

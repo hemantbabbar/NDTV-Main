@@ -1,0 +1,9 @@
+
+
+.tbl_cnt_wrp {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}

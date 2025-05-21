@@ -1,0 +1,70 @@
+
+
+
+/*----====== Instagram List ======----*/
+.sp-wrp {
+    padding: 0 60px 0 15px;
+}
+.inst-lst_wrp {
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+.inst-lst_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.inst-lst-a-li {
+    /* border-bottom: 1px solid var(--vj-cl-rg1); */
+    display: inline-block;
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    width: 50%;
+}
+
+.inst-lst-a {
+    background-color: var(--vj-cl-lg5);
+    border: 1px solid var(--vj-cl-rg1);
+    border-radius: 8px;
+    box-shadow: 0 3px 6px var(--vj-cl-rg2);
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.inst-lst-a .inst-lst_img {
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.inst-lst-a .img-gr {padding-bottom: 100%;}
+
+
+
+@media (min-width: 1200px) {
+    
+    .inst-lst_wrp {
+    padding: 0 45px 0 0;
+}
+.inst-lst-a-li {
+    width: 25%;
+}
+}
+

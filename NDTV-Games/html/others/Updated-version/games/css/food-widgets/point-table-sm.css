@@ -1,0 +1,191 @@
+
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-rk2: rgba(0, 0, 0, 0.06);
+    --vj-cl-rk3: rgba(0, 0, 0, 0.04);
+    --vj-cl-rk4: #fff;
+    --vj-cl-rk6: #f6f7fe;
+    --vj-cl-rk8: rgba(238, 240, 255, 0.41);
+    --vj-cl-rk9: linear-gradient(315deg, #50bfc8 0%, #aaeed4 100%);
+}
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-rk2: rgba(0, 0, 0, 0.39%);
+    --vj-cl-rk3: #3e3e3e;
+    --vj-cl-rk4: #333333;
+    --vj-cl-rk6: #2d2d2d;
+    --vj-cl-rk8: rgba(29, 29, 29, 0.25);
+    --vj-cl-rk9: linear-gradient(315deg, #226b71 0%, #40ce98 100%);
+}
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+        --vj-cl-rk2: rgba(0, 0, 0, 0.39%);
+        --vj-cl-rk3: #3e3e3e;
+        --vj-cl-rk4: #333333;
+        --vj-cl-rk6: #2d2d2d;
+        --vj-cl-rk8: rgba(29, 29, 29, 0.25);
+        --vj-cl-rk9: linear-gradient(315deg, #226b71 0%, #40ce98 100%);
+    }
+    /*--====== Light ======--*/
+    :root .day_night {
+        --vj-cl-rk2: rgba(0, 0, 0, 0.06);
+        --vj-cl-rk3: rgba(0, 0, 0, 0.04);
+        --vj-cl-rk4: #fff;
+        --vj-cl-rk6: #f6f7fe;
+        --vj-cl-rk8: rgba(238, 240, 255, 0.41);
+        --vj-cl-rk9: linear-gradient(315deg, #50bfc8 0%, #aaeed4 100%);
+    }
+}
+
+
+
+
+
+
+
+
+
+/*--==== Point Table ====--*/
+.sts_sm-th {
+    color: var(--vj-cl-dr5);
+    font-size: 12px;
+    text-transform: capitalize;
+    padding: 15px 4px;
+    line-height: 18px;
+    text-align: left;
+    /* text-shadow: 0 1px 1px rgba(0,0,0,0.17); */
+}
+.sts_sm-ttl {
+    color: var(--vj-cl-mtx);
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    padding: 15px 12px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.sts_sm-ply {
+    padding-left: 28px
+}
+
+.sts_sm-pl, .sts_sm-nm {
+    display: inline-block;
+    padding: 0;
+    line-height: 18px;
+    vertical-align: middle;
+    /* float: left; */
+}
+.sts_sm-nm {
+    padding-top: 1px;
+}
+.sts_sm-wd75 {
+    width: 75px;
+}
+
+.sts_sm-td {
+    display: table-cell;
+    padding: 12px 6px;
+    line-height: 18px;
+    border-bottom: 1px solid var(--vj-cl-rk3);
+    text-align: left;
+    vertical-align: middle;
+}
+.sts_sm-nm a {
+    color: var(--vj-cl-dr1);
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    vertical-align: middle;
+}
+.sts_sm-tnm-sb {
+    color: var(--vj-cl-dr7);
+    display: inline-block;
+    line-height: 11px;
+    float: left;
+    margin-top: 3px;
+    width: 100%;
+}
+
+.sts_sm-act {
+    background-color: var(--vj-cl-rk8);
+}
+.sts_sm-lk, .sts_sm-cntr, .sts_sm-plyr {
+    display: inline-block;
+    float: left;
+    margin: 0 6px 0 0;
+    width: 22px;
+}
+.sts_sm-ctr, .sts_sm-plyr {
+    text-align: center;
+}
+
+.sts_sm-plyr {
+    width: 32px;
+}
+
+.sts_sm-wrp {background-color: var(--vj-cl-rk4);/* border: 1px solid var(--vj-cl-scr3); */border-top: 0 none;/* margin-top: -1px; *//* box-shadow: 0 3px 12px var(--vj-cl-scr2); *//* border-radius: 8px; */display: inline-block;float: left;/* padding: 16px; */margin-bottom: 0;width: 100%;overflow: hidden;position: relative;}
+
+.sts_sm-th:first-child, .sts_sm-td:first-child {
+    padding-left: 12px;
+}
+
+
+.sts_sm {
+    color: var(--vj-cl-dr5);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
+    overflow-x: auto;
+}
+
+.sts_sm-tr.sts_sm-hd {
+    background-color: var(--vj-cl-rk6);
+}
+
+
+
+.sts_sm-all {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.sts_sm-btn {
+    display: inline-block;
+    background: var(--vj-cl-rk9);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 43px;
+    padding: 0 16px;
+    margin: 13px 0;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.17);
+}
+.sts_sm-btn:hover {
+    color: #fff;
+}
+
+
+
+/*--==== TABS ====--*/
+.sts_sm-cnt {
+    background-color: var(--vj-cl-rk4);
+    border: 1px solid var(--vj-cl-rk2);
+    box-shadow: 0 3px 12px rgba(0,0,0,0.03);
+    border-radius: 8px;
+    margin-bottom: 36px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}  

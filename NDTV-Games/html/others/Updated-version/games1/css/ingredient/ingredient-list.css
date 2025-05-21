@@ -1,0 +1,248 @@
+
+
+
+/*----====== Card D ======----*/
+.IngrLst-Ar_wrp {
+    display: inline-block;
+    padding: 0 45px 0 0;
+    width: 100%;
+}
+.IngrLst-Ar_hd {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.IngrLst-Ar_ul, .IngrLst-Ar_cnt {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.IngrLst-Ar-a-li {
+    border-bottom: 1px solid rgb(128 128 128 / 21%);
+    display: inline-block;
+    float: left;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.IngrLst-Ar-a-li:last-child {
+    border-bottom: 0 none;
+    padding-bottom: 0;
+}
+.IngrLst-Ar-a .IngrLst-Ar_ttl, .IngrLst-Ar-a .IngrLst-Ar_txt {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.IngrLst-Ar-a {
+    display: inline-block;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+}
+.IngrLst-Ar-a .IngrLst-Ar_ttl {
+    color: var(--vj-cl-dr1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+.IngrLst-Ar_img, .IngrLst-Ar_txt-wrp {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.IngrLst-Ar-a .IngrLst-Ar_txt {
+    color: var(--vj-cl-dr5);
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 13px;
+}
+.IngrLst-Ar-a .IngrLst-Ar_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.IngrLst-Ar-a .IngrLst-Ar_img {
+    margin: 0 20px 0 0;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 210px;
+}
+
+.IngrLst-Ar_tg-wr {
+    color: var(--vj-cl-lg2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-flow: row;
+    float: left;
+    font-size: 13px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.IngrLst-Ar_tg-lk:last-child {
+    margin-right: 1px;
+}
+.IngrLst-Ar_tg-lk {
+    border-bottom: 2px solid #7c7c7c26;
+    color: var(--vj-cl-dr7);
+    display: inline-block;
+    float: left;
+    margin-right: 13px;
+    margin-bottom: 6px;
+}
+
+.IngrLst-Ar_tg-tl {
+    color: var(--vj-cl-dr5);
+    display: inline-block;
+    float: left;
+    font-weight: 500;
+    margin-right: 13px;
+}
+
+
+
+
+
+
+
+.IngrLst-Ar_pst {
+    display: inline-block;
+    float: left;
+    margin-bottom: 3px;
+    /* width: 100%; */
+}
+.IngrLst-Ar_pst_ul {
+    display: inline-block;
+    float: left;
+    font-size: 0;
+}
+.IngrLst-Ar_pst_li {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-family: var(--ff-two);
+}
+.IngrLst-Ar_pst_lnk, .IngrLst-Ar_pst_lnk a {
+    color: var(--vj-cl-lg2);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+}
+.IngrLst-Ar_pst_lnk {
+    padding: 7px 8px 0 0;
+    margin-right: 8px;
+}
+
+.IngrLst-Ar_pst_lnk:before {background-color: var(--vj-cl-rg1);content: "";position: absolute;right: 0;height: 9px;top: 12px;width: 2px;}
+
+.IngrLst-Ar_pst_li:last-child .IngrLst-Ar_pst_lnk:before {
+    width: 0;
+}
+
+.IngrLst-Ar_pst_li:last-child .IngrLst-Ar_pst_lnk {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+
+.IngrLst-Ar_pst_lnk img {
+    width: 12px;
+    margin: -5px 2px 0 0;
+}
+.IngrLst-Ar_pst_txt{
+    margin-right:4px;
+}
+
+
+
+
+
+.IngrLst-Ar_ss.ss {
+    display: inline-block;
+    float: right;
+    height: auto;
+    margin: 8px 0 0 0;
+    right: auto;
+    top: auto;
+    position: relative;
+    width: 100%;
+}
+
+
+
+    .IngrLst-Ar_ss .crd_shr {
+    height: 30px;
+    width: 30px;
+}
+    .IngrLst-Ar_ss.ss .ss-lk {
+    float: right;
+}
+
+.IngrLst-Ar_ss .crd_shr .vj_icn.vj_share {
+    margin: 7px 8px 0;
+    height: 18px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+.IngrLst-Ar_wrp {
+    padding: 0;
+}
+
+}
+
+
+@media (max-width: 575.98px) {
+
+.IngrLst-Ar_wrp {
+    padding: 0;
+}
+    .IngrLst-Ar-a  {
+        display: inline-block;
+    }
+    .IngrLst-Ar-a .IngrLst-Ar_img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

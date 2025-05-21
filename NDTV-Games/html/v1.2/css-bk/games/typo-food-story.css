@@ -1,0 +1,81 @@
+
+
+/*---- Typography Home widgets ----*/
+.m-nv_lnk {
+    font-size: 13px;
+    font-weight: 600;
+}
+.sub-nav_lnk {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.snv_cn-lnk {
+    font-size: 14px;
+    font-weight: 500;
+}
+.sid-nav_li-ttl {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+
+
+.brd-nv .brd-nv_li {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+
+.s-ttl {
+    font-size: 15px;
+    font-weight: 600;
+}
+.ads_txt {
+    font-size: 14px;
+    line-height: 1.7;
+}
+.s-ls_txt {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+
+
+.sp-ttl {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 46px;
+}
+.sp-descp {
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.pst-by_lnk, .pst-by_lnk a {
+    font-size: 13px;
+    font-weight: 400;
+}
+.sp_cap, .ins_instory_dv_caption {
+    font-size: 13px;
+    font-weight: 300;
+}
+.sp-hig {
+    font-size: 15px;
+}
+.st-crd {
+    font-size: 13px;
+    line-height: 21.5px;
+}
+.sp_txt {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+

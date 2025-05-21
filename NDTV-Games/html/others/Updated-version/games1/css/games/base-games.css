@@ -1,0 +1,359 @@
+:root {
+  --vj-cl-m: #6842ff;
+  --vj-cl-mtx: #d37ab7;
+  --vj-cl-ot1: linear-gradient(270deg, #fb00ff, #ff7900);
+  --vj-cl-ot2: #4d2550;
+  --vj-cl-ot3: #704678;
+  --vj-cl-ic1: rgba(255, 255, 255, 0.35);
+  --vj-cl-ic2: rgba(255, 255, 255, 0.8);
+  --vj-cl-bg: rgb(40 43 64);
+  --vj-cl-bg1: #1e1f1f;
+  --vj-cl-bg2: #0c0d14;
+  --vj-cl-bg3: #181818;
+  --vj-cl-bg4: #272727;
+  --vj-cl-br1: #202020;
+  --vj-cl-br2: #3b3937;
+  --vj-cl-sh1: #fafafa;
+  --vj-cl-sh2: #fafafa;
+  --vj-cl-lg: #212233;
+  --vj-cl-lg1: #333;
+  --vj-cl-lg2: #a9a9a9;
+  --vj-cl-lg3: #d4d4d4;
+  --vj-cl-lg4: #383838;
+  --vj-cl-lg5: #333;
+  --vj-cl-lg6: #272727;
+  --vj-cl-dr: #fff;
+  --vj-cl-dr1: #d4d4d4;
+  --vj-cl-dr2: #e3e4e7;
+  --vj-cl-dr3: #a9a9a9;
+  --vj-cl-dr4: #c1c1c1;
+  --vj-cl-dr5: #a3a9a9;
+  --vj-cl-dr6: #777;
+  --vj-cl-dr7: #999999;
+  --vj-cl-dr8: #343a40;
+  --vj-cl-rg1: #353939;
+  --vj-cl-rg2: rgba(29, 29, 29, 0.97);
+  --vj-cl-rg3: rgba(232, 232, 232, 0.17);
+  --vj-cl-rg4: rgba(255, 255, 255, 0.7);
+  --vj-cl-rg5: rgba(255, 255, 255, 0.8);
+  --vj-cl-rg6: rgba(33, 33, 33, 0.27);
+  --vj-cl-rg7: rgba(12, 12, 12, 0.9);
+  --vj-cl-rg8: rgba(255, 255, 255, 0.47);
+  --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+  --vj-cl-rg10: rgba(186, 204, 255, 0.47);
+  --vj-cl-rg11: rgba(0, 0, 0, 0.47);
+  --vj-flt1: invert(0.1);
+  --vj-fw1: 400;
+  /* --vj-fw1: 500; */
+  --ff-one: "Inter", sans-serif;
+  --ff-two: "Inter", sans-serif;
+  --ff-three: futura-pt, sans-serif;
+  --ff-four: futura-pt, sans-serif;
+  /* --vj-cl-m: #000000;
+  --vj-cl-mtx: #c657a3;
+  --vj-cl-ot1: #fbe1ff;
+  --vj-cl-ot2: #fef1ff;
+  --vj-cl-ot3: #c8b0e1;
+  --vj-cl-ic1: #275efe;
+  --vj-cl-ic2: rgba(0, 0, 0, 0.8);
+  --vj-cl-bg: #ffffff;
+  --vj-cl-bg1: #fafafa;
+  --vj-cl-bg2: #f9f9f9;
+  --vj-cl-bg3: #ececec;
+  --vj-cl-bg4: #ffffff;
+  --vj-cl-br1: #dcd7d2;
+  --vj-cl-br2: #706b67;
+  --vj-cl-br3: #272b31;
+  --vj-cl-lg: #fff;
+  --vj-cl-lg1: #fafafa;
+  --vj-cl-lg2: #a9a9a9;
+  --vj-cl-lg3: #d4d4d4;
+  --vj-cl-lg4: #eeeeee;
+  --vj-cl-lg5: #fff;
+  --vj-cl-lg6: #fafafa;
+  --vj-cl-dr: #000;
+  --vj-cl-dr1: #333;
+  --vj-cl-dr2: #343a40;
+  --vj-cl-dr3: #4c4c4c;
+  --vj-cl-dr4: #585858;
+  --vj-cl-dr5: #706b67;
+  --vj-cl-dr6: #747474;
+  --vj-cl-dr7: #9c9c9c;
+  --vj-cl-dr8: #343a40;
+  --vj-cl-rg1: rgba(51, 51, 51, 0.07);
+  --vj-cl-rg2: rgba(247, 247, 247, 0.97);
+  --vj-cl-rg3: rgb(87 87 87 / 22%);
+  --vj-cl-rg4: rgba(0, 0, 0, 0.7);
+  --vj-cl-rg5: rgba(0, 0, 0, 0.8);
+  --vj-cl-rg6: rgba(51, 51, 51, 0.03);
+  --vj-cl-rg7: rgba(255, 255, 255, 0.9);
+  --vj-cl-rg8: rgba(51, 51, 51, 0.4);
+  --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+  --vj-cl-rg10: rgba(58, 86, 167, 0.47);
+  --vj-cl-rg11: rgba(255, 255, 255, 0.47);
+  --vj-flt1: invert(0);
+  --vj-fw1: 500;
+  --ff-one: "Inter", sans-serif;
+  --ff-two: "Inter", sans-serif;
+  --ff-three: futura-pt, sans-serif;
+  --ff-four: futura-pt, sans-serif; */
+}
+
+/* :root .day_night {
+  --vj-cl-m: #6842ff;
+  --vj-cl-mtx: #d37ab7;
+  --vj-cl-ot1: linear-gradient(270deg, #fb00ff, #ff7900);
+  --vj-cl-ot2: #4d2550;
+  --vj-cl-ot3: #704678;
+  --vj-cl-ic1: rgba(255, 255, 255, 0.35);
+  --vj-cl-ic2: rgba(255, 255, 255, 0.8);
+  --vj-cl-bg: rgb(40 43 64);
+  --vj-cl-bg1: #1e1f1f;
+  --vj-cl-bg2: #0c0d14;
+  --vj-cl-bg3: #181818;
+  --vj-cl-bg4: #272727;
+  --vj-cl-br1: #202020;
+  --vj-cl-br2: #3b3937;
+  --vj-cl-sh1: #fafafa;
+  --vj-cl-sh2: #fafafa;
+  --vj-cl-lg: #212233;
+  --vj-cl-lg1: #333;
+  --vj-cl-lg2: #a9a9a9;
+  --vj-cl-lg3: #d4d4d4;
+  --vj-cl-lg4: #383838;
+  --vj-cl-lg5: #333;
+  --vj-cl-lg6: #272727;
+  --vj-cl-dr: #fff;
+  --vj-cl-dr1: #d4d4d4;
+  --vj-cl-dr2: #e3e4e7;
+  --vj-cl-dr3: #a9a9a9;
+  --vj-cl-dr4: #c1c1c1;
+  --vj-cl-dr5: #a3a9a9;
+  --vj-cl-dr6: #777;
+  --vj-cl-dr7: #999999;
+  --vj-cl-dr8: #343a40;
+  --vj-cl-rg1: #353939;
+  --vj-cl-rg2: rgba(29, 29, 29, 0.97);
+  --vj-cl-rg3: rgba(232, 232, 232, 0.17);
+  --vj-cl-rg4: rgba(255, 255, 255, 0.7);
+  --vj-cl-rg5: rgba(255, 255, 255, 0.8);
+  --vj-cl-rg6: rgba(33, 33, 33, 0.27);
+  --vj-cl-rg7: rgba(12, 12, 12, 0.9);
+  --vj-cl-rg8: rgba(255, 255, 255, 0.47);
+  --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+  --vj-cl-rg10: rgba(186, 204, 255, 0.47);
+  --vj-cl-rg11: rgba(0, 0, 0, 0.47);
+  --vj-flt1: invert(0.1);
+  --vj-fw1: 400;
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+      --vj-cl-m: #295953;
+      --vj-cl-mtx: #d37ab7;
+      --vj-cl-ot1: #925d9b;
+      --vj-cl-ot2: #4d2550;
+      --vj-cl-ot3: #704678;
+      --vj-cl-ic1: rgba(255, 255, 255, 0.35);
+      --vj-cl-ic2: rgba(255, 255, 255, 0.8);
+      --vj-cl-bg: #2c2c2c;
+      --vj-cl-bg1: #1e1f1f;
+      --vj-cl-bg2: #1e1f1f;
+      --vj-cl-bg3: #181818;
+      --vj-cl-bg4: #272727;
+      --vj-cl-br1: #353737;
+      --vj-cl-br2: #3b3937;
+      --vj-cl-sh1: #fafafa;
+      --vj-cl-sh2: #fafafa;
+      --vj-cl-lg: #272727;
+      --vj-cl-lg1: #333;
+      --vj-cl-lg2: #a9a9a9;
+      --vj-cl-lg3: #d4d4d4;
+      --vj-cl-lg4: #383838;
+      --vj-cl-lg5: #333;
+      --vj-cl-lg6: #272727;
+      --vj-cl-dr: #fff;
+      --vj-cl-dr1: #d4d4d4;
+      --vj-cl-dr2: #e3e4e7;
+      --vj-cl-dr3: #a9a9a9;
+      --vj-cl-dr4: #c1c1c1;
+      --vj-cl-dr5: #a3a9a9;
+      --vj-cl-dr6: #777;
+      --vj-cl-dr7: #999999;
+      --vj-cl-dr8: #343a40;
+      --vj-cl-rg1: #353939;
+      --vj-cl-rg2: rgba(29, 29, 29, 0.97);
+      --vj-cl-rg3: rgba(232, 232, 232, 0.17);
+      --vj-cl-rg4: rgba(255, 255, 255, 0.7);
+      --vj-cl-rg5: rgba(255, 255, 255, 0.8);
+      --vj-cl-rg6: rgba(33, 33, 33, 0.27);
+      --vj-cl-rg7: rgba(12, 12, 12, 0.9);
+      --vj-cl-rg8: rgba(255, 255, 255, 0.47);
+      --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+      --vj-cl-rg10: rgba(186, 204, 255, 0.47);
+      --vj-cl-rg11: rgba(0, 0, 0, 0.47);
+      --vj-flt1: invert(0.1);
+      --vj-fw1: 400;
+  }
+
+  :root .day_night {
+      --vj-cl-m: #2a6e66;
+      --vj-cl-mtx: #c657a3;
+      --vj-cl-ot1: #fbe1ff;
+      --vj-cl-ot2: #f9fff1;
+      --vj-cl-ot3: #c8b0e1;
+      --vj-cl-ic1: #275efe;
+      --vj-cl-ic2: rgba(0, 0, 0, 0.8);
+      --vj-cl-bg: #ffffff;
+      --vj-cl-bg1: #fafafa;
+      --vj-cl-bg2: #edece7;
+      --vj-cl-bg3: #e3e2de;
+      --vj-cl-bg4: #ffffff;
+      --vj-cl-br1: #dcd7d2;
+      --vj-cl-br2: #706b67;
+      --vj-cl-br3: #272b31;
+      --vj-cl-lg: #fff;
+      --vj-cl-lg1: #fafafa;
+      --vj-cl-lg2: #a9a9a9;
+      --vj-cl-lg3: #d4d4d4;
+      --vj-cl-lg4: #eeeeee;
+      --vj-cl-lg5: #fff;
+      --vj-cl-lg6: #fafafa;
+      --vj-cl-dr: #000;
+      --vj-cl-dr1: #333;
+      --vj-cl-dr2: #343a40;
+      --vj-cl-dr3: #4c4c4c;
+      --vj-cl-dr4: #585858;
+      --vj-cl-dr5: #706b67;
+      --vj-cl-dr6: #747474;
+      --vj-cl-dr7: #9c9c9c;
+      --vj-cl-dr8: #343a40;
+      --vj-cl-rg1: rgba(51, 51, 51, 0.07);
+      --vj-cl-rg2: rgba(247, 247, 247, 0.97);
+      --vj-cl-rg3: rgb(87 87 87 / 22%);
+      --vj-cl-rg4: rgba(0, 0, 0, 0.7);
+      --vj-cl-rg5: rgba(0, 0, 0, 0.8);
+      --vj-cl-rg6: rgba(51, 51, 51, 0.03);
+      --vj-cl-rg7: rgba(255, 255, 255, 0.9);
+      --vj-cl-rg8: rgba(51, 51, 51, 0.4);
+      --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+      --vj-cl-rg10: rgba(58, 86, 167, 0.47);
+      --vj-cl-rg11: rgba(255, 255, 255, 0.47);
+      --vj-flt1: invert(0);
+      --vj-fw1: 500;
+  }
+} */
+
+body.spt-home {
+  background-color: var(--vj-cl-lg1);
+}
+
+.spt-home .header {
+  background-color: var(--vj-cl-lg1);
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgb(175, 74, 143);
+  color: rgb(255, 255, 255);
+}
+
+.body-lit {
+  background-color: var(--vj-cl-lg6);
+}
+
+.vj-cnt {
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+
+.spcr-tp_hm {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  width: 100%;
+}
+
+.section {
+  display: inline-block;
+  float: left;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.section_one {
+  background-color: var(--vj-cl-lg);
+  display: inline-block;
+  padding: 40px 0px 30px;
+  position: relative;
+  width: 100%;
+}
+
+.section_two {
+  display: inline-block;
+  padding: 0px 0px 20px;
+  position: relative;
+  width: 100%;
+}
+
+.MstPpl_swp .crd-e .crd_txt-wrp, .Tp10rec_swp .crd-h .crd_txt-wrp {
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+}
+
+.crd-b .crd_txt-wrp {
+  flex-direction: row;
+  align-items: center;
+}
+
+.MstPpl_swp .crd-e .crd-ft_bt, .Tp10rec_swp .crd-h .crd-ft_bt {
+  order: 2;
+  width: 25%;
+}
+
+.Tp10rec_swp .crd-h .crd_ttl3 {
+  margin-bottom: 0px;
+}
+
+.rd_more {
+  align-items: center;
+  border: 1px solid var(--vj-cl-rg3);
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  font-size: 8px;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0.5;
+  color: var(--vj-cl-dr1);
+}
+
+.side-nav-logo {
+  width: 160px;
+  height: 30px;
+  display: inline-block;
+  margin: 23px 0px 0px 20px;
+}
+
+@media (min-width: 1600px) {
+  section {
+      --w: calc((100% - 1600px) / 2);
+  }
+
+  .spcr-tp_hm {
+      display: inline-block;
+      float: left;
+      height: 50px;
+      width: 100%;
+  }
+}
+
+.grid_iso {
+  min-height: 500px;
+}

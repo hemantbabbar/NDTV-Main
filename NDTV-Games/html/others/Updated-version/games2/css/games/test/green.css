@@ -1,0 +1,137 @@
+/*!
+ * NDTV Base v1.0.0
+ */
+:root {
+    --vj-cl-m: #33b965;
+    --vj-cl-ot1: #f1f9ea;
+    --vj-cl-ot2: #ffec4e;
+    --vj-cl-ic1: #275EFE;
+    --vj-cl-ic2: rgba(0,0,0,0.8);
+    --vj-cl-lg: #fff;
+    --vj-cl-lg1: #fafafa;
+    --vj-cl-lg2: #a9a9a9;
+    --vj-cl-lg3: #d4d4d4;
+    --vj-cl-lg4: #eeeeee;
+    --vj-cl-dr: #000;
+    --vj-cl-dr1: rgba(0,0,0,0.8);
+    --vj-cl-dr2: #343a40;
+    --vj-cl-dr3: #4c4c4c;
+    --vj-cl-dr4: #585858;
+    --vj-cl-dr5: #666;
+    --vj-cl-dr6: rgba(0,0,0,0.54);
+    --vj-cl-dr7: #9c9c9c;
+    --vj-cl-dr8: #343a40;
+    --vj-cl-rg1: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg2: rgba(247, 247, 247, 0.97);
+    --vj-cl-rg3: rgba(0,0,0,0.17);
+    --vj-cl-rg4: rgba(0, 0, 0, 0.7);
+    --vj-cl-rg5: rgba(0, 0, 0, 0.8);
+    --vj-cl-rg6: rgba(51, 51, 51, 0.03);
+    --vj-cl-rg7: rgba(255, 255, 255, 0.9);
+    --vj-cl-rg8: rgba(51, 51, 51, 0.4);
+    --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg10: rgba(58, 86, 167, 0.47);
+    --ttl: #101010;
+    --txt: #343a40;
+    --txt-gray: #777777;
+    --txt-c: #999;
+    --stk-hd: #fffef3;
+    --red: #ffae00;
+    --gray: #666;
+    --dark: #343a40;
+    --clr-b: #dc5a5a;
+    --light-c: #e7e7e7;
+    --light-b: #fce9d8;
+    --clr-a: #fcdd4b;
+    --clr-c: #ca8484;
+    --clr-d: #effdee;
+    --clr-lnk: #5b81dc;
+    --black: #000;
+    --gray-dark: #343a40;
+    --white: #fff;
+    --light: #f7f7f7;
+    --light-d: #fffef3;
+    --ff-one: 'urbane', sans-serif;
+    --ff-two: 'urbane', sans-serif;
+}
+
+
+
+
+
+
+
+:root .day_night {
+    --vj-cl-m: #1f50de;
+    --vj-cl-ot1: #3d4438;
+    --vj-cl-ot2: #ffec4e;
+    --vj-cl-ic1: rgba(255, 255, 255, 0.35);
+    --vj-cl-ic2: rgba(255, 255, 255, 0.8);
+    --vj-cl-lg: #272727;
+    --vj-cl-lg1: #333;
+    --vj-cl-lg2: #a9a9a9;
+    --vj-cl-lg3: #d4d4d4;
+    --vj-cl-lg4: #383838;
+    --vj-cl-dr: #fff;
+    --vj-cl-dr1: rgba(255, 255, 255, 0.8);
+    --vj-cl-dr2: #e3e4e7;
+    --vj-cl-dr3: #a9a9a9;
+    --vj-cl-dr4: #c1c1c1;
+    --vj-cl-dr5: #a3a9a9;
+    --vj-cl-dr6: #777;
+    --vj-cl-dr7: #6d6d6d;
+    --vj-cl-dr8: #343a40;
+    --vj-cl-rg1: #353939;
+    --vj-cl-rg2: rgba(29, 29, 29, 0.97);
+    --vj-cl-rg3: rgba(105, 105, 105, 0.17);
+    --vj-cl-rg4: rgba(255, 255, 255, 0.7);
+    --vj-cl-rg5: rgba(255, 255, 255, 0.8);
+    --vj-cl-rg6: rgba(33, 33, 33, 0.27);
+    --vj-cl-rg7: rgba(12, 12, 12, 0.9);
+    --vj-cl-rg8: rgba(255, 255, 255, 0.47);
+    --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg10: rgba(186, 204, 255, 0.47);
+}
+
+
+
+
+
+
+
+
+
+body.spt-home {
+    background-color: var(--vj-cl-lg1);
+}
+.spt-home .header {
+    background-color: var(--vj-cl-lg1);
+}
+.spt-home .container {
+    width: 100%;
+    max-width: 1240px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+::-moz-selection { /* Code for Firefox */
+    background: #d3e5ff;
+}
+
+::selection {
+    background: #d3e5ff;
+}
+
+
+
+

@@ -1,0 +1,20 @@
+
+/* TAB_C */
+
+.rnk_tab-c{
+    width:100%;
+}
+.rnk_tab-c .rnk_tab-lnk{
+    border-bottom:2px solid var(--vj-cl-lg1);
+    color:var(--vj-cl-dr6);
+    font-size: 14px;
+    padding: 15px 9px 12px;
+}
+.rnk_tab-c .rnk_tab-act .rnk_tab-lnk{
+    border-bottom:2px solid var(--vj-cl-dr);
+}
+.rnk_tab-c .rnk_tab-li{
+    float:left;
+    text-align:center;
+    width:33.3%;
+}

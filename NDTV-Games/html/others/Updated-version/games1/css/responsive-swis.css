@@ -1,0 +1,42 @@
+
+@media (max-width: 575.98px) {
+    .header, .m-nv_lf, .set_drp {
+        display: none;
+    }
+    .logo-swrilster {
+    width: 118px;
+}
+.res_lst .crd_img {
+    width: 102px;
+    margin-bottom: 0;
+}
+
+.res_lst .crd_txt-wrp {
+    width: calc(100% - 117px);
+    float: right;
+}
+
+.res_lst .img-gr_c {
+    padding-bottom: 100%;
+}
+
+.res_lst {
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
+
+.res_bor-bt {
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
+
+.res_bor-bt-non {
+    border-bottom: 0 solid var(--vj-cl-rg1);
+    margin-bottom: 16px;
+    padding-bottom: 0;
+}
+
+}
+

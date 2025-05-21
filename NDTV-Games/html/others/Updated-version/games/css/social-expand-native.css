@@ -1,0 +1,109 @@
+.crd_shr {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px 1px 3px;
+    border-radius: 30px;
+    float: right;
+    height: 30px;
+    position: relative;
+    width: 30px;
+    border: 1px solid var(--vj-cl-lg5);
+    padding-right: 1px;
+}
+
+.crd_shr-ss .vj_icn {
+    color: var(--vj-cl-dr1);
+    margin: 7px 7px 0px;
+    font-size: 16px;
+}
+
+.crd_shr-pg {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    right: auto;
+    top: auto;
+    position: relative;
+}
+
+.crd_shr-lk {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    color: var(--vj-cl-dr2);
+    list-style: outside none none;
+    display: inline-block;
+    border-bottom: 0px none;
+    float: right;
+    position: relative;
+    font-size: 21px;
+    line-height: 1.8;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.crd_shr-lk .vj_icn {
+    font-size: 15px;
+    margin: 0px 0px 2px;
+    height: 34px;
+}
+
+.crd_shr-pg .whatsapp:hover .vj_icn {
+    color: rgb(108, 169, 51);
+}
+
+.crd_shr-pg .facebook:hover .vj_icn {
+    color: rgb(67, 115, 210);
+}
+
+.crd_shr-pg .twitter:hover .vj_icn {
+    color: rgb(103, 201, 232);
+}
+
+.crd_shr-pg .reddit:hover .vj_icn {
+    color: rgb(255, 69, 0);
+}
+
+.crd_shr-pg .googleplus:hover .vj_icn {
+    color: rgb(211, 72, 54);
+}
+
+.crd_shr-pg .snapchat:hover .vj_icn {
+    color: rgb(254, 248, 81);
+}
+
+.crd_shr-ss {
+    position: absolute;
+    top: -4px;
+    right: -8px;
+    font-size: 14px;
+    text-align: left;
+    background-color: var(--vj-cl-lg1);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 12px 7px -9px;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    width: 185px;
+    opacity: 0;
+    transition: all 0.17s ease 0s;
+    transform-origin: right center;
+    transform: scale(0, 1);
+}
+
+.crd_shr .vj_icn.vj_share {
+    font-size: 12px;
+    display: inline-block;
+    float: left;
+    margin: 9px 8px 0px;
+}
+
+@media (min-width: 1200px) {
+    .crd_shr {
+        /* height: 24px; *//* width: 24px; */
+    }
+
+    .crd_shr .vj_icn.vj_share {
+        font-size: 11px;
+        margin: 0px 6px 0px;
+    }
+}

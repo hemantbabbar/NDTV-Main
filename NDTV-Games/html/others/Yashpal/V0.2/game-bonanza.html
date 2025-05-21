@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://www.ndtvgames.com/ -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" href="https://www.ndtvgames.com/ndtv.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <title>NDTV Game Bonanza</title>
+    <link href="./NDTV Game Bonanza_files/reset.css" rel="stylesheet">
+    <link href="css/topNav.css" rel="stylesheet">
+    <link href="./NDTV Game Bonanza_files/helper.css" rel="stylesheet">
+    <link href="./NDTV Game Bonanza_files/style.css" rel="stylesheet">
+    <link href="./NDTV Game Bonanza_files/media-query.css" rel="stylesheet">
+    <meta name="description" content="NDTV Game Bonanza">
+    <link rel="manifest" href="https://www.ndtvgames.com/manifest.json">
+    <title>NDTV GAME Bonanza</title>
+    <script type="text/javascript" async="" src="./NDTV Game Bonanza_files/js"></script>
+    <script type="text/javascript" async="" src="./NDTV Game Bonanza_files/analytics.js"></script>
+    <script type="text/javascript" async="" src="./NDTV Game Bonanza_files/chartbeat.js"></script>
+    <script async="" src="./NDTV Game Bonanza_files/gtm.js"></script>
+    <script async="" src="./NDTV Game Bonanza_files/beacon.js"></script>
+    <script>
+      var _comscore = _comscore || [];
+      _comscore.push({
+          c1: "2",
+          c2: "9548033"
+        }),
+        function() {
+          var c = document.createElement("script"),
+            e = document.getElementsByTagName("script")[0];
+          c.async = !0, c.src = "https://sb.scorecardresearch.com/cs/9548033/beacon.js", e.parentNode.insertBefore(c, e)
+        }()
+    </script>
+    <noscript>
+      <img src="https://sb.scorecardresearch.com/p?c1=2&;c2=9548033&cv=3.6.0&cj=1">
+    </noscript>
+    <script>
+      ! function(e, t, a, n, g) {
+        e[n] = e[n] || [], e[n].push({
+          "gtm.start": (new Date).getTime(),
+          event: "gtm.js"
+        });
+        var m = t.getElementsByTagName(a)[0],
+          r = t.createElement(a);
+        r.async = !0, r.src = "https://www.googletagmanager.com/gtm.js?id=GTM-N2R2KQQ", m.parentNode.insertBefore(r, m)
+      }(window, document, "script", "dataLayer")
+    </script>
+    <script async="" src="./NDTV Game Bonanza_files/f(4).txt"></script>
+    <script></script>
+    <script type="text/javascript">
+      ! function() {
+        var t, e, n = window._sf_async_config = window._sf_async_config || {};
+        n.uid = 34512, n.domain = "games.ndtv.com", n.flickerControl = !1, n.useCanonical = !0, n.useCanonicalDomain = !0, n.sections = "Vodafone", n.authors = "", n.title = "", n.type = "", t = document.createElement("script"), e = document.getElementsByTagName("script")[0], t.type = "text/javascript", t.async = !0, t.src = "//static.chartbeat.com/js/chartbeat.js", e.parentNode.insertBefore(t, e)
+      }()
+    </script>
+    <script async="" src="./NDTV Game Bonanza_files/chartbeat_mab.js"></script>
+    <!-- <script defer="defer" src="./NDTV Game Bonanza_files/main.f7ff4d64.js"></script> -->
+    <meta http-equiv="origin-trial" content="A0VQgOQvA+kwCj319NCwgf8+syUgEQ8/LLpB8RxxlRC3AkJ9xx8IAvVuQ/dcwy0ok7sGKufLLu6WhsXbQR9/UwwAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjg4MDgzMTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <meta http-equiv="origin-trial" content="A6kRo9zXJhOvsR4D/VeZ9CiApPAxnOGzBkW88d8eIt9ex2oOzlX+AoUk/BS50Y9Ysy2jwyHR49Mb7XwP+l9yygIAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjg4MDgzMTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <meta http-equiv="origin-trial" content="A3mbHZoS4VJtJ8j1aE8+Z9vaGf/oMV1eTNIWMrvGqWgNnOmvaxnRGliqKIZU2eiTzCj5Qpz8B1/UTTLuony5bAAAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjg4MDgzMTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+    <meta http-equiv="origin-trial" content="As0hBNJ8h++fNYlkq8cTye2qDLyom8NddByiVytXGGD0YVE+2CEuTCpqXMDxdhOMILKoaiaYifwEvCRlJ/9GcQ8AAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+    <meta http-equiv="origin-trial" content="AgRYsXo24ypxC89CJanC+JgEmraCCBebKl8ZmG7Tj5oJNx0cmH0NtNRZs3NB5ubhpbX/bIt7l2zJOSyO64NGmwMAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3MTk1MzI3OTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+    <script src="./NDTV Game Bonanza_files/f(5).txt" async=""></script>
+    <link rel="preload" href="./NDTV Game Bonanza_files/f(6).txt" as="script">
+    <script type="text/javascript" src="./NDTV Game Bonanza_files/f(6).txt"></script>
+    <link rel="preload" href="./NDTV Game Bonanza_files/f(7).txt" as="script">
+    <script type="text/javascript" src="./NDTV Game Bonanza_files/f(7).txt"></script>
+    <link href="css/topNav.css" rel="stylesheet"/>
+    <link href="css/popup.css" rel="stylesheet" />
+    <link href="css/advertisement-games.css" rel="stylesheet" />
+  </head>
+  <body cz-shortcut-listen="true" class="onldPop_ on">
+
+    <!--Start Pop Code  -->
+    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+  <symbol id="vj_close" viewBox="0 0 22 22">
+    <title>close</title>
+    <path d="M13.423 11l8.225-8.226c0.226-0.226 0.351-0.529 0.351-0.851s-0.125-0.625-0.351-0.851l-0.721-0.721c-0.227-0.227-0.529-0.351-0.851-0.351s-0.624 0.124-0.851 0.351l-8.225 8.225-8.226-8.225c-0.226-0.227-0.529-0.351-0.851-0.351s-0.624 0.124-0.85 0.351l-0.721 0.721c-0.469 0.469-0.469 1.233 0 1.702l8.226 8.226-8.226 8.225c-0.226 0.227-0.351 0.529-0.351 0.851s0.125 0.624 0.351 0.851l0.721 0.721c0.226 0.227 0.529 0.351 0.85 0.351s0.625-0.124 0.851-0.351l8.226-8.225 8.225 8.225c0.227 0.227 0.529 0.351 0.851 0.351h0c0.322 0 0.624-0.124 0.851-0.351l0.721-0.721c0.226-0.226 0.351-0.529 0.351-0.851s-0.125-0.624-0.351-0.851l-8.225-8.226z"></path>
+ </symbol>
+</defs>
+</svg>
+<a href="#" class="overlay_popup">&nbsp;</a>
+<div class="pop_wr">
+<div class="pop-cn">
+<a href="#" class="pop-cls"><svg class="snv_cn-icn vj_icn vj_close">
+<use xlink:href="#vj_close"></use>
+</svg></a>
+<div class="pop_desk"><a href="#"><img src="https://drop.ndtv.com/test/hk-ndtv/Ndtv-games/popup/images/playgames-desk.jpg"></a></div>
+<div class="pop_mob"><a href="#"><img src="https://drop.ndtv.com/test/hk-ndtv/Ndtv-games/popup/images/playgames-mob.jpg"></a></div>
+</div>
+</div>
+<!--End Pop Code  -->
+
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2R2KQQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <!-- start new top nav-->
+        <div class="TpGnAd_wdg">
+            <section class="gamesContnr">
+                <div class="container d-flex">
+                    <!--====== Global Nav, Advertisement ======-->
+                    <div class="TpGnAd_sec">
+        
+                        <!-- Global Nav ======-->
+                        <div class="TpGnAd_nv-cn">
+                            <!-- Top Menu -->
+                            <nav class="TpGnAd_lf">
+                                <ul class="TpGnAd_ul">
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk TpGnAd_act" title="NDTV"
+                                            href="https://www.ndtv.com/">NDTV</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="हिंदी न्यूज़"
+                                            href="https://ndtv.in/">हिंदी न्यूज़</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Business News"
+                                            href="https://khabar.ndtv.com/">Business</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Entertainment News"
+                                            href="http://movies.ndtv.com/">Movies</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Cricket"
+                                            href="https://sports.ndtv.com/cricket">Cricket</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Tech"
+                                            href="http://gadgets.ndtv.com/">Tech</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Food" href="index-food.html">Food</a>
+                                    </li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Lifestyle"
+                                            href="https://swirlster.ndtv.com">Lifestyle</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Health"
+                                            href="http://doctor.ndtv.com/">Health</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Auto"
+                                            href="http://auto.ndtv.com">Auto</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Crossword"
+                                            href="https://www.ndtv.com/crossword">Crossword</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Big Bonus"
+                                            href="https://www.ndtv.com/big-bonus">Big Bonus <span
+                                                class="TpGnAd_lbl">NEW</span></a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="Swasth"
+                                            href="https://swachhindia.ndtv.com/">Swasth</a></li>
+                                    <li class="TpGnAd_li"><a class="TpGnAd_lnk" title="shopping"
+                                            href="https://www.ndtv.com/shopping">Shopping</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- end new top nav-->
+      <header class="topHdr">
+        <div class="container d-flex jus-s-between al-i-center pdtb15">
+          <div class="logo-box">
+            <a href="https://www.ndtvgames.com/home">
+              <img src="./NDTV Game Bonanza_files/logo-ndtvgame.svg" alt="logo"> 
+            </a>
+          </div>
+          <div class="d-flex al-i-center">
+            <div class="btnBox" id="btnBox">
+              <ul class="d-flex jus-s-between t-center">
+                <li>
+                  <a action="true" href="https://www.ndtvgames.com/rewards">
+                    <i class="iconBx rwd-icn"></i>Rewards </a>
+                </li>
+                <li>
+                  <a action="true" href="https://www.ndtvgames.com/leaderboard">
+                    <i class="iconBx ldrbrd-icn"></i>Leaderboard </a>
+                </li>
+                <li>
+                  <a action="true" href="https://www.ndtvgames.com/leaderboard">
+                    <i class="numbr-blk al-i-center" id="tp">0</i>Total Points </a>
+                </li>
+              </ul>
+            </div>
+            <div class="user-login-box pos-rel">
+              <a href="https://www.ndtvgames.com/#" class="usrNmDp d-flex al-i-center ftw-600 ft-13">
+                <img src="./NDTV Game Bonanza_files/user-img.png" alt="img">
+                <span class="usrNm1" id="guest">WRS6ZC1FKC</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+		
+      <section class="gamesContnr styl2 mt-30">
+        <div class="container">
+          <div class="d-flex jus-s-between al-i-center">
+            <h2 class="widgtTtl">Best Games</h2>
+            <div class="stndaln-btnRyt ml-auto">&nbsp;</div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/pinball.png" alt="Pin Ball" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/pinball/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/pinball.png" alt="Pin Ball" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Pin Ball</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/raceline.png" alt="Race Line" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/raceline/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/raceline.png" alt="Race Line" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Raceline</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/snakecolorbreak.png" alt="Snake Color Break" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/snake-color-break/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/snakecolorbreak.png" alt="Snake Color Break" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Snake Color Break</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+			
+			    <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/pinball.png" alt="Pin Ball" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/pinball/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/pinball.png" alt="Pin Ball" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Pin Ball</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+			
+			
+        </div>
+      </section>
+      <section class="gamesContnr styl2 addContnr mt-30" style="text-align: center;">
+		  
+    <!--====== Advertisement Here Type 1 ======-->
+		  <div class="ad-art_wr ">
+                     <div class="ad-art_rw">
+                        <div class="ad-art_wr">
+                           <div class="ad-art_tx1">Advertisement</div>
+                           <div class="ad-art_img-wr"><img src="https://tpc.googlesyndication.com/simgad/16376712540458270881" alt="Advertisement" border="0" width="300" height="250"> </div>
+                        </div>
+                     </div>
+                  </div>
+		  
+		  
+		  
+      </section>
+      <section class="gamesContnr styl2 mt-30">
+        <div class="container">
+          <div class="d-flex jus-s-between al-i-center">
+            <h2 class="widgtTtl">Most Popular</h2>
+            <div class="stndaln-btnRyt ml-auto">&nbsp;</div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/wordsearch.png" alt="Word Game" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/word-game/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/wordsearch.png" alt="Word Game" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Word Game</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/2048.png" alt="2048" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/2048/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/2048.png" alt="2048" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">2048</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/candyblocks.png" alt="Candy Blocks" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/candy-blocks/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/candyblocks.png" alt="Candy Blocks" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Candy Blocks</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+		  <section class="gamesContnr styl2 addContnr mt-30" style="text-align: center;">
+		  
+    <!--====== Advertisement Here ======-->
+		  <div class="ad-art_wr ">
+                     <div class="ad-art_rw">
+                        <div class="ad-art_wr">
+                           <div class="ad-art_tx1">Advertisement</div>
+                           <div class="ad-art_img-wr"><img src="https://s0.2mdn.net/simgad/6547409779053018296" alt="Advertisement" border="0" width="970" height="90"> </div>
+                        </div>
+                     </div>
+                  </div>
+		  
+		  
+		  
+      </section>
+		
+		
+		
+      <section class="gamesContnr styl2 mt-30">
+        <div class="container">
+          <div class="d-flex jus-s-between al-i-center">
+            <h2 class="widgtTtl">Arcade</h2>
+            <div class="stndaln-btnRyt ml-auto">&nbsp;</div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/boatrush.png" alt="Boat Rush" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/boatrush/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/boatrush.png" alt="Boat Rush" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Boat Rush</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/greatairbattle.png" alt="Arcade Games" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/greatairbattle/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/greatairbattle.png" alt="Arcade Games" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Great Air Battle</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/knifeninja.png" alt="New Games" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/knifeninja/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/knifeninja.png" alt="New Games" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Knife Ninja</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gamesContnr styl2 mt-30" style="text-align: center;">
+        <div id="gpt-passback-5" data-google-query-id="CNTBsMfGpP4CFQVnKwodJM8NMA">
+          <div id="google_ads_iframe_//213794966,1068322/vuukle-widget/ndtvgames.com-5_0__container__" style="border: 0pt none; width: 728px; height: 0px;"></div>
+        </div>
+      </section>
+      <section class="gamesContnr styl2 mt-30">
+        <div class="container">
+          <div class="d-flex jus-s-between al-i-center">
+            <h2 class="widgtTtl">Sports</h2>
+            <div class="stndaln-btnRyt ml-auto">&nbsp;</div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/batter.png" alt="Cricket Batter" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/batter/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/batter.png" alt="Cricket Batter" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Cricket Batter</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/hpl.png" alt="HPL" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/hpl/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/hpl.png" alt="HPL" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">HPL</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/soccergoal.png" alt="Soccer Goal" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a href="https://www.ndtvgames.com/soccergoal/">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/soccergoal.png" alt="Soccer Goal" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Soccer Goal</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gamesContnr styl2 mt-30" style="text-align: center;">
+        <div id="gpt-passback-6" data-google-query-id="CMzbsMfGpP4CFdEbcgodL0gGwA">
+          <div id="google_ads_iframe_//213794966,1068322/vuukle-widget/ndtvgames.com-6_0__container__" style="border: 0pt none; width: 728px; height: 0px;"></div>
+        </div>
+      </section>
+      <section class="gamesContnr styl2 mt-30">
+        <div class="container">
+          <div class="d-flex jus-s-between al-i-center">
+            <h2 class="widgtTtl">Recommended for you</h2>
+            <div class="stndaln-btnRyt ml-auto">&nbsp;</div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner.jpg" alt="99 Balls 3D" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/99balls3d">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner.jpg" alt="99 Balls 3D" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">99 Balls 3D</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(1).jpg" alt="Bolly Beat" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/bollybeat">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(1).jpg" alt="Bolly Beat" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Bolly Beat</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(2).jpg" alt="Cake Slice Ninja" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/cakesliceninja">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(2).jpg" alt="Cake Slice Ninja" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Cake Slice Ninja</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(3).jpg" alt="Carrom Clash" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/carromclash">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(3).jpg" alt="Carrom Clash" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Carrom Clash</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(4).jpg" alt="Color Burst 3D" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/colorburst3d">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(4).jpg" alt="Color Burst 3D" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Color Burst 3D</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(5).jpg" alt="Comfy Farm" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/comfyfarm">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(5).jpg" alt="Comfy Farm" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Comfy Farm</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(6).jpg" alt="Daily Solitaire" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/dailysolitaire">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(6).jpg" alt="Daily Solitaire" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Daily Solitaire</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(7).jpg" alt="Diwali Lights" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/diwalilights">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(7).jpg" alt="Diwali Lights" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Diwali Lights</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(8).jpg" alt="Freekick Football" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/freekickfootball">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(8).jpg" alt="Freekick Football" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Freekick Football</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(9).jpg" alt="FullSpeed Racing" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/fullspeedracing">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(9).jpg" alt="FullSpeed Racing" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">FullSpeed Racing</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(10).jpg" alt="Gin Rummy" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/ginrummy">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(10).jpg" alt="Gin Rummy" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Gin Rummy</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(11).jpg" alt="Gym Stack" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/gymstack">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(11).jpg" alt="Gym Stack" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Gym Stack</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(12).jpg" alt="Hexa Dungeon" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/hexadungeon">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(12).jpg" alt="Hexa Dungeon" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Hexa Dungeon</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(13).jpg" alt="Idle Restaurants" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/idlerestaurants">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(13).jpg" alt="Idle Restaurants" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Idle Restaurants</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(14).jpg" alt="Lake Jump" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/lakejump">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(14).jpg" alt="Lake Jump" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Lake Jump</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(15).jpg" alt="Merge Heroes" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/mergeheroes">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(15).jpg" alt="Merge Heroes" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Merge Heroes</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(16).jpg" alt="Moving Co." pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/movingco">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(16).jpg" alt="Moving Co." pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Moving Co.</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(17).jpg" alt="Panda Pizza Parlor" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/pandapizzaparlor">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(17).jpg" alt="Panda Pizza Parlor" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Panda Pizza Parlor</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(18).jpg" alt="Pin the UFO" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/pintheufo">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(18).jpg" alt="Pin the UFO" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Pin the UFO</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(19).jpg" alt="Pocket Battle Royale" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/pocketbattleroyale">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(19).jpg" alt="Pocket Battle Royale" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Pocket Battle Royale</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(20).jpg" alt="Pocket Champions" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/pocketchampions">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(20).jpg" alt="Pocket Champions" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Pocket Champions</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container gmLstng d-flex mt-20">
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(21).jpg" alt="Retro Drift" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/retrodrift">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(21).jpg" alt="Retro Drift" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Retro Drift</div>
+                  <div class="gmBxtBt">
+                    <span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(22).jpg" alt="Scooter Xtreme" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/scooterxtreme">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(22).jpg" alt="Scooter Xtreme" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Scooter Xtreme</div>
+                  <div class="gmBxtBt">undefined<span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+			
+			 <div class="gmBx pos-rel of-hdn">
+            <div class="bgBx">
+              <img src="./NDTV Game Bonanza_files/med_res_banner(22).jpg" alt="Scooter Xtreme" pinger-seen="true">
+            </div>
+            <div class="bxCont">
+              <a action="true" href="https://www.ndtvgames.com/play-game/scooterxtreme">
+                <div class="gmBxImg of-hdn">
+                  <img src="./NDTV Game Bonanza_files/med_res_banner(22).jpg" alt="Scooter Xtreme" pinger-seen="true">
+                </div>
+                <div class="gmBxCont">
+                  <div class="gmBxTxt">Scooter Xtreme</div>
+                  <div class="gmBxtBt">undefined<span class="btnStyl1">PLAY Now</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+         
+        </div>
+       
+      </section>
+		
+		
+  
+<script>
+
+$(document).ready(function(){
+
+
+
+// setTimeout(function(){
+//      $('body').addClass('onldPop_on')
+// },5000);
+
+
+
+});
+
+</script>
+</body>
+</html>

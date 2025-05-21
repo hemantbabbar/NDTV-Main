@@ -1,0 +1,233 @@
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-Wg-SpAd1: #f1f9f3;
+}
+
+
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-Wg-SpAd1: #34483e;
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+    --vj-cl-Wg-SpAd1: #344845;
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {
+        --vj-cl-Wg-SpAd1: #f1f9f8;
+    }
+}
+
+
+/*----====== Card I ======----*/
+
+.Crd1-WgSpAd {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.Crd-WgSpAd {
+    /* background: var(--vj-cl-lg5); */
+    /* border-radius: 8px; */
+    /* border: 2px solid #49a25c61; */
+    /* box-shadow: 0 4px 12px rgb(0 0 0 / 7%), 0 23px 22px -18px rgb(0 0 0 / 11%); */
+    float: left;
+    position: relative;
+    margin-bottom: 26px;
+    /* padding: 10px; */
+    width: 100%;
+}
+.Crd-WgSpAd .crd_ttl {
+    font-size: 16px;
+    margin-bottom: 9px;
+    line-height: 24px;
+}
+
+
+.Crd-WgSpAd .crd_txt-wrp {
+    padding: 0;
+}
+
+
+.Crd-WgSpAd .crd-ft_bt {
+    opacity: 1;
+}
+
+
+
+
+.Crd-WgSpAd_rbn {
+    position: absolute;
+    display: inline-block;
+    padding: 4px 9px;
+    background-color: var(--vj-cl-ot1);
+    color: #304239;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    left: 0px;
+    top: 19px;
+    z-index: 1;
+}
+
+.Crd-WgSpAd_rbn:after {
+    content: '';
+    width: 12px;
+    height: 100%;
+    background-color: var(--vj-cl-ot1);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 0%, 0% 0%);
+    right: -12px;
+    transform: scaleX(-1);
+}
+
+.Crd-WgSpAd_lgo {
+    display: inline-block;
+    float: left;
+}
+
+.Crd-WgSpAd_LgSv {
+    display: inline-block;
+    float: left;
+    margin: 6px 0 0;
+    width: 59px;
+}
+
+
+/*--======  Second Card  ======--*/
+.Crd2-WgSpAd {
+    border-top: 1px solid var(--vj-cl-rg1);
+    display: inline-block;
+    float: left;
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+.Crd2-WgSpAd_ttl {
+    color: var(--vj-cl-dr1);
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+    width: 100%;
+}
+
+.Crd2-WgSpAd_tx {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.Crd2-WgSpAd_img {
+    margin: 0 10px 0 0;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 90px;
+}
+
+.Crd2-WgSpAd_lk {
+    display: inline-block;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+}
+
+
+/*
+<div class="Crd-WgSpAd">
+    <span class="Crd-WgSpAd_rbn">Sponsored</span>
+                                        <div class="crd_img">
+                                            
+                                            
+                                            <!-- image -->
+                                            <div class="img-gr">
+                                                <img class="lz_img" alt="img" data-src="https://c.ndtvimg.com/2021-03/d5qf4l5g_samantha-ruth-prabhu_625x300_15_March_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675" src="https://c.ndtvimg.com/2021-03/d5qf4l5g_samantha-ruth-prabhu_625x300_15_March_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675">
+                                            </div>
+                                        </div>
+                                        <div class="crd_txt-wrp">
+                                            <a href="#" class="crd_ttl"><span class="crd_lnk">Not A Smoothie, This Is Samantha Ruth Prabhu's Favourite Breakfast</span></a>
+                                            <!-- Tags, date and social share -->
+                                            <div class="crd-ft_bt">
+                                                <!-- Social share -->
+                                                <div class="crd_shr">
+                                                    <svg class="vj_icn vj_share"><use xlink:href="#vj_share"></use></svg>
+                                                    <div class="crd_shr-ss">
+                                                        <div class="crd_shr-pg">
+                                                            <a href="#" class="crd_shr-lk facebook ttp">
+                                                                <svg class="vj_icn vj_facebook-fill">
+                                                                <use xlink:href="#vj_facebook-fill"></use>
+                                                                </svg>
+                                                                <div class="tip on-bottom">
+                                                                    <div class="tip_wrp">facebook</div>
+                                                                </div>
+                                                            </a>
+                                                            <a href="#" class="crd_shr-lk twitter ttp">
+                                                                <svg class="vj_icn vj_twitter-fill">
+                                                                <use xlink:href="#vj_twitter-fill"></use>
+                                                                </svg>
+                                                                <div class="tip on-bottom">
+                                                                    <div class="tip_wrp">twitter</div>
+                                                                </div>
+                                                            </a>
+                                                            <a href="#" class="crd_shr-lk whatsapp ttp">
+                                                                <svg class="vj_icn vj_whatsapp-fill">
+                                                                <use xlink:href="#vj_whatsapp-fill"></use>
+                                                                </svg>
+                                                                <div class="tip on-bottom">
+                                                                    <div class="tip_wrp">whatsapp</div>
+                                                                </div>
+                                                            </a>
+                                                            <a href="#" class="crd_shr-lk reddit ttp">
+                                                                <svg class="vj_icn vj_reddit-fill">
+                                                                <use xlink:href="#vj_reddit-fill"></use>
+                                                                </svg>
+                                                                <div class="tip on-bottom">
+                                                                    <div class="tip_wrp">reddit</div>
+                                                                </div>
+                                                            </a>
+                                                            <a href="#" class="crd_shr-lk snapchat ttp">
+                                                                <svg class="vj_icn vj_snapchat-fill">
+                                                                <use xlink:href="#vj_snapchat-fill"></use>
+                                                                </svg>
+                                                                <div class="tip on-bottom">
+                                                                    <div class="tip_wrp">Snapchat</div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+*/
+
+
+
+
+
+
+
+
+
+
+
+

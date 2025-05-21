@@ -1,0 +1,261 @@
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-m: #2d55d1;
+    --vj-cl-mtx: #719fff;
+    --vj-cl-ot1: #3d4438;
+    --vj-cl-ot2: #ffec4e;
+    --vj-cl-ic1: rgba(255, 255, 255, 0.35);
+    --vj-cl-ic2: rgba(255, 255, 255, 0.8);
+    --vj-cl-lg: #272727;
+    --vj-cl-lg1: #333540;
+    --vj-cl-lg2: #a9a9a9;
+    --vj-cl-lg3: #d4d4d4;
+    --vj-cl-lg4: #383838;
+    --vj-cl-dr: #fff;
+    --vj-cl-dr1: #d4d4d4;
+    --vj-cl-dr2: #e3e4e7;
+    --vj-cl-dr3: #a9a9a9;
+    --vj-cl-dr4: #c1c1c1;
+    --vj-cl-dr5: #a3a9a9;
+    --vj-cl-dr6: #777;
+    --vj-cl-dr7: #999999;
+    --vj-cl-dr8: #343a40;
+    --vj-cl-rg1: #2f303c;
+    --vj-cl-rg2: rgba(29, 29, 29, 0.97);
+    --vj-cl-rg3: rgba(232, 232, 232, 0.17);
+    --vj-cl-rg4: rgba(255, 255, 255, 0.7);
+    --vj-cl-rg5: rgba(255, 255, 255, 0.8);
+    --vj-cl-rg6: rgba(33, 33, 33, 0.27);
+    --vj-cl-rg7: rgba(12, 12, 12, 0.9);
+    --vj-cl-rg8: rgba(255, 255, 255, 0.47);
+    --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg10: rgba(186, 204, 255, 0.47);
+    --vj-cl-rg11: rgba(0, 0, 0, 0.47);
+    --vj-cl-scr: #272831;
+    --vj-cl-scr2: rgba(0, 0, 0, 0.15);
+    --vj-cl-scr3: #31323d;
+    --vj-cl-scr4: rgba(0, 0, 0, 0.18);
+    --vj-cl-scr5: rgba(0, 0, 0, 0.7);
+    --vj-cl-scr6: #3e3e3e;
+    --vj-cl-scr7: #272727;
+    --vj-cl-rtb: #282933;
+    --vj-cl-rtb1: rgb(0 0 0 / 20%);
+    --vj-cl-glr: #1c1d25;
+    --vj-cl-lg: #1c1d25;
+    --vj-cl-glr1: #282933;
+    --vj-cl-glr2: #353939;
+    --vj-cl-glr3: #2f2f2f;
+    --vj-cl-glr4: #303052;
+    --vj-cl-glr5: #3e2c35;
+    --vj-cl-glr6: rgba(0, 0, 0, 0.37);
+    --vj-cl-glr8: #272727;
+    --vj-cl-tp1: #304a80;
+    --vj-cl-tp2: rgba(0, 0, 0, 0.51);
+    --vj-cl-tp3: #ffffff;
+    --vj-cl-tp4: #2c2d39;
+    --vj-cl-tp5: rgba(31, 31, 31, 0.86);
+    --vj-cl-tp6: #1f50de;
+}
+
+
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-m: #2d55d1;
+    --vj-cl-mtx: #719fff;
+    --vj-cl-ot1: #3d4438;
+    --vj-cl-ot2: #ffec4e;
+    --vj-cl-ic1: rgba(255, 255, 255, 0.35);
+    --vj-cl-ic2: rgba(255, 255, 255, 0.8);
+    --vj-cl-lg: #272727;
+    --vj-cl-lg1: #333;
+    --vj-cl-lg2: #a9a9a9;
+    --vj-cl-lg3: #d4d4d4;
+    --vj-cl-lg4: #383838;
+    --vj-cl-dr: #fff;
+    --vj-cl-dr1: #d4d4d4;
+    --vj-cl-dr2: #e3e4e7;
+    --vj-cl-dr3: #a9a9a9;
+    --vj-cl-dr4: #c1c1c1;
+    --vj-cl-dr5: #a3a9a9;
+    --vj-cl-dr6: #777;
+    --vj-cl-dr7: #999999;
+    --vj-cl-dr8: #343a40;
+    --vj-cl-rg1: #353939;
+    --vj-cl-rg2: rgba(29, 29, 29, 0.97);
+    --vj-cl-rg3: rgba(232, 232, 232, 0.17);
+    --vj-cl-rg4: rgba(255, 255, 255, 0.7);
+    --vj-cl-rg5: rgba(255, 255, 255, 0.8);
+    --vj-cl-rg6: rgba(33, 33, 33, 0.27);
+    --vj-cl-rg7: rgba(12, 12, 12, 0.9);
+    --vj-cl-rg8: rgba(255, 255, 255, 0.47);
+    --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg10: rgba(186, 204, 255, 0.47);
+    --vj-cl-rg11: rgba(0, 0, 0, 0.47);
+    
+    
+    --vj-cl-scr: #333333;
+    --vj-cl-scr2: rgba(0, 0, 0, 0.15);
+    --vj-cl-scr3: #2f3131;
+    --vj-cl-scr4: rgba(0, 0, 0, 0.18);
+    --vj-cl-scr5: rgba(0, 0, 0, 0.7);
+    --vj-cl-scr6: #3e3e3e;
+    --vj-cl-scr7: #272727;
+    
+        --vj-cl-rtb: #333333;
+    --vj-cl-rtb1: rgba(0, 0, 0, 0.15);
+    
+        --vj-cl-glr: #1b1b1b;
+    --vj-cl-lg: #1b1b1b;
+    
+    --vj-cl-glr1: #333333;
+    --vj-cl-glr2: #353939;
+    --vj-cl-glr3: #2f2f2f;
+    --vj-cl-glr4: #303052;
+    --vj-cl-glr5: #3e2c35;
+    --vj-cl-glr6: rgba(0, 0, 0, 0.37);
+    --vj-cl-glr8: #272727;
+    
+    --vj-cl-tp1: #304a80;
+    --vj-cl-tp2: rgba(0, 0, 0, 0.51);
+    --vj-cl-tp3: #ffffff;
+    --vj-cl-tp4: #333333;
+    --vj-cl-tp5: rgba(31, 31, 31, 0.86);
+    --vj-cl-tp6: #1f50de;
+    
+    --vj-cl-rtb: #333333;
+    --vj-cl-rtb1: rgba(0, 0, 0, 0.15);
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+    --vj-cl-m: #2d55d1;
+    --vj-cl-mtx: #719fff;
+    --vj-cl-ot1: #3d4438;
+    --vj-cl-ot2: #ffec4e;
+    --vj-cl-ic1: rgba(255, 255, 255, 0.35);
+    --vj-cl-ic2: rgba(255, 255, 255, 0.8);
+    --vj-cl-lg: #272727;
+    --vj-cl-lg1: #333;
+    --vj-cl-lg2: #a9a9a9;
+    --vj-cl-lg3: #d4d4d4;
+    --vj-cl-lg4: #383838;
+    --vj-cl-dr: #fff;
+    --vj-cl-dr1: #d4d4d4;
+    --vj-cl-dr2: #e3e4e7;
+    --vj-cl-dr3: #a9a9a9;
+    --vj-cl-dr4: #c1c1c1;
+    --vj-cl-dr5: #a3a9a9;
+    --vj-cl-dr6: #777;
+    --vj-cl-dr7: #999999;
+    --vj-cl-dr8: #343a40;
+    --vj-cl-rg1: #353939;
+    --vj-cl-rg2: rgba(29, 29, 29, 0.97);
+    --vj-cl-rg3: rgba(232, 232, 232, 0.17);
+    --vj-cl-rg4: rgba(255, 255, 255, 0.7);
+    --vj-cl-rg5: rgba(255, 255, 255, 0.8);
+    --vj-cl-rg6: rgba(33, 33, 33, 0.27);
+    --vj-cl-rg7: rgba(12, 12, 12, 0.9);
+    --vj-cl-rg8: rgba(255, 255, 255, 0.47);
+    --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg10: rgba(186, 204, 255, 0.47);
+    --vj-cl-rg11: rgba(0, 0, 0, 0.47);
+    
+    
+    --vj-cl-scr: #333333;
+    --vj-cl-scr2: rgba(0, 0, 0, 0.15);
+    --vj-cl-scr3: #2f3131;
+    --vj-cl-scr4: rgba(0, 0, 0, 0.18);
+    --vj-cl-scr5: rgba(0, 0, 0, 0.7);
+    --vj-cl-scr6: #3e3e3e;
+    --vj-cl-scr7: #272727;
+    
+        --vj-cl-rtb: #333333;
+    --vj-cl-rtb1: rgba(0, 0, 0, 0.15);
+    
+        --vj-cl-glr: #1b1b1b;
+    --vj-cl-lg: #1b1b1b;
+    
+    --vj-cl-glr1: #333333;
+    --vj-cl-glr2: #353939;
+    --vj-cl-glr3: #2f2f2f;
+    --vj-cl-glr4: #303052;
+    --vj-cl-glr5: #3e2c35;
+    --vj-cl-glr6: rgba(0, 0, 0, 0.37);
+    --vj-cl-glr8: #272727;
+    
+    --vj-cl-tp1: #304a80;
+    --vj-cl-tp2: rgba(0, 0, 0, 0.51);
+    --vj-cl-tp3: #ffffff;
+    --vj-cl-tp4: #333333;
+    --vj-cl-tp5: rgba(31, 31, 31, 0.86);
+    --vj-cl-tp6: #1f50de;
+    
+    --vj-cl-rtb: #333333;
+    --vj-cl-rtb1: rgba(0, 0, 0, 0.15);
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {
+    --vj-cl-m: #2d55d1;
+    --vj-cl-mtx: #719fff;
+    --vj-cl-ot1: #3d4438;
+    --vj-cl-ot2: #ffec4e;
+    --vj-cl-ic1: rgba(255, 255, 255, 0.35);
+    --vj-cl-ic2: rgba(255, 255, 255, 0.8);
+    --vj-cl-lg: #272727;
+    --vj-cl-lg1: #333540;
+    --vj-cl-lg2: #a9a9a9;
+    --vj-cl-lg3: #d4d4d4;
+    --vj-cl-lg4: #383838;
+    --vj-cl-dr: #fff;
+    --vj-cl-dr1: #d4d4d4;
+    --vj-cl-dr2: #e3e4e7;
+    --vj-cl-dr3: #a9a9a9;
+    --vj-cl-dr4: #c1c1c1;
+    --vj-cl-dr5: #a3a9a9;
+    --vj-cl-dr6: #777;
+    --vj-cl-dr7: #999999;
+    --vj-cl-dr8: #343a40;
+    --vj-cl-rg1: #2f303c;
+    --vj-cl-rg2: rgba(29, 29, 29, 0.97);
+    --vj-cl-rg3: rgba(232, 232, 232, 0.17);
+    --vj-cl-rg4: rgba(255, 255, 255, 0.7);
+    --vj-cl-rg5: rgba(255, 255, 255, 0.8);
+    --vj-cl-rg6: rgba(33, 33, 33, 0.27);
+    --vj-cl-rg7: rgba(12, 12, 12, 0.9);
+    --vj-cl-rg8: rgba(255, 255, 255, 0.47);
+    --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg10: rgba(186, 204, 255, 0.47);
+    --vj-cl-rg11: rgba(0, 0, 0, 0.47);
+    --vj-cl-scr: #272831;
+    --vj-cl-scr2: rgba(0, 0, 0, 0.15);
+    --vj-cl-scr3: #31323d;
+    --vj-cl-scr4: rgba(0, 0, 0, 0.18);
+    --vj-cl-scr5: rgba(0, 0, 0, 0.7);
+    --vj-cl-scr6: #3e3e3e;
+    --vj-cl-scr7: #272727;
+    --vj-cl-rtb: #282933;
+    --vj-cl-rtb1: rgb(0 0 0 / 20%);
+    --vj-cl-glr: #1c1d25;
+    --vj-cl-lg: #1c1d25;
+    --vj-cl-glr1: #282933;
+    --vj-cl-glr2: #353939;
+    --vj-cl-glr3: #2f2f2f;
+    --vj-cl-glr4: #303052;
+    --vj-cl-glr5: #3e2c35;
+    --vj-cl-glr6: rgba(0, 0, 0, 0.37);
+    --vj-cl-glr8: #272727;
+    --vj-cl-tp1: #304a80;
+    --vj-cl-tp2: rgba(0, 0, 0, 0.51);
+    --vj-cl-tp3: #ffffff;
+    --vj-cl-tp4: #2c2d39;
+    --vj-cl-tp5: rgba(31, 31, 31, 0.86);
+    --vj-cl-tp6: #1f50de;
+    }
+}
+
+
+

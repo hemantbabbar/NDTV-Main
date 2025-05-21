@@ -1,0 +1,138 @@
+
+
+.glr-ph_cnt {
+    padding-bottom: 40px;
+}
+.glr-ph {
+    background-color: var(--vj-cl-glr1);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px var(--vj-cl-glr6);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: calc(100% - 12px);
+    margin-bottom: 12px;
+}
+.glr-ph:before, .glr-ph:after {
+    background-color: var(--vj-cl-glr3);
+    border-radius: 8px;
+    bottom: -6px;
+    box-shadow: 0 1px 12px var(--vj-cl-glr6);
+    content: "";
+    left: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: -1;
+}
+.glr-ph:before {
+    background-color: var(--vj-cl-glr3);
+    bottom: -12px;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+}
+
+.glr-vd:before, .glr-vd:after {
+    bottom: 5px;
+}
+
+.glr-ph .crd_ttl {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    margin-bottom: 12px;
+}
+.glr-ph .crd-ft_bt, .glr-tp_txt .crd-ft_bt {
+    opacity: 1;
+}
+.glr-ph .crd_img, .glr-ph .img-gr {
+    background: var(--vj-cl-glr3);
+    border-radius: 8px 8px 0 0;
+}
+
+.glr-ph .crd_shr {
+    background: var(--vj-cl-glr8);
+    z-index: 9;
+}
+
+
+.glr-tp_txt .glr-ph_im-ft-nu {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+.glr-ph.glr-ph_mn {
+    padding: 20px;
+}
+
+.glr-ph_mn .crd_ttl {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39px;
+}
+
+
+.glr-ph .crd_txt-wrp {
+    padding: 0 15px 12px;
+}
+
+.glr-ph_im-ft {
+    display: inline-block;
+    font-size: 12px;
+    color: var(--vj-cl-dr7);
+    line-height: 1.6;
+    padding: 0 6px 5px 0;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 9;
+}
+.glr-ph_im-li {
+    display: inline-block;
+    float: left;
+    border-right: 1px solid var(--vj-cl-rg3);
+    padding-right: 6px;
+    margin-right: 6px;
+}
+
+.glr-tp .glr-ph_im-li {
+    border-right: 1px solid rgb(0 0 0 / 11%);
+}
+
+.glr-ph_im-li:last-child {
+    border-right: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+.glr-ph_im-ft-nu {
+    font-size: 12px;
+    font-weight: 500;
+    float: left;
+    line-height: 17px;
+    display: inline-block;
+}
+.glr-ph_im-ft-ic {
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    margin: 1px 6px 0 0;
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .glr-ph_cnt {
+    }
+    .glr-tp_txt .glr-ph_im-ft-ic {
+        font-size: 18px;
+        margin: 1px 8px 0 0;
+    }
+}

@@ -1,0 +1,304 @@
+
+
+
+
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-fsts1: #f6f7fe;
+}
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-fsts1: #2d2d2d;
+}
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+        --vj-cl-fsts1: #2d2d2d;
+    }
+    /*--====== Light ======--*/
+    :root .day_night {
+        --vj-cl-fsts1: #f6f7fe;
+    }
+}
+
+
+
+
+
+
+
+/*--==== link Nav ====--*/
+
+.ftb_tab-wrp {
+    display: inline-block;
+    float: left;
+    padding: 0 20px 15px;
+    margin-left: -20px;
+    width: calc(100% + 40px);
+}
+.ftb_tab {
+    display: flex;
+    padding-bottom: 12px;
+    width: 100%;
+}
+.ftb_tab-ul {
+    border-radius: 6px 6px 0 0;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: justify;
+    justify-content: space-around;
+    float: left;
+}
+
+.ftb_tab-lnk {
+    background-color: var(--vj-cl-fsts1);
+    border: 2px solid var(--vj-cl-fsts1);
+    border-radius: 31px;
+    color: var(--vj-cl-dr5);
+    display: inline-block;
+    float: left;
+    line-height: 15px;
+    font-size: 12px;
+    padding: 11px 16px;
+    position: relative;
+    text-transform: capitalize;
+    width: 100%;
+    white-space: nowrap;
+}
+.ftb_tab-lnk:hover {
+    background-color: var(--vj-cl-lg);
+}
+
+.ftb_tab-act {
+    background-color: var(--vj-cl-lg);
+    border-color: var(--vj-cl-mtx);
+    box-shadow: 0 1px 3px var(--vj-cl-rg1);
+    color: var(--vj-cl-mtx);
+}
+
+.ftb_tab-li {
+    display: inline-block;
+    float: left;
+    margin-right: 6px;
+    text-align: center;
+}
+.ftb_tab-li:last-child {
+    border-right: 0 none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---- From List-dropdown.css ----*/
+.Fsts-drp_slc {
+    background: var(--vj-cl-lg);
+    border: 1px solid var(--vj-cl-rg3);
+    border-radius: 22px;
+    box-shadow: 0 1px 3px var(--vj-cl-rg1);
+    margin: 0;
+    color: var(--vj-cl-dr1);
+    display: inline-block;
+    float: left;
+    font-family: var(--ff-two);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 39px;
+    position: relative;
+    padding: 0 12px 0;
+    text-transform: capitalize;
+}
+.Fsts-drp .dd-nav {
+    background-color: var(--vj-cl-lg1);
+    box-shadow: 0 36px 18px -18px rgba(0, 0, 0, 0.28);
+    border: 1px solid var(--vj-cl-rg1);
+    border-radius: 10px;    left: 0;
+    right: auto;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    transform-origin: top left;
+}
+.Fsts-drp .dd-nav_ul {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.Fsts-drp .dd-nav .m-nv_lnk {
+    line-height: 30px;
+    padding: 5px 0 5px 15px;
+}
+
+
+.Fsts-drp_ttl {color:#fff;display: inline-block;font-size: 12px;font-weight: 600;float: left;line-height: 45px;height: 41px;padding: 0;position: relative;}
+
+.Fsts-drp {
+    display: inline-block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: 19px;
+    font-family: var(--ff-one);
+    float: left;
+    height: 44px;
+    margin: 0 8px 8px 0;
+    position: relative;
+    z-index: 7;
+}
+
+.Fsts-drp .dd-nav {
+    left: 0;
+    width: 190px;
+}
+
+.Fsts-drp_ttl .vj_icn {
+    margin-left: 2px;
+}
+
+.Fsts-drp-icn-bg {
+    margin: 0 0 0 1px;
+    height: 10px;
+    width: 8px;
+    top: 1px;
+    position: relative;
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: 0.07s ease all;
+    transition: 0.07s ease all;
+}
+.js-drp-open .Fsts-drp-icn-bg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
+.Fsts-drp_txt {
+    border-right: 1px solid var(--vj-cl-rg1);
+    color: var(--vj-cl-ic1);
+    display: inline-block;
+    float: left;
+    padding: 0 9px 0 12px;
+    margin: 0 10px 0 -12px;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    
+    
+    .Fsts-drp.js-drp-open .dd-nav {
+        -webkit-transform-origin: top left;
+    }
+    
+}
+
+
+
+@media (min-width: 1200px) {
+
+    .Fsts-drp {
+        float: right;
+        margin: 0 0 8px 8px;
+    }
+    .ftb_tab {
+        width: auto;
+    }
+    .Fsts-drp .dd-nav {
+        left: auto;
+        right: 0;
+        width: 190px;
+        -webkit-transform-origin: top right;
+        -moz-transform-origin: top right;
+        transform-origin: top right;
+    }
+
+}
+
+
+

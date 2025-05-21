@@ -1,0 +1,53 @@
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-glr: #fafafa;
+}
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-glr: #272727;
+}
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+        --vj-cl-glr: #272727;
+    }
+    /*--====== Light ======--*/
+    :root .day_night {
+        --vj-cl-glr: #fafafa;
+    }
+}
+
+
+
+
+.bod_glr {
+    background-color: var(--vj-cl-glr);
+}
+
+
+.Ingr-Cnt {
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+
+.IngrBtn_ctr {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (min-width: 1200px) {
+
+    .Ingr-rpd {
+        padding-right: 60px;
+    }
+    .Ingr-Cnt {
+        padding: 0 60px 0 0;
+    }
+
+}

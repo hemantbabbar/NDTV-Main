@@ -1,0 +1,24 @@
+/*----====== Notification Icon ======----*/
+
+
+.bell {
+  transform-origin: 50% 0;
+  animation-name: ring;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ring
+  {
+    0% { transform: rotate(0deg) }
+    2% { transform: rotate(15deg) }
+    7% { transform: rotate(-12.5deg) }
+    13% { transform: rotate(10deg) }
+    18% { transform: rotate(-7.5deg) }
+    23% { transform: rotate(5deg) }
+    28% { transform: rotate(-2.5deg) }
+    30% { transform: rotate(0deg) }
+    100% { transform: rotate(0deg) }
+  }
+
+  

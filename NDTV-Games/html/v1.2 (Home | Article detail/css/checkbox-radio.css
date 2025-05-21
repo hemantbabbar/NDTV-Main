@@ -1,0 +1,279 @@
+/*--==== Checkbox ====--*/
+.chk-box {
+    z-index: 0;
+    position: relative;
+}
+
+/* Input */
+.chk-box > input {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    z-index: -1;
+    position: absolute;
+    left: -11px;
+    top: -10px;
+    display: block;
+    margin: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: var(--vj-cl-dr1);
+    box-shadow: none;
+    outline: none;
+    opacity: 0;
+    transform: scale(1);
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.2s;
+}
+
+/* Span */
+.chk-box > span {
+    display: inline-block;
+    padding-left: 24px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Box */
+.chk-box > span::before {
+    content: "";
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 4px 11px 3px 1px;
+    border: solid 2px; /* Safari */
+    border-color: var(--vj-cl-dr1);
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+    left: 0;
+    top: -2px;
+    position: absolute;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+/* Checkmark */
+.chk-box > span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    width: 10px;
+    height: 5px;
+    border: solid 2px transparent;
+    border-right: none;
+    border-top: none;
+    transform: translate(3px, 4px) rotate(-45deg);
+}
+
+/* Checked, Indeterminate */
+.chk-box > input:checked,
+.chk-box > input:indeterminate {
+    background-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+}
+
+.chk-box > input:checked + span::before,
+.chk-box > input:indeterminate + span::before {
+    border-color: var(--vj-cl-m);
+    background-color: var(--vj-cl-m);
+}
+
+.chk-box > input:checked + span::after,
+.chk-box > input:indeterminate + span::after {
+    border-color: #fff;
+}
+
+.chk-box > input:indeterminate + span::after {
+    border-left: none;
+    transform: translate(4px, 3px);
+}
+
+/* Hover, Focus */
+.chk-box:hover > input {
+    opacity: 0.04;
+}
+
+.chk-box > input:focus {
+    opacity: 0.12;
+}
+
+.chk-box:hover > input:focus {
+    opacity: 0.16;
+}
+
+/* Active */
+.chk-box > input:active {
+    opacity: 1;
+    transform: scale(0);
+    transition: transform 0s, opacity 0s;
+}
+
+.chk-box > input:active + span::before {
+    border-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+}
+
+.chk-box > input:checked:active + span::before {
+    border-color: transparent;
+    background-color: var(--vj-cl-dr1);
+}
+
+/* Disabled */
+.chk-box > input:disabled {
+    opacity: 0;
+}
+
+.chk-box > input:disabled + span {
+    color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38);
+    cursor: initial;
+}
+
+.chk-box > input:disabled + span::before {
+    border-color: currentColor;
+}
+
+.chk-box > input:checked:disabled + span::before,
+.chk-box > input:indeterminate:disabled + span::before {
+    border-color: transparent;
+    background-color: currentColor;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--==== Radio button ====--*/
+
+
+.rado-inp {
+    z-index: 0;
+    position: relative;
+}
+
+/* Input */
+.rado-inp > input {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    z-index: -1;
+    position: absolute;
+    left: -10px;
+    top: -9px;
+    display: block;
+    margin: 0;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    background-color: var(--vj-cl-dr1);
+    outline: none;
+    opacity: 0;
+    transform: scale(1);
+    pointer-events: none;
+    transition: opacity 0.3s, transform 0.2s;
+}
+
+/* Span */
+.rado-inp > span {
+    display: inline-block;
+    padding-left: 24px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Circle */
+.rado-inp > span::before {
+    content: "";
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 2px 10px 2px 0;
+    border: solid 2px; /* Safari */
+    border-color: var(--vj-cl-dr1);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    left: 1px;
+    top: 0;
+    position: absolute;
+    vertical-align: top;
+    transition: border-color 0.2s;
+}
+
+/* Check */
+.rado-inp > span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 0;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+    transform: translate(5px, 5px) scale(0);
+    transition: transform 0.2s;
+}
+
+/* Checked */
+.rado-inp > input:checked {
+    background-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+}
+
+.rado-inp > input:checked + span::before {
+    border-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+}
+
+.rado-inp > input:checked + span::after {
+    transform: translate(5px, 5px) scale(1);
+}
+
+/* Hover, Focus */
+.rado-inp:hover > input {
+    opacity: 0.04;
+}
+
+.rado-inp > input:focus {
+    opacity: 0.12;
+}
+
+.rado-inp:hover > input:focus {
+    opacity: 0.16;
+}
+
+/* Active */
+.rado-inp > input:active {
+    opacity: 1;
+    transform: scale(0);
+    transition: transform 0s, opacity 0s;
+}
+
+.rado-inp > input:active + span::before {
+    border-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+}
+
+/* Disabled */
+.rado-inp > input:disabled {
+    opacity: 0;
+}
+
+.rado-inp > input:disabled + span {
+    color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.38);
+    cursor: initial;
+}
+
+.rado-inp > input:disabled + span::before {
+    border-color: currentColor;
+}
+
+.rado-inp > input:disabled + span::after {
+    background-color: currentColor;
+}

@@ -1,0 +1,21 @@
+
+/*------ AMP BTF ------*/
+
+.crd_shr:hover .crd_shr-ss {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+.crd_shr-ss {
+    width: 152px;
+}
+.crd_shr-lk {
+    width: 30px;
+}
+.crd_shr-lk .vj_icn {
+    font-size: 13px;
+}
+
+

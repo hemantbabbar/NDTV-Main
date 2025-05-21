@@ -1,0 +1,77 @@
+/*----====== Tv animated icon ======----*/
+
+
+
+.tv_icn {
+    display: inline-block;
+    width: 20px;
+    position: relative;
+    border-radius: 4px;
+    height: 15px;
+    margin-top: 25px;
+}
+
+.circle_indicator {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.niddle {
+        background-color: #2f91eb;
+        height: 5px;
+        width: 2px;
+        top: -6px;
+        left: 7px;
+}
+.ci2.niddle {
+    transform: rotate(45deg);
+    transform-origin: bottom;
+    left: 11px;
+}
+.niddle {
+    transform: rotate(-45deg);
+    transform-origin: bottom;
+}
+.pa {
+    position: absolute;
+}
+
+
+
+
+
+.worm {
+    position: absolute;
+    z-index: 1;
+    top: 3px;
+    left: 8px;
+    height: 5px;
+    width: 19px;
+    margin-left: -4px;
+}
+.worm path {
+  stroke-dasharray: 203px, 345px;
+  stroke-dashoffset: 0;
+  fill: none;
+  stroke: #2f91eb;
+  stroke-width: 27px;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.vj_tv_ani {
+        position: absolute;
+    left: -1px;
+    top: -7px;
+    width: 24px;
+}
+.vj_tv_ani path {
+    fill: #fff;
+    }
+
+
+
+
+

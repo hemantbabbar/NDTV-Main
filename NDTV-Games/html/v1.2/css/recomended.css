@@ -1,0 +1,113 @@
+.RcdArt_ttl {
+    color: var(--vj-cl-dr);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    position: relative;
+    text-transform: capitalize
+}
+
+.RcdArt_txt1 {
+    color: var(--vj-cl-dr2);
+    display: inline-block;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--ff-one);
+    line-height: 21.5px;
+    margin: 0 -1px 0 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    z-index: 6
+}
+
+.RcdArt_wrp {
+    border-bottom: 1px solid #2a2a47;
+    border-top: 1px solid #2a2a47;
+    border-radius: 0;
+    display: flex;
+    margin: 0 0 18px;
+    padding: 15px 0 4px;
+    width: 100%;
+    flex-direction: column
+}
+
+.RcdArt_ul,.sp_txt .RcdArt_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    width: auto
+}
+
+.RcdArt_li,.sp_txt ul .RcdArt_li {
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    display: flex;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    counter-increment: articles;
+    line-height: 1.6;
+    padding: 0 0 15px 0;
+    position: relative;
+    margin: 0 0 12px;
+    width: 100%;
+    flex-direction: row
+}
+
+.sp_txt ul .RcdArt_li:before {
+    display: none
+}
+
+.RcdArt_li:last-child,.sp_txt ul .RcdArt_li:last-child {
+    border: 0 solid var(--vj-cl-rg1);
+    margin-bottom: 0
+}
+
+.RcdArt_img-cnt {
+    display: inline-block;
+    float: left;
+    margin: 0 9px 0 0;
+    width: 216px
+}
+
+.sp_txt .RcdArt_wrp a {
+    border: 0 none
+}
+
+@media (min-width: 1200px) {
+    .RcdArt_wrp {
+        margin:7px 0 22px;
+        padding: 13px 0 6px
+    }
+
+    .RcdArt_img-cnt {
+        display: none
+    }
+
+    .RcdArt_ul,.sp_txt .RcdArt_ul {
+        margin-right: -12px;
+        margin-left: -12px
+    }
+}
+
+@media (min-width: 1200px) {
+    .RcdArt {
+        padding:0
+    }
+
+    .RcdArt_li,.sp_txt ul .RcdArt_li {
+        border-bottom: 0 none;
+        padding: 0 0 0;
+        width: 33.333%
+    }
+
+    .RcdArt_li,.sp_txt ul .RcdArt_li {
+        border-right: 1px solid #2a2a47;
+        padding: 0 12px
+    }
+}

@@ -1,0 +1,137 @@
+/*----====== Auto Live Blog ======----*/
+.alb_com, .alb_txt, .wc-commentary, .wc-commentary p {
+    display: inline-block;
+    float: left;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.alb_com, .wc-commentary {
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    margin-bottom: 16px;
+    padding: 0 0 16px;
+}
+
+.alb_ovr, .wc-commentary p span {
+    background: var(--vj-cl-ot1);
+    display: table;
+    border-radius: 36px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px 18px;
+    margin-bottom: 12px;
+}
+
+.alb_ovr-wrp {
+    display: table;
+    margin-bottom: 12px;
+}
+
+.alb_com-img, .wc-commentary p img {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.alb_ttl, .ttlStyl1 {
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+
+
+/*----====== Auto Live horizontal scroll ======----*/
+
+
+.alb_mrt-cnt {
+    /* background: #f7f8ff; */
+    /* border-radius: 5px; */
+    /* margin-bottom: 15px; */
+    /* overflow: hidden; */
+    /* padding: 16px 16px 6px 6px; */
+    /* position: relative; */
+}
+
+.alb_mrt-wrp {
+    overflow: scroll;
+    margin: 0 -15px 0 -8px;
+    width: calc(100% + 24px);
+}
+
+.alb_mrt-cnt .hr-scroll__content {
+    padding-left: 10px;
+}
+
+.alb_mrt-cnt .hr-scroll__item {
+    width: 38%;
+    padding: 0 8px;
+    margin-bottom: 10px;
+}
+
+.alb_mrt-cnt .hr-scroll__item:last-child {padding-right: 16px;}
+
+.liauto a, .sp_txt .liauto a {
+    background: var(--vj-cl-lg);
+    border: 1px solid var(--vj-cl-rg3);
+    display: inline-block;
+    font-size: 14px;
+    padding: 16px;
+    border-radius: 6px;
+    height: 100%;
+    line-height: 21px;
+}
+
+.alb_mrt-lnk {
+    border-bottom: 0 none;
+}
+
+.sp_txt .alb_mrt-lnk {
+    border-bottom: 0;
+}
+
+
+.liauto {
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 0 8px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    white-space: normal;
+    overflow: -moz-scrollbars-none;
+    width: 38%;
+}
+
+.ulauto {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 0;
+    padding-left: 10px;
+    white-space: normal;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+.lstng_tagsContainer {
+    background: var(--vj-cl-lg1);
+    display: flex;
+    overflow: scroll;
+    margin: 0 0 15px 0;
+    padding: 16px 16px 6px 0;
+    width: 100%;
+    -webkit-overflow-scrolling: touch
+}
+.lstng_tagsContainer::-webkit-scrollbar {
+display:none
+}
+
+
+
+@media (max-width: 768px) {
+    .alb_mrt-cnt .hr-scroll__item {
+        width: 75%;
+    }
+}

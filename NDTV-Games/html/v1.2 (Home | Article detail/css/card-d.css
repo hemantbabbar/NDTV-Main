@@ -1,0 +1,66 @@
+/*----====== Card D ======----*/
+
+.crd-d_ul {
+    display: inline-block;
+    float: left;
+    margin-bottom: 16px;
+    width: 100%;
+    
+    }
+.crd-d_li {
+        display: inline-block;
+        float: left;
+        /* border-bottom: 1px solid var(--vj-cl-rg1); */
+        margin-bottom: 30px;
+        /* padding-bottom: 16px; */
+        width: 100%;
+}.crd-d_li:last-child {
+    border-bottom: 0 none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.crd-d {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.crd-d .crd_ttl {
+    font-size: 17px;
+    line-height: 25.5px;
+    margin-bottom: 8px;
+}
+.crd-d .img-gr {
+    
+}
+.crd-d .crd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.crd-d .crd_img {
+    margin: 0 15px 0 0;
+    border-radius: 3px;
+    width: 120px;
+}
+
+.crd-d:hover .crd-ft_bt {
+    opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+.crd-d_li {
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    margin-bottom: 16px;
+    padding-bottom: 6px;
+}
+}
+@media (min-width: 1200px) {
+.crd-d .crd_img {
+    margin: 0 15px 0 0;
+    width: 171px;
+}
+}

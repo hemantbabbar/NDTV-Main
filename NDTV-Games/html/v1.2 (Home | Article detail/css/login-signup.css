@@ -1,0 +1,36 @@
+
+
+/*---- Login / Signup buttons ----*/
+
+.log_btn, .sig_btn {
+    background: var(--vj-cl-ot1);
+    color: var(--vj-cl-dr);
+    display: inline-flex;
+    align-items: center;
+    float: left;
+    border-radius: 24px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 4px 0 0 4px;
+    padding: 4px 14px 3px;
+}
+
+.log_btn .vj_icn, .sig_btn .vj_icn{margin-right:5px;}
+
+.sig_btn {
+    background: transparent;
+    color: var(--vj-cl-dr1);
+}
+
+.log_btn:hover, .sig_btn:hover {
+    background: var(--vj-cl-ot1);
+    /* color: #272727; */
+    opacity: 0.9;
+}
+
+
+@media (max-width: 1330px) {
+    
+    .log_btn, .sig_btn{    padding: 4px 10px 3px;}
+    }

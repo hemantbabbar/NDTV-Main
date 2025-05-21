@@ -1,0 +1,64 @@
+/*---= UL List Links =--*/
+.FcgLst_ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+.FcgLst_li {
+    margin: 0 0 12px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.FcgLst_li:last-child {
+    margin-bottom: 0;
+}
+
+.FcgLst_li:last-child .FcgLst_txt {
+    margin-bottom: 0;
+}
+
+.FcgLst_ic-rt {
+    font-size: 10px;
+    color: var(--vj-cl-mtx);
+    margin: 7px 6px 0 0;
+    min-width: 12px;
+}
+
+.FcgLst_txt {
+    color: var(--vj-cl-dr2);
+    font-family: var(--ff-one);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 6px;
+    width: 100%;
+}
+
+.FcgLst_lk {
+    display: flex;
+    line-height: 20px;
+}
+
+
+@media(min-width:576px) {}
+
+@media(min-width:768px) {
+    .FcgLst_ul2 .FcgLst_li {
+        width: 50%
+    }
+
+    .FcgLst_ul3 .FcgLst_li {
+        width: 33.33%
+    }
+
+    .FcgLst_ul4 .FcgLst_li {
+        width: 25%
+    }
+}

@@ -1,0 +1,9 @@
+
+/*-- Border Radius ---*/
+
+.crd_img, .img-gr, .crd-f_v1, .crd_dot-wrp, .crd-d_v1 .crd_img, .set_drp-lnk, .lnk-c {
+    border-radius: 8px;
+}
+.crd-tag {
+    border-radius: 21px;
+}

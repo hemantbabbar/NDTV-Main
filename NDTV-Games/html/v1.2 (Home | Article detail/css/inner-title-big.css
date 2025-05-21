@@ -1,0 +1,258 @@
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-InPgTl1: linear-gradient(315deg, #21963f 0%, #44a25c 60%);
+    --vj-cl-InPgTl2: linear-gradient(315deg, #328c45 0%, #c5ff138c 100%);
+}
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-InPgTl1: linear-gradient(315deg, #35874a 0%, #44a25c 60%);
+    --vj-cl-InPgTl2: linear-gradient(315deg, #234e2d 0%, #5bb542 100%);
+}
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+    --vj-cl-InPgTl1: linear-gradient(315deg, #35874a 0%, #44a25c 60%);
+    --vj-cl-InPgTl2: linear-gradient(315deg, #234e2d 0%, #5bb542 100%);
+    }
+    /*--====== Light ======--*/
+    :root .day_night {
+    --vj-cl-InPgTl1: linear-gradient(315deg, #21963f 0%, #44a25c 60%);
+    --vj-cl-InPgTl2: linear-gradient(315deg, #328c45 0%, #c5ff138c 100%);
+    }
+}
+
+.InPgTl_cnt {
+    display: inline-block;
+    float: left;
+    margin: 0 0 22px;
+    position: relative;
+    width: 100%;
+}
+
+.InPgTl_wrp {
+    background: var(--vj-cl-InPgTl1);
+    border-radius: 50px;
+    color: #f5fcff;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    padding: 10px 21px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+.InPgTl_Im {
+    border-radius: 30px;
+    display: inline-block;
+    float: left;
+    margin: 3px 9px 0 -2px;
+    width: 50px;
+}
+.InPgTl_ImIc {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.InPgTl_Rt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    float: left;
+    width: 100%;
+}
+.InPgTl_ttl {
+    color: #f7fff5;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 0;
+    padding: 4px 0;
+}
+.InPgTl_ttl:hover, .InPgTl_ttl:focus {
+    color: #f5fcff;
+}
+.InPgTl_Bt {
+    display: inline-block;
+    float: right;
+    margin: 1px 0 0 0;
+}
+.InPgTl_Fol-bt {
+    background: rgba(255, 255, 255, 0.17);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 9%);
+    border-radius: 21px;
+    color: #f7fef5;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    line-height: 27px;
+    padding: 0 10px 0 16px;
+    margin-right: 6px;
+}
+.InPgTl_Fol-bt:hover, .InPgTl_Fol-bt:focus {
+    color: #e7efff;
+}
+.InPgTl_Fol-bt-act {
+    background: rgb(0 0 0 / 17%);
+    box-shadow: 0 1px 2px rgb(255 255 255 / 22%);
+}
+.InPgTl_Rss, .InPgTl_Ntf {
+    background: rgba(255, 255, 255, 0.17);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 9%);
+    display: inline-block;
+    float: left;
+    width: 27px;
+    height: 27px;
+    margin: 0 6px 0 0;
+    border-radius: 30px;
+    text-align: center;
+}
+.InPgTl_Rss-ic {
+    color: #f7fef5;
+    font-size: 12px;
+    margin-top: 8px;
+    vertical-align: top;
+}
+.InPgTl_Ntf-ic {
+    color: #e7efff;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
+    margin: 6px 0 0 4px;
+}
+
+
+
+
+
+
+
+
+
+
+/*------ Social Icons ------*/
+@media (min-width: 767px) {
+    /*------ live score - schedules fixtures - result Start ------*/
+    .scr-inf_wrp {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .scr_ful-sbr-txt, .scr_ful-sbr-lnk {
+        font-size: 12px;
+    }
+
+    .scr_pg-ss {
+        background-image: var(--vj-cl-InPgTl2);
+        border-radius: 54px;
+        padding: 0 15px 0 25px;
+        margin: 0;
+        top: 0;
+    }
+
+    .ss.scr_pg-ss .vj_icn {
+        color: #f7fef5;
+        font-size: 16px;
+        height: 60px;
+    }
+
+    .ss.scr_pg-ss .ss-lk {
+        height: 60px;
+    }
+
+    .InPgTl_wrp .crd_shr {
+        display: none;
+    }
+
+    .scr_pg-ss.ss .whatsapp:hover .vj_icn   { color: #ffffff; }
+    .scr_pg-ss.ss .facebook:hover .vj_icn   { color: #ffffff; }
+    .scr_pg-ss.ss .twitter:hover .vj_icn    { color: #ffffff; }
+    .scr_pg-ss.ss .reddit:hover .vj_icn     { color: #ffffff; }
+    .scr_pg-ss.ss .googleplus:hover .vj_icn { color: #ffffff; }
+    .scr_pg-ss.ss .snapchat:hover .vj_icn   { color: #ffffff; }
+    /*------ live score - schedules fixtures - result Ends ------*/
+}
+@media (max-width: 767px) {
+
+    .InPgTl_cnt .scr_pg-ss {
+        display: none;
+    }
+    .InPgTl_cnt .crd_shr {
+        background: rgb(65 144 67);
+        box-shadow: 0 1px 2px rgb(0 0 0 / 9%);
+        color: #f5fcff;
+        float: left;
+        height: 32px;
+        width: 32px;
+    }
+
+    .InPgTl_wrp .crd_shr {
+        /* display: block; */
+        /* float: right; */
+    }
+    .InPgTl_wrp .crd_shr .vj_icn.vj_share {
+        margin: 10px 9px 0;
+    }
+.InPgTl_wrp {
+    padding: 3px 12px 3px 16px;
+}
+.InPgTl_ttl {
+    font-size: 18px;
+}
+}
+
+
+
+
+
+
+@media (min-width: 767px) {
+    .InPgTl_Im {
+        margin: -1px 9px 0 -4px;
+        width: 46px;
+    }
+
+    .InPgTl_ttl {
+        font-size: 21px;
+        line-height: 24px;
+        margin: 0 10px 0 0;
+        padding: 8px 0;
+    }
+    .InPgTl_Bt {
+        margin: 7px 0 0 0;
+        width: auto;
+    }
+
+    .InPgTl_Fol-bt {
+        line-height: 31px;
+    }
+    .InPgTl_Rss, .InPgTl_Ntf  {
+        float: left;
+        width: 30px;
+        height: 30px;
+    }
+
+    .InPgTl_Rss-ic {
+        font-size: 13px;
+        margin-top: 9px;
+    }
+    .InPgTl_Ntf-ic {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .InPgTl_wrp {
+        padding-right: 226px;
+    }
+
+}
+

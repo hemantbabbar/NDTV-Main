@@ -1,0 +1,80 @@
+/*----====== Card D ======----*/
+.crd-d_v1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.crd-d_v1_ul {
+    display: flex;
+    margin: 0px -8px;
+    flex-flow: row wrap;
+}
+
+.crd-d_v1_li {
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+    padding: 0px 8px;
+    width: 25%;
+}
+
+.crd-d_v1 .crd_ttl {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+.crd-d_v1 .crd_txt {
+    margin-bottom: 0px;
+}
+
+.crd-d_v1 .crd_txt-wrp {
+    display: flex;
+    -webkit-box-flex: 1;
+    flex: 1 1 0%;
+    flex-direction: column;
+}
+
+@media (max-width: 1199px) {
+    .crd-d_v1_li .crd-b {
+        display: flex;
+        border-bottom: 1px solid var(--vj-cl-rg1);
+        flex-direction: row;
+    }
+
+    .crd-d_v1_li {
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 33.33%;
+        margin-bottom: 16px;
+    }
+
+    .crd-d_v1_ul {
+        margin-left: -8px;
+        margin-right: -8px;
+        /* margin-bottom:20px; */
+    }
+
+    
+}
+
+@media (max-width: 767px) {
+    .crd-d_v1_li {
+        padding-left: 4px;
+        padding-right: 4px;
+        margin-bottom: 8px;
+    }
+
+    .crd-d_v1_ul {
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+}
+
+@media (max-width: 640px) {
+    .crd-d_v1_li {
+        width: 50%;
+    }
+}

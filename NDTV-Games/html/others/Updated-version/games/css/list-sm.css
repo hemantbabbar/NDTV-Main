@@ -1,0 +1,87 @@
+.lsm-section {
+    margin-bottom: 10px;
+}
+.lsm {
+    background-color: #fff;
+    font-size: 0;
+}
+.lsm-li {
+    display: inline-block;
+    padding: 0 0 16px 0;
+    position: relative;
+    width: 100%;
+}
+.lsm-li:first-child {
+    border-top: 0;
+}
+.lsm-txt {
+    font-family: var(--ff-one);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-left: 110px;
+    margin-bottom: 0;
+}
+.lsm-txt__con {
+    color: var(--dark);
+}
+.lsm-txt__con:hover {
+    color: var(--gray);
+}
+.lsm-txt__ttl {
+    color: #5794e0;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.lsm-txt__link {
+    color: #7faf7d;
+    font-size: 16px;
+    padding: 8px 0;
+}
+.lsm-img {
+    float: left;
+    margin-right: 15px;
+    width: 93px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.lsm-more {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+    overflow: hidden;
+    text-align: right;
+}
+.lsm-btn {
+    border-top: 1px solid #f1f1f1;
+    background-color: #fff;
+    color: #5794e0;
+    display: block;
+    padding: 20px 39px 20px 0;
+    position: relative;
+    text-transform: lowercase;
+}
+.lsm-btn:before {
+    border-radius: 6px;
+    content: "\e940";
+    font-size: 15px;
+    font-family: 'ndtv';
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top: 21px;
+}
+
+
+.lsm-drk .lsm-head__txt, .lsm-drk .list {
+    background-color: #333;
+}
+
+.lsm-drk .lsm-head__link {
+    color: #fff;
+}
+
+.lsm-drk .lsm-txt__con {
+    color: #fff;
+}

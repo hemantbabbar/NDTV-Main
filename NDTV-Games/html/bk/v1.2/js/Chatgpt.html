@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+.custom-select {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #333;
+}
+
+.custom-select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid #999;
+  border-bottom: 1px solid #999;
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+
+.custom-select select:focus {
+  outline: none;
+}
+    </style>
+</head>
+<body>
+
+  <div class="custom-select">
+    <select>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      <!-- Add more options as needed -->
+    </select>
+    <span class="custom-select-arrow"></span>
+  </div>
+  
+</body>
+</html>

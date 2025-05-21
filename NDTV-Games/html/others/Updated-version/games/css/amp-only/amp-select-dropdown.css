@@ -1,0 +1,66 @@
+
+/*AMP Page CSS STATRS*/
+.amp-rnk_drp-wrp {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.amp-rnk_tbl-drp {
+    width: 100%;
+    border: 0 none;
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    background: var(--vj-cl-scr);
+    color: var(--vj-cl-dr);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 17px 12px;
+    text-transform: capitalize;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+.amp-rnk_tbl-drp:focus {
+    outline: 0 none;
+}
+
+.amp-rnk_drp-wrp:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    right: 19px;
+    margin-top: -3px;
+    border-bottom: 2px solid var(--vj-cl-dr5);
+    border-right: 2px solid var(--vj-cl-dr5);
+    transform: rotate(45deg) translateY(-50%);
+    transform-origin: 50% 0;
+}
+.rnk_tbl-cnt amp-selector[role=tablist].tabs-with-selector [role=tab] {
+    padding: 0;
+}
+
+
+
+/*--====== Tab borders ======--*/
+.sts_sm-wrp amp-selector [option][selected] {
+    outline: 1px solid rgb(0 0 0 / 4%);
+}
+
+
+/*AMP DROPDOWN select HTML start*/
+/*<div class="amp-rnk_drp-wrp">
+    <select class="amp-rnk_tbl-drp" on="change:AMP.setState({ activeDiv: event.value })">
+        <option value="0">Test Ranking</option>
+        <option value="1">ODI Ranking</option>
+        <option value="2">T20 Ranking</option>
+    </select>
+</div>*/
+/*AMP DROPDOWN select HTML ends*/
+
+/*AMP Page CSS ENDS*/
+
+

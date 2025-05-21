@@ -1,0 +1,295 @@
+
+.pin-up {
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    bottom: 0;
+    overflow-y: scroll;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999999;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: 0.47s cubic-bezier(0.37, 0.15, 0.26, 1.15) all;
+    -moz-transition: 0.47s cubic-bezier(0.37, 0.15, 0.26, 1.15) all;
+    -ms-transition: 0.47s cubic-bezier(0.37, 0.15, 0.26, 1.15) all;
+    -o-transition: 0.47s cubic-bezier(0.37, 0.15, 0.26, 1.15) all;
+    transition: 0.47s cubic-bezier(0.37, 0.15, 0.26, 1.15) all;
+    pointer-events: none;
+}
+.js_pin-up .pin-up {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.pin-up-wrp {
+    margin: 50px auto 0;
+    display: inline-block;
+    /* float: right; */
+    background-color: #fffaf5;
+    box-shadow: 0 10px 32px rgba(0,0,0,0.07);
+    border-radius: 12px;
+    width: 720px;
+    text-align: left;
+    max-width: 100%;
+    pointer-events: auto;
+}
+
+
+
+
+
+
+/*
+<!--======[ Side Navigation ]======-->
+<div class="pin-up">
+    <div class="pin-up-wrp">
+            
+            <div class="sp-wrp" style="
+    padding-top: 50px;
+">
+                                <div class="sp-hd">
+                                    <!-- Story Headline -->
+                                    <h1 class="sp-ttl">India Seal ODI Series With 4-Wicket Win Over West Indies In Cuttack</h1>
+                                    <div class="sp-cn">
+                                        <!-- Story description -->
+                                        <h2 class="sp-descp">India vs West Indies 3rd ODI Highlights: Virat Kohli led from the front as India beat the West Indies by four wickets in the third ODI in Cuttack to clinch the three-match series 2-1.</h2>
+                                        <!-- Post By -->
+                                        <nav class="pst-by">
+                                            <ul class="pst-by_ul">
+                                                <li class="pst-by_li"><a class="pst-by_lnk" href="#">All India</a></li>
+                                                <li class="pst-by_li"><span class="pst-by_lnk">May 18, 2018 10:49 IST</span></li>
+                                            </ul>
+                                        </nav>
+                                        <!-- Social Share -->
+                                        <div class="ss ss_pg">
+                                            <!-- Author -->
+                                            <div class="pst_opt">
+
+                                                <div class="pst_scl">
+                                                    <a href="#" class="ss-lk facebook ttp">
+                                                        <svg class="vj_icn vj_facebook"><use xlink:href="#vj_facebook"></use></svg>
+                                                        <div class="tip on-bottom">facebook</div>
+                                                    </a>
+                                                    <a href="#" class="ss-lk twitter ttp">
+                                                        <svg class="vj_icn vj_twitter"><use xlink:href="#vj_twitter"></use></svg>
+                                                        <div class="tip on-bottom">twitter</div>
+                                                    </a>
+                                                    <a href="#" class="ss-lk reddit ttp">
+                                                        <svg class="vj_icn vj_reddit"><use xlink:href="#vj_reddit"></use></svg>
+                                                        <div class="tip on-bottom">reddit</div>
+                                                    </a>
+                                                    <a href="#" class="ss-lk linkedin ttp">
+                                                        <svg class="vj_icn vj_snapchat"><use xlink:href="#vj_snapchat"></use></svg>
+                                                        <div class="tip on-bottom">Snapchat</div>
+                                                    </a>
+
+                                                </div>
+                                                <div class="pst_icn-btn">
+                                                    <a href="#" class="ss-lk mailbox ttp">
+
+                                                        <div class="vj_mix">
+                                                            <svg class="vj_icn vj_email"><use xlink:href="#vj_email"></use></svg>
+                                                        </div>
+
+                                                        <div class="tip on-bottom">E-mail</div>
+                                                    </a>
+
+                                                    <a href="#" class="ss-lk printer ttp">
+
+                                                        <div class="vj_mix">
+                                                            <svg class="vj_icn vj_printer"><use xlink:href="#vj_printer"></use></svg>
+                                                        </div>
+
+                                                        <div class="tip on-bottom">Printer</div>
+                                                    </a>
+
+                                                    <button href="#" class="ss-lk comment vj_mix-comment cmt-ac">
+                                                        <div class="vj_mix">
+
+
+                                                            <svg class="vj_icn vj_comments"><use xlink:href="#vj_comments"></use></svg>
+                                                        </div>
+                                                        <span class="cmt-tp">66</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- Story Content -->
+                                        <div itemprop="articleBody" class="ins_storybody js-ad-section" id="ins_storybody">
+                                            <div class="ins_instory_dv">
+                                                <div class="ins_instory_dv_cont">
+                                                    <picture>
+                                                        <source srcset="images/spt-story-img1.jpg" alt="Congress Challenges Rejection Of Impeachment Move Against Chief Justice" type="image/webp">
+                                                        <img title="tittle" alt="alt" id="story_image_main" src="images/spt-story-img1.jpg">
+                                                    </picture>
+                                                </div>
+                                                <p class="ins_instory_dv_caption sp_b">Since 2016, Facebook employees have used Stormchaser to track many viral posts.</p>
+                                            </div>
+
+                                            <div class="newins_widget marginb50 highlights_wrap">
+                                                <div class="newins_widmid">
+                                                    <div class="lhs_highlights">
+                                                        <h2 class="sp-hig">Highlights</h2>
+                                                        <ol>
+                                                            <li><div class="st-crd">Venkaiah Naidu rejected impeachment move against Chief Justice</div></li>
+                                                            <li><div class="st-crd">Over 60 lawmakers signed petition calling for Dipak impeachment</div></li>
+                                                            <li><div class="st-crd">The decision is "illegal and arbitrary", said the Congress</div></li>
+                                                        </ol>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <b class="place_cont">New Delhi:&nbsp;</b> The Congress has challenged Vice President M Venkaiah Naidu's decision to reject its impeachment move against Chief Justice of India Dipak Misra in the Supreme Court.<br><br>
+                                            <div id="ndtvrelcontent"></div>
+                                            "None of the <a href="https://www.ndtv.com/india-news/venkaiah-naidu-defends-decision-to-reject-notice-for-chief-justices-impeachment-1842123">reasons given by the Chairman (Venkaiah Naidu)</a>... carry any weight or are legally tenable. It deserves to be set aside for being wholly extraneous and ultra vires to the provisions of the constitution and the Inquiry Act," says the Congress petition.<br><br>Last month, a petition signed by over 60 parliamentarians called for <a href="https://www.ndtv.com/india-news/oppositions-impeachment-notice-against-chief-justice-dipak-misra-rejected-by-rajya-sabha-chairman-ve-1841281">Justice Misra's impeachment</a> six months before he retires, on five specific charges.<br><br>The motion "doesn't deserve to be admitted", Mr Naidu said, just three day after the opposition submitted the petition. "We cannot allow any of our pillars of governance to be weakened by any thought, word or action," said Mr Naidu, ascribing his quick decision to the severity of the charges directed at the Chief Justice. He also said there were unsubstantiated surmises and conjectures in the opposition's allegations.
+                                            <br><br>
+
+                                            <div class="ins_instory_dv">
+                                                <div class="ins_instory_dv_cont">
+
+                                                    <picture class="img_trn img_trn-ani childrenSpan-0 img_trn-in">
+                                                        <source srcset="images/story-food-img1.jpg" alt="Congress Challenges Rejection Of Impeachment Move Against Chief Justice" type="image/webp">
+                                                        <img class="img_trn-img" title="tittle" alt="alt" id="story_image_main" src="images/story-food-img1.jpg">
+                                                    </picture>
+
+                                                </div>
+                                                <p class="ins_instory_dv_caption sp_b">Prime Minister Narendra Modi with Uttar Pradesh Chief Minister Yogi Adityanath</p>
+                                            </div>The motion "doesn't deserve to be admitted", Mr Naidu said, just three day after the opposition submitted the petition. "We cannot allow any of our pillars of governance to be weakened by any thought, word or action," said Mr Naidu, ascribing his quick decision to the severity of the charges directed at the Chief Justice. He also said there were unsubstantiated surmises and conjectures in the opposition's allegations.
+
+                                            <br>
+                                            <br>
+
+
+                                            The Constitution says the Chief Justice of India can be impeached only on grounds of proved misbehaviour or incapacity.<br>
+                                            <div id="checked" style="">
+                                                <div id="adslotNativeVideo" data-google-query-id="CNaF9KaI89oCFZlKKwodzuoLvg" style="height: 0px; display: none;">
+                                                    <div id="google_ads_iframe_/1068322/NDTV_News_ROS_Native_Outstream_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1068322/NDTV_News_ROS_Native_Outstream_0" title="3rd party ad content" name="google_ads_iframe_/1068322/NDTV_News_ROS_Native_Outstream_0" width="1" height="1" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;"></iframe></div>
+                                                    <div class="teads-inread" style="margin: 0px auto; max-width: 550px;">
+                                                        <div style="position: relative;">
+                                                            <div class="teads-ui-components-label" style="display: none;">ADVERTISING</div>
+                                                            <div class="teads-player" id="teads0"></div>
+                                                            <div class="teads-ui-components-credits" style="display: none;"><a href="http://teads.tv/inread-outstream/" rel="nofollow" target="_blank"><span class="teads-ui-components-credits-colored">inRead</span> invented by Teads</a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>The opposition backed its demand listing five grounds, which, the Congress said, equals misbehaviour. These included the assigning of sensitive cases to handpicked judges, which was raised publicly in January by four top judges who accused the Chief Justice of abusing his position as "master of the roster".
+
+
+
+
+                                <!-- Comments button ( after story ) -->
+                                <div class="cmt_btn"> <a class="btn_bm" href="#">
+
+                                        <div class="vj_mix">
+                                            <svg class="vj_icn vj_comments"><use xlink:href="#vj_comments"></use></svg>
+                                        </div>
+
+                                        Comments <span class="cmt_co">66</span></a> </div>
+
+                                            <!-- Bottom Setting Sticky -->
+                                            <div class="stp_stk">
+
+
+
+                                                <!-- Change Language -->
+                                                <div class="fts_drp">
+                                                    <a class="fts_drp-lnk" title="Cricket" href="#0" style="
+                                                        background-color: #fffdf1; 
+                                                       ">Language</a>
+                                                    <div class="fts_drp-nav">
+                                                        <ul class="fts_drp-nav-ul">
+                                                            <li class="fts_drp-nav-li"><a class="fts_drp-nav-lnk" href="#0">English</a></li>
+                                                            <li class="fts_drp-nav-li"><a class="fts_drp-nav-lnk" href="#0">à¦¬à¦¾à¦‚à¦²à¦¾</a></li>
+                                                            <li class="fts_drp-nav-li"><a class="fts_drp-nav-lnk" href="#0">à®¤à®®à®¿à®´à¯</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- SHARE -->
+                                                <div class="fts_drp">
+                                                    <a class="fts_drp-lnk" title="Cricket" href="#0">Share <svg class="vj_icn vj_share"><use xlink:href="#vj_share"></use></svg></a>
+                                                    <div class="fts_drp-nav">
+                                                        <ul class="fts_drp-nav-ul">
+                                                            <li class="fts_drp-nav-li"><a class="fts_drp-nav-lnk" href="#0"><svg class="vj_icn vj_facebook vj_ss-icn"><use xlink:href="#vj_facebook"></use></svg> Facebook</a></li>
+                                                            <li class="fts_drp-nav-li"><a class="fts_drp-nav-lnk" href="#0"><svg class="vj_icn vj_twitter vj_ss-icn"><use xlink:href="#vj_twitter"></use></svg> Twitter</a></li>
+                                                            <li class="fts_drp-nav-li"><a class="fts_drp-nav-lnk" href="#0"><svg class="vj_icn vj_reddit vj_ss-icn"><use xlink:href="#vj_reddit"></use></svg> Reddit</a></li>
+                                                            <li class="fts_drp-nav-li"><a class="fts_drp-nav-lnk" href="#0"><svg class="vj_icn vj_snapchat vj_ss-icn"><use xlink:href="#vj_snapchat"></use></svg> Snapchat</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+
+
+                                                <!-- Read Loader -->
+                                                <div class="fts_btn js-ad-sticky-parent">
+                                                    <span class="c-arrow-btn c-arrow-btn--ad js-ad-sticky" style="top: 689px; position: sticky;">
+                                                        <svg class="js-arrow-svg arrow-svg" width="30" height="30" viewport="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                        <circle r="11" cx="15" cy="15" fill="transparent" stroke-dasharray="68.3" stroke-dashoffset="0" style="stroke-dashoffset: 68.1529;"></circle>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+
+                                                <div class="fts_drp fts_set">
+                                                    <a class="fts_drp-lnk" title="Cricket" href="#0">Settings <svg class="vj_icn vj_cog"><use xlink:href="#vj_cog"></use></svg></a>
+                                                    <div class="fts_drp-nav">
+                                                        <ul class="fts_drp-nav-ul">
+                                                            <li class="fts_drp-nav-li"><div class="fts_drp-nav-txt">Change Font Size
+                                                                    <div class="fts_ft-sz">
+                                                                        <input type="radio" name="size" class="fts_ft-sm" id="fts_ft-sm" value="small">
+                                                                        <label for="fts_ft-sm">Small</label>
+                                                                        <input type="radio" name="size" class="fts_ft-md" id="fts_ft-md" value="medium" checked="">
+                                                                        <label for="fts_ft-md">Medium</label>
+                                                                        <input type="radio" name="size" class="fts_ft-lg" id="fts_ft-lg" value="large">
+                                                                        <label for="fts_ft-lg">Large</label>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            
+                                                            <li class="fts_drp-nav-li"><a class="fts_drp-nav-lnk fts_focus" href="#0">Focus on Story <svg class="vj_icn vj_glasses"><use xlink:href="#vj_glasses"></use></svg></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+
+
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                
+                                
+                                
+
+                                
+                                
+                                
+                            </div>
+            
+            
+
+            
+            
+        </div>
+    
+    </div>*/

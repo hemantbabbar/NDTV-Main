@@ -1,0 +1,60 @@
+
+
+
+.logSig_wdg{display:inline-block; margin:0; padding:0; float: left;}
+.logSig_ovl{
+    width: 100%;
+    z-index: 1;
+    background: linear-gradient(rgba(24, 25, 40, 0.83) 0%, rgb(24, 25, 40) 100%);
+    height: 100%;
+    position: absolute;
+}
+
+.logSig_bg {position: absolute; width: 100%; top: 0px;}
+.logSig_bg  img{width:100%;}
+.logSig_wr{display:flex; width:100%; height:100vh; justify-content: center; align-items: center;}
+.logSig_logo{display:inline-block;margin: 0 0 30px;padding:0;width:200px}
+.logSig_ent-ttl{display:inline-block; width:100%; font-size:36px; font-weight:700; margin:0 0 5px 0;}
+.logSig_cn{display:inline-block;margin:0;padding: 0 30px;position: relative;z-index: 1;color:#f9faff;text-align: center;}
+/* .logSig_cn a{color:#a48eff;} */
+.logSig_ent-txt{display:inline-block; width:100%; margin:0 0 40px 0; padding:0; color:#aaadbe;}
+.logSig_btn{display: inline-flex;width:100%;margin: 0 0 20px;padding:10px 16px;font-weight: 500;border: 1px solid rgb(135, 138, 158);color: rgb(239, 240, 247);border-radius: 30px;transition: all 0.3s ease-in-out;align-items: center;justify-content: center; font-size:15px;}
+.logSig_btn:hover, .logSig_btn.act, .logSig_wr .sid-nav-cls:hover{background:#6842ff; color:#fff; border-color:#6842ff; text-decoration: none;}
+.logSig_btn.act:hover{opacity:0.7;}
+.logSig_wr .sid-nav-cls{z-index: 1000;position:absolute;top: 10px;right: 10px;color: #fff;height: 30px;border-radius: 50%;width:30px;font-size: 6px; transition: all 0.3s ease-in-out;}
+.logSig_wr .snv_cn-icn{font-size:11px}
+
+.logSig_btns{margin-top:30px;margin-bottom: 15px;}
+.logSig_btns .logSig_btn{background-color:#fff; color:#262a4a; border-color:#fff; margin-bottom:10px; text-decoration: none;}
+.logSig_btns .logSig_btn:hover{background-color:#ccc; border-color:#ccc; color:#000;}
+.logSig_btn svg{margin-right:10px; width:20px; height: 20px;}
+.logSig_btn.fb svg{margin:0 10px 0 20px; display: inline-block;}
+
+.Or{position: relative;margin-bottom: 30px;}
+.Or .mid_box{background-color:#1a1b28;position: relative;padding: 2px 10px;}
+.Or:before{position:absolute;left:0;top: 50%;width:100%;height: 1px;content:'';background: rgba(255,255,255,0.3);border-radius: 30px;}
+
+
+.inpfld_wr{display:inline-block;width:100%;margin-bottom: 10px;}
+.inp-fld{background-color:#27293c;width: 100%;border: 0;padding: 15px 15px;display: inline-block;color: #fff;border-radius: 10px;font-size: 16px; outline:none;}
+.inp-fld::-webkit-input-placeholder{color: #fff; opacity:0.5;}
+.inp-fld:-ms-input-placeholder{color: #fff; opacity:0.5;}
+.inp-fld::placeholder {color: #fff; opacity:0.5;}
+
+
+.trms_cmark{position:absolute;top: 2px;left:0;height: 18px;width: 18px;background-color: #3d4059;border-radius:3px;border: 0px solid #ccc;}
+.trms_chc {padding-left: 30px;position: relative;margin-bottom:15px;display: inline-block;font-size: 11px;line-height: 24px;}
+.trms_chc input{position: absolute; opacity: 0; cursor: pointer; height: 0; width: 0;}
+/* .trms_chc:hover input~.trms_cmark{background-color:#ccc} */
+.trms_chc input:checked~.trms_cmark{background-color: #6842ff;border-color: #6842ff;}
+.trms_cmark:after{content:"";position:absolute;display:none}
+.trms_chc input:checked~.trms_cmark:after{display:block}
+.trms_chc .trms_cmark:after{left: 6px;top: 2px;width: 6px;height: 12px;border:solid #fff;border-width: 0 2px 2px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
+.trms_chc a{ text-decoration:underline; color:#fff;}
+
+.frgt_lnk{margin-bottom: 15px; color:#fff; display: inline-block; font-size: 14px;}
+.logSig_lnk{color:#8668ff;}
+.logSig_lnk:hover{color:#fff;}
+.frgt_lnk:hover{color: #8668ff;}
+
+.rst_pass-btn{margin-top:20px;}

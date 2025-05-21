@@ -1,0 +1,325 @@
+.s-ls_li, .crd-a, .crd-b, .crd-c, .crd-d, .crd-e, .crd-f, .crd-g, .crd-tag, .crd_img, .crd_ttl, .crd_lnk, .crd_img-full, .crd_txt-wrp, .crd_ttl, .crd_lnk, .crd_txt {
+    display: inline-block;
+    float: left;
+}
+
+
+/*---- Number of cards ----*/
+.crd-a {
+    padding-bottom: 18px;
+    position: relative;
+}
+.crd-b {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.crd-c, .crd-d, .crd-e, .crd-f, .crd-g {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+}
+
+
+
+/*---- Card Content ----*/
+.crd-tag{
+    border-radius: 2px;
+    background: var(--vj-cl-ot2);
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    color: #000;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px 6px;
+    left: 3px;
+    line-height: 19px;
+    height: 19px;
+    top: 3px;
+    letter-spacing: .55px;
+}
+.crd-tag_lg{
+    color: #fff;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.17);
+}
+
+.crd_img {
+    border-radius: 3px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    min-height: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.crd_img-full {
+    width: 100%;
+    transform: scale(1);
+    transition: all 0.9s ease;
+    -webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s ease;
+    -ms-transition: all 0.9s ease;
+    backface-visibility: hidden;
+}
+
+
+/*---- Card Image Zoom ----*/
+.crd-a:hover .crd_img-full {
+    width: 100%;
+    transform: scale(1.05);
+}
+.crd-b:hover .crd_img-full, .crd-c:hover .crd_img-full, .crd-d:hover .crd_img-full, .crd-e:hover .crd_img-full {
+    width: 100%;
+    transform: scale(1.1);
+}
+
+.crd_txt-wrp {
+    display: inline-block;
+    float: left;
+}
+
+.crd_ttl {
+    color: #151515;
+    font-family: var(--ff-one);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.crd_lnk {
+    color: var(--vj-cl-dr1);
+    display: inline;
+    position: relative;
+    width: calc(100% - 16px);
+    float: left;
+}
+
+.crd_txt {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22.5px;
+    color: var(--vj-cl-dr6);
+    margin-bottom: 12px;
+    letter-spacing: 0.3px;
+}
+
+
+/*---- .crd-a:hover .crd_lnk, .crd-b:hover .crd_lnk, .crd-d:hover .crd_lnk {
+    background-image: linear-gradient(transparent 0%, transparent 80%, var(--clr-a) 80%, var(--clr-a) 90%, transparent 90%, transparent);
+}
+.crd-c:hover .crd_lnk {
+    background-image: linear-gradient(transparent 0%, transparent 90%, var(--clr-a) 90%, var(--clr-a) 100%, transparent 100%, transparent);
+} ----*/
+
+
+/*----====== Card A ======----*/
+.crd-a .crd_ttl {
+    font-size: 28px;
+    line-height: 42px;
+}
+/*----====== Card B ======----*/
+.crd-b .img-gr {
+    
+}
+
+/*----====== Card C ======----*/
+
+.crd-c .crd_ttl {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.crd-c .crd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.crd-c .crd_img {
+    margin: 2px 12px 0 0;
+    width: 85px;
+}
+
+/*----====== Card D ======----*/
+
+.crd-d .crd_ttl {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 8px;
+}
+.crd-d .img-gr {
+    
+}
+.crd-d .crd_txt {
+    margin-bottom: 0;
+}
+.crd-d .crd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.crd-d .crd_img {
+    margin: 0 20px 0 0;
+    border-radius: 3px;
+    width: 160px;
+}
+
+
+/*----====== Card E ======----*/
+
+.crd-e .crd_txt-wrp {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.78) 33%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.78) 33%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.78) 33%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    padding: 50px 12px 12px;
+}
+
+
+.crd-e .img-gr {
+    
+}
+
+.crd-e .crd_ttl {
+    color: #fff;
+    margin-bottom: 0;
+}
+.crd-e .crd_lnk {
+    color: #fff;
+}
+.crd-e .crd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+/*----====== Card F ======----*/
+
+.crd-f {
+    background-color: var(--vj-cl-lg);
+    border: 1px solid var(--vj-cl-lg4);
+    border-bottom-color: var(--vj-cl-lg4);
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    height: calc(100% - 12px);
+    margin-bottom: 12px;
+    padding: 12px;
+}
+.crd-f .crd_ttl {
+    margin-bottom: 0;
+}
+.crd-f .crd_txt {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    width: 100%;
+}
+.crd-f .crd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.crd-f .crd_img {
+    margin: 1px 12px 0 0;
+    width: 121px;
+}
+
+/*----====== Card Add ======----*/
+
+.crd-add .crd-tag {
+    background: #e2f5d3;
+}
+.crd-add .crd_lnk {
+    display: inline-block;
+    float: left;
+    font-family: var(--ff-two);
+    font-size: 14px;
+    line-height: 19px;
+}
+.crd-add .crd_lnk-sub {
+    color: var(--txt-c);
+    display: inline-block;
+    font-family: var(--ff-two);
+    float: left;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+}
+
+
+/*----====== Separator ======----*/
+.spr_24, .spr_34,
+.spc_24, .spc_34 {
+    display: inline-block;
+    float: left;
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    width: 100%;
+}
+.spr_bg {
+    border-bottom-width: 2px;
+    border-bottom-color: var(--vj-cl-rg1);
+}
+.spr_24 {
+    margin-bottom: 24px;
+}
+.spr_34 {
+    margin-bottom: 34px;
+}
+
+
+.spc_bg {
+    border-bottom-width: 0; 
+    border-bottom-color: transparent; 
+}
+.spc_24 {
+    margin-bottom: 24px;
+}
+.spc_34 {
+    margin-bottom: 34px;
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+.vjl-cntr, .home .vjl-cntr {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.crd-d, .crd-e, .crd-g {
+    display: inline-block;
+}
+
+.crd-f .crd_img {
+    width: 90px;
+}
+
+.crd-d .crd_img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+}
+

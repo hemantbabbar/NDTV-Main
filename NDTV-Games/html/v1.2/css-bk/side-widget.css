@@ -1,0 +1,116 @@
+
+.s-lf-wid {
+        display: inline-block;
+    width: 100%;
+    min-width: 200px;
+    min-height: 1px;
+    position: relative;
+    left: 0;
+}
+.s-tx {
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+}
+.s-tx .s-ttl-clr {
+    color: var(--vj-cl-dr);
+    display: inline-block;
+    float: left;
+    border-radius: 4px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+    margin-bottom: 0;
+}
+.s-ttl-bg .s-ttl_s {
+    margin-left: 5px;
+}
+.s-ttl-bg .vj_icn {
+    font-size: 9px;
+    margin-left: 4px;
+}
+.s-ls {
+    float: left;
+    width: 100%;
+}
+.s-ls-12 {
+    float: left;
+    width: 100%;
+}
+.s-r30 {
+    padding-right: 60px;
+}
+.vj_side-ttl {
+    color: var(--vj-cl-rg4);
+    font-size: 18px;
+    display: inline-block;
+    float: left;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+/* <hr class="ls_sp5"> */
+.ls_sp5 {
+    border: 0 none;
+    height: 50px;
+    margin: 0;
+}
+.s-ls_ul {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.s-ls_li {
+    display: inline-block;
+    float: left;
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+.s-ls_br .s-ls_lnk {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.s-ls_br .s-ls_li:last-child {
+    border-bottom: 0 none;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+}
+
+.s-ls_br .s-ls_li:last-child .s-ls_lnk, 
+.sp_txt a.s-ls_lnk {
+    border-bottom: 0 none;
+}
+.s-ls-12 .s-ls_br .s-ls_li {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+}
+.s-ls_img img {
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+.s-ls_txt {
+    color: var(--vj-cl-dr5);
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-family: var(--ff-two);
+    line-height: 21px;
+    width: 100%;
+}
+.s-ls_li a:hover {
+    text-decoration: underline;
+}
+.s-ls_li a:hover .s-ls_txt {
+    color: var(--vj-cl-dr);
+}
+.add-rhs {
+    display: block;
+    float: right;
+    max-width: 300px;
+    width:100%;
+}

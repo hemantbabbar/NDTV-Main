@@ -1,0 +1,43 @@
+
+
+
+
+
+.sp-ttl, .sp-descp, .stk-ttl {
+    font-family: Caudex, serif;
+}
+
+body, 
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6, 
+.ads_txt, .ads_prc {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content__item-title, .cmt_co, .dd-nav_ltv-ful, .t-icn-nt.ttp .tip, .cmt-tp, .m-nv_lnk:before, .t-nv_lnk:before, .ttp .tip {
+background-color: #aed471;
+}
+
+.btn_bm, .pge_ttl {
+ border-color: #aed471;
+}
+
+
+.worm {
+    margin-left: 4px;
+    top: 0;
+}
+.ads_prc {
+    background: #effdee;
+}
+
+.inview_ani.inview_fade {
+    opacity: 1;
+}
+.img_trn .img_trn-img, .img_trn source {
+    opacity: 1;
+    filter: blur(0);
+}
+.stp_stk {
+    display: none;
+}

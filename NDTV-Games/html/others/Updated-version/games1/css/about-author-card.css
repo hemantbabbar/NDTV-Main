@@ -1,0 +1,26 @@
+.aut_crd {
+    background: var(--vj-cl-ot1);
+    border-left: 5px solid #00000036;
+    border-radius: 6px;
+    display: inline-block;
+    float: left;
+    filter: var(--vj-flt1);
+    padding: 15px 12px;
+    margin: 7px 0 16px;
+    width: 100%;
+}
+
+.aut_crd-txt {
+    color: var(--vj-cl-dr);
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.aut_crd-nm {
+    font-weight: 700;
+    margin-right: 10px;
+}
+.sp_txt .aut_crd p a {
+    color: #272727;
+}

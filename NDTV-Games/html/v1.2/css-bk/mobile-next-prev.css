@@ -1,0 +1,203 @@
+/*
+
+<section class="m-pge">
+                                        <div class="m-pge_wr">
+                                            <a class="m-pge_pr" href="#">
+                                                <span class="m-pge_img">
+                                                    <span class="img-gr">
+                                                        <picture>
+                                                            <source srcset="https://drop.ndtv.com/images/homepage/donald_trump_reuters_650_636582579006508618.jpg?output-quality=90&amp;downsize=157:97&amp;output-format=webp" type="image/webp">
+                                                            <img class="imgbrd" alt="'No More DACA Deal': Trump Imperils Future Of Millions Of Immigrants" title="'No More DACA Deal': Trump Imperils Future Of Millions Of Immigrants" src="https://drop.ndtv.com/images/homepage/donald_trump_reuters_650_636582579006508618.jpg?output-quality=90&amp;downsize=157:97" border="0" data-tb-shadow-region-image="0">
+                                                        </picture>
+                                                    </span>
+                                                </span>
+                                                <span class="m-pge_ttl">Previous Post</span>
+                                                <h2 class="m-pge_lk" rel="prev">By Deriding Rahul, Modi Proves He Is Rattled By Him</h2>
+                                            </a>
+                                            <a class="m-pge_nx" href="#">
+                                                <span class="m-pge_img">
+                                                    <span class="img-gr">
+                                                        <picture>
+                                                            <source srcset="https://i.ndtvimg.com/i/2018-03/china-tiangong-1_650x400_41520400720.jpg?output-quality=90&amp;downsize=157:97&amp;output-format=webp" type="image/webp">
+                                                            <img class="imgbrd" alt="As Chinese Space Lab Crashes To Earth, ISRO On Overnight Vigil" title="As Chinese Space Lab Crashes To Earth, ISRO On Overnight Vigil" src="https://i.ndtvimg.com/i/2018-03/china-tiangong-1_650x400_41520400720.jpg?output-quality=90&amp;downsize=157:97" border="0" data-tb-shadow-region-image="0">
+                                                        </picture>
+                                                    </span>
+                                                </span>
+                                                <span class="m-pge_ttl">Next Post</span>
+                                                <h2 class="m-pge_lk" rel="next">Dear Amit-Bhai, About Your Tweet On Me</h2>
+                                            </a>
+                                        </div>
+                                    </section>
+
+*/
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+/* Post Navigation */
+/* Post Navigation */
+.m-pge {
+    background-color: var(--vj-cl-lg1);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: var(--vj-cl-rg3);
+    bottom: -146px;
+    display: inline-block;
+    float: left;
+    margin: 0 0 30px;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    min-width: 100%;
+    transition: all .4s ease-out;
+}
+
+
+
+
+.j-stk-dn.nav_stk .m-pge {
+    bottom: -146px;
+}
+
+.j-stk-dn .m-pge {
+    bottom: -146px;
+}
+
+.nav_stk .m-pge {
+    bottom: 0;
+}
+
+
+
+.m-pge_wr {
+    display: inline-block;
+    float: left;
+    font-size: 0;
+    position: relative;
+    padding: 0 0;
+    width: 100%;
+}
+.m-pge_pr, .m-pge_nx {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+}
+.m-pge_img {
+    border-radius: 6px;
+    overflow: hidden;
+    width: 80px;
+}
+.m-pge_img .img-gr {
+}
+.m-pge_nx .m-pge_img {
+    float: right;
+    margin-bottom: 12px;
+}
+.m-pge_pr .m-pge_img {
+    float: left;
+    margin-bottom: 12px;
+}
+.m-pge_ttl {
+    /* background-color: var(--clr-a); */
+    border-bottom: 2px solid var(--vj-cl-m);
+    color: var(--vj-cl-dr5);
+    display: inline-block;
+    font-family: var(--ff-two);
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 0 4px;
+    overflow: hidden;
+    padding: 2px 0;
+    position: relative;
+    transition: 0.3s ease all;
+    text-transform: uppercase;
+}
+.m-pge_nx:hover .m-pge_ttl, .m-pge_pr:hover .m-pge_ttl {
+    color: var(--vj-cl-lg);
+}
+.m-pge_lk {
+    color: var(--vj-cl-dr2);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+    width: 100%;
+}
+.m-pge_pr {
+    display: inline-block;
+    float: left;
+    padding: 8px 12px 8px 16px;
+    text-align: left;
+}
+.m-pge_nx {
+    float: left;
+    padding: 8px 16px 8px 12px;
+    text-align: right;
+}
+
+.m-pge_nx:hover {
+    color: var(--vj-cl-dr2);
+}
+
+.m-pge_nx .m-pge_ttl:before, .m-pge_pr .m-pge_ttl:before {
+    background-color: var(--vj-cl-dr2);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.3s ease all;
+    z-index: -1;
+}
+.m-pge_nx .m-pge_ttl:before {
+    left: 100%;
+}
+.m-pge_pr .m-pge_ttl:before {
+    right: 100%;
+}
+
+.m-pge_nx:hover .m-pge_ttl:before {
+    left: 0;
+}
+.m-pge_pr:hover .m-pge_ttl:before {
+    right: 0;
+}
+
+
+
+
+.j-stk-dn .back-to-top.js-bkt-out {
+    transform: translateY(-80px);
+}
+
+.nav_stk.j-stk-dn .back-to-top.js-bkt-out {
+    transform: translateY(-140px);
+}
+.nav_stk .back-to-top.js-bkt-out {
+    transform: translateY(-220px);
+}
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+    .m-pge {
+        display: none;
+    }
+}

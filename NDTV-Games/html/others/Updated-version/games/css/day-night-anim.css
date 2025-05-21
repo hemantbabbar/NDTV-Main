@@ -1,0 +1,168 @@
+
+/*--- Day Night Icon wt Animation ---*/
+
+.day_night-wrp {
+    display: inline-block;
+    float: right;
+    position: relative;
+    padding: 17px 0 16px 8px;
+}
+.day_night-lnk {
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    /* margin: 9px 0 0 8px; */
+    padding: 4px 5px 3px 6px;
+}
+.day_night-icn {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin: 2px 0;
+    pointer-events: none;
+}
+.fts_drp-nav-lnk .day_night-icn {
+    margin: 4px 0 0;
+}
+.day_night-icn input {
+    display: none;
+}
+.day_night-icn input + div {
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+    position: relative;
+    box-shadow: inset 7px -7px 0 0 #ffffff;
+    -webkit-transform: scale(0.7) rotate(-2deg);
+    transform: scale(0.7) rotate(-2deg);
+    transition: box-shadow .5s ease 0s, -webkit-transform .4s ease .1s;
+    transition: box-shadow .5s ease 0s, transform .4s ease .1s;
+    transition: box-shadow .5s ease 0s, transform .4s ease .1s, -webkit-transform .4s ease .1s;
+}
+.fts_drp-nav-li .day_night-icn input + div {
+    box-shadow: inset 7px -7px 0 0 #000000;
+}
+.day_night-icn input + div:before {
+    content: '';
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: background .3s ease;
+}
+.day_night-icn input + div:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: -4px 0 0 -4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 -18px 0 #d6879f, 0 18px 0 #d6879f, 18px 0 0 #d6879f, -18px 0 0 #d6879f, 13px 13px 0 #d6879f, -13px 13px 0 #d6879f, 13px -13px 0 #d6879f, -13px -13px 0 #d6879f;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    transition: all .3s ease;
+}
+
+.fts_drp-drk .fts_drp-nav-lnk:after {
+    content: "Dark Theme";
+    padding: 0 0 0 10px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+
+
+.day_night .day_night-icn input + div {
+    box-shadow: inset 32px -32px 0 0 #fff;
+    -webkit-transform: scale(0.5) rotate(0deg);
+    transform: scale(0.3) rotate(0deg);
+    transition: box-shadow .2s ease 0s, -webkit-transform .3s ease .1s;
+    transition: transform .3s ease .1s, box-shadow .2s ease 0s;
+    transition: transform .3s ease .1s, box-shadow .2s ease 0s, -webkit-transform .3s ease .1s;
+}
+.day_night .day_night-icn input + div:before {
+    background: #d6879f;
+    transition: background .3s ease .1s;
+}
+.day_night .day_night-icn input + div:after {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: -webkit-transform .5s ease .15s;
+    transition: transform .5s ease .15s;
+    transition: transform .5s ease .15s, -webkit-transform .5s ease .15s;
+}
+
+.day_night .fts_drp-drk .fts_drp-nav-lnk:after {
+    content: "Light Theme";
+}
+
+
+
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+
+
+    /*--====== Light ======--*/
+    .day_night-icn input + div {
+        box-shadow: inset 32px -32px 0 0 #fff;
+        -webkit-transform: scale(0.5) rotate(0deg);
+        transform: scale(0.3) rotate(0deg);
+    transition: box-shadow .2s ease 0s, -webkit-transform .3s ease .1s;
+    transition: transform .3s ease .1s, box-shadow .2s ease 0s;
+    transition: transform .3s ease .1s, box-shadow .2s ease 0s, -webkit-transform .3s ease .1s;
+    }
+    .day_night-icn input + div:before {
+        background: #ffec85;
+    transition: background .3s ease .1s;
+    }
+    .day_night-icn input + div:after {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    transition: -webkit-transform .5s ease .15s;
+    transition: transform .5s ease .15s;
+    transition: transform .5s ease .15s, -webkit-transform .5s ease .15s;
+    }
+    .fts_drp-drk .fts_drp-nav-lnk:after {
+    content: "Light Theme";
+    }
+
+    
+    
+    .day_night .day_night-icn input + div {
+        box-shadow: inset 7px -7px 0 0 #ffffff;
+        -webkit-transform: scale(1) rotate(-2deg);
+        transform: scale(0.7) rotate(-2deg);
+    }
+    .day_night .day_night-icn input + div:before {
+        background: transparent;
+    }
+    .day_night .day_night-icn input + div:after {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    .day_night .fts_drp-drk .fts_drp-nav-lnk:after {
+    content: "Dark Theme";
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+    .header, .brw-nav_txt, .day_night-wrp, .t-icn-ltv {
+        display: none;
+    }
+}

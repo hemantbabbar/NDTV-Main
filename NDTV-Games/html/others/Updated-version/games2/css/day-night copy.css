@@ -1,0 +1,175 @@
+.day_night {
+    background-color: #171C28;
+}
+
+.day_night .ft {
+    background-color: #27272f;
+    border-top: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.day_night .s-ls_txt {
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.day_night .ft-cpr {
+    color: #fff;
+}
+
+.day_night .m-nv .container {
+    background-color: #161c28;
+    border-bottom: 1;
+}
+
+.day_night .m-nv {
+    border-color: #3f3f48;
+}
+
+.day_night .ins_storybody {
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.day_night .st-crd {
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.day_night h2, .day_night h1 {
+    /* background-color: #212127; */
+    color: #ffffff;
+}
+
+.day_night .lhs_highlights ol {
+    border-color: #3a3a44;
+}
+
+.day_night .header {
+    background-color: #161c28;
+}
+
+.day_night .stk-t_bg {
+    background-color: #212127;
+}
+
+.day_night .s-ls_br .s-ls_li {
+    border-bottom: 1px solid #3a3b42;
+}
+
+.day_night a {
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.day_night .ads_con-wrp {
+    border-bottom: 1px solid #3a3b42;
+}
+
+.day_night .text-links-b {
+    border-color: #3a3b42;
+}
+
+.day_night .sp_ad-t {
+    background-color: #1e2635;
+}
+
+.day_night .ss .vj_icn {
+    color: #fff;
+}
+
+.day_night .sp_cap, .day_night .ins_instory_dv_caption {
+    color: #fff;
+}
+
+.day_night .sp_b:after {
+    background-color: #3a3b42;
+    border-bottom: 1px solid #3a3b42;
+}
+
+.day_night .stk-t_wr:after {
+    border-top-color: #212127;
+}
+
+.day_night .stk-t_wr:before {
+    border-top-color: #4c4c58;
+}
+
+.day_night .stp_stk {
+    background-color: #2F3545;
+}
+
+.day_night .fts_drp-lnk {
+    background-color: #42495d;
+}
+
+.day_night .fts_drp-nav {
+    background-color: #42495d;
+}
+
+
+.day_night .cmt_btn:after, .day_night .cmt_btn:before {
+    background-color: #212939;
+}
+
+.day_night .btn_bm .vj_mix .vj_comments {
+    color: white;
+}
+.day_night .btn_bm:hover .vj_mix .vj_comments {
+    color: #343a40;
+}
+.day_night .cmt_co {
+    color: #000;
+}
+
+.day_night .nsl_in {
+    border: 2px solid #21293a;
+    background-color: #0f131b;
+}
+
+.day_night .vj_side-ttl, .day_night .vj_icn.vj_bell {
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.day_night .niddle {
+    background-color: #fff;
+}
+
+.day_night .tv_icn {
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.day_night .fts_drp-nav-ul:after {
+    border-top-color: #42495d;
+}
+
+.day_night .fts_drp-nav-ul:before {
+    border-top-color: #373e50;
+}
+
+.day_night .fts_btn-txt {
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.day_night .ndtv-logo {
+    color: #fff;
+}
+
+.day_night .sp-hig {
+    background-color: #161c28;
+}
+.day_night .fts_drp-nav-txt {
+    color: rgba(255, 255, 255, 0.86);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.17);
+}
+.day_night .pge {
+    background-color: #161c28;
+}
+
+
+.day_night .content__item--wide {
+    background-color: #161c28;
+}
+
+.day_night .content__item-number {
+    opacity: 0.1;
+}
+
+.day_night .content__item-title {
+    color: #161c28;
+}

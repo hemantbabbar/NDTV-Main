@@ -1,0 +1,94 @@
+.whosaid__wrp {
+    padding-top: 30px;
+}
+.whosaid__wrp ul {
+    display: block;
+    font-size: 0;
+    position: relative;
+}
+.whosaid__wrp li {
+    color: #000;
+    display: inline-block;
+    font-size: 19px;
+    padding: 0 105px 36px 70px;
+    position: relative;
+}
+
+.whosaid__wrp li::before {
+    color: #000000;
+    content:'"';
+    font-family:cursive;
+    font-size: 70px;
+    left:8px;
+    position: absolute;
+    top: -23px;
+}
+.whosaid__wrp li:after {
+    background-color: #efefef;
+    bottom: 40px;
+    content: "";
+    right: 43px;
+    position: absolute;
+    top:48px;
+    width: 1px;
+}
+.whosaid__wrp p {
+    border-radius: 3px;
+    display: inline-block;
+    color: #c794c7;
+    clear: both;
+    float: right;
+    font-size: 15px;
+    margin: 15px 0px 5px;
+    min-width: 100%;
+    position: relative;
+    text-align: right;
+}
+
+.whosaid__wrp li:nth-child(even) p {
+    color: #85b0b1;
+}
+
+.whosaid__wrp p:before {
+    content: "";
+    position: absolute;
+    right: -62px;
+    width: 34px;
+    top:24px;
+    background: white;
+    border-top: 1px solid #eee;
+    height: 100%;
+    z-index: 4;
+}
+
+.whosaid_profileimage {
+    background-color: #fafafa;
+    border:1px solid #f1f1f1;
+    border-radius:100%;
+    display: inline-block;
+    float: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 4px;
+    width: 80px;
+    height: 80px;
+    z-index:1;
+}
+.whosaid_img{
+    height:100%;
+    width:auto;
+}
+.whosaidlist_txt{
+    background-color: #fafafa;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 14px 0;
+    padding: 25px;
+}
+.whosaidlist_txt p:last-child{
+    margin-bottom:0;
+}
+.whosaid_quote{
+    min-height:100px;
+}

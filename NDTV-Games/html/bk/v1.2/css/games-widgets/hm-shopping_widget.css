@@ -1,0 +1,14 @@
+
+.GdShpWid_wrp-fl {
+    border-top: 2px solid var(--vj-cl-rg1);
+    border-bottom: 2px solid var(--vj-cl-rg1);
+    display: inline-block;
+    float: left;
+    padding: 16px 0;
+    margin: 10px 0 30px;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+}
+.GdShpWid_wrp-fl > ._prwrhs {
+    margin: 0;
+}

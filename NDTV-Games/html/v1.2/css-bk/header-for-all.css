@@ -1,0 +1,20 @@
+
+/*--- Header All over website ---*/
+.hdr-lhs-col {
+    width: 185px;
+}
+.m-nv {
+    z-index: 999999;
+}
+.sub-nav {
+    z-index: 999998;
+}
+.m-nv_lnk {
+    font-weight: 600;
+    line-height: 1.7;
+}
+.fright-all {
+    float: right;
+}
+
+

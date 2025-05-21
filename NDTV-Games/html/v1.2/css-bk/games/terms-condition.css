@@ -1,0 +1,153 @@
+.GmeTC_txt-wr {
+  display: inline-block;
+  width: 100%;
+  background-color: var(--vj-cl-lg);
+  padding: 20px;
+  border: 1px solid rgb(42, 42, 71);
+  border-radius: 8px;
+}
+
+.GmeTC_txt-wr .strong {
+  font-weight: 600;
+}
+
+.GmeTC_tt1,
+.GmeTC_txt-wr h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 23px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.GmeTC_txt-wr h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.GmeTC_txt-wr ol {
+  list-style-type: decimal;
+  padding-left: 0;
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.GmeTC_txt-wr li {
+  display: inline-block;
+  font-size: 15px;
+  /* line-height: 22px; */
+  margin-bottom: 16px;
+  border-top: 1px solid rgb(53 53 88);
+  padding-top: 17px;
+  padding-left: 30px;
+  position: relative;
+  counter-increment: li;
+  width: 100%;
+}
+
+.GmeTC_txt-wr li:first-child {
+  border-top: 0;
+  padding-top: 0
+}
+
+.GmeTC_txt-wr li:marker {
+  display: none
+}
+
+.GmeTC_txt-wr li:before {
+  content: counter(li) ".";
+  color: #6842ff;
+  display: inline-block;
+  /* font-family: var(--ff-three); */
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  left: 0;
+}
+
+.GmeTC_txt-wr li li li {
+  border-top: 0;
+  padding-top: 0
+}
+
+.GmeTC_txt-wr li p:last-child {
+  margin-bottom: 0;
+}
+
+.GmeTC_txt-wr ol>li>ol {
+  margin-top: 10px;
+  counter-reset: li;
+}
+
+.GmeTC_txt-wr ol>li>ol>li {
+  position: relative;
+  counter-increment: li;
+}
+
+.GmeTC_txt-wr ol>li>ol>li:before {
+  content: counter(li, lower-alha) ".";
+  text-transform: uppercase
+}
+
+.GmeTC_txt-wr ol>li>ol>li>ol {
+  counter-reset: li;
+}
+
+.GmeTC_txt-wr ol>li>ol>li>ol>li {
+  position: relative;
+  counter-increment: li;
+  /* padding-left: 25px; */
+}
+
+.GmeTC_txt-wr ol>li>ol>li>ol>li:before {
+  content: counter(li, lower-alpha) '.';
+  font-size: 16px
+}
+
+.GmeTC_txt-wr ol>li>ol>li>ol>li>ol {
+  counter-reset: li;
+  padding-left: 25px
+}
+
+.GmeTC_txt-wr ol>li>ol>li>ol>li>ol>li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.GmeTC_txt-wr ol>li>ol>li>ol>li>ol>li:before {
+  content: '';
+  font-size: 16px;
+  width: 6px;
+  height: 6px;
+  background: #6842ff;
+  position: absolute;
+  top: 10px;
+  border-radius: 50%
+}
+
+
+
+.GmeTC_txt-wr ol>li>ol>li>ol {
+  list-style-type: lower-roman;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+.GmeTC_txt-wr ol>li>ol>li>ol>li>ol {
+  list-style-type: disc;
+  margin-top: 10px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+@media (max-width:768px) {
+  .GmeTC_txt-wr li {
+    padding-left: 25px;
+  }
+
+}

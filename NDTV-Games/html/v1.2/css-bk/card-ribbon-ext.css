@@ -1,0 +1,42 @@
+/*----====== Card ribbon extension ======----*/
+
+
+
+
+/* Ribbon */
+.rbn_tg {
+    background: #49a25c;
+    float: left;
+    height: 26px;
+    left: 15px;
+    position: absolute;
+    top: -1px;
+    width: 28px;
+    z-index: 9;
+}
+.rbn_tg-icn {
+    position: absolute;
+    font-size: 13px;
+    color: #fdf5a1;
+    left: 7px;
+    top: 9px;
+    z-index: 1;
+    }
+/* Ribbon */
+.rbn_tg:after,
+.rbn_tg:before {
+        border-top: 13px solid #49a25c;
+    bottom: -12px;
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+.rbn_tg:after {
+  border-right: 25px solid transparent;
+  left: 0;
+}
+.rbn_tg:before {
+  border-left: 25px solid transparent;
+  right: 0;
+}

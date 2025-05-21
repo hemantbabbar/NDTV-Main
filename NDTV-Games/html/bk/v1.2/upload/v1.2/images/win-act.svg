@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FEDB41;}
+	.st1{fill:#FD003A;}
+	.st2{fill:#F4C706;}
+</style>
+<path class="st0" d="M256,390c-107.5,0-195-87.5-195-195S148.5,0,256,0s195,87.5,195,195S363.5,390,256,390z M256,30
+	c-91,0-165,74-165,165s74,165,165,165s165-74,165-165S347,30,256,30z"/>
+<path class="st1" d="M331,375v94l-66.7-44.5c-5-3.4-11.6-3.4-16.6,0L181,469v-94c-10.5-4.4-20.5-9.7-30-15.7V497
+	c0,5.5,3,10.6,7.9,13.2c4.9,2.6,10.8,2.3,15.4-0.7L256,455l81.7,54.5c2.5,1.7,5.4,2.5,8.3,2.5c2.4,0,4.9-0.6,7.1-1.8
+	c4.9-2.6,7.9-7.7,7.9-13.2V359.3C351.5,365.3,341.5,370.6,331,375z"/>
+<ellipse class="st2" cx="257.8" cy="195.7" rx="179.7" ry="176.7"/>
+</svg>

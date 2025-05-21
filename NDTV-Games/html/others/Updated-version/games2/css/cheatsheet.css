@@ -1,0 +1,100 @@
+.cheat-wrp {
+    background-color: #fff;
+    margin: 15px 0 15px;
+}
+.cheat-wrp ol{
+    display:inline-block;
+    float:left;
+    width:100%;
+}
+.cheat-wrp li {
+    counter-increment: foo;
+    display: block;
+    margin: 30px 0 30px 0;
+    position: relative;
+}
+.cheat-wrp li:before {
+    background-color: #ffffff;
+    border-radius: 4px;
+    bottom: 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.27);
+    content: "";
+    left: 40px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 1;
+}
+.cheat-wrp li:after {
+    border-radius: 5px;
+    color: #fff;
+    content: counter(foo) "";
+    font-size: 16px;
+    font-weight: bold;
+    left: 0;
+    padding: 20px 10px 20px 10px;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    vertical-align: top;
+    z-index: 0;
+    background: #ea6969;
+    background: -moz-linear-gradient(-45deg, #ea6969 0%, #d1c2ff 88%);
+    background: -webkit-linear-gradient(-45deg, #ea6969 0%,#d1c2ff 88%);
+    background: linear-gradient(135deg, #dc5656 0%,#c8b0ff 88%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6969', endColorstr='#d1c2ff',GradientType=1 );
+}
+.cheat-wrp p, #ins_storybody .cheat-wrp p:nth-of-type(1) {
+    border-radius: 7px;
+    display:inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 25px 25px 21px 60px;
+    position: relative;
+    z-index: 1;
+}
+.cheat-list-txt__ttl {
+    color: #af7745;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.cheat__ttl {
+    border-bottom: 2px solid #da7370;
+    font-weight: 700;
+    margin: 25px 40px 15px;
+    padding: 0 0 10px 0;
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+}
+.cheat__ttl:after,
+.cheat__ttl:before {
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    visibility: visible;
+}
+
+.cheat__ttl:before {
+    border-width: 12px;
+    border-top-color: #da7370;
+    bottom: -24px;
+    right: 50%;
+    margin-right: -12px;
+}
+.cheat__ttl:after {
+    border-width: 12px;
+    border-top-color: #ffffff;
+    bottom: -22px;
+    right: 50%;
+    margin-right: -12px;
+}
+.add-320_cntr {
+    width: 320px;
+    margin: 0 auto;
+}

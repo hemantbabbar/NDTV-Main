@@ -1,0 +1,395 @@
+.header {
+    /*background-color: var(--vj-cl-lg);*/
+    position: relative;
+}
+
+/*--- Header Top NDTV Logo ---*/
+.t-md {
+    padding: 3px 0;
+}
+
+/*.ndtv-logo-wrp {
+    margin: 0 15px 0 0;
+    width: 282px;
+    min-height: 1px;
+}*/
+
+.hdr-lhs-col {
+    margin: 0 5px 0 0;
+    width: 193px;
+    min-height: 1px;
+}
+
+.vj_icn.vj_logo-ndtv {
+    color: var(--vj-cl-dr);
+    font-size: 36px;
+    font-weight: 100;
+    float: left;
+    height: auto;
+    font-family: 'Engagement', cursive;
+    line-height: 47px;
+    margin: 0;
+    width: 200px;
+}
+
+.ndtv-logo {
+    display: inline-block;
+    float: left;
+    padding: 12px 0 0;
+    position: relative;
+    /* z-index: 6; */
+}
+
+.t-icn-nv {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: 19px;
+    float: right;
+    height: 50px;
+    position: relative;
+    width: 40px;
+    display: inline-block;
+}
+
+.t-md .t-icn-nv {
+    height: 71px;
+}
+
+.t-icn-nv .vj_icn {
+    color: var(--vj-cl-dr2);
+    font-size: 21px;
+    display: inline-block;
+    margin-top:28px;
+}
+
+.Hd_rhs .t-icn-nv .vj_icn{ margin-top: 14px;}
+
+.t-icn-nv:hover .vj_icn {
+    color: var(--vj-cl-ot2);
+}
+
+
+.t-icn-nv img {
+    padding-top: 16px;
+    width: 19px;
+}
+
+.t-icn-sr img {
+    padding-top: 15px;
+}
+
+/* Top Ad */
+
+.ad-dx_wrp {
+    display: flex;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.ad-dx_ft .ad-dx_wrp {
+    border-bottom: 1px solid var(--vj-cl-lg1);
+    padding: 0 0 15px;
+    margin: 0 0 15px;
+}
+
+.ad-dx_img {
+    background: var(--vj-cl-rg1);
+    min-height: 105px;
+    min-width: 728px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 2px 2px;
+}
+
+.ad-dx_txt {
+    color: var(--vj-cl-dr7);
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 1px;
+}
+
+
+/* Nav Icon */
+.sid-nav-icn_wrp {
+    border-radius: 4px;
+    margin: 0 0 0 -10px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding: 29px 16px 23px 10px;
+}
+
+
+
+
+/* Search icon and text */
+.t-icn-sr {
+    /* background: rgb(150 150 150 / 30%); */
+    /* border-radius: 30px; */
+    /* box-shadow: 0 1px 1px rgb(255 255 255 / 14%); */
+    /* width: calc(100% - 204px); */
+    /* max-width: 220px; */
+    /* height: 44px; */
+    margin: 13px 0 0;
+    text-align: left;
+    float: none;
+}
+
+.t-icn-sr.t-icn-nv .vj_icn {
+    font-size: 16px;
+    float: left;
+    margin: 11px 8px 0 9px;
+}
+
+
+.t-sr-txt {
+    display: none;
+}
+
+
+.sid-nav {
+    display: none;
+}
+
+
+/*--====== Stcky Nav ======--*/
+.nav-stk_wr {
+    float: left;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 991;
+    transition: all .37s cubic-bezier(.37, .15, .32, .94);
+}
+
+.sticky.js-stuck-down.js-stuck-up {
+    position: fixed;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+
+}
+
+.sticky.js-stuck-down {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-71px);
+    -moz-transform: translateY(-71px);
+    transform: translateY(-71px);
+}
+
+.Hd_col {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Hd_lhs {
+    width: 25%;
+}
+
+.Hd_rhs {
+    display: flex;
+    width: 75%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Usr_opt {
+    display: none;
+    flex-wrap: wrap;
+    margin: 0 6px 0 0;
+    position: relative;
+    padding-right: 12px;
+}
+.Usr_opt:after{content:'';width: 1px;background:rgba(255,255,255,0.3);height: 14px;position: absolute;right: 0;}
+
+.Usr_opt a {
+    color: #fff;
+    display: inline-block;
+}
+
+.Usr_opt-ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    float: left;
+    align-items: center;
+}
+
+.Usr_opt-li {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 0 0 18px;
+}
+
+.Usr_opt-li:nth-child(1),
+.Usr_opt-li:nth-child(2) {
+}
+
+.Usr_opt-li:first-child {
+    margin-left: 0
+}
+
+.Usr_opt-li img {
+    height: 22px;
+    margin-right: 3px;
+}
+
+.Usr_tkn {
+    margin-left: 10px;
+    float: left;
+}
+
+.Usr_tkn a {
+    font-size: 12px;
+    padding: 3px 12px 2px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 0px 1px rgb(255 255 255 / 14%);
+    background: linear-gradient(270deg, #fb00ff, #ff7900);
+    font-weight: 700;
+    color: #fff;
+    margin-top: 7px;
+}
+
+.Usr_tkn a img {
+    float: left;
+    margin: 0px 7px 0 0;
+}
+
+.pot {
+    font-size: 10px;
+    font-weight: 700;
+    width: 26px;
+    height: 26px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: inline-flex;
+    background: rgb(0 0 0 / 30%);
+    align-items: center;
+    justify-content: center;
+    color: #7dc02b;
+    padding-right: 1px;
+    margin-right: 3px;
+}
+
+.t-icn-nv.log img{width:17px; padding-top:0;}
+.t-icn-nv.log.ttp .tip.on-bottom{top:46px;margin-left: -85px;}
+.t-icn-nv.log.ttp .tip.on-bottom:before, .t-icn-nv.log.ttp .tip.on-bottom:after{left:auto; right:10px}
+.t-icn-nv.log .tip, .t-icn-nv.log.ttp:hover .tip{opacity:0; visibility: hidden; -webkit-transform: translateY(6px);
+    transform: translateY(6px);}
+.usr-tkn-on .t-icn-nv.log .tip, .usr-tkn-on .t-icn-nv.log.ttp:hover .tip{opacity:1; visibility: visible; -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);}
+
+
+@media (min-width: 1200px) {
+    .t-icn-nv.log {
+        display: none;
+    }
+
+    .Hd_rhs .Usr_opt {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-stk_wr {
+        position: sticky;
+    }
+
+    .t-sr-txt {
+        display: -webkit-box;
+        color: rgb(255 255 255 / 68%);
+        float: left;
+        font-size: 13px;
+        padding: 11px 0 0 0;
+        white-space: nowrap;
+        position: relative;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: calc(100% - 46px);
+    }
+
+    .t-icn-sr {
+        background: rgb(0 0 0 / 30%);
+        border-radius: 30px;
+        box-shadow: 0 1px 1px rgb(255 255 255 / 14%);
+        width: calc(100% - 204px);
+        max-width: 300px;
+        height: 44px;
+        margin: 0 0 0 5px;
+        text-align: left;
+    }
+}
+
+
+
+
+@media (max-width: 1199px) {
+    .t-icn-nv .vj_icn{font-size:20px;}
+ .opt-icn{height: 22px;width:20px;display: inline-block;margin-right: 5px;}  
+    .pot{margin-right:5px;border: 0;}
+    .opt-icn img{max-height: 20px;}
+.ndtv-logo{padding-top:8px}
+    .Hd_rhs .t-icn-nv {
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        justify-content: center;
+        background: rgba(150, 150, 150, .1);
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, .2);
+        border-radius: 30px;
+        padding: 0;
+        justify-content: center;
+        display: inline-flex;
+        align-items: center;
+        margin:0 0 0 4px;
+    }
+
+    .t-icn-sr.t-icn-nv .vj_icn {
+        margin: 0;
+    }
+
+    .t-icn-nv.log {
+        background: linear-gradient(270deg, #fb00ff, #ff7900);
+        border-color: #333;
+    }
+
+    .t-icn-nv.log .vj_icn,
+    .t-icn-sr.t-icn-nv .vj_icn {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .brw-nav .vj_icn {
+        font-size: 20px;
+    }
+
+    .sid-nav-icn_wrp {
+        padding-top: 27px;
+        padding-bottom: 23px;
+    }
+
+    .Usr_opt.mob {
+        display: block;
+        position: relative;
+        top: 50px
+    }
+
+
+    
+}
+
+
+@media (max-width: 360px) {
+.sid-nav-icn_wrp{padding-right:12px}
+
+}

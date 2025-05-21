@@ -1,0 +1,45 @@
+.vj_icn {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.ss .vj_icn {color: var(--vj-cl-dr2);font-size: 18px;height: 34px;}
+
+
+.ss .comment .vj_icn {font-size: 24px;}
+.ss .printer .vj_icn {font-size: 22px;}
+.ss .mailbox .vj_icn {font-size: 22px;}
+
+
+.vj_mix {
+    display:  inline-block;
+    font-size: 0;
+    margin: 0 auto; 
+    line-height: 1;
+    position: relative;
+    vertical-align: middle;
+}
+.vj_mix .vj_icn:nth-child(n+2) {
+    left: 0;
+    position:  absolute;
+    top: 0;
+}
+
+
+
+
+
+.btn_bm .vj_icn {
+    font-size: 34px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.btn_bm .vj_icn.vj_arrow-down {
+    font-size: 12px;
+    margin: 0 0 0 6px;
+}

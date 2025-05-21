@@ -1,0 +1,74 @@
+
+/*-- Main Nav ---*/
+
+.m-nv_clr {
+    background-color:#212233;
+}
+
+.m-nv_clr .stk-t_wr:before {
+    border-top-color: var(--vj-cl-rg1);
+}
+
+.m-nv_clr .stk-t_wr:after {
+    border-top-color: var(--vj-cl-m);
+}
+.m-nv_clr .m-nv_lnk, .m-nv_clr .m-nv_tl {
+    color: #fff;
+}
+.m-nv_clr .dd-nav .m-nv_lnk {
+    color: var(--vj-cl-dr);
+}
+.m-nv_clr .dd-nav .m-nv_tl {
+    display: inline-block;
+    /* border-bottom: 2px solid var(--vj-cl-br1); */
+    color: #139293;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 8px 8px 0;
+    width: auto;
+    /* text-transform: uppercase; */
+}
+
+.m-nv_clr .dd-nav .dd-nav_hvr:hover > .m-nv_lnk, .m-nv_clr .dd-nav .m-nv_lnk:hover {
+    color:  var(--vj-cl-dr);
+}
+.m-nv_clr .dd-nav_hvr:hover > .m-nv_lnk, .m-nv_clr .m-nv_lnk:hover {
+    color: #fff;
+}
+.m-nv_clr .m-nv_lnk:hover:before {
+    background: #ffffff;
+}
+.m-nv_clr .ltv__vd.img__full {
+    background-color: #fff;
+}
+
+
+/*-- Header CSS ---*/
+.m-nv_clr .vj_logo-ndtv {
+    color: #fff;
+}
+.m-nv_clr .t-icn-nv .vj_icn {
+    color: #fff;
+}
+.m-nv_clr .ttp .tip {
+}
+.m-nv_clr .niddle {
+    background-color: #fff;
+}
+.m-nv_clr .worm path {
+    stroke: #fff;
+}
+.m-nv_clr .tv_icn { color: #fff; }
+
+
+
+
+/*-- List Dropdown CSS ---*/
+.m-nv_clr .dd-nav {
+    background-color: var(--vj-cl-lg);
+}
+.m-nv_clr .dd-drp_icn.vj_icn {
+    color: #fff;
+}
+
+

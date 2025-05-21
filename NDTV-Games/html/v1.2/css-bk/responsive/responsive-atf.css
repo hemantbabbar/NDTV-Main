@@ -1,0 +1,184 @@
+
+@media (max-width: 1199px) {
+
+    .stk_wrp .order-2 {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .Hd_lhs{width: 62%;}
+    .Hd_rhs{width: 38%;}
+    .vj_icn.vj_logo-ndtv{width: 160px;}
+
+    .m_non {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1120px) {
+
+    
+    .stk-t_bg, .stk-t {
+        display: none;
+    }
+    
+    .header, .brw-nav_txt, .t-icn-ltv {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .sid-nav .day_night-wrp {
+        display: inline-block;
+    }
+    .hdr-lhs-col {
+        width: auto;
+    }
+
+
+
+   
+
+
+    .m_pr-0 {
+        padding-right: 0;
+    }
+
+    .m_pt-0 {
+        padding-top: 0;
+    }
+
+    /*    .vjl-cntr {
+            max-width: 100%;
+            padding-right: 20px;
+            padding-left: 20px;
+        }*/
+
+    /*    .vjl-row {
+            margin-right: -20px;
+            margin-left: -20px;
+        }*/
+
+    .m-nv .vjl-cntr {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .m-nv .vjl-row {
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .m-nv .vjl-md-12 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    .sub-nav .vjl-cntr {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+
+    .scr_wig .vjl-cntr {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .scr_wig .tp_lft-wrp {
+        margin-left: 10px;
+    }
+    .sub-nav .vjl-row, .scr_wig .vjl-row {
+        margin-right: 0;
+        margin-left: -10px;
+    }
+
+    .sub-nav .vjl-md-12, .scr_wig .vjl-md-12 {
+        padding-right: 0;
+        padding-left: 15px;
+    }
+
+
+    .scr_wig .vjl-row {
+        margin-right: 0;
+        margin-left: -10px;
+    }
+
+    .sp-wrp {
+        border-left: 0 none;
+        border-right: 0 none;
+        display: inline-block;
+        padding: 21px 15px;
+        margin-left: -15px;
+        margin-bottom: 30px;
+        width: calc(100% + 30px);
+    }
+
+    .sp-ttl {
+    }
+    .sp-descp {
+        margin-top: 0;
+    }
+    .sp-ttl {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 33px;
+    }
+    .ss .ss-lk {
+        width: 33px;
+    }
+
+
+
+
+
+
+
+    .brd-nv {
+        /* float: left; */
+        /* width: 100%; */
+    }
+
+
+
+
+
+
+
+
+    .res_lst .crd_txt-wrp {
+        width: calc(100% - 117px);
+        float: right;
+    }
+
+    .res_lst .img-gr_c {
+        padding-bottom: 100%;
+    }
+
+    .res_lst {
+        border-bottom: 1px solid var(--vj-cl-rg1);
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+    }
+
+    .res_bor-bt {
+        border-bottom: 1px solid var(--vj-cl-rg1);
+        margin-bottom: 16px;
+        padding-bottom: 16px;
+    }
+
+    /*    .res_bor-bt-non {
+            border-bottom: 0 solid var(--vj-cl-rg1);
+            margin-bottom: 16px;
+            padding-bottom: 0;
+        }*/
+
+}
+@media (max-width: 340px) {
+    .ss .ss-lk {
+        width: 33px;
+    }
+    .ins_instory_dv_cont iframe {
+        min-height: 220px;
+    }
+        .vj_icn.vj_logo-ndtv{width: 140px;}
+}

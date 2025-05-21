@@ -1,0 +1,141 @@
+
+
+.scr_pg-ttl-wrp {
+    display: inline-block;
+    float: left;
+    margin-bottom: 24px;
+    position: relative;
+    width: 100%;
+}
+
+.scr_pg-ttl {
+    background-color: var(--vj-cl-m);
+    border-radius: 8px;
+    color: #f5fcff;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    padding: 10px 16px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+.scr-pag_cnt {
+    color: var(--vj-cl-rg5);
+    font-family: var(--ff-one);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.scr-pag_cnt .cmt_btn {
+    font-size: 16px;
+    margin: 0 0 30px;
+}
+
+.scr-pag_ttl {
+    color: var(--vj-cl-dr2);
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+    padding: 0 0 0 21px;
+    position: relative;
+    width: 100%;
+    text-transform: uppercase;
+}
+.scr-pag_ttl:after {
+    background: #bdbdbd;
+    border-radius: 100px;
+    content: "";
+    left: 3px;
+    height: 8px;
+    position: absolute;
+    top: 10px;
+    width: 8px;
+}
+.scr-pag_ttl2 {
+    color: var(--vj-cl-dr2);
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 15px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+
+
+
+/*------ Social Icons ------*/
+@media (min-width: 1200px) {
+    /*------ live score - schedules fixtures - result Start ------*/
+    .scr-inf_wrp {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .scr_ful-sbr-txt, .scr_ful-sbr-lnk {
+        font-size: 12px;
+    }
+
+    .scr_pg-ss {
+        background-color: #295cf6;
+        background-image: linear-gradient(315deg, #6425de 0%, #7ee8fa8c 100%);
+        border-radius: 30px 10px 10px 30px;
+        padding: 0 15px 0 25px;
+        margin: 0;
+        top: 0;
+    }
+
+    .ss.scr_pg-ss .vj_icn {
+        color: #f5fcff;
+        font-size: 16px;
+        height: 47px;
+    }
+
+    .ss.scr_pg-ss .ss-lk {
+        height: 47px;
+    }
+
+    .scr_pg-ttl .crd_shr {
+        display: none;
+    }
+
+    .scr_pg-ss.ss .whatsapp:hover .vj_icn   { color: #ffffff; }
+    .scr_pg-ss.ss .facebook:hover .vj_icn   { color: #ffffff; }
+    .scr_pg-ss.ss .twitter:hover .vj_icn    { color: #ffffff; }
+    .scr_pg-ss.ss .reddit:hover .vj_icn     { color: #ffffff; }
+    .scr_pg-ss.ss .googleplus:hover .vj_icn { color: #ffffff; }
+    .scr_pg-ss.ss .snapchat:hover .vj_icn   { color: #ffffff; }
+    /*------ live score - schedules fixtures - result Ends ------*/
+}
+@media (max-width: 768px) {
+
+    .scr_pg-ttl-wrp .scr_pg-ss {
+        display: none;
+    }
+    .scr_pg-ttl-wrp .crd_shr {
+        background: rgba(0, 0, 0, 0.11);
+        box-shadow: 0 1px 3px rgba(255, 255, 255, 0.37);
+    }
+
+    .scr_pg-ttl .crd_shr {
+        display: block;
+    }
+
+}
+
+
+

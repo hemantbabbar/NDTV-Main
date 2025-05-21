@@ -1,0 +1,114 @@
+/*----====== Responsive Card Scroll ======----*/
+
+.res-hr-srl {
+ /* margin-right: -15px;
+    margin-left: -15px;*/
+ padding: 0 15px;
+ width: 100%;
+}
+.res-hr-srl_ul3, .res-hr-srl_ul4, .res-hr-srl_ul5, .res-hr-srl_ul6, .res-hr-srl_ul6-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;*/
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.res-hr-srl_li {
+    -ms-flex: 0 0 380px;
+    flex: 0 0 380px;
+    max-width: 86vw;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.res-hr-srl_ul3 .res-hr-srl_li {
+    -ms-flex: 0 0 33.333%;
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+}
+
+.res-hr-srl_ul4 .res-hr-srl_li {
+    -ms-flex: 0 0 400px;
+    flex: 0 0 25%;
+    max-width: 86vw;
+}
+.res-hr-srl_ul5 .res-hr-srl_li {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.res-hr-srl_ul6 .res-hr-srl_li {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+.res-hr-srl_ul6-2 .res-hr-srl_li {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+
+
+@media (max-width: 992px) {
+.res-hr-srl_ul3 .res-hr-srl_li,
+.res-hr-srl_ul4 .res-hr-srl_li, 
+.res-hr-srl_ul5 .res-hr-srl_li, 
+.res-hr-srl_ul6 .res-hr-srl_li {
+    -ms-flex: 0 0 380px;
+    flex: 0 0 310px;
+    max-width: 86vw;
+}
+
+}
+
+
+
+@media (max-width: 768px) {
+        .res-hr-srl_ul3, .res-hr-srl_ul4, .res-hr-srl_ul5, .res-hr-srl_ul6, .res-hr-srl_ul6-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: -1px;
+    margin-left: -1px;
+}
+    .res-hr-srl {padding: 0 8px;}
+    .res-hr_hf .res-hr-srl {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.res-hr_hf .res-hr-srl_li {
+    /* padding: 7px 8px; */
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.res-hr-srl_ul3 .res-hr-srl_li,
+.res-hr-srl_ul4 .res-hr-srl_li, 
+.res-hr-srl_ul5 .res-hr-srl_li, 
+.res-hr-srl_ul6 .res-hr-srl_li {
+    -ms-flex: 0 0 42%;
+    /* flex: 0 0 42%; */
+    /* max-width: 42%; */
+}
+}
+
+@media (max-width: 576px) {
+.res-hr-srl_ul3 .res-hr-srl_li,
+.res-hr-srl_ul4 .res-hr-srl_li, 
+.res-hr-srl_ul5 .res-hr-srl_li, 
+.res-hr-srl_ul6 .res-hr-srl_li {
+    -ms-flex: 0 0 380px;
+    flex: 0 0 380px;
+    max-width: 92%;
+}
+}
+
+
+
+
+

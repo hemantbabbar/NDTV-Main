@@ -1,0 +1,187 @@
+
+@media only screen and (min-width: 768px) and (max-width: 1120px)  {
+    .crd-d_v1 .crd_img, 
+    .crd-c .crd_img, 
+    .crd-d .crd_img, 
+    .res_lst .crd_img, 
+    .crd-f_v1 .crd_img {
+        width: 146px;
+    }
+    .crd-b .crd_ttl5 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+
+    /*Dropdown Full*/
+    .dd-nav, .js-drp-open .dd-nav, .res-bt_sub-nav .dd-nav {
+        -webkit-transform-origin: top center;
+    }
+    .dd-nav_two {
+        position: initial;
+    }
+    .sub-nav .dd-nav_two .dd-nav {
+        border-radius: 0;
+    }
+    .dd-nav_two .dd-nav {
+        left: -1px;
+        right: -1px;
+        width: auto;
+    }
+    .tp_lng.dd-nav_two {
+        position: relative;
+    }
+    .tp_lng.dd-nav_two .dd-nav {
+        left: -19px;
+        right: auto;
+        width: 190px;
+    }
+    .snv_cn-hed .tp_lng.dd-nav_two .dd-nav {
+        left: 12px;
+        width: 190px;
+    }
+    /*Settings Sticky*/
+    .fts_drp-lnk {
+        font-size: 11px;
+        text-transform: capitalize;
+    }
+    .fts_drp-lnk {
+        padding: 3px 8px;
+    }
+    .dd-nav_ltv-r {
+        position: inherit;
+    }
+    .dd-nav_ltv-r .dd-nav {
+        right: 10px;
+        left: 10px;
+        width: auto;
+        transform-origin: top center;
+    }
+
+
+
+    /*Overlay Sub Nav*/
+    body.res-bt_sub-nav {
+        overflow: hidden;
+    }
+    .res-bt_sub-nav .overlay__side-nav {
+        background: rgba(0, 0, 0, 0.4);
+        opacity: 1;
+        pointer-events: auto;
+        -webkit-transition: top 0s ease 0s, opacity .17s ease;
+        -moz-transition: top 0s ease 0s, opacity .17s ease;
+        -ms-transition: top 0s ease 0s, opacity .17s ease;
+        -o-transition: top 0s ease 0s, opacity .17s ease;
+        transition: top 0s ease 0s, opacity .17s ease;
+    }
+
+    .res-bt_sub-nav .overlay__side-nav {
+        z-index: 99996;
+    }
+
+    .s-r30 {
+        padding-right: 0;
+    }
+
+
+    .crd-d_v1 .crd_img, 
+    .crd-c .crd_img, 
+    .res_lst .crd_img, 
+    .crd-f_v1 .crd_img {
+        width: 146px;
+    }
+
+    .crd-b .crd_img .img-gr,
+    .crd-c .crd_img .img-gr,
+    .crd-d .crd_img .img-gr,
+    .crd-e .crd_img .img-gr,
+    .crd-f_v1 .crd_img .img-gr,
+    .crd-k-a .crd_img .img-gr,
+    .crd-ph .crd_img .img-gr,
+    .crd-vo .crd_img .img-gr,
+
+    .crd-d_v1 .crd_img .img-gr, 
+    .crd-c .crd_img .img-gr,
+    .res_lst .crd_img .img-gr,
+    .crd-f_v1 .img-gr_d {
+        padding-bottom: 100%;
+    }
+
+    .crd-d_v1 .crd_ttl,
+    .crd-f_v1 .crd_ttl,
+    .crd-c .crd_ttl
+    {
+        /* font-size: 16px; */
+        /* font-weight: 600; */
+        /* line-height: 24px; */
+    }
+    .crd-b .crd_ttl4,
+    .crd-d .crd_ttl {
+        /* font-size: 18px; */
+        /* font-weight: 600; */
+        /* line-height: 27px; */
+    }
+
+
+
+    /*Back to top*/
+    /*.j-stk-dn .back-to-top.js-bkt-out {
+        -webkit-transform: translateY(-140px);
+        -moz-transform: translateY(-140px);
+        -ms-transform: translateY(-140px);
+        transform: translateY(-140px);
+    }*/
+    .back-to-top {
+        right: 50%;
+        margin-right: -20px;
+        height: 40px;
+        width: 40px;
+    }
+    .back-to-top .vj_icn {
+        font-size: 13px;
+        margin: -7px 0 0 -7px;
+    }
+
+
+
+    .j-stk-dn .red-tim {
+        -webkit-transform: scale(0.8334);
+        -moz-transform: scale(0.8334);
+        transform: scale(0.8334);
+    }
+    .red-tim, .j-stk-dn .red-tim {
+        -webkit-transform-origin: right top;
+        -moz-transform-origin: right top;
+        transform-origin: right top;
+    }
+    .j-stk-dn.js_red-tim .red-tim {
+        /* -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        transform: scale(1); */
+    }
+    .red-tim {
+        margin-right: -9px;
+        top: 126px;
+    }
+    .red-tim_bg {
+        border: 1px solid var(--vj-cl-rg3);
+    }
+    .red-tim_bg.ttp .tip {
+        display: none;
+    }
+    /*Footer*/
+    .ftr_soc, .ftr_soc .ss {
+        float: left;
+        margin-bottom: 16px;
+    }
+
+
+    .crd-b_v2 .crd_img .img-gr{padding-bottom:75%;}
+    .HrSrl-RtFl_li .crd-e .crd_img .img-gr{padding-bottom:56.25%;}
+    .tp-ttl-bg{margin-bottom:10px;}
+}
+

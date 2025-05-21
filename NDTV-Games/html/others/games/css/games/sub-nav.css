@@ -1,0 +1,5 @@
+.sub-nav{background-color:#22223a; border-bottom:0;}
+.sub-nav_lnk, .sub-nav_lft, .brd-nv .brd-nv_li > *{color:#fff}
+.sub-nav_txt, .sub-nav_txt1{color: #fd4370;}
+.sub-nav_lnk:after, .sub-nav_act:after, .res-bt_sub-nav .sub-nav_lnk:after{background:#fff;}
+.side-nav-logo{width: 160px;height: 30px;display:inline-block;margin: 25px 0 0 20px;}

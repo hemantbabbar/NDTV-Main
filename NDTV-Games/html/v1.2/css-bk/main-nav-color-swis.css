@@ -1,0 +1,53 @@
+
+/*-- Main Nav ---*/
+
+.m-nv_clr {
+    background-color: var(--vj-cl-m);
+}
+
+.m-nv_clr .stk-t_wr:before {
+    border-top-color: var(--vj-cl-rg1);
+}
+
+.m-nv_clr .stk-t_wr:after {
+    border-top-color: #443a32;
+}
+.m-nv_clr .m-nv_lnk {
+    color: #443a32;
+}
+.m-nv_clr .dd-nav_hvr:hover > .m-nv_lnk, .m-nv_lnk:hover {
+    color: #443a32;
+}
+.m-nv_clr .ltv__vd.img__full {
+    background-color: #443a32;
+}
+
+
+/*-- Header CSS ---*/
+.m-nv_clr .vj_logo-ndtv {
+    color: #443a32;
+}
+.m-nv_clr .t-icn-nv .vj_icn {
+    color: #443a32;
+}
+.m-nv_clr .ttp .tip {
+    color: #443a32;
+}
+.m-nv_clr .niddle {
+    background-color: #443a32;
+}
+.m-nv_clr .worm path {
+    stroke: #443a32;
+}
+.m-nv_clr .tv_icn { color: #443a32; }
+
+
+
+
+/*-- List Dropdown CSS ---*/
+.m-nv_clr .dd-nav {
+    background-color: var(--vj-cl-m);
+}
+.m-nv_clr .dd-drp_icn.vj_icn {
+    color: #443a32;
+}

@@ -1,0 +1,29 @@
+.__pcwgtmrhs {
+    background: var(--vj-cl-lg);
+    color: var(--vj-cl-dr1);
+}
+
+.__prchdr.__promtxt {
+    color: var(--vj-cl-dr1);
+    padding: 0 15px;
+}
+
+.__pcwgtmrhs li {
+    background: var(--vj-cl-lg1);
+}
+
+.__pcwgtmrhs .__pd_title {
+    color: var(--vj-cl-lg1);
+}
+
+.__pcwgtmrhs .__pd_title a {
+    color: var(--vj-cl-dr1) !important;
+}
+
+.__pcwgtmrhs .__pd_offtag {
+    color: var(--vj-cl-rg)!important;
+}
+
+.__pcwgtmrhs .__pdlistwrp {
+    padding: 10px 15px !important;
+}

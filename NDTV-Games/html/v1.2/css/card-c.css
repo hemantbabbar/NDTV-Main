@@ -1,0 +1,47 @@
+/*----====== Card C ======----*/
+.crd-c {
+    display: inline-block;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.crd-c .crd_ttl {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.crd-c .crd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.crd-c .crd_img {
+    margin: 0 15px 0 0;
+    width: 140px;
+}
+
+
+
+@media (min-width: 1200px) {
+    .crd-c .crd_img {
+        width: 110px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .crd-c .crd_img {
+        width: 140px;
+    }
+}
+
+
+
+
+
+
+
+
+

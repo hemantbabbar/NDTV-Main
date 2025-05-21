@@ -1,0 +1,37 @@
+
+
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-TxSdw1: #000000;
+    --vj-cl-TxSdw2: #dfdfdf;
+}
+
+
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-TxSdw1: #196158;
+    --vj-cl-TxSdw2: #c4c4c4;
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+    --vj-cl-TxSdw1: #196158;
+    --vj-cl-TxSdw2: #c4c4c4;
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {
+    --vj-cl-TxSdw1: #3b324d;
+    --vj-cl-TxSdw2: #dfdfdf;
+    }
+}
+
+/*---- Text Shadow ----*/
+
+.txt-shdw {
+    color: #fff;
+    text-shadow: -1px 1px 0px var(--vj-cl-TxSdw1), 1px 1px 0px var(--vj-cl-TxSdw1), 1px -1px 0px var(--vj-cl-TxSdw1), -1px -1px 0px var(--vj-cl-TxSdw1), 10px 10px 0px var(--vj-cl-TxSdw1), 9px 9px 0px var(--vj-cl-TxSdw1), 8px 8px 0px var(--vj-cl-TxSdw1), 7px 7px 0px var(--vj-cl-TxSdw1), 6px 6px 0px var(--vj-cl-TxSdw1), 5px 5px 0px var(--vj-cl-TxSdw1), 4px 4px 0px var(--vj-cl-TxSdw1), 3px 3px 0px var(--vj-cl-TxSdw1), 2px 2px 0px var(--vj-cl-TxSdw1), 1px 1px 0px var(--vj-cl-TxSdw1), 0 0 var(--vj-cl-TxSdw1), 8px 11px var(--vj-cl-TxSdw2), 6px 12px var(--vj-cl-TxSdw2), 4px 13px var(--vj-cl-TxSdw2), 2px 14px var(--vj-cl-TxSdw2), 0px 15px var(--vj-cl-TxSdw2), -2px 16px var(--vj-cl-TxSdw2), -4px 17px var(--vj-cl-TxSdw2), -6px 18px var(--vj-cl-TxSdw2), -8px 19px var(--vj-cl-TxSdw2), -10px 20px var(--vj-cl-TxSdw2);
+}

@@ -1,0 +1,29 @@
+.Fcg_Hr-scr {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.Fcg_Hr-scr::-webkit-scrollbar {
+    display:none
+}
+
+.Fcg_Hr-ul {
+    display: flex;
+    padding: 0 0 0 6px;
+    font-size: 0;
+    white-space: normal;
+    flex-wrap: nowrap;
+}
+
+.Fcg_Hr-li {
+    display: inline-block;
+    flex-shrink: 0;
+    float: left;
+    padding: 0 6px;
+    width: 260px;
+}
+
+
+
+

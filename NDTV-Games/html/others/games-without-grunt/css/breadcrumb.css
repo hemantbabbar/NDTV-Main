@@ -1,0 +1,65 @@
+.t-brd {
+    display: flex;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.brd-nv {
+    border-bottom: 0px none;
+    display: flex;
+    padding: 0px 0px 0px 15px;
+    margin: 0px;
+    width: 100%;
+}
+
+.brd-nv .brd-nv_li.brd-nv_act > * {
+    opacity: 0.6;
+}
+
+.brd-nv_ol {
+    display: flex;
+    float: left;
+    line-height: 17px;
+    padding: 12px 0px;
+    box-sizing: border-box;
+}
+
+.brd-nv .brd-nv_li {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-family: var(--ff-one);
+    font-weight: 500;
+    padding-right: 12px;
+    margin-right: 12px;
+    position: relative;
+}
+
+.brd-nv .brd-nv_li > * {
+    color: var(--vj-cl-dr1);
+    opacity: 0.8;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.brd-nv .brd-nv_li::after {
+    background: #fff;
+    display: inline-block;
+    content: "";
+    right: 1px;
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    top: 4px;
+    opacity: 0.2;
+}
+
+.brd-nv .brd-nv_li:last-of-type::after {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .brd-nv_ol {
+        padding: 23px 0px;
+    }
+}

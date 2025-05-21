@@ -1,0 +1,83 @@
+                        
+.lnk-ls_ul {
+    display: inline-block;
+    float: left;
+    margin-bottom: 18px;
+    width: 100%;
+}
+.lnk-ls_li {
+    margin-bottom: 1.6rem;
+}
+.lnk-ls_br .lnk-ls_li {
+    display: inline-block;
+    float: left;
+    margin-bottom: 6px;
+}
+.lnk-ls_br .lnk-ls_li:last-child {
+    border-bottom: 0 none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.lnk-ls_img img {
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+.lnk-ls_txt {
+    color: var(--vj-cl-dr5);
+    font-size: 14px;
+    font-family: var(--ff-two);
+    line-height: 1.7;
+}
+.lnk-ls_li a:hover {
+    text-decoration: underline;
+}
+.lnk-ls_li a:hover .lnk-ls_txt {
+    color: var(--vj-cl-dr);
+}
+
+
+
+
+/*------ Link C card ------*/
+.lnk-c {
+    display: inline-block;
+    float: left;
+    padding: 6px 6px 6px 13px;
+    position: relative;
+    width: 100%;
+}
+.lnk-c:before {
+    border: 2px solid var(--vj-cl-m);
+    border-radius: 5px;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    top: 13px;
+}
+.lnk-c.lnk-c_s2 {
+    margin: 0 8px 4px 0;
+    width: auto;
+}
+.lnk-c .crd_ttl {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--ff-two);
+    line-height: 21px;
+    margin: 0;
+    position: relative;
+}
+
+
+.lnk-c.lnk-c_s2 .crd_lnk {
+    border-bottom: 2px solid #b5b5b55c;
+}
+.lnk-c .vj_ttl-arw {
+    color: var(--vj-cl-dr5);
+    position: absolute;
+    font-size: 8px;
+    top: 7px;
+    right: -17px;
+}

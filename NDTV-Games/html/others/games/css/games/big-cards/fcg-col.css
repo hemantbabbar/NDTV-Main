@@ -1,0 +1,46 @@
+/* --- Card List Grid --- */
+.FcgCol_ul2,
+.FcgCol_ul3 {
+    display: flex;
+    margin: 0 -6px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.FcgCol_ul2 .FcgCol_li,
+.FcgCol_ul3 .FcgCol_li {
+    padding: 0 6px;
+    border-bottom: 0;
+    margin-bottom: 25px;
+}
+
+.FcgCol_ul2 .FcgCol_li {
+    width: 50%
+}
+
+.FcgCol_ul2 .FcgCol_li:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+
+.FcgCol_ul3 .FcgCol_li {
+    width: 33.333%
+}
+
+.FcgCol_ul1 .FcgCol_li {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.FcgCol_ul1 .FcgCol_li:last-child {
+    margin-bottom: 0;
+}
+
+.spacer5, .spacer10, .spacer15, .spacer20, .spacer25, .spacer30, .spacer35, .spacer40{display:inline-block; width:100%; float:left;}
+.spacer5{height:5px;}
+.spacer10{height:10px;}
+.spacer15{height:15px;}
+.spacer20{height:20px;}
+.spacer25{height:25px;}
+.spacer30{height:30px;}
+.spacer35{height:35px;}
+.spacer40{height:40px;}

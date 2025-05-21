@@ -1,0 +1,20 @@
+
+
+
+/*-- Spacers --*/
+.FCG_spcr, .FCG_spcr1, .FCG_spcr2, .FCG_spcr3 {
+    display: flex;
+    float: left;
+    height: 12px;
+    margin: 0;
+    width: 100%;
+}
+.FCG_spcr1 {
+    height: 18px;
+}
+.FCG_spcr2 {
+    height: 22px;
+}
+.FCG_spcr3 {
+    height: 26px;
+}

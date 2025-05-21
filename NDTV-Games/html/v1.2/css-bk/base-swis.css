@@ -1,0 +1,207 @@
+/*!
+ * NDTV Base v1.0.0
+ */
+:root {
+    --vj-cl-m: #FFEB3B;
+
+
+    --vj-cl-ot1: #fffff9;
+    --vj-cl-ot2: rgba(0, 0, 0, 0.52);
+
+    --vj-cl-lg: #fff;
+    --vj-cl-lg1: #fafafa;
+    --vj-cl-lg2: #a9a9a9;
+    --vj-cl-lg3: #d4d4d4;
+    --vj-cl-lg4: #eeeeee;
+
+    --vj-cl-dr: #000;
+    --vj-cl-dr1: rgba(0,0,0,0.8);
+    --vj-cl-dr2: #443a32;
+    --vj-cl-dr3: #4c4c4c;
+    --vj-cl-dr4: #585858;
+    --vj-cl-dr5: #666;
+    --vj-cl-dr6: rgba(0,0,0,0.54);
+    --vj-cl-dr7: #9c9c9c;
+    --vj-cl-dr8: #343a40;
+
+    --vj-cl-rg1: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg2: rgba(247, 247, 247, 0.97);
+    --vj-cl-rg3: rgba(0,0,0,0.17);
+    --vj-cl-rg4: rgba(0, 0, 0, 0.7);
+    --vj-cl-rg5: rgba(0, 0, 0, 0.8);
+    --vj-cl-rg6: rgba(51, 51, 51, 0.03);
+    --vj-cl-rg7: rgba(255, 255, 255, 0.9);
+    --vj-cl-rg8: rgba(51, 51, 51, 0.4);
+    --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg10: rgba(58, 86, 167, 0.47);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    --ttl: #101010;
+    --txt: #343a40;
+    --txt-gray: #777777;
+    --txt-c: #999;
+    --stk-hd: #fffef3;
+    --red: #ffae00;
+    --gray: #666;
+    --dark: #343a40;
+    --clr-b: #dc5a5a;
+    --light-c: #e7e7e7;
+    --light-b: #fce9d8;
+    --clr-a: #fcdd4b;
+    --clr-c: #ca8484;
+    --clr-d: #effdee;
+    --clr-lnk: #5b81dc;
+    --black: #000;
+    --gray-dark: #343a40;
+    --white: #fff;
+    --light: #f7f7f7;
+    --light-d: #fffef3;
+
+
+
+    --ff-one: 'Poppins', sans-serif;
+    --ff-two: 'Poppins', sans-serif;
+    
+    --ff-onea: 'niveau-grotesk', sans-serif;
+    --ff-twob: 'Roboto', sans-serif;
+    --ff-three: 'liebegerda', sans-serif;
+}
+
+
+
+
+
+
+
+:root .day_night {
+    --vj-cl-m: #FFEB3B;
+
+
+    --vj-cl-ot1: #2e3031;
+    --vj-cl-ot2: rgba(0, 0, 0, 0.52);
+
+    --vj-cl-lg: #28292b;
+    --vj-cl-lg1: #333;
+    --vj-cl-lg2: #a9a9a9;
+    --vj-cl-lg3: #d4d4d4;
+    --vj-cl-lg4: #3e3e3e;
+
+    --vj-cl-dr: #fff;
+    --vj-cl-dr1: #dcdcdc;
+    --vj-cl-dr2: #e3e4e7;
+    --vj-cl-dr3: #a9a9a9;
+    --vj-cl-dr4: #c1c1c1;
+    --vj-cl-dr5: #a9a9a9;
+    --vj-cl-dr6: #777;
+    --vj-cl-dr7: #6d6d6d;
+    --vj-cl-dr8: #343a40;
+
+    --vj-cl-rg1: #353939;
+    --vj-cl-rg2: rgba(29, 29, 29, 0.97);
+    --vj-cl-rg3: rgba(105, 105, 105, 0.17);
+    --vj-cl-rg4: rgba(255, 255, 255, 0.7);
+    --vj-cl-rg5: rgba(255, 255, 255, 0.8);
+    --vj-cl-rg6: rgba(33, 33, 33, 0.27);
+    --vj-cl-rg7: rgba(12, 12, 12, 0.9);
+    --vj-cl-rg8: rgba(255, 255, 255, 0.47);
+    --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg10: rgba(186, 204, 255, 0.47);
+}
+
+
+
+
+
+
+
+
+
+.spt-home {
+    /* background-color: var(--vj-cl-lg1); */
+}
+.spt-home .header {
+    background-color: var(--vj-cl-lg1);
+}
+.vjl-cntr {
+    width: 100%;
+    max-width: 1240px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+::-moz-selection { /* Code for Firefox */
+    background: #d3e5ff;
+}
+
+::selection {
+    background: #d3e5ff;
+}
+
+
+
+
+.logo-swrilster {
+    float: left;
+    margin: 0 12px 0 -15px;
+    padding: 0 0 0 15px;
+    position: relative;
+    width: 172px;
+}
+
+.logo-swrilster-ic {
+    color: #443a32;
+    font-size: 41px;
+    font-family: var(--ff-three);
+    font-weight: 700;
+    line-height: 31px;
+    padding: 12px 0 0;
+}
+
+
+.section {
+    display: inline-block;
+    padding: 40px 0 20px;
+    position: relative;
+    width: 100%;
+}
+.section_one {
+    background-color: var(--vj-cl-lg1);
+    display: inline-block;
+    padding: 30px 0 20px;
+    position: relative;
+    width: 100%;
+}
+.section_two {
+    display: inline-block;
+    padding: 0 0 20px;
+    position: relative;
+    width: 100%;
+}

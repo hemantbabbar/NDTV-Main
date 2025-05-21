@@ -1,0 +1,63 @@
+/*----====== Card H ======----*/
+
+
+
+
+.crd-h {
+    background: var(--vj-cl-lg);
+    border-radius: 8px;
+    -webkit-box-shadow:rgba(0, 0, 0, 0.16) 0px 1px 1px;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px;
+    display: flex;
+    float: left;
+    position: relative;
+    height: 100%;
+    flex-direction: column;
+    width:100%;
+    /* transition: all 0.3s ease-in-out 0s; */
+}
+
+.crd-b:hover, .crd-h:hover{box-shadow: 3px 6px 10px rgb(0 0 0 / 10%); -webkit-box-shadow: 3px 6px 10px rgb(0 0 0 / 10%)}
+
+.crd-h_wrp {
+    display: inline-block;
+    float: left;
+    padding-bottom: 30px;
+    position: relative;
+    height: 100%;
+}
+
+.crd-h .crd_txt-wrp {
+    /* display: inline-block; */
+    float: left;
+    padding: 10px 12px;
+}
+
+
+.crd-h .crd_img, .crd-h .img-gr {
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 0;
+}
+
+
+
+.crd-h:hover .crd-ft_bt {
+    opacity: 1;
+}
+
+.crd-h_read {
+    background: var(--vj-cl-lg4);
+    -webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.0);
+    box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.0);
+}
+
+.crd-h_read .crd_lnk {
+    color: var(--vj-cl-dr5);
+}
+
+.img-gr_crd-h {
+    padding-bottom: 134%;
+}
+
+

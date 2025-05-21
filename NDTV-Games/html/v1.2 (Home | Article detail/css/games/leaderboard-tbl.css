@@ -1,0 +1,42 @@
+:root {
+    /* --vj-cl-tbl: #eee; */
+    --vj-cl-tbl: #3b405c;
+}
+/* 
+:root .day_night {
+    --vj-cl-tbl: #3b405c;
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+    }
+    
+    :root .day_night {
+    }
+    
+
+} */
+
+.ldr_tbl-wr {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 24px 0px;
+    font-size: 15px;
+}
+
+.ldr_tbl-th, .ldr_tbl-td {
+    padding: 6px 15px;
+    border-right: 1px solid var(--vj-cl-rg3);
+    border-bottom:1px solid var(--vj-cl-rg3);
+}
+
+.ldr_tbl-th {
+    background-color: var(--vj-cl-tbl);
+}
+
+.ldr_tbl {
+    border-left: 1px solid var(--vj-cl-rg3);
+    border-top:1px solid var(--vj-cl-rg3);
+}

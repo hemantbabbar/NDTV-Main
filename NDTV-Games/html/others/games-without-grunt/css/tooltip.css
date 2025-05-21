@@ -1,0 +1,205 @@
+
+.ttp .tip.on-bottom:after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+.ttp .tip.on-bottom:before {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+.ttp .tip.on-top:after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+.ttp .tip.on-top:before {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+.ttp .tip {
+    position: absolute;
+    width: 100px;
+    font-family: var(--ff-two);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: auto;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all .25s ease-in;
+    transition: all .25s ease-in;
+    text-transform: capitalize;
+}
+.ttp .tip:after, .ttp .tip:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    content: '';
+}
+.tip_wrp {background-color: rgb(21, 25, 47);
+    border: 1px solid rgb(42, 42, 71);border-radius: 6px;box-shadow: 0 16px 24px -8px rgba(0, 0, 0, 0.35);color: var(--vj-cl-dr);padding: 4px 2px;}
+
+.t-icn-nt.ttp .tip {
+    
+    border-radius: 8px;
+}
+
+.ttp .tip.on-bottom {
+    bottom: -47px;
+    left: 50%;
+    margin-left: -52px;
+}
+
+.m-nv .ttp .tip.on-bottom {
+    bottom: auto;
+    top: 65px;
+}
+.ttp .tip.on-bottom:after {
+    top: -6px;
+    left: 50%;
+    margin-left: -4px;
+    border-bottom: 7px solid rgb(21, 25, 47);
+}
+.ttp .tip.on-bottom:before {
+    top: -7px;
+    left: 50%;
+    margin-left: -4px;
+    border-bottom: 7px solid rgb(42, 42, 71);
+}
+
+.ttp:hover .tip.on-bottom {
+    -webkit-transform: translateY(16px);
+    transform: translateY(-15px);
+}
+
+
+
+.ttp .tip.on-top {
+    top: -47px;
+    left: 50%;
+    margin-left: -52px;
+}
+
+.m-nv .ttp .tip.on-top {
+    top: auto;
+    bottom: 65px;
+}
+.ttp .tip.on-top:after {
+    bottom: -6px;
+    left: 50%;
+    margin-left: -4px;
+    border-top: 7px solid rgb(21, 25, 47);
+}
+.ttp .tip.on-top:before {
+    bottom: -7px;
+    left: 50%;
+    margin-left: -4px;
+    border-top: 7px solid rgb(42, 42, 71);
+}
+
+.ttp:hover .tip.on-top {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+}
+
+.ttp:hover .tip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.ttp-lnk {
+    color: #fff;
+    text-decoration: underline;
+}
+.ttp-lnk:hover {
+    color: #d7e3f1;
+}
+
+
+.t-icn-nt.ttp .tip {
+    /* background-color: var(--vj-cl-m); */
+    /* font-size: 12px; */
+    /* line-height: 21px; */
+    margin-left: -134px;
+    /* padding: 10px; */
+    width: 200px;
+    /* text-transform: capitalize; */
+}
+.t-icn-nt.ttp .tip.on-bottom:before {
+    margin-left: 27px;
+}
+.t-icn-nt.ttp .tip.on-bottom:after {
+    margin-left: 26px;
+}
+.t-icn-nt.ttp .tip.on-bottom:after {
+    /* border-bottom-color: var(--vj-cl-m); */
+}
+.t-icn-nt.ttp .tip_wrp {
+    padding: 11px 10px;
+}
+
+.t-icn-nt.ttp .tip.on-bottom:before {
+    border-bottom-color: rgba(0, 0, 0, 0.11);
+}
+.t-icn-nt.ttp .ttp-lnk {
+    background-color: var(--vj-cl-m);
+    /* box-shadow: 0 2px 3px var(--vj-cl-rg3); */
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    padding: 6px 0;
+    text-decoration: none;
+}
+.t-icn-nt.ttp .ttp-lnk:hover {
+    background-color: #348448;
+    color: #fff;
+}
+
+
+
+
+
+@media (max-width: 1349px) {
+.day_night-wrp.ttp .tip.on-bottom:before {margin-left: 18px;}
+
+.day_night-wrp.ttp .tip.on-bottom:after {margin-left: 19px;}
+
+.day_night-wrp.ttp .tip.on-bottom {
+    left: 0;
+}
+}
+
+@media (max-width: 1200px) {
+.m-nv_out .t-icn-nt.ttp .tip {
+    margin-left: -173px;
+}
+
+.m-nv_out .t-icn-nt.ttp .tip.on-bottom:before {
+    margin-left: 67px;
+}
+
+.m-nv_out .t-icn-nt.ttp .tip.on-bottom:after {
+    margin-left: 66px;
+}
+}
+
+
+@media (max-width: 768px) {
+.t-icn-sr .tip {
+    display: none;
+}
+.in-pg_ss .ttp .tip.on-bottom {
+    left:0;
+}
+
+.in-pg_ss .ttp .tip.on-bottom:after,
+.in-pg_ss .ttp .tip.on-bottom:before {
+    margin-left: 14px;
+}
+}

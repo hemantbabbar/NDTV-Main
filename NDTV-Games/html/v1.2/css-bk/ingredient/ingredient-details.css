@@ -1,0 +1,28 @@
+
+
+.IngrHnNm_wr {
+    display: inline-block;
+    float: left;
+    margin-bottom: 12px;
+    width: 100%;
+}
+.IngrHnNm_wr-tx {
+    color: var(--vj-cl-dr6);
+    display: inline-block;
+    float: left;font-size: 16px;
+    font-weight: 400;
+    margin-right: 7px;
+    position: relative;
+}
+.IngrHnNm_wr-tx2 {
+    color: var(--vj-cl-dr1);
+    font-weight: 700;
+    margin-right: 0;
+}
+
+
+
+
+
+
+

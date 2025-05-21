@@ -1,0 +1,141 @@
+
+    
+    
+
+
+/*----====== Separator Left ======----*/
+
+.FTtl_cn {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0;
+    width: 100%;
+    align-items: flex-start;
+    position: relative;
+}
+.FTtl_wr {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+
+.FTtl, .FTtl1, .FTtl2, .FTtl3 {
+    color: var(--vj-cl-dr);
+    display: flex;
+    float: left;
+    font-family: var(--ff-one);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+}
+.FTtl1 {
+    font-family: var(--ff-one);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.FTtl2 {
+    font-family: var(--ff-one);
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.FTtl3 {
+    font-size: 23px;
+}
+
+.FTtl1 .vj_icn, .FTtl2 .vj_icn, .FTtl3 .vj_icn {
+    display: inline-block;
+    float: right;
+    font-size: 9px;
+    margin: 0 0 0 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.FTxt_wr {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+
+.FTxt, .FTxt1, .FTxt2, .FTxt3 {
+    color: var(--vj-cl-dr1);
+    display: flex;
+    float: left;
+    font-family: var(--ff-one);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    z-index: 1;
+}
+.FTxt1 {
+    font-family: var(--ff-one);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.FTxt2 {
+    font-family: var(--ff-one);
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+
+
+
+
+
+
+
+.FTtl-bg1 {
+    /* border-color: #67676724; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

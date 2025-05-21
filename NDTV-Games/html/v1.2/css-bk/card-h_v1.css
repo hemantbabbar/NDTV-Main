@@ -1,0 +1,92 @@
+/*----====== Card H ======----*/
+
+.crd-h_v1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.crd-h_v1_ul {
+    display: flex;
+    /* float: left; */
+    margin: 0 -8px 0;
+    /* width: 100%; */
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.crd-h_v1_li {
+    display: inline-block;
+    float: left;
+    /* border-bottom: 1px solid var(--vj-cl-rg1); */
+    margin-bottom: 16px;
+    padding: 0 8px 0;
+    width: 25%;
+}
+
+.crd-h_v1_ul-5 .crd-h_v1_li {
+    width: 20%
+}
+
+/* .crd-h_v1_li:last-child {
+    border-bottom: 0 none;
+    margin-bottom: 14px;
+    padding-bottom: 0;
+} */
+
+
+.crd-h_v1_ul .crd-h .crd_txt-wrp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.crd-h_v1_ul .crd-h .crd_txt-wrp .crd_ttl{flex: 1;}
+
+
+@media (max-width:1199px) {
+
+    .crd-h .crd_txt-wrp {
+        padding: 10px;
+    }
+
+    .crd-h .crd_ttl {
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .crd-h_v1_li {
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 33.33%;
+        margin-bottom: 16px;
+    }
+
+    .crd-h_v1_ul {
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom:20px;
+    }
+   
+    .crd-h_v1_ul-5 .crd-h_v1_li{width:33.33%;}
+    .tm_non{margin-top: 20px;}
+}
+
+@media (max-width:767px) {
+    .crd-h_v1_li{padding-left:4px; padding-right:4px; margin-bottom:8px;}
+    .crd-h_v1_ul{margin-left:-4px; margin-right:-4px;}
+    }
+
+@media (max-width:640px) {
+    
+    .crd-h_v1_ul-5 .crd-h_v1_li {width: 50%}
+    .crd-h_v1_li{width:50%;}
+    }
+    @media (max-width:400px) {
+    .crd-h .crd_ttl{font-size:12px; line-height:18px}
+
+    }

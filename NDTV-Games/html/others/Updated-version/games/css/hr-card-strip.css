@@ -1,0 +1,124 @@
+
+.hr-crd-stp {
+    background-color: var(--vj-cl-lg1);
+    border-bottom: 6px solid rgba(0, 0, 0, 0.07);
+    display: inline-block;
+    float: left;
+    margin: 0 0 10px;
+    padding: 6px 0 6px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.hr-crd-stp .hr-scroll {
+    overflow-x: scroll;
+}
+.hr-crd-stp .hr-scroll__item {
+    margin: 10px 12px 10px 0;
+    width: 69%;
+}
+.hr-crd-stp_wrp {
+    background: var(--vj-cl-lg);
+    border: 1px solid rgba(0,0,0,0.07);
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    display: inline-block;
+    float: left;
+    padding: 8px;
+    overflow: hidden;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+
+.hr-crd-stp_img .img-gr {
+    padding-bottom: 132.7%;
+}
+.hr-crd-stp_lnk {
+    color: var(--vj-cl-dr2);
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+}
+.hr-crd-stp_ttl {
+    color: var(--vj-cl-dr5);
+    display: inline-block;
+    border-bottom: 2px solid var(--vj-cl-ot2);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    position: relative;
+    top: -4px;
+}
+
+.hr-crd-stp_txt__link {
+    color: var(--vj-cl-ot1);
+    font-size: 16px;
+    padding: 8px 0;
+}
+.hr-crd-stp_img {
+    display: inline-block;
+    float: left;
+    margin-right: 14px;
+    width: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+.hr-crd-stp .hr-crd-stp_int {
+    margin: 10px 10px 10px 15px;
+    width: 62px;
+}
+
+.hr-crd-stp_amp {
+    display: inline-block;
+    font-size: 20px;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.hr-crd-stp_amp-tx {
+    font-size: 17px;
+    line-height: 19px;
+    margin: 0;
+}
+
+.hr-crd-stp_int-wr {
+    display: inline-block;
+    float: left;
+    margin: 18px 0 0 0;
+}
+.hr-crd-stp_str .hr-crd-stp_int-wr {
+    margin: 29px 0 0 0;
+}
+
+.swpr_webstr {
+    overflow: hidden;
+}
+
+
+
+@media (max-width: 1024px) {
+.hr-crd-stp .hr-scroll__item {
+    width: 36%;
+}
+}
+@media (max-width: 630px) {
+.hr-crd-stp .hr-scroll__item {
+    width: 46%;
+}
+}
+
+@media (max-width: 440px) {
+.hr-crd-stp .hr-scroll__item {
+    width: 69%;
+}
+}
+
+
+
+    .hr-crd-stp .hr-crd-stp_int {
+    width: 62px;
+}

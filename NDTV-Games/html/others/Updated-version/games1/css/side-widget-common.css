@@ -1,0 +1,113 @@
+
+/*------ Side widget Wrapper ------*/
+.SidWg_wrp {
+    /* background: var(--vj-cl-bg4); */
+    /* border: 2px solid var(--vj-cl-br2); */
+    /* border-bottom: 4px solid var(--vj-cl-br2); */
+    /* border-bottom: 2px solid var(--vj-cl-br2); */
+    /* box-shadow: 0 3px 12px rgb(0 0 0 / 3%); */
+    /* border-radius: 8px; */
+    /* padding: 0 0 24px; */
+    margin-bottom: 30px;
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+
+.SidWg_bg {
+    background: var(--vj-cl-bg4);
+    border: 2px solid var(--vj-cl-br2);
+    border-bottom: 4px solid var(--vj-cl-br2);
+    /* border: 1px solid var(--vj-cl-rg1); */
+    /* box-shadow: 0 3px 12px rgb(0 0 0 / 3%); */
+    border-radius: 8px;
+    padding: 18px 16px;
+}
+.SidWg_pad {
+    padding: 18px 16px;
+}
+
+
+
+
+
+
+
+
+
+/*------ Side widget Title ------*/
+
+.SidWg_ttl-wr {
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.SidWg_ttl {
+    border-bottom: 3px solid #d5899adb;
+    color: var(--vj-cl-dr1);
+    display: flex;
+    float: left;
+    font-family: var(--ff-three);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.7px;
+    padding: 0 4px 0 0;
+    margin-bottom: 3px;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+    align-items: center;
+}
+
+
+
+
+
+/*------ Spacer ------*/
+.SidWg_spcr {
+    display: inline-block;
+    float: left;
+    border: 0 none;
+    margin: 0;
+    height: 38px;
+    width: 100%;
+}
+
+/*<div class="SidWg_spcr"></div>*/
+
+
+
+
+/*------ Separator ------*/
+
+.SidWg_sep, .SidWg_sep1 {
+    display: inline-block;
+    float: left;
+    border-bottom: 2px solid var(--vj-cl-br1);
+    width: 100%;
+}
+.SidWg_sep1 {
+    margin: 0 0 30px 0;
+}
+
+
+
+
+
+
+
+
+/*
+<div class="SidWg_wrp SidWg_pad">
+                        <div class="SidWg_ttl-wr clearfix">
+                            <div class="SidWg_ttl">Our Best Recipes</div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+*/

@@ -1,0 +1,155 @@
+/*<div class="rbn">
+      <div class="rbn_inn">
+          <div class="rbn_txt">Swirlster Pick</div>
+      </div>
+  </div>*/
+
+
+/*ribbon css */
+
+.rbn {
+  margin: 3em;
+  background: var(--vj-cl-m);
+  width: 37px;
+  height: 131px;
+  position: relative;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  margin: auto;
+  position: absolute;
+  left: 22px;
+  top: -45px;
+  z-index: 0;
+}
+
+.rbn_inn {
+  width: 82%;
+  height: 108%;
+  display: block;
+  margin: auto;
+  z-index: 100;
+  position: relative;
+  border-right: dashed 0.0625em rgba(0, 0, 0, 0.17);
+  border-left: dashed 0.0625em rgba(0, 0, 0, 0.17);
+  overflow: hidden;
+}
+.rbn_txt {
+  color: #FFF;
+  display: block;
+  text-align: center;
+  top: 50%;
+  margin-top: 14px;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  position: relative;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  font-family: var(--ff-one);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.rbn:before{
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 12px solid var(--vj-cl-m);
+  border-right: 26px solid transparent;
+}
+.rbn:after{
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 12px solid  var(--vj-cl-m);
+  border-left: 26px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<div class="award">
+<div class="ribbon top">
+<span>Swrilster</span>
+</div>
+<div class="ribbon bottom">
+<span><strong>Pick</strong></span>
+</div>
+</div>*/
+
+
+.award {
+  position: absolute;
+  z-index: 1;
+  height: 125px;
+  top: 18px;
+  left: -24px;
+}
+.award .ribbon {
+  position: relative;
+  width: 60px;
+  padding: 4px 4px;
+  background-color: #03A9F4;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  -webkit-animation: grow 1s both cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-animation: grow 1s both cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  animation: grow 1s both cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.award .ribbon span {
+  display: block;
+}
+.award .ribbon span strong {
+  color: rgba(255, 246, 246, 0.96);
+  text-transform: uppercase;
+  padding-left: 18px;
+}
+.award .ribbon.top {
+  z-index: 1;
+  transform: skewY(-25deg)  translateY(-1px);
+  border-radius: 5px 0 0 5px;
+}
+.award .ribbon.top span {
+  transform: skewY(25deg) rotateZ(-25deg);
+}
+.award .ribbon.bottom {
+  transform: skewY(25deg);
+  background: linear-gradient(45deg, #03A9F4, #0c69da);
+}
+.award .ribbon.bottom span {
+  transform: skewY(-25deg) rotateZ(25deg);
+}
+
+
+
+

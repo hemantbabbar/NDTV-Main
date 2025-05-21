@@ -1,0 +1,120 @@
+
+
+.highlights_wrap {
+    border: 0 none;
+    min-width: 100%;
+    margin-left: 0;
+    padding: 0 0 8px 0;
+    position: relative;
+    float: left;
+}
+.sp-hig {
+    /* background-color: var(--vj-cl-lg); */
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--ff-one);
+    margin-bottom: 0;
+    /* padding: 0 8px 0 8px; */
+    position: relative;
+    text-transform: capitalize;
+}
+.st-crd {
+    color: var(--vj-cl-rg5);
+    display:  inline-block;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--ff-one);
+    line-height: 21px;
+    margin: 4px -1px 3px 0;
+    padding: 6px 0;
+    height: 100%;
+    overflow: hidden;
+    z-index: 6;
+}
+
+.lhs_highlights ol {
+    background-color: var(--vj-cl-rg2);
+    border-radius: 6px;
+    display: inline-block;
+    margin: 0 0 8px;
+    padding: 36px 13px 16px;
+}
+.newins_widhead h2 {
+    font-size: 19px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+.lhs_highlights ol li {
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    counter-increment: articles;
+    line-height: 1.6;
+    position: relative;
+    width: 100%;
+}
+.lhs_highlights ol li:last-child {
+    border-right: 0 none;
+}
+
+.lhs_highlights ol li .st-crd::before {
+  /* content: counter(articles); */
+  border-radius: 6px;
+  border: 2px solid var(--vj-cl-m);
+  content: "";
+  color: rgba(41, 46, 60, 0.77);
+  font-weight: 500;
+  left: 0;
+  position: absolute;
+  top: 15px;
+  height: 8px;
+  width: 8px;
+  line-height: 1;
+  z-index: -1;
+}
+
+
+
+
+
+.sp-hig_wrp {
+    background-color: var(--vj-cl-lg1);
+    border-radius: 6px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 18px;
+    padding: 12px;
+    width: 100%;
+}
+.sp-hig_ul {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.sp-hig_li {
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    float: left;
+    font-size: 14px;
+    font-weight: var(--vj-fw1);
+    counter-increment: articles;
+    line-height: 1.6;
+    padding: 0 15px 0 14px;
+    position: relative;
+    width: 100%;
+}
+.sp-hig_li:last-child {
+    border-bottom: 0 solid var(--vj-cl-rg1);
+}
+
+.sp-hig_li:after {
+    border: 2px solid var(--vj-cl-m);
+    border-radius: 22px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 17px;
+    height: 8px;
+    width: 8px;
+}

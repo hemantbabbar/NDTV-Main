@@ -1,0 +1,81 @@
+
+
+
+
+
+
+.section_one {
+        background-color: var(--vj-cl-lg);
+    display: inline-block;
+    padding: 40px 0 30px;
+    position: relative;
+    width: 100%;
+}
+.section_two {
+    display: inline-block;
+    padding: 0 0 20px;
+    position: relative;
+    width: 100%;
+}
+
+.section_bg2 {
+    background-color: #6098f7;
+/*    background-image: linear-gradient(135deg,#0e0c1b,#5c273b);
+    background: linear-gradient(126deg,rgb(103, 178, 255) 0,rgb(90, 124, 247) 50%,rgb(135, 43, 236) 100%,rgba(255,255,255,1) 250%);*/
+    padding: 40px 0 50px;
+    z-index: 4;
+}
+/*.section_bg2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle at top left,rgba(255,255,255,0) 0,rgba(255,255,255,.1) 30%,rgba(255,255,255,.07) 30%,rgba(255,255,255,.07) 50%,rgba(255,255,255,0) 50%,rgba(255,255,255,.07) 90%,rgba(255,255,255,0) 0,rgba(255,255,255,0) 0);
+    z-index: -1;
+}*/
+
+.section_bg3 {
+    background-color: #1f294e;
+/*    background-image: linear-gradient(135deg,#082441,#290304);
+    background: linear-gradient(126deg,rgb(15, 15, 39) 0,rgb(10, 34, 78) 50%,rgb(29, 1, 11) 100%,rgba(255,255,255,1) 250%);*/
+    padding: 60px 0;
+    z-index: 4;
+}
+/*.section_bg3:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle at top left,rgba(255,255,255,0) 0,rgba(43, 14, 169, 0.66) 30%,rgba(8, 42, 93, 0.47) 30%,rgba(85, 178, 210, 0.1) 50%,rgba(255,255,255,0) 50%,rgba(105, 19, 63, 0.28) 90%,rgba(255,255,255,0) 0,rgba(255,255,255,0) 0);
+    z-index: -1;
+}*/
+
+
+
+
+
+
+
+.section_bg1 {
+    background-color: #e7f2f7;
+/*    background-image: url("../../images/latest-bg.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;*/
+}
+/*.section_bg1:before {content: "";position: absolute;left: 0;right: 0;top: 0;bottom: 0;background: rgba(245, 245, 245, 0.87);}*/
+
+@media (prefers-color-scheme:dark){
+.section_bg1:before {background: rgb(29, 29, 29);}
+}
+
+
+
+
+

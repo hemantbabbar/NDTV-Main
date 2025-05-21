@@ -1,0 +1,63 @@
+
+
+@media (max-width: 768px) {
+
+
+.dd-nav_hvr.dd-nav_one {
+    position: initial;
+}
+
+.res-bt_sub-nav .dd-nav {
+        border-radius: 0;
+    left: -1px;
+    right: -1px;
+    width: auto;
+}
+
+
+/*---- Match dropdown ----*/
+
+.sub-nav-drp {
+    background-color: var(--vj-cl-lg);
+    opacity:0;
+    padding-bottom:15px;
+    top: 93px;
+    padding: 0 16px;
+    width: 100%;
+    visibility:hidden;
+    -webkit-transform: translateY(-70px);
+    -moz-transform: translateY(-70px);
+    -ms-transform: translateY(-70px);
+    -o-transform: translateY(-70px);
+    transform: translateY(-70px);
+    -webkit-transition: all .17s cubic-bezier(.37,.15,.32,.94);
+    -moz-transition: all .17s cubic-bezier(.37,.15,.32,.94);
+    -ms-transition: all .17s cubic-bezier(.37,.15,.32,.94);
+    -o-transition: all .17s cubic-bezier(.37,.15,.32,.94);
+    transition: all .17s cubic-bezier(.37,.15,.32,.94);
+}
+
+.res-bt_sub-nav .sub-nav-drp{
+    opacity:1;
+    position: fixed;
+    visibility:visible;
+    z-index: 99997;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+
+.sub-nav-drp .m-nv_lnk {
+    width: 100%;
+}
+
+
+.res-bt_sub-nav .scr_wig, .res-bt_sub-nav .m-nv {
+    z-index: 99999;
+    pointer-events: none;
+}
+
+}

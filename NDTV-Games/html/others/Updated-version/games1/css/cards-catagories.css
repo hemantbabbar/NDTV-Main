@@ -1,0 +1,36 @@
+
+.cat_crd {
+    display: inline-block;
+    float: left;
+    margin-bottom: 30px;
+    background-color: var(--vj-cl-lg);
+    border-radius: 15px;
+    text-align: center;
+    padding: 16px 8px;
+    -webkit-box-shadow: 2px 2px 12px rgba(171, 171, 180, 0.18);
+    box-shadow: 2px 2px 12px rgba(171, 171, 180, 0.18);
+    width: 100%;
+}
+.cat_crd-img {
+    width: 64px;
+    margin: 0 auto;
+    float: none;
+}
+.cat_crd-img .img-gr {
+    border-radius: 100px;
+}
+.cat_crd-ttl {
+    color: var(--vj-cl-dr1);
+    display: inline-block;
+    margin-bottom: 3px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+}
+
+.cat_crd-img .vj_icn {
+    font-size: 44px;
+}
+

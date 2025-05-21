@@ -1,0 +1,28 @@
+.FBtn_btn {
+    background-color: #d9e6ff;
+    background: #ffc9c929;
+    border: 2px solid #ce5757;
+    color: var(--vj-cl-mtx);
+    border-radius: 32px;
+    color: var(--vj-cl-dr);
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0 auto;
+    padding: 12px 41px 12px 21px;
+    position: relative;
+    text-transform: lowercase;
+    align-items: center;
+    justify-content: center;
+}
+.FBtn_btn {
+    color: var(--vj-cl-dr);
+}
+
+
+.FBtn_btn .vj_icn {
+    font-size: 12px;
+    position: absolute;
+    right: 21px;
+}

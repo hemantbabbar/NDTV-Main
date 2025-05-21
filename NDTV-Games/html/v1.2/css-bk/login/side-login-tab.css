@@ -1,0 +1,134 @@
+.LogSd_tb-wr{
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+    /* background: var(--vj-cl-lgBg1); */
+    /* background: var(--vj-cl-lg); */
+    border-bottom: 1px solid var(--vj-cl-br3); 
+    width: 100%;
+    float: left;
+}
+
+.LogSd_tb {
+    margin: 0px;
+    padding: 0px 50px 0px 0px;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.LogSd_tb-lnk {
+    margin: 0px;
+    list-style: none;
+    padding: 12px 6px;
+    color: var(--vj-cl-dr2);
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.5s ease 0s;
+    letter-spacing: 0px;
+    /* text-transform: uppercase; */
+    flex: 1 1 0%;
+    font-size: 12px;
+    position: relative;
+}
+
+.LogSd_tb-lnk .WthTp_inf {
+    top: 13px;
+    right: 4px;
+}
+
+.LogSd_tb-lnk:hover {
+    color: var(--vj-cl-mtx);
+    border-color: rgb(153, 153, 153);
+}
+
+.LogSd_tb-lnk.LogSd_tb-lnk-act {
+    position: relative;
+    color: var(--vj-cl-mtx);
+}
+
+.LogSd_tb-lnk.LogSd_tb-lnk-act::before {
+    background: var(--vj-cl-mtx);
+    bottom: 0px;
+    content: "";
+    left: 0px;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+}
+
+.LogSd_tb-cnt-wr {
+    padding: 20px 15px;
+    float: left;
+    width: 100%;
+    /* height: calc(100vh - 46px); */
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.LogSd_tb-cnt {
+    display: none;
+    /* color: rgb(136, 136, 136); */
+    /* font-weight: 300; */
+    /* font-size: 15px; */
+    opacity: 0;
+    transform: translateY(15px);
+    animation: 0.5s ease 0s 1 normal forwards running fadeIn;
+}
+
+.LogSd_tb-cnt.LogSd_tb-lnk-act {
+    display: block;
+}
+
+#js_otp-verfy {
+    animation: 0.5s ease 0s 1 normal forwards running fadeIn;
+    opacity: 0;
+    transform: translateY(15px);
+}
+
+.js_sid-nav-right1 #js_log {
+    display: none;
+}
+
+.js_sid-nav-right #js_otp-verfy {
+    display: none;
+}
+
+.js_sid-nav-right.js_sid-nav-right1 #js_otp-verfy {
+    display: block;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+
+@media (min-width:768px) {
+    .LogSd_tb-cnt-wr{padding:45px 35px;}
+    .LogSd_tb-lnk{font-size: 15px;padding:21px 10px;}
+
+}
+
+
+
+
+
+
+
+
+/* Temprary Css */
+.logSig_wr .logSig_wr{position: relative;}
+/* .sid-nav-rhs .sid-nav-cls{z-index:1; background-color: transparent;} */
+/* .SdPnl_tab-cnt-wr{display: flex; align-items: center;} */
+body.js_sid-nav-right{overflow:hidden;}
+.Log_logo-wr{padding-top: 30px;}
+
+.sid-nav-rhs .contry_drop:before{top:-25px}
+.sid-nav-rhs .contry_drop:after{top:-23px}
+
+

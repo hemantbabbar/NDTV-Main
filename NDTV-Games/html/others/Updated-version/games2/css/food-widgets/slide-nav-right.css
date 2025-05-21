@@ -1,0 +1,64 @@
+
+
+
+.sid-nav-rhs, .sid-nav-rhs1, .sid-nav-rhs2, .sid-nav-rhs3 {
+    display: inline-block;
+    float: right;
+    height: 100%;
+    left: auto;
+    right: -350px;
+    overflow-y: scroll;
+    top: 0;
+    width: 330px;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999999;
+    z-index: 2147483647;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all .31s cubic-bezier(.37,.15,.32,.94);
+    -moz-transition: all .31s cubic-bezier(.37,.15,.32,.94);
+    -ms-transition: all .31s cubic-bezier(.37,.15,.32,.94);
+    -o-transition: all .31s cubic-bezier(.37,.15,.32,.94);
+    transition: all .31s cubic-bezier(.37,.15,.32,.94);
+}
+
+
+.sid-nav-rhs .sid-nav-wrp, .sid-nav-rhs1 .sid-nav-wrp, .sid-nav-rhs2 .sid-nav-wrp, .sid-nav-rhs3 .sid-nav-wrp{background-color:#1a1b28; height:calc(100vh - 0px); float:none;}
+
+.js_sid-nav-right .sid-nav-rhs, .js_sid-nav-right1 .sid-nav-rhs1, .js_sid-nav-right2 .sid-nav-rhs2, .js_sid-nav-right3 .sid-nav-rh3{
+    -webkit-transform: translateX(-350px);
+    -moz-transform: translateX(-350px);
+    -ms-transform: translateX(-350px);
+    -o-transform: translateX(-350px);
+    transform: translateX(-350px);
+}
+
+
+.js_sid-nav-right .sid-nav_li a:hover, .js_sid-nav-right .sid-nav_li a:focus,
+.js-srh-opn .sid-nav_li a:hover, .js_sid-nav-right .sid-nav_li a:focus,
+.js_sid-nav-right .sid-nav_li a:hover:before, .js_sid-nav-right .sid-nav_li a:focus:before,
+.js-srh-opn .sid-nav_li a:hover:before, .js_sid-nav-right .sid-nav_li a:focus:before {
+    color: var(--vj-cl-dr);
+}
+
+
+
+
+@media (min-width: 1200px) {
+.sid-nav-rhs, .sid-nav-rhs1, .sid-nav-rhs2, .sid-nav-rhs3 {
+    right: -520px;
+    width: 500px;
+}
+
+.js_sid-nav-right .sid-nav-rhs, .js_sid-nav-right1 .sid-nav-rhs1, .js_sid-nav-right2 .sid-nav-rhs2, .js_sid-nav-right3 .sid-nav-rhs3 {
+    -webkit-transform: translateX(-520px);
+    -moz-transform: translateX(-520px);
+    -ms-transform: translateX(-520px);
+    -o-transform: translateX(-520px);
+    transform: translateX(-520px);
+}
+}

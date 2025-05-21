@@ -1,0 +1,80 @@
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-Pgbg1: #f3f3f3;
+    --vj-cl-Pgbg2: #f4ebf2;
+    --vj-cl-Pgbg3: #f1f0f8;
+}
+
+
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-Pgbg1: #000000;
+    --vj-cl-Pgbg2: #2d272c;
+    --vj-cl-Pgbg3: #242529;
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+    --vj-cl-Pgbg1: #000000;
+    --vj-cl-Pgbg2: #2d272c;
+    --vj-cl-Pgbg3: #242529;
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {
+    --vj-cl-Pgbg1: #f3f3f3;
+    --vj-cl-Pgbg2: #f4ebf2;
+    --vj-cl-Pgbg3: #f1f0f8;
+    }
+}
+
+
+
+
+
+.HmBgTrs_bg_vd .nav-stk_wr {
+    top: -130px;
+}
+
+.Hm-Bg_colr {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    transition: all .17s cubic-bezier(.37,.15,.32,.94);
+    z-index: -1;
+}
+.HmBgTrs_bg_vd .Hm-Bg_colr {
+    background: var(--vj-cl-Pgbg1);
+}
+
+.HmBgTrs_bg_edtp .Hm-Bg_colr {
+    background: var(--vj-cl-Pgbg2);
+    /* opacity: 0; */
+}
+
+
+
+
+.HmBgTrs_bg_vd #bg_HMR {
+    transition: all .31s cubic-bezier(.37,.15,.32,.94);
+    opacity: 0;
+}
+
+.HmBgTrs_bg_HMR #bg_HMR {
+    background: var(--vj-cl-Pgbg3);
+    opacity: 1;
+}
+.HmBgTrs_bg_HMR .Hm-Bg_colr {
+    background: var(--vj-cl-Pgbg3);
+}
+
+
+
+

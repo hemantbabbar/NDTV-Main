@@ -1,0 +1,83 @@
+.shr_bar {
+    display: inline-block;
+    float: left;
+    margin-bottom: 1.2rem;
+    width: 100%;
+}
+.shr_scl {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    font-size: 0;
+}
+.shr_scl-ul {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.shr_scl-li {
+    border-right: 1px solid rgba(0, 0, 0, 0.07);
+    display: inline-block;
+    float: left;
+}
+.shr_scl-li:first-child .share_count {
+    border-radius: 4px 0 0 4px;
+}
+.shr_scl-li:last-child {
+    border-right: 0 none;
+}
+.shr_scl-lnk {
+    border-radius: 3px;
+    color: #343a40;
+    padding: 0 22px;
+    display: block;
+    position: relative;
+    width: 60px;
+}
+.shr_scl-lnk:hover, .shr_scl-lnk:focus {
+    background-color: #67c9e8;
+    color: #fff;
+}
+.shr_scl-icn {
+    font-size: 17px;
+    line-height: 41px;
+}
+
+
+
+.shr_scl .whatsapp, .shr_scl .facebook, .shr_scl .twitter, .shr_scl .reddit, .shr_scl .email { background-color: transparent; color: #343a40; }
+.shr_scl .whatsapp:hover, .shr_scl .facebook:hover, .shr_scl .twitter:hover, .shr_scl .reddit:hover, .shr_scl .email:hover { background-color: #f7f7f7; }
+.shr_scl .whatsapp:hover { color: #6ca933; }
+.shr_scl .facebook:hover { color: #4373d2; }
+.shr_scl .twitter:hover { color: #67c9e8; }
+.shr_scl .reddit:hover { color: #ff4500; }
+.shr_scl .email:hover { color: #1f7ad7; }
+
+
+
+
+
+
+
+.share_count {
+    border: 1px solid #effffc;
+    float: right;
+    text-align: center;
+    line-height: 1;
+    padding: 4px 17px;
+    position: relative;
+    background: #ecfcf8;
+    text-shadow: 0 1px 2px rgb(255, 255, 255);
+}
+.counts {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    margin-bottom: 0.13rem;
+}
+.sharetext {
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}

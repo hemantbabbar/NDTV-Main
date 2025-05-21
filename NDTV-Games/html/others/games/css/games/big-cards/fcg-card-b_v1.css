@@ -1,0 +1,27 @@
+
+/*----====== Card C ======----*/
+.FCrd-b_v1 {
+    display: inline-block;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+.FCrd-b_v1 .FCrd_ttl {
+    margin-bottom: 0;
+}
+.FCrd-b_v1 .FCrd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.FCrd-b_v1 .FCrd_img {
+    margin: 0 0 0 12px;
+    width: 100px;
+}
+
+
+.FCrd-b_v1 + .FCrd-b_v1 {margin-top:15px;}

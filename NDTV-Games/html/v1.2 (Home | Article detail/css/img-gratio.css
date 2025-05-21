@@ -1,0 +1,152 @@
+
+.img-gr {
+    /*background-color: var(--vj-cl-lg1);*/
+    background: url("https://food.ndtv.com/static/responsive/images/logo-placeholder.svg") no-repeat center var(--vj-cl-lg1);
+    background-size: 69px;
+    border-radius: 6px;
+    box-shadow: 0 0 0 1px rgba(44, 58, 74, 0.1) inset;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 75%; /* 4:3 Aspect Ratio */
+    position: relative;
+}
+.img-gr img, .img-gr video, .img-gr iframe, .img-gr amp-img, .img-gr_art-mn img {
+    /*background-color: #f1f3f7;*/
+    color: rgba(0,0,0,0);
+    filter: brightness(1.1) contrast(1.1) saturate(1.2);
+    left: 0;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.img-gr_a {
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+}
+.img-gr_b {
+    padding-bottom: 66.66%; /* 3:2 Aspect Ratio */
+}
+.img-gr_c {
+    padding-bottom: 75%; /* 4:3 Aspect Ratio */
+}
+.img-gr_d {
+    padding-bottom: 100%; /* 1:1 Aspect Ratio */
+}
+
+.img-gr_art-mn {
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+/*.img-gr_xsm {
+    padding-bottom: 56.25%;   16:9 Aspect Ratio 
+}
+.img-gr_sm {
+    padding-bottom: 66.66%;   3:2 Aspect Ratio 
+}
+.img-gr_md {
+    padding-bottom: 75%;   4:3 Aspect Ratio 
+}*/
+.img-gr_sq {
+ padding-bottom: 100%;  /* 1:1 Aspect Ratio */
+}
+
+.vd-gr_md {
+    padding-bottom: 71.9%;
+}
+
+
+/*
+.img_ratios {
+    padding-top: 100%;  1:1 Aspect Ratio 
+    padding-top: 56.25%;  16:9 Aspect Ratio 
+    padding-top: 62.5%;  8:5 Aspect Ratio 
+    padding-top: 66.66%;  3:2 Aspect Ratio 
+    padding-top: 75%;  4:3 Aspect Ratio 
+}*/
+
+
+
+
+
+/*.crd-b .img-gr, .crd-e .img-gr, .crd-ph .img-gr, .crd-vo .img-gr, .amp-lst-a .img-gr, .ins_instory_dv .img-gr  {
+    background-size: 120px;
+}
+.rnk_lst-lhs .img-gr {
+    background-size: 30px;
+}*/
+
+
+
+
+
+/*
+
+data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKICAgICB2aWV3Qm94PSIwIDAgMSAxIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxIDE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPC9zdmc+Cg==
+
+.img-gr {
+    background: url("https://food.ndtv.com/static/responsive/images/logo-placeholder.svg") no-repeat center var(--vj-cl-lg1);
+    background-size: 69px;
+}
+.crd-b .img-gr, .amp-lst-a .img-gr {
+    background-size: 120px;
+}
+.rnk_lst-lhs .img-gr {
+    background-size: 30px;
+}
+*/
+/*desktop*/
+/*
+.crd-b .img-gr, .amp-lst-a .img-gr {
+    background-size: 160px;
+}
+
+
+*/
+
+
+/*
+
+.snv-lng .sid-nav_div {
+    padding: 0 14px;
+}
+
+.snv-lng .snv_lg-lnk {
+    background: #3e3e3e;
+    border-radius: 6px;
+    margin: 0 6px;
+    padding: 8px 25px 8px 18px;
+}
+
+
+.snv-lng .snv_lg-lnk.snv_lg-act {
+    opacity: 1;
+}
+.snv_lg-lnk {
+    color: var(--vj-cl-dr1);
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 0 10px 0 20px;
+    line-height: 21px;
+    opacity: 0.5;
+}
+.snv_lg-dot {
+    background: var(--vj-cl-dr1);
+    border-radius: 12px;
+    display: inline-block;
+    float: left;
+    margin: 7px 11px 0 0;
+    height: 6px;
+    width: 6px;
+}
+
+
+
+light 
+.snv-lng .snv_lg-lnk {
+    background: #e8e8e8;
+}*/

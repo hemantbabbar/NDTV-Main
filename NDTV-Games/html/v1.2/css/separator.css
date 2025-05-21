@@ -1,0 +1,69 @@
+
+/*----====== Separator ======----*/
+.spr_24, .spr_34,
+.spc_24, .spc_34 {
+    display: inline-block;
+    float: left;
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    width: 100%;
+}
+.spr_bg {
+    border-bottom-width: 2px;
+    border-bottom-color: var(--vj-cl-rg1);
+}
+.spr_24 {
+    margin-bottom: 24px;
+}
+.spr_34 {
+    margin-bottom: 34px;
+}
+
+
+.spc_bg {
+    border-bottom-width: 0; 
+    border-bottom-color: transparent; 
+}
+.spc_24 {
+    margin-bottom: 24px;
+}
+.spc_34 {
+    margin-bottom: 34px;
+}
+
+
+
+.sptr, .sptr_one, .sptr_two, .sptr_three, .sptr_four, .sptr_five {
+    display: inline-block;
+    float: left;
+    border-bottom: 2px solid var(--vj-cl-br1);
+    width: 100%;
+}
+.sptr {
+    margin: 36px 0;
+}
+.sptr_one {
+    margin: 20px 0 40px 0;
+}
+.sptr_two {
+    margin: 36px 0 0;
+}
+.sptr_three {
+    margin: 0;
+}
+
+.sptr_four {
+    margin:10px 0 40px 0;
+}
+
+
+.sptr_five {
+    margin:25px 0 20px;
+}
+
+
+
+@media (max-width: 768px) {
+    
+    .sptr_one{margin:0 0 20px;}
+    .sptr_four{margin:10px 0 20px 0;}
+    }

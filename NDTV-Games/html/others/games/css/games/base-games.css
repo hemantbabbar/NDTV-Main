@@ -1,0 +1,234 @@
+:root {
+  --vj-cl-m: #295953;
+  --vj-cl-mtx: #d37ab7;
+  --vj-cl-ot1: #925d9b;
+  --vj-cl-ot2: #4d2550;
+  --vj-cl-ot3: #704678;
+  --vj-cl-ic1: rgba(255, 255, 255, 0.35);
+  --vj-cl-ic2: rgba(255, 255, 255, 0.8);
+  --vj-cl-bg: #2c2c2c;
+  --vj-cl-bg1: #1e1f1f;
+  --vj-cl-bg2: #1e1f1f;
+  --vj-cl-bg3: #181818;
+  --vj-cl-bg4: #272727;
+  --vj-cl-br1: #353737;
+  --vj-cl-br2: #3b3937;
+  --vj-cl-sh1: #fafafa;
+  --vj-cl-sh2: #fafafa;
+  --vj-cl-lg: #272727;
+  --vj-cl-lg1: #333;
+  --vj-cl-lg2: #a9a9a9;
+  --vj-cl-lg3: #d4d4d4;
+  --vj-cl-lg4: #383838;
+  --vj-cl-lg5: #333;
+  --vj-cl-lg6: #272727;
+  --vj-cl-dr: #fff;
+  --vj-cl-dr1: #d4d4d4;
+  --vj-cl-dr2: #e3e4e7;
+  --vj-cl-dr3: #a9a9a9;
+  --vj-cl-dr4: #c1c1c1;
+  --vj-cl-dr5: #a3a9a9;
+  --vj-cl-dr6: #777;
+  --vj-cl-dr7: #999999;
+  --vj-cl-dr8: #343a40;
+  --vj-cl-rg1: #353939;
+  --vj-cl-rg2: rgba(29, 29, 29, 0.97);
+  --vj-cl-rg3: rgba(232, 232, 232, 0.17);
+  --vj-cl-rg4: rgba(255, 255, 255, 0.7);
+  --vj-cl-rg5: rgba(255, 255, 255, 0.8);
+  --vj-cl-rg6: rgba(33, 33, 33, 0.27);
+  --vj-cl-rg7: rgba(12, 12, 12, 0.9);
+  --vj-cl-rg8: rgba(255, 255, 255, 0.47);
+  --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+  --vj-cl-rg10: rgba(186, 204, 255, 0.47);
+  --vj-cl-rg11: rgba(0, 0, 0, 0.47);
+  --vj-flt1: invert(0.1);
+  --vj-fw1: 400;
+}
+
+body {
+  background-color: rgb(21, 21, 31);
+  color: rgb(192, 196, 210);
+}
+
+body.spt-home {
+  background-color: var(--vj-cl-lg1);
+}
+
+.spt-home .header {
+  background-color: var(--vj-cl-lg1);
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgb(175, 74, 143);
+  color: rgb(255, 255, 255);
+}
+
+.body-lit {
+  background-color: var(--vj-cl-lg6);
+}
+
+.vj-cnt {
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+
+.spcr-tp_hm {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  width: 100%;
+}
+
+.section {
+  display: inline-block;
+  float: left;
+  padding: 0px;
+  position: relative;
+  width: 100%;
+}
+
+.section_one {
+  background-color: var(--vj-cl-lg);
+  display: inline-block;
+  padding: 40px 0px 30px;
+  position: relative;
+  width: 100%;
+}
+
+.section_two {
+  display: inline-block;
+  padding: 0px 0px 20px;
+  position: relative;
+  width: 100%;
+}
+
+a:hover, a:focus {
+  color: rgb(255, 255, 255);
+}
+
+.Tp-srch_wr {
+  float: left;
+  max-width: 100%;
+  width: calc(100% - 425px);
+  text-align: center;
+}
+
+.TprLnk_wr {
+  float: right;
+  margin: 15px 0px 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.TprLnk_ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+}
+
+.TprLnk_li {
+  margin: 0px 3px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.TprLnk_lnk, .TprLnk_lnk:focus {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 6px 15px 6px 12px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out 0s;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  background: rgba(150, 150, 150, 0.1);
+}
+
+.TprLnk_lnk .vj_icn{margin-right:6px; font-size: 16px;}
+
+
+
+.TprLnk_lnk:hover {
+  background: rgb(104, 66, 255);
+  color: rgb(255, 255, 255);
+}
+
+.TprLnk_lnk.act {
+  background: linear-gradient(270deg, rgb(251, 0, 255), rgb(255, 121, 0));
+  color: rgb(255, 255, 255);
+}
+
+.TprLnk_wr .day_night-wrp {
+  padding: 0px;
+  margin-left: 5px;
+}
+
+.tp_lng {
+  display: none;
+}
+
+.m-nv_clr .vj_logo-ndtv {
+  width: 160px;
+  height: 30px;
+  display: flex;
+}
+.m-nv_clr .vj_logo-ndtv img{float:left}
+
+.Tp-srch_wr .t-icn-sr {
+  float: none;
+  display: inline-block;
+  height: 40px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.Tp-srch_wr .t-sr-txt {
+  padding-top: 10px;
+}
+
+.vjl-cntr {
+  max-width: 1440px;
+}
+
+
+
+@media (min-width: 1600px) {
+  section {
+      --w: calc((100% - 1600px) / 2 );
+  }
+
+  .spcr-tp_hm {
+      display: inline-block;
+      float: left;
+      height: 50px;
+      width: 100%;
+  }
+}
+
+
+@media (max-width:991px) {
+.Tp-srch_wr{width: calc(100% - 84px - 297px); display:none;}
+}
+@media (max-width: 500px) {
+  .TprLnk_lnk, .TprLnk_lnk:focus{font-size:0;padding: 0;width: 36px;height: 36px;text-align: center;justify-content: center;}
+  .TprLnk_lnk .vj_icn{margin-right:0;}
+  .Tp-srch_wr{width: calc(100% - 84px - 173px);}
+  .m-nv_clr .vj_logo-ndtv img{width:140px;}
+  .ndtv-logo{padding-top: 21px;}
+  .m-nv_clr .vj_logo-ndtv{width:auto;}
+}
+
+@media (max-width:350px) {
+  .m-nv_clr .vj_logo-ndtv img{width:110px;}
+
+}
+
+

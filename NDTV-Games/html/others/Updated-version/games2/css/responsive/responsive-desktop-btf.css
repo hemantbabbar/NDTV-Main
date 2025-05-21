@@ -1,0 +1,147 @@
+/*----====== Responsive Desktop BTF ======----*/
+
+
+
+@media (min-width: 1200px) {
+
+    .dd-nav_hvr:hover .dd-nav {
+        opacity:1;
+        visibility: visible;
+        -webkit-transform-origin: top left;
+        -webkit-transform: scale(1, 1);
+    }
+
+    .lhs_highlights ol li .st-crd::before {
+        top: 6px;
+    }
+
+
+
+    /*Social Expand Native*/
+
+    .crd_shr:hover .crd_shr-ss {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: scale(1, 1);
+        -moz-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    /*Top Score Widget*/
+    .scr-inf_wrp {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .scr_chn-drw, .scr_chn-ttl, .scr_ntf-swt-lbl {
+        font-size: 12px;
+    }
+
+
+    /*Newsletter at the end of the story*/
+    .nsl_l {
+        width: 43%;
+    }
+    .nsl_fr {
+        width: 57%;
+    }
+
+    /*Top Sub Nav*/
+    .sub-nav, .scr_wig {
+        position: relative;
+        top: 0;
+    }
+
+    /*Story Highlights*/
+    .sp-hig {
+        padding: 0;
+    }
+    .highlights_wrap {
+        /* min-width: 100%; */
+    }
+    .sp-hig_li {
+        border-bottom: 0 none;
+        width: 33.333%;
+    }
+    .sp-hig_li:last-child .st-crd {
+        border-right: 0 solid var(--vj-cl-rg1);
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .hr-crd-stp {
+        border-bottom: 0 none;
+        border-radius: 6px;
+        margin-bottom: 36px;
+    }
+    .hr-crd-stp .hr-scroll__item {
+        width: 37%;
+    }
+    .hr-crd-stp .hr-crd-stp_int {
+        width: 69px;
+    }
+
+
+    .js-expand-txt__height, .js-expand-txt__height .expand-txt {
+        overflow: visible;
+    }
+
+
+    /*--======== score-sm-widget Starts ========--*/
+
+    .sp-scr_wrp {
+        padding: 16px 36px;
+    }
+    .sp-scr_wrp .scr_tm-wrp {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 6px;
+    }
+    .sp-scr_wrp .scr_plr-wrp .scr_tm-wrp {
+        font-size: 14px;
+    }
+    .sp-scr_wrp .scr_flg {
+        width: 26px;
+        margin-right: 10px;
+    }
+    .sp-scr_wrp .scr_txt-ony {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 0 6px;
+    }
+    .sp-scr_wrp .scr_chn-win {
+        font-size: 12px;
+        line-height: 1.6;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding: 3px 8px;
+    }
+    .sp-scr_wrp .scr_win-arw {
+        display: inline-block;
+        margin-top: -5px;
+        vertical-align: middle;
+    }
+    .sp-scr_wrp .scr_dt-red {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 700;
+    }
+    .scr-wig_ul .scr-wig_li, .scr-wig_ul2 .scr-wig_li {
+    min-width: 348px;
+}
+
+
+
+
+
+    .sp-scr_wrp .ftb-wid_row {
+        font-size: 15px;
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+    .sp-scr_wrp .ftb-wid_gl-act:before {
+        top: 6px;
+    }
+    /*--======== score-sm-widget Ends ========--*/
+
+}

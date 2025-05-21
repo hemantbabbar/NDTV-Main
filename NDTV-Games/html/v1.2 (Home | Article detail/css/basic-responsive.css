@@ -1,0 +1,76 @@
+
+
+
+@media (max-width:520px){
+    
+    .m-nv .ttp .tip.on-bottom {
+        display: none;
+    }
+}
+/* For 1200px & Below*/
+@media (max-width:420px){
+    .-mb-30 {
+    margin-top: 0;
+}
+    .full-img {
+    border-radius: 0;
+    margin-left: -20px;
+    width: calc(100% + 40px);
+}
+    
+    .full-img .img-gr {
+    border-radius: 0;
+}
+    
+    .fod-home .vjl-cntr, .vjl-cntr {
+        padding: 0 20px;
+    }
+
+    .ndtv-logo-wrp {
+        padding: 13px 12px 0 0;
+        margin: 0;
+        width: auto;
+    }
+
+    .t-icn-nv {
+        width: 40px;
+    }
+    .vj_icn.vj_logo-ndtv, .vj_icn.vj_logo-dot {
+        font-size: 102px;
+    }
+
+    header.header, nav.m-nv_lf {
+        display: none;
+    }
+
+    .set_drp-lnk {
+        padding: 6px 8px 6px 8px;
+    }
+
+
+    .set_drp-lnk > span {
+        display: none;
+    }
+    .set_drp-lnk {
+        padding: 6px 8px 6px 8px;
+    }
+    .set_drp-lnk {
+        margin: 9px 6px 8px 0;
+    }
+    .set_drp .vj_icn {
+        margin-left: 0;
+    }
+
+    .crd-d .crd_img {
+        margin-bottom: 12px;
+    }
+
+
+
+    .order-1, .order-2, .order-3 {
+        ms-flex-order: 1;
+        order: 1;
+    }
+    
+    
+}

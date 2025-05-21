@@ -1,0 +1,70 @@
+
+
+
+
+
+/*----====== Card B ======----*/
+.crd-b_v2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--vj-cl-lg);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px;
+    /* margin-bottom: 16px; */
+
+   
+}
+.crd-b_h-at {
+    height: auto;
+}
+
+
+
+.crd-b_v2 .crd_ttl {
+    margin-bottom: 0;
+    flex:1
+}
+
+.crd-b_v2 .crd_txt-wrp {
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.crd-b_v2 .crd-ft_bt{flex:1;}
+
+
+@media (max-width: 768px) {
+    .crd-b.crd-b_res-bor {
+        border-bottom: 1px solid var(--vj-cl-rg1);
+        margin-bottom: 16px;
+        height: auto;
+    }
+
+    .crd-b_v2 .crd_ttl{font-size:14px;}
+
+    .crd-b_v2{padding:6px;}
+
+}
+
+
+@media (max-width: 400px) {
+    .crd-b_v2 .crd_ttl{font-size:12px; line-height:18px}
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    .crd-b_Txbg1, .crd-b_Txbg2 {
+        position: relative;
+        /* padding-right: 20px; */
+    }
+}

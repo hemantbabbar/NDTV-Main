@@ -1,0 +1,24 @@
+/* Vjl-m-non —Mobile None
+Vjl-t-non — Tablet None
+Vjl-d-non —Desktop None
+Vjl-non — All display None */
+
+.Vjl-m-non, .Vjl-t-non, .Vjl-d-non, .Vjl-non{display:none;}
+
+
+
+@media (min-width: 1200px) {
+    .Vjl-m-non, .Vjl-t-non{display:block;}
+}
+
+
+@media (min-width: 768px) {
+.Vjl-m-non, .Vjl-d-non{display:block;}
+
+}
+
+
+@media (min-width:0px) {
+
+}
+

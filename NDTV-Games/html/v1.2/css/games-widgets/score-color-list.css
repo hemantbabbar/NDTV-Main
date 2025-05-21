@@ -1,0 +1,199 @@
+
+.scr_com-ttl {
+    background-color: var(--vj-cl-m);
+    border-radius: 8px;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 24px;
+    padding: 10px 16px;
+    width: 100%;
+}
+    .scr_clr-lst {
+    background-color: var(--vj-cl-lg);
+    margin: 0px 0 25px;
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.scr_clr-li{
+    counter-increment: foo;
+    display: block;
+    margin:20px 0 20px 0;
+    position: relative;
+}
+.scr_clr-lhs {
+    left:0;
+    position: absolute;
+    right: 15px;
+    text-align:center;
+    top: 0;
+    vertical-align: top;
+    width: 30px;
+    z-index: 0;
+}
+.scr_clr-rhs{
+    border-bottom:1px solid var(--vj-cl-lg4);
+    margin: 0 0 0 55px;
+    min-height: 65px;
+}
+.scr_clr-li:last-child .scr_clr-rhs{
+    border-bottom:0;
+}
+.scr_clr-ttl{
+    font-size: 15px;
+    font-weight:700;
+    padding: 0;
+    position: relative;
+    text-transform:uppercase;
+    z-index: 1;
+}
+.scr_clr-txt{
+    border-radius: 7px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+.scr_clr-dul{
+    color: var(--vj-cl-dr1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-top: 5px;
+}
+.scr_clr-icn{
+    background-color: var(--vj-cl-ot2);
+    border-radius:100%;
+    color: var(--vj-cl-lg);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 5px 0 0;
+    overflow:hidden;
+    position:relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.17);
+    z-index:1;
+}
+.scr_clr-icn:after{
+    bottom:0;
+    content:'';
+    display:block;
+    height:40px;
+    left:0;
+    margin:auto;
+    position:absolute;
+    right:0;
+    top:0;
+    width:100%;
+    background: -moz-linear-gradient(to bottom,  rgba(255, 255, 255, 0.52) 0%,rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(to bottom,  rgba(255, 255, 255, 0.52) 0%,rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom,  rgba(255, 255, 255, 0.52) 0%,rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#4d000000',GradientType=0 );
+    z-index:-1;
+}
+
+
+
+/* Drop Down */
+
+
+
+
+
+.drp_dwn-trg:not(:only-child):after,
+.drp_dwn-trg:visited:not(:only-child):after {
+    padding-left: 4px;
+    content: ' ÃƒÂ¢Ã¢â‚¬â€œÃ‚Â¾';
+}
+.drp_dwn-li{
+    background-color: var(--vj-cl-lg1);
+    border-radius:4px;
+    display:inline-block;
+    padding:5px 9px;
+}
+.drp_dwn-lnk:hover, .drp_dwn-lnk:visited, .drp_dwn-lnk:focus{
+    background-color: var(--vj-cl-lg1);
+    color: var(--vj-cl-dr3);
+}
+.drp_dwn-lnk{
+    color: var(--vj-cl-dr3);
+    font-size:14px;
+}
+.sub_drp-dwn {
+    background-color: var(--vj-cl-lg);
+    display:none;
+    position: absolute;
+    z-index:2;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    width:auto;
+}
+.sub_drp-li{
+    display:block;
+    width:100%;
+}
+.sub_drp-lnk:hover, .sub_drp-lnk:visited, .sub_drp-lnk:focus{
+    background-color: var(--vj-cl-lg1);
+    color: var(--vj-cl-dr3);
+}
+.sub_drp-lnk{
+    color: var(--vj-cl-dr3);
+    display:block;
+    padding:8px 15px;
+}
+
+
+
+.ref-btn .vj_icn {
+    width: 19px;
+    height: 18px;
+    float: right;
+    margin: 12px 0 0 8px;
+}
+
+    
+.icn_clr-0{
+    background-color: #e6e6e6;
+    color: var(--vj-cl-dr1);
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.17);
+}
+.icn_clr-1{
+    background-color: #666;
+    color:var(--vj-cl-lg);
+}
+.icn_clr-2{
+    background-color: #4fb9eb;
+    color:var(--vj-cl-lg);
+}
+.icn_clr-3{
+    background-color: #eb509f;
+    color:var(--vj-cl-lg);
+}
+.icn_clr-4{
+    background-color: #4656AB;
+    color:var(--vj-cl-lg);
+}
+.icn_clr-5{
+    background-color: #23C05C;
+    color:var(--vj-cl-lg);
+}
+.icn_clr-6 {
+    background-color: #23C05C;
+    color:var(--vj-cl-lg);
+}
+.icn_clr-w {
+    background-color: #e0513f;
+    color:var(--vj-cl-lg);
+}
+.icn_clr-wd, .icn_clr-lb, .icn_clr-nb, icn_clr-b {
+    background-color: #aaaaaa;
+    color:var(--vj-cl-lg);
+}
+
+
+
+

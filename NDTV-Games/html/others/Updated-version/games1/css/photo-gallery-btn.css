@@ -1,0 +1,40 @@
+/*Button*/
+.glr_btn {
+    display: block;
+    float: left;
+    margin: 30px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.glr_btn:after, .glr_btn:before {
+    background-color: var(--vj-cl-scr2);
+    content: "";
+    height: 2px;
+    position: absolute;
+    top: 19px;
+    width: 32%;
+    z-index: -1;
+}
+.glr_btn:before {
+    left: 5px;
+}
+.glr_btn:after {
+    right: 5px;
+}
+
+.glr_btn-bck {
+    font-size: 28px;
+    margin: 0 0 3px 0;
+    padding: 0 0 0 5px;
+    vertical-align: middle;
+    transform: rotate(180deg);
+}
+
+
+
+@media (min-width: 1200px) {
+    .glr_btn:after, .glr_btn:before {
+    top: 24px;
+}
+}

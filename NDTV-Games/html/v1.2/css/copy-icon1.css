@@ -1,0 +1,174 @@
+
+.CpyLk_wr, .CpyLk_lk, .CpyLk_icn-wr, .CpyLk_tt-wr, .CpyLk_tt-tx {
+    display: flex;
+    margin: 0;
+    float: left;
+    justify-content: center;
+}
+
+.CpyLk_wr {
+    margin-left: 14px;
+}
+
+
+.CpyLk_lk {
+    background: rgba(255, 255, 255, 0);
+    color: var(--vj-cl-dr);
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.CpyLk_icn-wr { 
+    font-size: 0;
+    line-height: 1;
+    margin: 0 auto;
+    position: relative;
+    vertical-align: middle;
+}
+
+.CpyLk_lk .vj_icn {
+    color: var(--vj-cl-dr2);
+    font-size: 19px;
+}
+ 
+
+.CpyLk_tt-wr {
+    box-sizing: border-box;
+    cursor: auto;
+    font-family: var(--ff-two);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    transition: all .25s ease-in;
+    text-transform: capitalize;
+    visibility: hidden;
+    width: 84px;
+    -webkit-box-sizing: border-box;
+    -webkit-transition: all .25s ease-in;
+    z-index: 10;
+}
+
+.CpyLk_tt-tx {
+    background-color: var(--vj-cl-lg1);
+    border: 1px solid var(--vj-cl-rg3);
+    border-radius: 6px;
+    box-shadow: 0 16px 24px -8px rgba(0, 0, 0, .35);
+    color: var(--vj-cl-dr);
+    padding: 4px 2px;
+    text-align: center;
+    width: 100%;
+}
+
+.CpyLk_lk .CpyLk_tt-wr {
+    bottom: -47px;
+    right: -8px;
+    margin-left: 0px;
+}
+
+.CpyLk_lk:hover .CpyLk_tt-wr2, .js_Cpyd .CpyLk_tt-wr {
+    -webkit-transform: translateY(16px);
+    transform: translateY(-11px);
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.vj_icn {
+    display: inline-block;
+    height: 1em;
+    fill: currentColor;
+    stroke-width: 0;
+    stroke: currentColor;
+    width: 1em;
+}
+
+ 
+
+.CpyLk_tt-wr:after, .CpyLk_tt-wr:before {
+    content: ''; 
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+.CpyLk_lk .CpyLk_tt-wr:before {
+    border-bottom: 7px solid var(--vj-cl-dr6);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    right: 9px;
+    top: -7px;
+}
+
+.CpyLk_lk .CpyLk_tt-wr:after {
+    border-bottom: 7px solid var(--vj-cl-lg1);
+    right: 9px;
+    top: -6px;
+}
+
+.CpyLk_lk .CpyLk_tt-wr:after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+
+
+
+
+
+
+
+/*
+<div class="CpyLk_wr">
+    <a href="javaScript:void(0)" title="copy" class="CpyLk_lk">
+      <div class="CpyLk_icn-wr ">
+        <svg class="vj_icn vj_copy-i">
+          <use xlink:href="#vj_copy-i"></use>
+        </svg>
+      </div>
+      <div class="CpyLk_tt-wr">
+        <div class="CpyLk_tt-tx">Coped</div>
+      </div>
+
+    </a>
+  </div>
+
+
+
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="vj_copy-i" viewBox="0 0 32 32">
+      <path
+        d="M31.462 31.675h-20.459c-0.129 0-0.234-0.105-0.234-0.234v-20.458c0-0.129 0.105-0.234 0.234-0.234h20.459c0.129 0 0.234 0.105 0.234 0.234v20.459c0 0.129-0.105 0.234-0.234 0.234zM12.264 12.383v17.656c0 0.078 0.063 0.141 0.141 0.141h17.656c0.078 0 0.141-0.063 0.141-0.141v-17.656c0-0.078-0.063-0.141-0.141-0.141h-17.656c-0.078 0-0.141 0.063-0.141 0.141z">
+      </path>
+      <path
+        d="M5.537 21.212h-1.494c-2.061 0-3.737-1.677-3.737-3.737v-13.454c0-2.061 1.676-3.737 3.737-3.737h13.453c2.060 0 3.737 1.676 3.737 3.737v1.495c0 0.412-0.335 0.747-0.747 0.747s-0.747-0.335-0.747-0.748v-1.495c0-1.236-1.006-2.243-2.242-2.243h-13.453c-1.236 0-2.243 1.006-2.243 2.243v13.453c0 1.236 1.006 2.242 2.243 2.242h1.494c0.412 0 0.748 0.335 0.748 0.747s-0.334 0.747-0.748 0.747z">
+      </path>
+    </symbol>
+  </defs>
+</svg>
+*/
+
+
+/*
+$(document).ready(function(){
+           
+    $('.CpyLk_lk').click(function(){ 
+        var selfVer = $(this);
+        $(selfVer).addClass('js_Cpyd');
+   
+        setTimeout(function(){
+            $(selfVer).removeClass('js_Cpyd');
+        }, 3000)
+     })
+})
+*/
+
+
+
+
+

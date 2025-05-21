@@ -1,0 +1,72 @@
+.top10list_head {
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+.new_top10list ol {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.cnt_lst-wrp, .new_top10list {
+    background-color: var(--vj-cl-lg);
+    margin: 15px 0 15px;
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.cnt_lst-li, .new_top10list ol li {
+    counter-increment: foo;
+    display: block;
+    margin: 22px 0 0 0;
+    padding: 21px 25px 21px 55px;
+    position: relative;
+    z-index: 6;
+}
+.cnt_lst-li:before, .new_top10list ol li:before {
+    background-color: var(--vj-cl-lg);
+    border-radius: 4px;
+    bottom: 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.27);
+    content: "";
+    left: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: -1;
+}
+.cnt_lst-li:after, .new_top10list ol li:after {
+    background-color: var(--vj-cl-m);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.9);
+    content: counter(foo) "";
+    font-size: 14px;
+    font-weight: 600;
+    left: 0;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    vertical-align: top;
+    z-index: -2;
+}
+.cnt_lst-txt{
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    padding: 15px 11px 11px 50px;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Num List */
+
+.num_lst-wrp{
+    margin:15px 0 0;
+}

@@ -1,0 +1,117 @@
+.SidWg_wrp {
+    margin-bottom: 30px;
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.SidWg_bg {
+    background: var(--vj-cl-bg4);
+    border-width: 2px 2px 4px;
+    border-style: solid;
+    border-color: rgb(42, 42, 71);
+    border-image: initial;
+    border-radius: 8px;
+    padding: 18px 16px;
+}
+
+.SidWg_pad {
+    padding: 18px 16px;
+}
+
+.s-ls_br .s-ls_lnk {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.s-ls_ul {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.s-ls_li {
+    display: inline-block;
+    float: left;
+    border-bottom: 1px solid rgb(42, 42, 71);
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+
+.s-ls_br .s-ls_li:last-child {
+    border-bottom: 0px none;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+}
+
+.s-ls_txt {
+    color: var(--vj-cl-dr5);
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-family: var(--ff-two);
+    line-height: 21px;
+    width: 100%;
+}
+
+.SidWg_ttl-wr {
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+.SidWg_ttl {
+    border-bottom: 3px solid #fd4370;
+    color: var(--vj-cl-dr1);
+    display: flex;
+    float: left;
+    font-family: var(--ff-three);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.7px;
+    padding: 0px 4px 0px 0px;
+    margin-bottom: 3px;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+    align-items: center;
+}
+
+.SidWg_spcr {
+    display: inline-block;
+    float: left;
+    border: 0px none;
+    margin: 0px;
+    height: 38px;
+    width: 100%;
+}
+
+.SidWg_sep, .SidWg_sep1 {
+    display: inline-block;
+    float: left;
+    border-bottom: 2px solid rgb(42, 42, 71);
+    width: 100%;
+}
+
+.SidWg_sep1 {
+    margin: 0px 0px 30px;
+}
+
+@media (max-width: 1199px) {
+    .tp-rtd .lst-wig-ul{margin: 0 -5px;}
+    .tp-rtd .lst-wig-li{width:25%; padding:0 5px}
+    
+    }
+
+@media (max-width:1040px) {
+    .tp-rtd .lst-wig-li{width:50%; padding:0 5px}
+    
+    }
+
+    @media (max-width: 600px) {
+        .tp-rtd .lst-wig-li{width:100%; padding:0 5px}
+    }

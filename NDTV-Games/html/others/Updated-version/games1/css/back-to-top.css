@@ -1,0 +1,38 @@
+
+.back-to-top {
+  background-color: var(--vj-cl-rg7);
+  border: 1px solid var(--vj-cl-rg3);
+  box-shadow: 0 2px 6px var(--vj-cl-rg3);
+  bottom: -80px;
+  border-radius: 30px;
+  cursor:pointer;
+  display: inline-block;
+  height: 50px;
+  margin: 0 0 20px -21px;
+  position: fixed;
+  right:30px;
+  width: 50px;
+  z-index: 99998;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: all .4s cubic-bezier(.37,.15,.32,.94);
+  -moz-transition: all .4s cubic-bezier(.37,.15,.32,.94);
+  -ms-transition: all .4s cubic-bezier(.37,.15,.32,.94);
+  transition: all .4s ease-out;
+}
+
+.back-to-top.js-bkt-out {
+    -webkit-transform: translateY(-130px);
+    -moz-transform: translateY(-130px);
+    -ms-transform: translateY(-130px);
+    transform: translateY(-130px);
+}
+
+.back-to-top .vj_icn {
+    margin: -8px 0 0 -8px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}

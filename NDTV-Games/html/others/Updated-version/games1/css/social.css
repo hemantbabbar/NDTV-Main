@@ -1,0 +1,311 @@
+.ss {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    /* position: absolute; */
+    right: 0px;
+    bottom: 5px;
+}
+
+.ss_pg {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0px 0px 2px;
+    right: auto;
+    top: auto;
+    position: relative;
+}
+
+.ss-st {
+    position: absolute;
+    top: 10px;
+}
+
+.ss .ss-lk {
+    border-radius: 50%;
+    color: var(--vj-cl-dr2);
+    list-style: outside none none;
+    display: inline-block;
+    float: left;
+    position: relative;
+    font-size: 17px;
+    line-height: 1.8;
+    height: 34px;
+    width: 34px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    background: rgba(34, 34, 58, 0.8);
+    border: 1px solid rgb(42, 42, 71);
+}
+
+.ss a:first-child.ss-lk {
+    margin-left:0;
+}
+
+.ss .ss-lk:hover {
+    background-color: rgb(104, 66, 255);
+}
+
+.ss-lk.comment {
+    color: var(--vj-cl-m);
+    border: 0px;
+    outline: 0px;
+    width: auto;
+}
+
+.ss .ss-lk.comment:hover {
+    color: var(--vj-cl-dr2);
+    border-color: initial;
+}
+
+.ss .ss-cu {
+    background-color: rgb(247, 247, 247);
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 1px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.ss .ss-lk .ss-icn {
+    border-radius: 4px;
+    text-align: center;
+    font-size: 17px;
+    display: block;
+    margin: 0px 2px 2px 0px;
+    height: 34px;
+    line-height: 37px;
+}
+
+.ss .ss-lk .ss_sr {
+    background: none 0px 0px repeat scroll rgba(255, 255, 255, 0.2);
+    text-align: center;
+    font-size: 0.7rem;
+    display: block;
+    margin: 0px;
+    line-height: 24px;
+}
+
+.ss .whatsapp:hover .vj_icn {
+    color: rgb(108, 169, 51);
+}
+
+.ss .facebook:hover .vj_icn {
+    color: rgb(67, 115, 210);
+}
+
+.ss .twitter:hover .vj_icn {
+    color: rgb(103, 201, 232);
+}
+
+.ss .reddit:hover .vj_icn {
+    color: rgb(255, 69, 0);
+}
+
+.ss .googleplus:hover .vj_icn {
+    color: rgb(211, 72, 54);
+}
+
+.ss .snapchat:hover .vj_icn {
+    color: rgb(254, 248, 81);
+}
+
+.ss .kooapp:hover .vj_icn {
+    color: rgb(242, 198, 69);
+}
+
+.ss .linkedin:hover .vj_icn {
+    color: rgb(38, 116, 195);
+}
+
+.email.ttp tip {
+    background-color: rgb(31, 122, 215);
+}
+
+.ss .email:hover .vj_icn {
+    color: rgb(31, 122, 215);
+}
+
+.whatsapp.ttp tip {
+    background-color: rgb(108, 169, 51);
+}
+
+.whatsapp.ttp tip.on-bottom::after {
+    border-bottom: 7px solid rgb(108, 169, 51);
+}
+
+.facebook.ttp tip {
+    background-color: rgb(67, 115, 210);
+}
+
+.facebook.ttp tip.on-bottom::after {
+    border-bottom: 7px solid rgb(67, 115, 210);
+}
+
+.twitter.ttp tip {
+    background-color: rgb(103, 201, 232);
+}
+
+.twitter.ttp tip.on-bottom::after {
+    border-bottom: 7px solid rgb(103, 201, 232);
+}
+
+.reddit.ttp tip {
+    background-color: rgb(255, 69, 0);
+}
+
+.reddit.ttp tip.on-bottom::after {
+    border-bottom: 7px solid rgb(255, 69, 0);
+}
+
+.googleplus.ttp tip {
+    background-color: rgb(211, 72, 54);
+}
+
+.googleplus.ttp tip.on-bottom::after {
+    border-bottom: 7px solid rgb(211, 72, 54);
+}
+
+.snapchat.ttp tip {
+    background-color: rgb(254, 248, 81);
+}
+
+.snapchat.ttp tip.on-bottom::after {
+    border-bottom: 7px solid rgb(254, 248, 81);
+}
+
+.kooapp.ttp tip {
+    background-color: rgb(242, 198, 69);
+}
+
+.kooapp.ttp tip.on-bottom::after {
+    border-bottom: 7px solid rgb(242, 198, 69);
+}
+
+.linkedin.ttp tip {
+    background-color: rgb(38, 116, 195);
+}
+
+.linkedin.ttp tip.on-bottom::after {
+    border-bottom: 7px solid rgb(38, 116, 195);
+}
+
+.email.ttp tip {
+    background-color: rgb(31, 122, 215);
+}
+
+.email.ttp tip.on-bottom::after {
+    border-bottom: 7px solid rgb(31, 122, 215);
+}
+
+.ss_cunt {
+    background-color: var(--light);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+    color: var(--clr-d);
+    display: inline-block;
+    float: right;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 3px 10px 0px;
+    padding: 2px 9px;
+}
+
+.ss_cunt-t {
+    color: var(--gray-dark);
+}
+
+.m-nv .ss .ss-lk {
+    height: 60px;
+    line-height: 60px;
+    margin: 0px;
+    width: 45px;
+}
+
+.m-nv .ss {
+    top: 0px;
+}
+
+.m-nv .ss .ss-lk.comment {
+    width: auto;
+    line-height: 51px;
+}
+
+.m-nv .cmt-cunt {
+    margin-top: 15px;
+}
+
+.m-nv .ss .ss-lk.mailbox {
+    line-height: 56px;
+}
+
+.pst_opt {
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ath_cnt {
+    margin-right: 10px;
+    max-width: 34%;
+    font-size: 0px;
+}
+
+.ath_img {
+    border: 3px solid rgb(241, 241, 241);
+    border-radius: 100%;
+    display: inline-block;
+    height: 70px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.ath_img-img {
+    width: auto;
+    height: 100%;
+    max-width: none;
+}
+
+.ath_nme {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    vertical-align: middle;
+    width: calc(100% - 70px);
+    word-break: break-word;
+    padding-left: 6px;
+}
+
+.pst_icn-btn {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.pst_scl {
+    flex: 1 1 0%;
+}
+
+.pst_scl::before, .pst_scl::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.ss .vj_icn {color: var(--vj-cl-dr2);font-size: 14px;/* height: 34px; */}
+.ss .comment .vj_icn {font-size: 22px;}
+.ss .printer .vj_icn {font-size: 17px;}
+.ss .mailbox .vj_icn {font-size: 20px;}
+
+@media (min-width:640px){
+
+.ss{position:absolute}
+}

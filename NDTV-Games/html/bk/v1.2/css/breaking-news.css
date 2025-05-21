@@ -1,0 +1,57 @@
+/*----====== Breaking News ======----*/
+.brk_img-wrp {
+    box-shadow: 0 40px 26px -29px rgba(0, 0, 0, 0.63);
+    display: inline-block;
+    float: left;
+    margin-bottom: 40px;
+    overflow: hidden;
+    width: 100%;
+}
+.brk_img-wrp .img-gr{
+    border-radius: 8px 8px 0 0;
+}
+
+.brk_ttl {
+        background: #b6392e;
+    border-radius: 0 0 8px 8px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 12px 12px;
+    width: 100%;
+    text-shadow: 0 2px 3px rgba(0,0,0,.17);
+    text-align: center;
+}
+
+.brk_info {
+    background-color: var(--vj-cl-lg1);
+    border-radius: 6px;
+    display: inline-block;
+    float: left;
+    line-height: 26px;
+    margin-bottom: 16px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.brk_info-txt {
+    display: inline-block;
+    float: left;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+
+
+@media (min-width: 1200px) {
+      
+.brk_ttl {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 33px;
+    padding: 18px 21px;
+} 
+}
+

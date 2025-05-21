@@ -1,0 +1,146 @@
+
+/* Page Loader */
+.js .loading::before {
+	content: '';
+	position: fixed;
+	z-index: 100000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--color-bg);
+}
+
+.js .loading::after {
+	content: '';
+	position: fixed;
+	z-index: 100000;
+	top: 50%;
+	left: 50%;
+	width: 60px;
+	height: 60px;
+	margin: -30px 0 0 -30px;
+	pointer-events: none;
+	border-radius: 50%;
+	opacity: 0.4;
+	background: var(--color-link);
+	animation: loaderAnim 0.7s linear infinite alternate forwards;
+}
+
+@keyframes loaderAnim {
+	to {
+		opacity: 1;
+		transform: scale3d(0.5,0.5,1);
+	}
+}
+
+[data-scroll] {
+	will-change: transform;
+}
+
+
+.content {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-items: center;
+	padding: 12rem 0;
+	counter-reset: figure; 
+}
+
+.prlx {
+	margin: 10vh auto;
+	max-width: 100%;
+	position: relative;
+	will-change: transform;
+}
+
+.prlx::before {
+	counter-increment: figure;
+	content: counter(figure, decimal-leading-zero);
+	position: absolute;
+	font-family: paralucent, sans-serif;
+	font-size: 10rem;
+	color: var(--color-deco);
+	bottom: calc(100% - 3rem);
+}
+
+.prlx:nth-child(even)::before {
+	right: 0;
+}
+
+.prlx__img-wrap {
+	--aspect-ratio: 1/1.5;
+	overflow: hidden;
+	width: 500px;
+	margin: 0 auto;
+	padding-bottom: calc(100% / (var(--aspect-ratio)));
+	max-width: calc(100% - 2rem);
+	will-change: transform;
+}
+
+.prlx:first-child .prlx__img-wrap {
+	--aspect-ratio: 8/10;
+}
+
+.prlx:nth-child(2) .prlx__img-wrap {
+	width: 1000px;
+	--aspect-ratio: 120/76;
+}
+
+.prlx:nth-child(3) .prlx__img-wrap {
+	--aspect-ratio: 60/75;
+}
+
+.prlx:nth-child(4) .prlx__img-wrap {
+	width: 800px;
+	--aspect-ratio: 900/505;
+}
+
+.prlx:nth-child(5) .prlx__img-wrap {
+	--aspect-ratio: 6/8;
+}
+
+.prlx:nth-child(6) .prlx__img-wrap {
+	width: calc(100vw - 2rem);
+	--aspect-ratio: 1500/844;
+}
+
+.prlx:nth-child(7) .prlx__img-wrap {
+	width: 900px;
+	--aspect-ratio: 1000/749;
+}
+
+.prlx:nth-child(8) .prlx__img-wrap {
+	width: 900px;
+	--aspect-ratio: 1000/562;
+}
+
+.prlx:nth-child(9) .prlx__img-wrap {
+	--aspect-ratio: 60/75;
+}
+
+.prlx__img {
+	--overflow: 40px;
+	height: calc(100% + (2 * var(--overflow)));
+	top: calc( -1 * var(--overflow));
+	width: 100%;
+	position: absolute;
+	background-image: var(--image);
+	background-size: cover;
+	background-position: 50% 0%;
+	will-change: transform;
+}
+
+.prlx__img--t1 {
+	--overflow: 60px;
+}
+
+.prlx__img--t2 {
+	--overflow: 80px;
+}
+
+.prlx__img--t3 {
+	--overflow: 120px;
+}
+

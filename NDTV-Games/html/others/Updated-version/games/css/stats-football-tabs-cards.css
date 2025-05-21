@@ -1,0 +1,194 @@
+
+
+
+
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-fs-fl: brightness(1);
+    --vj-cl-fs-t1: rgba(0,0,0,0.75);
+    --vj-cl-fs-t2: rgba(30, 30, 30, 0.75);
+    --vj-cl-fstsA: #E2FFF4;
+    --vj-cl-fstsB: #D0FFF6;
+    --vj-cl-fstsC: #E3F5FF;
+    --vj-cl-fstsD: #FDFDE7;
+    --vj-cl-fstsE: #E0FFF4;
+    --vj-cl-fstsF: #c6eca4;
+    --vj-cl-fstsG: #FDEAFF;
+    --vj-cl-fstsH: #FFFFE3;
+    --vj-cl-fstsI: #FFEFF4;
+}
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-fs-fl: brightness(0.9);
+    --vj-cl-fs-t1: rgba(0,0,0,0.75);
+    --vj-cl-fs-t2: rgba(30, 30, 30, 0.75);
+    --vj-cl-fstsA: #bcecdb;
+    --vj-cl-fstsB: #80d8bf;
+    --vj-cl-fstsC: #a8d7ec;
+    --vj-cl-fstsD: #eacaa4;
+    --vj-cl-fstsE: #93d6d6;
+    --vj-cl-fstsF: #b3dc8d;
+    --vj-cl-fstsG: #b99fe2;
+    --vj-cl-fstsH: #f3ecb4;
+    --vj-cl-fstsI: #e8a3b9;
+}
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+    --vj-cl-fs-fl: brightness(0.9);
+    --vj-cl-fs-t1: rgba(0,0,0,0.75);
+    --vj-cl-fs-t2: rgba(30, 30, 30, 0.75);
+    --vj-cl-fstsA: #bcecdb;
+    --vj-cl-fstsB: #80d8bf;
+    --vj-cl-fstsC: #a8d7ec;
+    --vj-cl-fstsD: #eacaa4;
+    --vj-cl-fstsE: #93d6d6;
+    --vj-cl-fstsF: #b3dc8d;
+    --vj-cl-fstsG: #b99fe2;
+    --vj-cl-fstsH: #f3ecb4;
+    --vj-cl-fstsI: #e8a3b9;
+    }
+    /*--====== Light ======--*/
+    :root .day_night {
+    --vj-cl-fs-fl: brightness(1);
+    --vj-cl-fs-t1: rgba(0,0,0,0.75);
+    --vj-cl-fs-t2: rgba(30, 30, 30, 0.75);
+    --vj-cl-fstsA: #E2FFF4;
+    --vj-cl-fstsB: #D0FFF6;
+    --vj-cl-fstsC: #E3F5FF;
+    --vj-cl-fstsD: #FDFDE7;
+    --vj-cl-fstsE: #E0FFF4;
+    --vj-cl-fstsF: #c6eca4;
+    --vj-cl-fstsG: #FDEAFF;
+    --vj-cl-fstsH: #FFFFE3;
+    --vj-cl-fstsI: #FFEFF4;
+    }
+}
+
+
+
+
+
+
+
+/*--==== Football Stats Card ====--*/
+
+.Fsts-crd_wrp, .Fsts-crd_cnt, .Fsts-crd, .Fsts-crd_img {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+.Fsts-crd_cnt {
+    display: inline-block;
+    float: left;
+    padding: 7px;
+    width: 33.333%;
+}
+.Fsts-crd_img {
+    filter: var(--vj-cl-fs-fl);
+}
+.Fsts-crd_txt1, .Fsts-crd_txt2 {
+    color: var(--vj-cl-fs-t1);
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.Fsts-crd {
+    border-radius: 12px;
+    background: #e2fdf4;
+    overflow: hidden;
+    padding: 14px 0 0;
+    position: relative;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.6);
+}
+.Fsts-crd_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -7px;
+    margin-left: -7px;
+}
+.Fsts-crd_txt2 {
+    color: var(--vj-cl-fs-t2);
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.sts_ttl {
+    display: inline-block;
+    color: var(--vj-cl-dr1);
+    float: left;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 0;
+    margin: 0 0 12px;
+    width: 100%;
+}
+
+
+/*--==== CARD COLORS ====--*/
+
+.Fsts-crd_a {
+    background-color: var(--vj-cl-fstsA);
+}
+.Fsts-crd_b {
+    background-color: var(--vj-cl-fstsB);
+}
+.Fsts-crd_c {
+    background-color: var(--vj-cl-fstsC);
+}
+.Fsts-crd_d {
+    background-color: var(--vj-cl-fstsD);
+}
+.Fsts-crd_e {
+    background-color: var(--vj-cl-fstsE);
+}
+.Fsts-crd_f {
+    background-color: var(--vj-cl-fstsF);
+}
+.Fsts-crd_g {
+    background-color: var(--vj-cl-fstsG);
+}
+.Fsts-crd_h {
+    background-color: var(--vj-cl-fstsH);
+}
+.Fsts-crd_i {
+    background-color: var(--vj-cl-fstsI);
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+.Fsts-crd_cnt {
+    width: 50%;
+}
+.Fsts-crd_txt1, .Fsts-crd_txt2 {
+    font-size: 14px;
+}
+.Fsts-crd_txt2 {
+    font-size: 26px;
+}
+}
+
+
+
+@media (min-width: 1200px) {
+    .sts_ttl {
+        margin: 0 0 16px;
+    }
+}

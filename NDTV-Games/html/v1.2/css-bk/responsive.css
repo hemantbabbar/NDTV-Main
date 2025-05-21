@@ -1,0 +1,46 @@
+.hid_sml-dvc{
+    display:block;
+}
+.shw_sml-dvc{
+    display:none;
+}
+/* For 1200px & Below*/
+@media (max-width:1200px){
+    .hid_sml-dvc{
+        display:none;
+    }
+    .shw_sml-dvc{
+        display:block;
+    }
+    .cmt_btn:after, .cmt_btn:before{
+        width:17%;
+    }
+    .s-ls .s-ttl{
+        font-size:18px;
+        padding-right:0;
+    }
+    .s-ls .s-ttl .s-ttl_s{
+        margin-left:0;
+    }
+    .ss .ss-lk.hid_sml-dvc{
+        display:none;
+    }
+    .sp-wrp{
+        padding:0;
+    }
+}
+/* For 1200px & Below*/
+@media (max-width:900px){
+    .hid_xs-dvc{
+        display:none;
+    }
+    .shw_xs-dvc{
+        display:block;
+    }
+    .dd-nav_three-r .dd-nav{
+        right:-100px;
+    }
+    .tf-scl{
+        display:none;
+    }
+}

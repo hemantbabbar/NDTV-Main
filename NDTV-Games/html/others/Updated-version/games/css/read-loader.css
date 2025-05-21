@@ -1,0 +1,157 @@
+
+
+.red-tim {
+    position: -webkit-sticky;
+    position: sticky;
+    border-radius: 50px;
+    top: 90px;
+    float: right;
+    height: 0;
+    margin-right: -78px;
+    opacity: 0;
+    transform: scale(0.6);
+    transition: 0.3s ease all;
+}
+
+
+
+.red-tim_bg {
+    background: var(--vj-cl-rg7);
+    border: 1px solid var(--vj-cl-lg);
+    box-shadow: 0 2px 6px var(--vj-cl-rg3);
+    border-radius: 60px;
+    position: relative;
+    height: 48px;
+    width: 48px;
+}
+.js_red-tim .red-tim:before {
+    transform: scale(0);
+}
+
+
+.j-stk-dn .red-tim {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 98;
+} 
+
+
+
+
+
+.red-tim_cnt {
+    display: inline-block;
+    margin: -1px 0 0 -1px;
+    float: left;
+    position: relative;
+}
+
+
+
+
+.js_red-tim .red-tim {
+    box-shadow: 0 2px 6px rgba(51, 51, 51, 0.1);
+}
+
+
+.red-tim_wrp {
+    display: inline-block;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+.red-tim_wrp img {
+    width: 12px;
+}
+.red-tim_wrp svg path {
+    fill: #F4DA4D;
+}
+.red-tim_wrp svg circle {
+    stroke-dashoffset: 0;
+}
+
+
+.red-tim_svg {
+    position: absolute;
+    transform: rotate(-90deg);
+}
+.red-tim_cir {
+    stroke-dashoffset: 0;
+    stroke: var(--vj-cl-mtx);
+    stroke-width: 3px;
+}
+
+
+
+
+.red-tim .vj_icn.vj_left-arrow {
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 11px 0 0 11px;
+    /* opacity: 1; */
+    text-align: center;
+    /* transform: scale(0.5); */
+    transition: 0.3s ease all 0s;
+}
+
+.js_red-tim .red-tim .vj_icn.vj_left-arrow {
+    /* opacity: 1; */
+    /* transform: scale(1); */
+    /* transition: 0.3s ease all 0.3s; */
+}
+
+.red_tip-txt1 {
+    display: inline-block;
+}
+.js_red-tim .red_tip-txt1 {
+    display: none;
+}
+.red_tip-txt2 {
+    display: none;
+}
+.js_red-tim .red_tip-txt2 {
+    display: inline-block;
+}
+
+
+.red-tim_bg.ttp .tip.on-bottom {
+    -webkit-transform: translateY(34px);
+    transform: translateY(34px);
+}
+
+
+
+
+
+
+.js_red-tim .red-tim_wrp {
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    -webkit-animation-name: red-tim_don;
+    animation-name: red-tim_don;
+}
+
+@keyframes red-tim_don {
+    from {
+        transform: scale3d(1, 1, 1);
+        left:0;
+        top:0;
+    }
+
+
+    to {
+        transform: scale3d(0, 0, 0);
+        background: rgb(255, 236, 78);
+        left:0;
+        top:0;
+    }
+}
+
+
+

@@ -1,0 +1,192 @@
+.coupon-card {
+    background: rgba(255,255,255,0.06);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 10px 10px 0px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all 0.25s ease-in 0s;
+    display: inline-block;
+    border: 1px solid rgba(255,255,255,0.06);
+}
+
+.coupon-logo {
+    border-radius: 8px;
+    margin-bottom: 0px;
+}
+
+.coupon-txt {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0px;
+}
+
+.coupon-txt h3 {
+    font-weight: 600;
+    display: block;
+    font-size: 17px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    margin-bottom: 0px;
+}
+
+.coupon-card p {
+    font-size: 11px;
+    color: rgb(207, 176, 247);
+    margin: 0px 0px 5px;
+    opacity: 0.6;
+}
+
+.coupon-row {
+    display: inline-flex;
+    align-items: center;
+    margin: 12px auto;
+    width: 100%;
+    font-size: 13px;
+    position: relative;
+    padding: 0px 15px;
+}
+
+#cpnCode {
+    border-width: 1px 0px 1px 1px;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-top-color: rgb(105, 100, 100);
+    border-bottom-color: rgb(105, 100, 100);
+    border-left-color: rgb(105, 100, 100);
+    border-image: initial;
+    padding: 8px 10px;
+    border-right-style: initial;
+    border-right-color: initial;
+    position: relative;
+    opacity: 0.6;
+    width: calc(100% - 116px);
+    border-radius: 4px 0px;
+}
+
+#cpnBtn::before {
+    content: "";
+    background: rgba(255, 255, 255, 0.1);
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    transition: all 0.3s ease-in 0s;
+}
+
+#cpnBtn {
+    border: 1px dotted rgb(97, 91, 91);
+    background: rgb(25, 29, 69);
+    padding: 8px 10px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    width: 116px;
+    border-radius: 0px 6px 6px 0px;
+    transition: all 0.3s ease-in 0s;
+}
+
+#cpnBtn:hover {
+    background: rgb(15, 18, 55);
+}
+
+#cpnBtn:hover::before {
+    width: calc(100% - 144px);
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+    background: var(--vj-cl-bg2);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.circle1 {
+    left: -20px;
+}
+
+.circle2 {
+    right: -20px;
+}
+
+.circle3 {
+    left: -17px;
+    top: auto;
+    bottom: -29px;
+}
+
+.circle4 {
+    right: -16px;
+    top: auto;
+    bottom: -30px;
+}
+
+.coupon-lg {
+    width: 54px;
+    height: 54px;
+    display: inline-flex;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+    padding: 0px;
+    margin-top: 8px;
+}
+
+.coupon-card {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.circle3, .circle4 {
+    display: none;
+}
+
+.coupon-card::before {
+    background: rgba(255, 255, 255, 0.09);
+    content: "";
+    left: 10px;
+    top: 10px;
+    position: absolute;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border-radius: 14px;
+    background-image: linear-gradient(to bottom, #3d4166 0%, #202233 100%);
+}
+
+.coupon-tp{position: relative; width:100%}
+.coupon-bt{width:100%}
+.coup_crd-v1 .coupon-tp {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.coup_crd-v1 .coupon-tp .coupon-txt {
+    text-align: left;
+    flex: 1 1 0%;
+    padding: 0px 0px 0px 15px;
+}
+
+.coup_crd-v1 .coupon-lg {
+    width: 54px;
+    height: 54px;
+    margin-top: 0px;
+}
+
+.coup_crd-v1 .coupon-row {
+    margin: 12px auto;
+}

@@ -1,0 +1,95 @@
+body.js-op-cmt {
+    overflow: hidden;
+}
+
+
+/*--- Menu ---*/
+.cmt-wrp {
+    position: fixed;
+    z-index: 999999999;
+    border-radius: 6px;
+    -webkit-transition: width 0.3s, height 0.3s;
+    transition: width 0.3s, height 0.3s;
+    width: 0;
+    height: 100%;
+    font-size: 1.5em;
+    bottom: 0;
+    right: 0;
+    transform-origin: 100% 100%;
+}
+
+/*--- Shown menu ---*/
+.js-op-cmt .cmt-wrp {
+    width: 33%;
+    height: 100%;
+    -webkit-animation: 0.3s linear forwards;
+    animation: 0.3s linear forwards;
+}
+
+
+.cmt-cnt {
+    display: none;
+    position: absolute;
+    background: var(--vj-cl-lg);
+    /* border-radius: 6px; */
+    border-left: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 23px rgba(0, 0, 0, 0.17);
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+.js-op-cmt .cmt-cnt {
+    display: block;
+}
+
+/*======= FEEDBACK Form =======*/
+
+.form-wrp {
+    height: 100%;
+    padding: 25px;
+    opacity: 0;
+}
+.js-op-cmt .form-wrp {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s 0.3s;
+    transition: opacity 0.3s 0.3s;
+}
+
+
+/*======= Close Icon button =======*/
+
+.cls-btn {
+    cursor: pointer;
+    margin: 23px 15px 0 0;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+}
+.cls-btn-icn {
+    display: inline-block;
+    font-size: 14px;
+    margin: 14px 0;
+    text-align: center;
+}
+.cmt-cnt iframe {
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .js-op-cmt .cmt-wrp {
+    width: 100%;
+}
+    .cmt-cnt iframe {
+        width: 100%;
+    }
+}
+
+
+

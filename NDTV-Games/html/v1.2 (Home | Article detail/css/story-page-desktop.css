@@ -1,0 +1,75 @@
+/*----====== Story desktop element ======----*/
+
+/*---- Tittle Social Share Drop Header ----*/
+.hdr-ss {
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+.hdr-ani_btn {
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin: 9px 4px 0;
+    opacity: 0;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    transform: scale(0.3);
+}
+.hdr-ani_lk {
+    background: rgb(255 255 255 / 13%);
+    border-radius: 26px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 17px;
+    height: 32px;
+    line-height: 32px;
+    min-width: 32px;
+    text-align: center;
+}
+.hdr-ani_txt {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-family: var(--ff-two);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 6px 0 6px 12px;
+    }
+.hdr-ani_btn .vj_icn {
+    display: inline-block;
+    font-size: 16px;
+    height: 32px;
+    margin: 0 8px;
+    transition-delay: 0s;
+}
+
+.j-stk-dn .hdr-ani_btn {
+    opacity: 1;
+    transform: scale(1);
+}
+.j-stk-dn .hdr-ani_btn:nth-child(1) {
+    transition-delay: 0.2s;
+}
+.j-stk-dn .hdr-ani_btn:nth-child(2) {
+    transition-delay: 0.4s;
+}
+.j-stk-dn .hdr-ani_btn:nth-child(3) {
+    transition-delay: 0.6s;
+}
+.j-stk-dn .hdr-ani_btn:nth-child(4) {
+    transition-delay: 0.8s;
+}
+.j-stk-dn .hdr-ani_btn:nth-child(5) {
+    transition-delay: 1s;
+}
+
+.hdr-ani_lk:hover, .hdr-ani_lk:focus {
+    color: #e4ebff;
+}

@@ -1,0 +1,128 @@
+
+:root {
+    --vj-cl-m: #275EFE;
+    --vj-cl-ot1: #f1f9ea;
+    --vj-cl-ot2: #ffec4e;
+    --vj-cl-ic1: #275EFE;
+    --vj-cl-ic2: rgba(0,0,0,0.8);
+    --vj-cl-lg: #fff;
+    --vj-cl-lg1: #fafafa;
+    --vj-cl-lg2: #a9a9a9;
+    --vj-cl-lg3: #d4d4d4;
+    --vj-cl-lg4: #eeeeee;
+    --vj-cl-dr: #000;
+    --vj-cl-dr1: rgba(0,0,0,0.8);
+    --vj-cl-dr2: #343a40;
+    --vj-cl-dr3: #4c4c4c;
+    --vj-cl-dr4: #585858;
+    --vj-cl-dr5: #666;
+    --vj-cl-dr6: rgba(0,0,0,0.54);
+    --vj-cl-dr7: #9c9c9c;
+    --vj-cl-dr8: #343a40;
+    --vj-cl-rg1: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg2: rgba(247, 247, 247, 0.97);
+    --vj-cl-rg3: rgba(0,0,0,0.17);
+    --vj-cl-rg4: rgba(0, 0, 0, 0.7);
+    --vj-cl-rg5: rgba(0, 0, 0, 0.8);
+    --vj-cl-rg6: rgba(51, 51, 51, 0.03);
+    --vj-cl-rg7: rgba(255, 255, 255, 0.9);
+    --vj-cl-rg8: rgba(51, 51, 51, 0.4);
+    --vj-cl-rg9: rgba(51, 51, 51, 0.07);
+    --vj-cl-rg10: rgba(58, 86, 167, 0.47);
+    --vj-cl-rg11: rgba(255, 255, 255, 0.47);
+    --ttl: #101010;
+    --txt: #343a40;
+    --txt-gray: #777777;
+    --txt-c: #999;
+    --stk-hd: #fffef3;
+    --red: #ffae00;
+    --gray: #666;
+    --dark: #343a40;
+    --clr-b: #dc5a5a;
+    --light-c: #e7e7e7;
+    --light-b: #fce9d8;
+    --clr-a: #fcdd4b;
+    --clr-c: #ca8484;
+    --clr-d: #effdee;
+    --clr-lnk: #5b81dc;
+    --black: #000;
+    --gray-dark: #343a40;
+    --white: #fff;
+    --light: #f7f7f7;
+    --light-d: #fffef3;
+    --ff-one: 'Inter', sans-serif;
+    --ff-two: 'Inter', sans-serif;
+}
+
+
+
+
+
+body.spt-home {
+    background-color: var(--vj-cl-lg1);
+}
+.spt-home .header {
+    background-color: var(--vj-cl-lg1);
+}
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+::-moz-selection { /* Code for Firefox */
+    background: #d3e5ff;
+}
+
+::selection {
+    background: #d3e5ff;
+}
+
+
+
+
+
+
+.section {
+    display: inline-block;
+    padding: 40px 0 30px;
+    position: relative;
+    width: 100%;
+}
+.section_one {
+    background-color: var(--vj-cl-lg1);
+    display: inline-block;
+    padding: 40px 0 30px;
+    position: relative;
+    width: 100%;
+}
+.section_two {
+    display: inline-block;
+    padding: 0 0 20px;
+    position: relative;
+    width: 100%;
+}
+
+.section_bg1 {
+    background: linear-gradient(90deg, #f9fdff 0%, #e0eff7 100%);
+}
+.section_bg3:before {
+    background-image: linear-gradient(-45deg, rgb(99, 208, 240) 120px ,transparent 0), linear-gradient(45deg, rgb(99, 207, 240) 120px ,transparent 0), linear-gradient(-45deg, rgb(129, 188, 249) 340px ,transparent 0), linear-gradient(45deg, rgb(129, 188, 249) 340px ,transparent 0), linear-gradient(0deg, #64a9ef 160px, #82bdff);
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.day_night .section_bg1 {
+    background: linear-gradient(90deg, #343535 0%, #20242b 100%);
+}
+
+
+.section_bg2 {
+    background: #101010;
+}

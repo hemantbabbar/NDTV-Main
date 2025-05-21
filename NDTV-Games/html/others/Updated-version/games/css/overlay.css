@@ -1,0 +1,58 @@
+
+
+body.js_sid-nav, .js_sid-nav-right, .js_sid-nav-right1, .js_sid-nav-right2, .js_sid-nav-right3, body.js_sid-nav, body.js_ser-nav, body.js_pin-up, body.js-npop-frm, body.overlay-on {
+    overflow: hidden;
+}
+
+.overlay__side-nav, .overlay__side-srch {
+    background: rgba(0, 0, 0, 0);
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    backdrop-filter: blur(0);
+    top: -88px;
+    z-index: 99999;
+    -webkit-transition: 0.36s ease all;
+    -moz-transition: 0.36s ease all;
+    -ms-transition: 0.36s ease all;
+    -o-transition: 0.36s ease all;
+    transition: 0.36s ease all;
+}
+
+.js_sid-nav .overlay__side-nav,
+.js_sid-nav-right .overlay__side-nav,  
+.js_sid-nav-right1 .overlay__side-nav, 
+.js_sid-nav-right2 .overlay__side-nav, 
+.js_sid-nav-right3 .overlay__side-nav, 
+.js_pin-up .overlay__side-nav, 
+.js-npop-frm .overlay__side-nav, 
+.js_fltr-nav .overlay__side-nav, 
+.js_AutPup_nav .overlay__side-nav, 
+.js_RecFlt-nav .overlay__side-nav, 
+.SUpNv-on .overlay__side-srch, .overlay-on .overlay__side-srch  {
+    background: rgb(0 0 0 / 50%);
+    opacity: 1;
+    pointer-events: auto;
+    backdrop-filter: blur(6px);
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -ms-transition: 0.2s ease all;
+    -o-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+
+.js_pin-up .overlay__side-nav {
+    background: #f2dfce;
+}
+.js-npop-frm .overlay__side-nav {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.overlay-on{position:fixed; width:100%}
+.overlay-on .nav-stk_wr{ z-index: 999999;}
+

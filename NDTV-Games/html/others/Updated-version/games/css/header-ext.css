@@ -1,0 +1,9 @@
+
+
+
+/*----====== Header Extension ======----*/
+
+.overlay__side-nav, .mth_drp-ovr, .lng_mnu-ovr, .ovr_flt-nav {
+    z-index: 999999;
+}
+

@@ -1,0 +1,26 @@
+.fod-home .m-nv.m-nv_clr:after {
+    background-image: linear-gradient(rgb(79, 161, 39), rgb(79, 161, 39)), linear-gradient(-45deg, transparent 75%, rgb(79, 161, 39) 75%), linear-gradient(45deg, transparent 75%, rgb(79, 161, 39) 75%);
+    width: 200%;
+    height: 4px;
+    position: absolute;
+    display: block;
+    content: "";
+    left: 0;
+    bottom: -5px;
+    border: solid transparent;
+    border-width: 3px 0;
+    background-color: #121618;
+    background-color: hsla(0, 0%, 0%, 0);
+    background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: 0 0, 0 0, 0 0, 0 100%, 0 100%;
+    background-size: auto auto, 10px 10px, 10px 10px, 10px 10px, 10px 10px;
+    background-clip: padding-box, border-box, border-box, border-box, border-box;
+    background-origin: padding-box, border-box, border-box, border-box, border-box;
+    width: 100%;
+    z-index: 100;
+}
+
+.fod-home .vj_side-ttl {
+    margin-top: 1px;
+    font-size: 22px;
+}

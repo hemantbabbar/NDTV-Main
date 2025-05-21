@@ -1,0 +1,241 @@
+
+/*-- 1. Global --*/
+
+.ad_spr{
+    float:right;
+    display: inline;
+    color: #333;
+    font-weight: normal;
+    font-size: 11px;
+    margin-top:6px;
+}
+.ad_hdr{
+    margin-bottom:10px;
+}
+.ad_ttl{
+    float:left;
+    text-decoration: none;
+    text-transform:capitalize;
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight:600;
+}
+.ad_brd{
+    color: rgb(153, 153, 153);
+    font-size: 11px;
+    font-weight: 300;
+    line-height:13px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.ad_inl:after, .ad_inl:before, .ad_hdr:before, .ad_hdr:after, .ad_grd:before, .ad_grd:after, .ad_blk:before, .ad_blk:after, .ad_spn:before, .ad_spn:after, .ad_itm-hdr:before, .ad_itm-hdr:after{
+    content:'';
+    clear:both;
+    display:block;
+}
+
+/*-- 2. Ad Inline view --*/
+
+.ad_inl{
+    margin-bottom:10px;
+}
+.ad_inl .ad_ttl{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    font-weight: 500;
+}
+.ad_inl .ad_img{
+    border-radius:4px;
+    float:left;
+    width: 40%;
+    height: 85px;
+    margin-right:10px;
+    overflow:hidden;
+}
+.ad_inl .ad_cnt{
+    float:left;
+    width:calc(60% - 10px);
+}
+.ad_inl .ad_txt{
+    max-height: 72px;
+    margin-bottom:5px;
+    color: #666666;
+    font-size: 16px;
+    line-height: 22.0px;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-line-clamp: 3;
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/*-- 3. Ad Grid view --*/
+.ad_grd{
+    margin-top:20px;
+}
+.ad_grd .ad_itm{
+    width: 47.995%;
+    position: relative;
+    float: left;
+    margin: 0 0 2% 2%;
+}
+.ad_grd .ad_img{
+    border-radius:4px;
+    overflow:hidden;
+}
+.ad_grd .ad_txt{
+    max-height: 72px;
+    margin-top:5px;
+    color: #666666;
+    font-size: 14px;
+    line-height:1.4;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-line-clamp: 3;
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/*-- 4. Ad Block view --*/
+.ad_blk{
+    margin-top:20px;
+}
+.ad_blk .ad_txt{
+    max-height: 72px;
+    margin:10px 0 5px;
+    color: #666666;
+    font-size: 14px;
+    line-height:1.4;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-line-clamp: 3;
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.ad_blk .ad_itm{
+    margin-bottom:20px;
+}
+
+/*-- 5. Ad SPONSORED --*/
+.ad_spn{
+    background-color: #fbfbfb;
+    display: inline-block;
+    float: left;
+    margin-bottom: 16px;
+    min-height: 84px;
+    width: 100%;
+    border:2px solid #f1f1f1;
+    padding:8px 12px 10px;
+}
+.ad_spn .ad_ttl{
+    font-size:14px;
+}
+.ad_spn .ad_itm{
+    float:left;
+    width:50%;
+}
+.ad_spn .ad_txt{
+    max-height: 40px;
+    color: rgb(132, 132, 132);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding:0 15px 0px 17px;;
+    text-decoration: none;
+}
+.ad_spn .ad_brd{
+    color:rgb(197, 85, 85);
+    display:inline;
+    font-weight:normal;
+}
+.ad_spn .ad_spr{
+    color: rgb(152, 152, 152);
+    font-weight: normal;
+    font-size: 11px;
+    text-transform:uppercase;
+    margin-left:5px;
+}
+
+/*-- 6. Ad Column 3 -- */
+.ad_col-3{
+    margin-left:-2%;
+    margin-right:-2%;
+}
+.ad_col-3{
+    margin-top:20px;
+}
+.ad_col-3 .ad_itm{
+    width:31%;
+    position: relative;
+    float: left;
+    margin: 0 0 2% 2%;
+}
+.ad_col-3 .ad_img{
+    border-radius:4px;
+    overflow:hidden;
+}
+.ad_col-3 .ad_txt{
+    max-height:44px;
+    margin-top:5px;
+    color: #666666;
+    font-size: 16px;
+    line-height:22px;
+    font-weight:300;
+    text-decoration: none;
+    -webkit-line-clamp:2;
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+/*-- 7. Ad Block LG --*/
+.ad_blk-lg{
+    margin-top:20px;
+}
+.ad_blk-lg .ad_txt{
+    max-height: 72px;
+    margin:10px 0 5px;
+    color: #666666;
+    font-size:16px;
+    line-height:22px;
+    font-weight:300;
+    text-decoration: none;
+    -webkit-line-clamp: 3;
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.ad_blk-lg .ad_itm{
+    margin-bottom:20px;
+}
+.ad_hdr-img{
+    height: 30px;
+    width: 106px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ad_hdr-txt{
+    max-height:54px;
+    margin:10px 0 5px;
+    color: #666666;
+    font-size:20px;
+    line-height:27px;
+    font-weight:300;
+    text-decoration: none;
+    -webkit-line-clamp:1;
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}

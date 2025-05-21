@@ -1,0 +1,168 @@
+
+
+.story__content .expand-txt h2 strong {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.story__content .expand-txt h2 {
+    display: inline-block;
+    float: left;
+    line-height: 1;
+    width: 100%;
+}
+
+.liv-blg_tp-ttl {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 31.5px;
+}
+.liv-blg, .liv-blg_ul {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.liv-blg_li {
+    background-color: var(--vj-cl-lg);
+    border: 1px solid var(--vj-cl-rg1);
+    box-shadow: 0 3px 12px rgba(0,0,0,0.03);
+    border-radius: 8px;
+    display: inline-block;
+    float: left;
+    margin-bottom: 26px;
+    padding: 16px;
+    width: 100%;
+}
+
+.liv-blg_ttl {
+    color: var(--vj-cl-dr1);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.liv-blg_txt {
+    color: var(--vj-cl-dr5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+
+.liv-blg_dtime, .spt_blog_rhs {
+    display: inline-block;
+    float: left;
+}
+
+.liv-blg_info {
+    display: inline-block;
+}
+
+.liv-blg_dtime {
+    border-bottom: 1px solid var(--vj-cl-lg1);
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    width: 100%;
+}
+.liv-blg_dte {
+    background: var(--vj-cl-lg);
+    border-radius: 6px;
+    color: var(--vj-cl-dr6);
+    display: inline-block;
+    float: left;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+
+/*! Date Calendar */
+.dat-cal {
+    vertical-align: top;
+    color: var(--vj-cl-dr);
+    background: var(--vj-cl-lg);
+    border-radius: 6px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    margin: 0 8px 0 0;
+    position: relative;
+}
+.dat-cal .dat-cal_wek,
+.dat-cal .dat-cal_day,
+.dat-cal .dat-cal_mon,
+.dat-cal .dat-cal_yer {
+    color: var(--vj-cl-dr);
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    margin-right: 5px;
+    line-height: 1;
+}
+.dat-cal .dat-cal_mon {
+}
+.dat-cal .dat-cal_wek {
+  font-size: 9px;
+  padding: 4px 0 2px;
+}
+.dat-cal .dat-cal_day {}
+.dat-cal .dat-cal_yer {
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+.liv-blg_info {
+    display: flex;
+}
+
+.liv-blg_dtime {
+    border-bottom: 0 none;
+    padding: 0 26px 0 0;
+    margin-left: -50px;
+    width: 94px;
+}
+.liv-blg_dte {
+    background: var(--vj-cl-lg1);
+    border-radius: 6px;
+    padding: 4px 0;
+    width: 100%;
+}
+
+/*! Date Calendar */
+.dat-cal {
+    background: var(--vj-cl-lg1);
+    margin: 0 0 4px;
+    width: 69px;
+}
+.dat-cal .dat-cal_wek,
+.dat-cal .dat-cal_day,
+.dat-cal .dat-cal_mon,
+.dat-cal .dat-cal_yer {
+    color: var(--vj-cl-dr6);
+    margin-right: 0;
+    width: 100%;
+}
+.dat-cal .dat-cal_mon {
+  font-size: 10px;
+  padding: 4px 0;
+}
+.dat-cal .dat-cal_day {
+  color: var(--vj-cl-dr3);
+  font-size: 18px;
+  font-weight: 700;
+}
+.dat-cal .dat-cal_yer {
+  font-size: 10px;
+  padding: 4px 0 4px;
+}
+
+}

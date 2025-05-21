@@ -1,0 +1,48 @@
+
+.txt__truncate {
+    display: -webkit-box;
+    position: relative;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.txt_tcat-one {
+    display: -webkit-box;
+    position: relative;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.txt_trc-one {
+    display: -webkit-box;
+    position: relative;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+.txt_tct {
+    display: -webkit-box;
+    position: relative;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.txt_tct-one {
+    -webkit-line-clamp: 1;
+}
+.txt_tct-three {
+    -webkit-line-clamp: 3;
+}
+.txt_tct-four {
+    -webkit-line-clamp: 4;
+}
