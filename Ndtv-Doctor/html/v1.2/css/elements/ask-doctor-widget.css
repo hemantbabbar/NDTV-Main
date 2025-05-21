@@ -1,0 +1,55 @@
+.AskDcWdg_wr {
+    float: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.AskDcWdg_cn {
+    background-color: #107D8E;
+    border-radius: 4px;
+    float: left;
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    margin: 0 0 30px 0;
+}
+
+
+.AskDcWdg_txt-wr {
+    background-color: #ffffff;
+    float: left;
+    display: inline-block;
+    margin: -20px 0 0 0;
+    padding: 7px 10px 10px;
+    position: relative;
+    border-radius: 4px;
+}
+
+
+.AskDcWdg_btn {
+    background-color: #107D8E;
+    border-radius: 4px;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    padding: 6px 10px;
+    text-align: center;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.AskDcWdg_cn:hover .AskDcWdg_btn{
+    background-color: #096675;
+    color: #fff;
+}
+
+
+.AskDcWdg_ttl {
+    font-size: 14px;
+    font-weight: 500;
+    color: #107D8E;
+    line-height: 17px;
+    text-align: center;
+    margin: 0 0 10px 0;
+}

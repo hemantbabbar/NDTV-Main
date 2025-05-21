@@ -1,0 +1,77 @@
+
+
+
+/*--=================== Short video ===================--*/
+
+.VdSht_crd1 {
+    background: #2b3043;
+    background: linear-gradient(0deg, #2b2f41 0%, #424860 100%);
+    padding: 3px;
+}
+
+.VdSht_crd1 .crd_H-ttl8 {
+    color: #fff;
+    display: -webkit-box;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    height: 40px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: 0.3s ease all;
+}
+
+.VdSht_crd1 .Vd4_crd-ply-wr {
+    bottom: calc(50% - 18px);
+    left: calc(50% - 18px);
+}
+
+.VdSht_crd1 .Vd4_crd-ply {
+    background: #ffffffb0;
+    width: 36px;
+    height: 36px;
+}
+
+.VdSht_crd1 .Vd4_crd-ply .vj_icn {
+    color: red;
+}
+
+.VdSht_crd1.crd-h .crd_txt-wrp {
+    background: linear-gradient(0deg, #000000d4 0%, #00000099 50%, #00000005 100%);
+    border-radius: 0 0 6px 6px;
+    bottom: 0;
+    left: 0;
+    padding: 28px 8px 10px;
+    position: absolute;
+}
+
+
+
+
+
+.VdSht_crd1 .img-gr {
+    padding-bottom: 180%;
+}
+
+.VdSht_crd1:hover .crd_H-ttl8 {
+    height: 82px;
+    -webkit-line-clamp: 4;
+}
+
+.Hrlst5_li:hover .VdSht_crd1.crd-h .crd_txt-wrp {
+    border-radius: 0;
+}
+
+
+.VdSht_crd1 .img-gr:after {
+    background: linear-gradient(0deg, #000000b5 0%, #00000005 100%);
+    content: "";
+    height: 30px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: -1px;
+}

@@ -1,0 +1,144 @@
+
+
+
+.ls-ns {
+    float: left;
+    width: 100%
+}
+
+.ls-ns_ul {
+    display: inline-block;
+    float: left;
+    width: 100%
+}
+
+.ls-ns_li {
+    display: flex;
+    float: left;
+    border-bottom: 1px solid var(--vj-cl-rg3);
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    width: 100%
+}
+
+.ls-ns_dv {
+    display: flex;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.ls-ns_li-brN {
+    border-bottom: 0 none;
+    padding-bottom: 0
+}
+
+.ls-ns_br-nn .ls-ns_li {
+    border-bottom: 0 none;
+    margin-bottom: 8px;
+    padding-bottom: 0
+}
+
+.ls-ns_br .ls-ns_li:last-child {
+    border-bottom: 0 none;
+    margin-bottom: 0;
+    padding-bottom: 16px
+}
+
+.ls-ns_br .ls-ns_li:last-child {
+    border-bottom: 0 none;
+    margin-bottom: 0;
+
+}
+
+.ls-ns_li .ad-art_wap {
+    margin: -19px 0 -37px -14px
+}
+
+.ls-ns_btn,.ls-ns_btn1 {
+    background-color: #d9e6ff;
+    background: #ffffff1f;
+    box-shadow: 0 2px 6px #0000002e;
+    border: 2px solid #ce5757;
+    color: var(--vj-cl-mtx);
+    border-radius: 28px;
+    color: var(--vj-cl-dr);
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0 auto;
+    padding: 12px 41px 12px 21px;
+    position: relative;
+    align-items: center;
+    justify-content: center
+}
+
+.ls-ns_btn .vj_icn {
+    font-size: 10px;
+    position: absolute;
+    right: 21px
+}
+
+.ls-ns_btn1 {
+    background: #e38f8f14;
+    color: #f24c4c;
+    font-size: 14px;
+    padding: 7px 32px 7px 16px
+}
+
+.ls-ns_btn1 .vj_icn {
+    font-size: 9px;
+    right: 10px
+}
+
+
+
+/* For 2 col */
+
+.ls-ns-2 .ls-ns_ul{margin:0 -10px; width:calc(100% + 16px);}
+
+.ls-ns-2 .ls-ns_li{width:50%;padding: 0 8px;border-bottom: 0;}
+
+/* For 3 col */
+
+.ls-ns-3 .ls-ns_ul{margin:0 -10px}
+
+.ls-ns-3 .ls-ns_li{width:33.333%;padding: 0 10px;border-bottom: 0;}
+
+
+
+
+.Bg-cl1 .ls-ns_br .ls-ns_li:last-child {
+
+    padding-bottom: 0;
+}
+
+@media (min-width: 1200px) {
+    .res_ls-ns_rt {
+        padding-right:30px
+    }
+
+    .res_ls-ns_lt {
+        padding-left: 30px
+    }
+
+    .res_ls-ns_rt:after {
+        content: "";
+        background: var(--vj-cl-rg1);
+        position: absolute;
+        right: 0;
+        height: calc(100% - 30px);
+        top: 0;
+        width: 1px
+    }
+}
+
+@media (max-width: 767px) {
+    .res-ls-ns_br {
+        border-bottom:1px solid var(--vj-cl-rg1);
+        margin-bottom: 12px
+    }
+
+    .ls-ns-2 .ls-ns_li{margin-bottom: 10px;}
+}

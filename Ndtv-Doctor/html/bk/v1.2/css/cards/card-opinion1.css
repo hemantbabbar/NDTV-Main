@@ -1,0 +1,147 @@
+/*----====== Card E ======----*/
+.OpnCr_wr {display: flex;float: left;margin: -16px 0 0px;width: 100%;}
+.OpnCr_ul{display:flex;flex-wrap: wrap;margin: 0 -10px;width:100%;}
+.OpnCr_wat {width:auto;}
+.OpnCr_li{padding: 4px 10px 12px;margin: 0;position: relative;width:100%}
+.OpnCr_li a{color: var(--vj-cl-dr);/* display: flex; *//* height: 100%; *//* flex-direction: column; *//* justify-content: space-between; */}
+.OpnCr_li:hover a{color:#666;}
+
+.OpnCr_lk {
+    background: var(--vj-cl-bg);
+    border-radius: 8px;
+    /* border: 1px solid #bdbdbd; */
+    -webkit-box-shadow: 6px 8px 16px rgb(0 0 0 / 7%);
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 10%);
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+.OpnCr_auth, .OpnCr_auth a{display:flex;flex-wrap: wrap;position: relative;font-size: 12px;font-weight: 600;align-items: center;/* padding-left: 30px; */-webkit-user-select: none;-ms-user-select: none;user-select: none;}
+.OpnCr_auth .img-Op{width: 45px;height: 45px;margin-right: 11px;border-radius: 50%;/* border: 2px solid #fff; *//* margin-top: 6px; */display:block;overflow:hidden;/* box-shadow: 0 0 4px rgba(0,0,0,0.5); */}
+.OpnCr_auth .img-Op img{width:100%;height:100%;object-fit:cover;/* filter: grayscale(1); */}
+.OpnCr_auth .dt{font-size: 10px;font-weight: 400;line-height: 9px;display: none;}
+
+.OpnCr_tx, .OpnCr_tx1{color: var(--vj-cl-dr);font-family: miller-headline, serif;/* font-family: ivypresto-headline, serif; */font-size: 19px;font-weight: 500;line-height: 26px;margin: 0 0 8px 0;position:relative;/* padding-left: 28px; */letter-spacing: 0.3px;}
+.OpnCr_tx1 {
+    font-family: var(--ff-five);
+}
+
+
+.OpnCr_tx:hover, .OpnCr_tx1:hover, .OpnCr_tx1:hover {
+    color: var(--vj-cl-dr4);
+}
+
+
+
+
+.OpnCr_auth-dt{color: var(--vj-cl-dr1);font-size: 14px;font-weight: 400;line-height: 21px;/* width: calc(100% - 62px); */}
+
+.OpnCr_tx_h-line{font-size: 15px;line-height:24px;margin: 0 0 8px 0;position:relative;}
+
+@media(min-width:768px){
+    .OpnCr_ul-2 .OpnCr_li{width:33.33%;}
+    .OpnCr_ul-2 .OpnCr_li:nth-child(3n):after, .OpnCr_ul-2 .OpnCr_li:nth-last-child(-n + 3):before{display:none;}
+    .OpnCr_ul-3 .OpnCr_li{width:33.33%}
+    .OpnCr_ul-4 .OpnCr_li{width:33.33%;}
+    .OpnCr_ul-4 .OpnCr_li:nth-child(3n):after, .OpnCr_ul-4 .OpnCr_li:nth-last-child(-n + 3):before{display:none;}
+
+
+
+}
+
+
+@media(min-width:992px){
+    .OpnCr_ul-aut .OpnCr_li { width: auto; margin-bottom: -1px; }
+    .OpnCr_ul-2 .OpnCr_li{width:50%;}
+    .OpnCr_ul-2 .OpnCr_li:nth-child(3n):after, .OpnCr_ul-2 .OpnCr_li:nth-last-child(-n + 3):before{display:block;}
+    .OpnCr_ul-2 .OpnCr_li:nth-child(2n):after, .OpnCr_ul-2 .OpnCr_li:nth-last-child(-n + 2):before{display:none;}
+    .OpnCr_ul-3 .OpnCr_li{width:33.33%}
+    .OpnCr_ul-3 .OpnCr_li:nth-child(3n):after, .OpnCr_ul-3 .OpnCr_li:nth-last-child(-n + 3):before{display:none;}
+    .OpnCr_ul-4 .OpnCr_li{width:25%;}
+    .OpnCr_ul-4 .OpnCr_li:nth-child(3n):after, .OpnCr_ul-4 .OpnCr_li:nth-last-child(-n + 3):before{display:block;}
+    .OpnCr_ul-4 .OpnCr_li:nth-child(4n):after, .OpnCr_ul-4 .OpnCr_li:nth-last-child(-n + 4):before{display:none;}
+
+}
+
+.OpnCr_tx b {
+    border-bottom: 1px solid #82828247;
+    display: flex;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 4px 10px 0 0;
+    color: var(--vj-cl-ot3);
+    font-family: var(--ff-one);
+}
+
+.MstPpl_swp .swiper-button-prev, .MstPpl_swp .swiper-button-next {
+}
+
+
+
+@media (min-width:1280px) and (max-width:1399px) {
+.OpnCr_tx, .OpnCr_tx1 {
+    font-size: 17px;
+    line-height: 22px;
+}
+}
+
+
+/*
+<div class="OpnCr_wr">   
+                    <ul class="OpnCr_ul OpnCr_ul-4">
+                     <li class="OpnCr_li">
+                        <a class="OpnCr_lk" href="#">
+                        <div class="OpnCr_tx"><b>Opinion:</b> News Channels, Chasing TRPs, Ignore The Necessary</div>
+                        <div class="OpnCr_auth"><i class="img-Op"><img src="https://c.ndtvimg.com/2020-02/l9asidpo_derek-obrien-ndtv_120x90_13_February_20.jpg"></i> <div class="OpnCr_auth-dt">Derek O'Brien <span class="dt">Updated: January 03, 2023 10:28 am IST</span></div></div>
+                    </a>
+                     </li>
+
+                     <li class="OpnCr_li">
+                        <a class="OpnCr_lk" href="#">
+                        <div class="OpnCr_tx"><b>Opinion:</b> Rahul Gandhi's Yatra Is A Landmark. Even If...</div>
+                        <div class="OpnCr_auth"><i class="img-Op"><img src="https://c.ndtvimg.com/2020-06/rompp8l8_rajmohan-gandhi-240_120x90_29_June_20.jpg"></i> <div class="OpnCr_auth-dt">Derek O'Brien <span class="dt">Updated: January 03, 2023 10:28 am IST</span></div></div>
+                    </a>
+                     </li>
+
+                     <li class="OpnCr_li">
+                        <a class="OpnCr_lk" href="#">
+                        <div class="OpnCr_tx"><b>Blog:</b> At Qatar, This Winner Was Not Even Playing</div>
+                        <div class="OpnCr_auth"><i class="img-Op"><img src="https://c.ndtvimg.com/2022-07/c6frj1s8_mohd-asim-240_120x90_01_July_22.jpg"></i> <div class="OpnCr_auth-dt">Derek O'Brien <span class="dt">Updated: January 03, 2023 10:28 am IST</span></div></div>
+                    </a>
+                     </li>
+
+                     <li class="OpnCr_li">
+                        <a class="OpnCr_lk" href="#">
+                        <div class="OpnCr_tx"><b>Opinion:</b> Compare Messi To Sachin, Not Ronaldo - Keshava Guha</div>
+                        <div class="OpnCr_auth"><i class="img-Op"><img src="https://c.ndtvimg.com/2021-10/fs8cm1ac_keshava-guha-240_120x90_28_October_21.jpg"></i> <div class="OpnCr_auth-dt">Derek O'Brien <span class="dt">Updated: January 03, 2023 10:28 am IST</span></div></div>
+                    </a>
+                     </li>
+
+                     
+                    </ul>
+                </div>*/
+
+
+                     
+
+
+                     
+
+                     
+
+                     
+                     
+
+                     
+
+
+

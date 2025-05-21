@@ -1,0 +1,71 @@
+
+
+/*----====== Web Stories category Page ======----*/
+.WsNsLst_pg {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 6px;
+}
+
+.WsNsLst_pg em {
+    background-color: rgba(255, 255, 255, 0.78);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    display: block;
+    height: 3px;
+    margin-right: 3px;
+    width: 100%;
+}
+
+.WsNsLst_pg-wrp {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0, 0, 0, 0) 100%);
+    padding: 20px 0;
+}
+
+
+
+.WsNsLst_ttl {
+    display: flex;
+    flex-direction: column;
+    color: var(--vj-cl-dr);
+    font-family: var(--ff-five);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    height: 100%;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.WsNsLst_bt {
+    display: flex;
+    float: left;
+    /* min-height: 30px; */
+    margin-top: auto;
+    width: 100%;
+    /* margin-top: auto; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.WsNsLst_dt {
+    color: var(--vj-cl-dr7);
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-family: var(--ff-two);
+    font-weight: 500;
+    line-height: 17px;
+    padding: 3px 0 0;
+    position: relative;
+}
+
+
+

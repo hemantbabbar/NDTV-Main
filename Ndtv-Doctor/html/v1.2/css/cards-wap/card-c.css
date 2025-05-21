@@ -1,0 +1,21 @@
+/*----====== Card C ======----*/
+.crd-c {
+    display: inline-block;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.crd-c .crd_ttl {
+    margin-bottom: 0;
+}
+.crd-c .crd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.crd-c .crd_img {
+    margin: 0 8px 0 0;
+}

@@ -1,0 +1,227 @@
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-cr-j: #fafafa;
+    --vj-cl-cr-j1: #fff;
+}
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-cr-j: #272727;
+    --vj-cl-cr-j1: #333333;
+}
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+        --vj-cl-cr-j: #272727;
+        --vj-cl-cr-j1: #333333;
+    }
+    /*--====== Light ======--*/
+    :root .day_night {
+        --vj-cl-cr-j: #fafafa;
+        --vj-cl-cr-j1: #fff;
+    }
+}
+/*----====== Card I ======----*/
+.bod_crd-j {
+    background-color: var(--vj-cl-cr-j);
+}
+
+.crd-j-tp {
+        display: inline-block;
+    float: left;
+    width: calc(100% + 30px);
+    background-color: var(--vj-cl-cr-j1);
+    border-radius: 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    flex-direction: column;
+    position: relative;
+    margin: 0 0 55px -15px;
+}
+.crd-j-tp_wrp {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+.crd-j-tp_img {
+    margin: 0 0 10px;
+    width: 100%;
+}
+.crd-j-tp_img-wr .img-gr {
+    border-radius: 0;
+}
+
+.crd-j-tp_txt {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 12px 15px;
+    margin: 0 0 0;
+}
+
+.crd-j-tp_ttl {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: var(--vj-cl-dr1);
+    padding: 0 0 0;
+        margin-bottom: 10px;
+}
+.crd-j-tp_ttl-sub {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--vj-cl-dr1);
+    padding: 0 0 0;
+    
+    display: -webkit-box;
+    position: relative;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.crd-j-tp_img-wr {
+        border-radius: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    min-height: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.crd-j-tp_txt .crd-ft_bt {
+    opacity: 1;
+}
+
+
+
+.crd-j-tp_txt .crd_shr {
+    z-index: 98;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.crd-j_svg, .crd-j_svg2 {
+    display: none;
+}
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    .crd-j-rpd {
+        padding-right: 60px;
+    }
+    .crd-j-tp_wrp {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+    }
+    .crd-j-tp {
+        
+    box-shadow: 0 8px 16px rgba(192, 0, 255, 0.12);
+    border-radius: 12px;
+            margin: 0 0 30px;
+    padding: 0;
+        
+    width: 100%;
+    }
+    .crd-j-tp_img {
+        margin: 0;
+        width: 770px;
+    }
+    .crd-j-tp_img-wr {
+        border-radius: 12px 0 0 12px;
+    }
+    .crd-j-tp_txt {
+            width: calc(100% - 471px);
+    padding: 0;
+    margin: 32px;
+    }
+    .crd-j-tp_lnk {
+            font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    height: 100%;
+    }
+    .crd-j-tp_ttl {
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 700;
+    padding: 0;
+    margin-bottom: 25px;
+    }
+
+    .crd-j-tp_txt .crd-ft_bt {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .crd-j-ttl .ss.scr_pg-ss .vj_icn {
+        color: #f5f5ff;
+        font-size: 15px;
+    }
+.crd-j_svg, .crd-j_svg2 {
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    opacity: 0.1;
+    z-index: -1;
+}
+.crd-j_svg {
+    left: -90px;
+    top: -90px;
+}
+.crd-j_svg2 {
+    right: -40px;
+    bottom: -50px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

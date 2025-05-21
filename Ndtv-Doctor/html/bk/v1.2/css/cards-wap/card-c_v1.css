@@ -1,0 +1,32 @@
+/*----====== Card C ======----*/
+.crd-c_v1 {
+    display: inline-block;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-content: space-between;
+}
+.crd-c_v1 .crd_ttl {
+    margin-bottom: 0;
+}
+.crd-c_v1 .crd_txt-wrp {
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    justify-content:flex-start;
+}
+.crd-c_v1 .crd_img {
+    margin: 20px 0 0 10px;
+}
+/* .crd-c_v1 .img-gr {
+    padding-bottom: 75%;
+} */
+
+
+
+.crd-c_v1 .crd_D-ttl{margin-bottom:0;}

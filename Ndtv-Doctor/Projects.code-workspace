@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../NDTV-Education/Board-Exams/board-exam-final"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../NDTV-Tools/New/Gold-SIlver"
+		},
+		{
+			"path": "../Project-Elements-Components"
+		},
+		{
+			"path": "../NDTV-Games"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project-Elements-Components"
+	}
+}

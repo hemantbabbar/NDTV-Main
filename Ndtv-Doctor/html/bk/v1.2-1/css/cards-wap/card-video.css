@@ -1,0 +1,166 @@
+
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-crdH1: #d5f0f5;
+    
+}
+
+
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-crdH1: #274d55;
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+        --vj-cl-crdH1: #274d55;
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {
+        --vj-cl-crdH1: #d5f0f5;
+    }
+}
+
+
+/*----====== Card H ======----*/
+
+
+.crd-vd {
+    background: var(--vj-cl-bg);
+    border-radius: 4px;
+    -webkit-box-shadow: 6px 8px 16px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 10%);
+    display: flex;
+    float: left;
+    position: relative;
+    margin-bottom: 12px;
+    width: 100%;
+    /* height: 100%; */
+    flex-direction: column;
+}
+
+.crd-vd_bg1 {
+    background: var(--vj-cl-crdH1);
+}
+    
+    
+.crd-vd_h100 {
+    height: 100%;
+}
+
+.crd-vd_wrp {
+    display: inline-block;
+    float: left;
+    padding-bottom: 30px;
+    position: relative;
+    height: 100%;
+}
+
+.crd-vd .crd_txt-wrp {
+    display: flex;
+    float: left;
+    padding: 12px 12px 8px;
+    justify-content: space-between;
+}
+
+
+.crd-vd .crd_img, .crd-vd .img-gr {
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 0;
+}
+
+
+
+.crd-vd:hover .crd-ft_bt {
+    opacity: 1;
+}
+
+.crd-vd_read {
+    background: var(--vj-cl-lg4);
+    -webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.0);
+    box-shadow: 1px 6px 12px rgba(0, 0, 0, 0.0);
+}
+
+.crd-vd_read .crd_lnk {
+    color: var(--vj-cl-dr5);
+}
+
+.img-gr_crd-vd {
+    padding-bottom: 134%;
+}
+
+
+
+
+
+
+
+
+.crd-vd_tg-wr {
+    background: #bf3838;
+    border-radius: 30px;
+    left: 6px;
+    height: 34px;
+    padding: 0;
+    position: absolute;
+    bottom: 6px;
+    width: 34px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 1;
+}
+.crd-vd_tg {
+    display: flex;
+    float: left;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.img-gr .crd-vd_tg-ic {
+    width: 1em;
+    left: auto;
+    color: #fff;
+}
+.crd-vd_tg-ic {
+    color: white;
+    font-size: 20px;
+}
+
+.crd-vo_im-ft-ic {
+    font-size: 15px;
+    margin-right: 6px;
+}
+
+.crd-vo_im-ft-nu {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+.Vd1_wdg .crd-vd {
+    margin-bottom: 0;
+}
+
+.Vd1_wdg .img-gr img, .Vd1_wdg .crd-vd .img-gr, .Vd1_wdg .crd_img {
+    border-radius: 0;
+}
+
+
+
+
+
+
+

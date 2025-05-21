@@ -1,0 +1,163 @@
+
+
+/*--====== Light ======--*/
+:root {
+    --vj-fw4: 500;
+    --vj-fw5: 600;
+}
+
+
+/*--====== Dark ======--*/
+:root .day_night.hindi-dotcom {
+    --vj-fw4: 400;
+    --vj-fw5: 500;
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+    --vj-fw4: 400;
+    --vj-fw5: 500;
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night.hindi-dotcom  {
+    --vj-fw4: 500;
+    --vj-fw5: 600;
+    }
+}
+
+
+.crd_ttl, 
+.crd_ttl2, 
+.crd_ttl3, 
+.crd_ttl4, 
+.crd_ttl5, 
+.crd_ttl6, 
+.crd_ttl7, 
+.OpnCr_tx, 
+.OpnCr_tx1 {
+    font-family: var(--ff-five);
+    font-weight: var(--vj-fw4);
+}
+ 
+.crd_ttl {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: auto;
+} 
+.crd_ttl2 {
+    font-size: 19px;
+    line-height: 27px;
+    font-weight: 600;
+} 
+.crd_ttl3 {
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 600;
+} 
+.OpnCr_tx {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: var(--vj-fw5);
+} 
+
+.OpnCr_tx2 {
+    font-size: 19px;
+    font-family: var(--ff-five);
+    font-weight: var(--vj-fw5);
+} 
+
+.crd_ttl4 {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 500;
+}
+ 
+.crd_ttl7 {
+    font-family: var(--ff-five);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.crd_ttl8 {
+    font-family: var(--ff-five);
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+
+.crd_ttl7 .crd_lnk {
+    color: var(--vj-cl-dr);
+}
+
+.crd-e .crd_ttl7 .crd_lnk {
+    color: #fff;
+}
+
+
+
+
+
+.ClrgCrd-a_ttl1, .ClrgCrd-a_ttl1 .crd_lnk {
+    font-family: 'Noto Sans Devanagari';
+}
+
+
+
+
+
+.tp-ttl1 .vj_icn, .tp-ttl2 .vj_icn, .tp-ttl3 .vj_icn, .tp-ttl4 .vj_icn, .tp_H-ttl1 .vj_icn {
+    margin-top: -4px;
+}
+.tp-ttl_ic1 {
+    font-size: 22px;
+    margin: 0px 10px 0 0;
+}
+.tp-ttl1, .tp-ttl2 {
+    font-family: var(--ff-five);
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 8px;
+    }
+.tp-ttl2 {
+    font-weight: 600;
+}
+
+.crd-ft_dt, .crd-ft_tg {
+    font-family: var(--ff-five);
+    font-size: 12px;
+}
+
+
+
+.TlTbs-lnk {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+
+.BrkNews_txt {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.BrkNews_ttl {
+    font-size: 23px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.MSub-nav_lnk, .MSub-nav_lft {
+    font-family: var(--ff-five);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+

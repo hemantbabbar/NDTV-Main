@@ -1,0 +1,36 @@
+
+
+
+
+
+
+.crd_cat{
+    color:#00ACC6;
+    display:inline-block;
+    font-size:12px;
+    font-weight: 500;
+    width:100%;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.crd_cat-lk{
+    color:#00ACC6;
+    letter-spacing: 1.2px;
+}
+
+.crd_cat-lk:hover{color: #28e0fc;}
+
+
+
+
+.crd_bt-ttl{
+    display:inline-block;
+    float:left;
+    font-size:14px;
+    font-weight:500;
+    margin: 0 0 3px 0;
+    padding:0;
+    width:100%
+}
+

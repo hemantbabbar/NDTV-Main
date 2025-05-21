@@ -1,0 +1,127 @@
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-CrdSptr1: #dfe1e4;
+    --vj-cl-CrdSptr2: #4BCADE;
+
+}
+
+
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-CrdSptr1: #444444;
+    --vj-cl-CrdSptr2: #444444;
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+        --vj-cl-CrdSptr1: #444444;
+    --vj-cl-CrdSptr2: #444444;
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {
+        --vj-cl-CrdSptr1: #C4C8CC;
+        --vj-cl-CrdSptr2: #4BCADE;
+
+    }
+}
+
+
+
+
+/*----====== Spacing Left and right ======----*/
+.CrdSpcLtRt {
+    border-left: 1px solid  var(--vj-cl-CrdSptr1);
+    border-right: 1px solid  var(--vj-cl-CrdSptr1);
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: flex-start;
+}
+    
+    
+
+
+/*----====== Separator Left ======----*/
+.CrdSptrLt {
+    border-left: 1px solid  var(--vj-cl-CrdSptr1);
+    display: flex;
+    float: left;
+}
+
+
+/*----====== Separator Right ======----*/
+.CrdSptrRt {
+    border-right: 1px solid  var(--vj-cl-CrdSptr1);
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+
+/*----
+.CrdSptrLt:after, .CrdSptrRt:after {
+    background: var(--vj-cl-CrdSptr1);
+    bottom: 0;
+    content: "";
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 1px;
+}
+.CrdSptrLt:after, .CrdSptrRt:after {
+    right: auto;
+    left: 0;
+}
+.CrdSptrLt:after, .CrdSptrRt:after {
+    right: 0;
+}
+----*/
+
+
+
+
+/*----====== Separator Top ======----*/
+.CrdSptr {
+    border-bottom: 1px solid var(--vj-cl-CrdSptr1);
+    display: flex;
+    float: left;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.Bg-cl1 .CrdSptr{border-bottom:1px solid var(--vj-cl-CrdSptr2)}
+
+.CrdSptr_emt {
+    border-bottom: 0 solid var(--vj-cl-CrdSptr1);
+}
+.CrdSptr {
+    margin: 0 0 25px;
+}
+.CrdSptr_a {
+    margin: 30px 0 30px;
+}
+.CrdSptr_b {
+    margin: 30px 0 0;
+}
+.CrdSptr_c {
+    margin: 0;
+}
+.CrdSptr_d {
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    margin: 0 0 15px;
+}
+.CrdSptr_e {
+   
+    margin: 0 0 25px;
+}
+
+
+@media(max-width:767px){
+    .CrdSptr{margin-bottom: 20px;}
+    
+}

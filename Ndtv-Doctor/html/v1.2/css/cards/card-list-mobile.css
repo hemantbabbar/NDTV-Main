@@ -1,0 +1,31 @@
+
+
+
+/*--=================== Mobile width and ratio ===================--*/
+
+@media (max-width: 768px) {
+    .crd_sm-rt, .crd-d_v1-li .crd_sm-rt {
+        display: flex;
+        flex-direction: row-reverse;
+        border-bottom: 1px solid var(--vj-cl-rg1);
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+    .crd_sm-rt .crd_img {
+        margin-right: 0;
+        margin-left: 12px;
+        margin-bottom: 0;
+        width: 125px;
+    }
+
+    .crd_sm-rt .img-gr {
+        padding-bottom: 66.66%;
+    }
+
+}
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+
+.AfBfNum {
+    counter-reset: ordered-counter;
+    list-style: none;
+}
+
+.AAfBfNum_li {
+    counter-increment: ordered-counter;
+}
+.AAfBfNum_li .crd_img:after,
+.AAfBfNum_li .AAfBfNum_cunt:after {
+    content: counter(ordered-counter);
+    color: var(--vj-cl-bg2);
+    line-height: 1.45;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 72px;
+    /* opacity: 0.8; */
+    left: 3px;
+    bottom: -19px;
+    z-index: 1;
+    background: var(--vj-cl-bg2);
+    background: #ffffffc4;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--vj-cl-dr);
+    -webkit-text-stroke-color: #000000d4;
+    /* backdrop-filter: blur(3px);*/
+}

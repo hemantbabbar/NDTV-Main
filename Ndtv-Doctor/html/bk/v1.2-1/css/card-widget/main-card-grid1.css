@@ -1,0 +1,140 @@
+
+    
+    
+
+
+/*----====== Card Grid ======----*/
+
+
+
+
+
+
+
+
+.vjl2_cn, .vjl2_Lhs, .vjl2_Rhs {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: stretch;
+    padding-right: 0;
+    padding-left: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+@media (min-width: 768px) {
+    .vjl2_cn, .vjl2_Lhs, .vjl2_Rhs {
+    flex-direction: row;
+}
+.vjl2_Lhs {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: stretch;
+    padding-right: 25px;
+    -ms-flex: 0 0 calc(100% - 321px);
+    flex: 0 0 calc(100% - 321px);
+    max-width: calc(100% - 321px);
+}
+.vjl2_Rhs {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    -ms-flex: 0 0 321px;
+    flex: 0 0 321px;
+    max-width: 321px;
+}
+
+}
+
+
+.vjl2-row {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0 -15px 24px;
+}
+.vjl2-row2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+}
+
+
+
+
+
+
+
+.vjl2-md-1, .vjl2-md-2, .vjl2-md-3, .vjl2-md-3a, .vjl2-md-3b, .vjl2-md-4, .vjl2-md-5, .vjl2-md-6, .vjl2-md-6a, .vjl2-md-12 {
+    display: flex;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+@media (min-width: 768px) {
+    
+.vjl2-md-1 {
+    
+}
+.vjl2-md-2 {
+    
+}
+.vjl2-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.vjl2-md-3a {
+    -ms-flex: 0 0 26%;
+    flex: 0 0 26%;
+    max-width: 26%;
+}
+.vjl2-md-3b {
+    -ms-flex: 0 0 29%;
+    flex: 0 0 29%;
+    max-width: 29%;
+}
+.vjl2-md-4 {
+    -ms-flex: 0 0 33.333%;
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+}
+.vjl2-md-5 {
+    
+}
+.vjl2-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.vjl2-md-6a {
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%;
+}
+.vjl2-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+}
+
+

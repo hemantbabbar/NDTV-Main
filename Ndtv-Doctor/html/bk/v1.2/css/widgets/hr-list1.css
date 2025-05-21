@@ -1,0 +1,223 @@
+.Hrlst5_ul {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 0;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-bottom: 15px;
+    white-space: normal;
+    transition: 0.3s ease all;
+}
+
+.Hrlst5_li {
+    -ms-flex: 0 0 390px;
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.5s cubic-bezier(.37,.15,.32,.94);
+}
+
+.Hrlst5_ul-2 .Hrlst5_li {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.Hrlst5_ul-3 .Hrlst5_li {
+    -ms-flex: 0 0 33.333%;
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+}
+
+.Hrlst5_ul-4 .Hrlst5_li {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.Hrlst5_ul-5 .Hrlst5_li {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.Hrlst5_ul-6 .Hrlst5_li {
+    -ms-flex: 0 0 16.666%;
+    flex: 0 0 16.666%;
+    max-width: 16.666%;
+}
+
+
+
+
+.Hrlst5_li .crd-h .crd_txt-wrp {
+    transition: all 0.5s cubic-bezier(.37,.15,.32,.94);
+}
+
+.Hrlst5_li:hover {
+    transform: scale(1.03);
+}
+
+
+.Hrlst5_ul:hover .Hrlst5_li:not(:hover) {
+    /* transform: scale(0.97); */
+}
+
+.Hrlst5_li .crd_txt-wrp {
+    transition: transform .6s cubic-bezier(.3,.58,.42,.9);
+}
+.Hrlst5_li:hover .crd_txt-wrp {
+    transform: translateY(-3px) scale(0.97);
+}
+
+
+
+
+
+.Hrlst5_li .crd-h {
+    height: 100%;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+.Hrlst5_num {
+    counter-reset: ordered-counter;
+    list-style: none;
+}
+
+.Hrlst5_num .Hrlst5_li {
+    counter-increment: ordered-counter;
+}
+.Hrlst5_num .Hrlst5_li .crd_img:after {
+    content: counter(ordered-counter);
+    color: var(--vj-cl-bg2);
+    line-height: 1.45;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 69px;
+    font-weight: 900;
+    line-height: 72px;
+    /* opacity: 0.8; */
+    left: 3px;
+    bottom: -15px;
+    z-index: 1;
+    background: var(--vj-cl-bg2);
+    background: #ffffffc4;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--vj-cl-dr);
+    -webkit-text-stroke-color: #000000d4;
+    /* backdrop-filter: blur(3px);*/
+}
+
+
+
+
+
+
+
+/*----====== Web Stories category Page ======----*/
+.WsNsLst_pg {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 6px;
+}
+
+.WsNsLst_pg em {
+    background-color: rgba(255, 255, 255, 0.78);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    display: block;
+    height: 3px;
+    margin-right: 3px;
+    width: 100%;
+}
+
+.WsNsLst_pg-wrp {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0, 0, 0, 0) 100%);
+    padding: 20px 0;
+}
+
+
+
+.WsNsLst_ttl {
+    display: flex;
+    flex-direction: column;
+    color: var(--vj-cl-dr);
+    /* font-family: var(--ff-five); */
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    height: 100%;
+    margin-bottom: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.WsNsLst_ttl .crd_lnk{margin-bottom:15px}
+
+.WsNsLst_bt {
+    display: flex;
+    float: left;
+    min-height: 30px;
+    /* margin-bottom: auto; */
+    width: 100%;
+    margin-top: auto;
+}
+
+.WsNsLst_dt {
+    color: var(--vj-cl-dr7);
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    font-family: var(--ff-two);
+    font-weight: 500;
+    line-height: 17px;
+    padding: 3px 0 0;
+    position: relative;
+}
+
+
+
+.WsNsLst_pg-top {
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgb(0 0 0 / 0%) 33%, rgb(0 0 0 / 27%) 100%);
+    bottom: auto;
+    top: 0;
+}
+
+
+
+
+
+.Hrlst5_HinHm-hg {
+    min-height: 362px;
+}
+
+
+
+@media (min-width:1280px) and (max-width:1399px) {
+.Hrlst5_HinHm-hg {
+    min-height: 314px;
+}
+
+}

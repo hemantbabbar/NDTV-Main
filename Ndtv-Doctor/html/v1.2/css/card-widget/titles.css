@@ -1,0 +1,36 @@
+
+    
+    
+
+
+/*----====== Separator Left ======----*/
+.tp-ttl-bg {
+    border-bottom: 3px solid transparent;
+    color: var(--vj-cl-dr);
+    display: flex;
+    float: left;
+    font-family: miller-headline, serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.7px;
+    padding: 0 4px 0 0;
+    margin-bottom: 15px;
+    letter-spacing: -0.7px;
+    position: relative;
+    align-items: center;
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+.tp-ttl-bg .vj_icn {
+    display: inline-block;
+    float: right;
+    font-size: 9px;
+    margin: 0 0 0 8px;
+}
+
+
+.tp-ttl-bg1 {
+    border-color: #00000024;
+}

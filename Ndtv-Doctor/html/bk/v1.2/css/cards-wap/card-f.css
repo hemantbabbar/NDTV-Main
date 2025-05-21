@@ -1,0 +1,46 @@
+/*----====== Card F ======----*/
+.crd-f {
+    display: inline-block;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: stretch;
+    position: relative;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-content: space-between;
+}
+.crd-f {
+    background-color: var(--vj-cl-bg);
+    border: 1px solid var(--vj-cl-lg4);
+    border-bottom-color: var(--vj-cl-lg4);
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    height: 100%;
+    margin-bottom: 0;
+    padding: 8px;
+}
+.crd-f .crd_ttl {
+    margin-bottom: 0;
+}
+.crd-f .crd_txt {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    width: 100%;
+}
+.crd-f .crd_txt-wrp {
+    display: flex;
+    justify-content: space-between;
+}
+.crd-f .crd_img {
+    margin: 1px 0 0 8px;
+    width: 100px;
+}
+
+.crd-f_lst .ls-ns_li {
+    margin-bottom: 6px;
+}

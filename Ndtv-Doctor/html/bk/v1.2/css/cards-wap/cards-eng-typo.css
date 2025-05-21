@@ -1,0 +1,96 @@
+
+
+/*--====== Light ======--*/
+:root {
+    --vj-fw4: 400;
+    --vj-fw5: 500;
+    --vj-fw6: 600;
+    --vj-fw7: 700;
+    --vj-fw9: 900;
+}
+
+
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-fw4: 400;
+    --vj-fw5: 500;
+    --vj-fw6: 600;
+    --vj-fw7: 700;
+    --vj-fw9: 900;
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+    --vj-fw4: 400;
+    --vj-fw5: 500;
+    --vj-fw6: 500;
+    --vj-fw7: 700;
+    --vj-fw9: 900;
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night  {
+    --vj-fw4: 400;
+    --vj-fw5: 500;
+    --vj-fw6: 600;
+    --vj-fw7: 700;
+    --vj-fw9: 900;
+    }
+}
+
+
+.crd_ttl, 
+.crd_ttl2,
+
+.crd_ttl3, 
+.crd_ttl4, 
+
+.crd_ttl5, 
+.crd_ttl6, 
+
+.crd_ttl7, 
+.OpnCr_tx, 
+.OpnCr_tx1 {
+    font-weight: var(--vj-fw5);
+}
+ 
+.crd_ttl, .crd_ttl2 {
+    /* font-size: 16px; */
+    /* line-height: 22.5px; */
+    font-weight: var(--vj-fw5);
+}  
+.OpnCr_tx {
+    /* font-size: 16px; */
+    /* line-height: 22.5px; */
+    font-weight: var(--vj-fw5);
+} 
+.crd_ttl3 {
+    /* font-size: 18px; */
+    /* line-height: 25px; */
+    font-weight: var(--vj-fw5);
+}
+.crd_ttl4 {
+    /* font-size: 19px; */
+    /* line-height: 26.5px; */
+    /* font-weight: var(--vj-fw6); */
+}
+ 
+.crd_ttl7 {
+    font-weight: var(--vj-fw7);
+}
+
+.tp-ttl1, .tp-ttl2 {
+    font-weight: var(--vj-fw7);
+    }
+.tp-ttl2 {
+    font-weight: var(--vj-fw6);
+}
+
+
+
+.TlTbs-lnk {
+    font-size: 16px;
+    line-height: 18px;
+}

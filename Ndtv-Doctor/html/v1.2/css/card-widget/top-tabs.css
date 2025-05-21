@@ -1,0 +1,68 @@
+
+/*----====== Top Tabs ======----*/
+
+.TTbs_wr {
+    /* border-bottom: 1px solid var(--vj-cl-CrdSptr1); */
+    display: flex;
+    float: right;
+    padding: 0 8px 0 22px;
+    margin: -5px 0 28px 40px;
+}
+.TTbs_in {
+    display: none;
+}
+
+.TTbs_lb {
+    /* background: #f5f5f5; */
+    display: inline-block;
+    margin: 0 0 -1px;
+    border-radius: 52px;
+    padding: 2px 14px;
+    /* font-family: futura-pt, sans-serif; */
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: center;
+    color: var(--vj-cl-dr);
+    border: 1px solid transparent;
+    margin: 2px 0 0;
+    opacity: 0.7;
+    white-space: nowrap;
+}
+
+.TTbs_lb-act {
+    background: var(--vj-cl-lg);
+    color: var(--vj-cl-dr);
+    border: 1px solid rgb(41 41 41 / 57%);
+    /* border-bottom: 1px solid var(--vj-cl-bg1); */
+    box-shadow: 0 2px 4px #0000001f;
+    border-radius: 42px;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

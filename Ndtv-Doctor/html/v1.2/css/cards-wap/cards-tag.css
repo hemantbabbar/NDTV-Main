@@ -1,0 +1,52 @@
+/*---- card tag ----*/
+.crd-tag{
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.71);
+    display: inline-block;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    color: var(--vj-cl-dr);
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 1px 7px;
+    left: 3px;
+    line-height: 20px;
+    height: 22px;
+    top: 3px;
+}
+.crd-tag_lg {
+    color: #efefef;
+    text-shadow: 0 0 6px rgba(255, 222, 133, 0.17);
+}
+
+
+.crd-tag_wrp {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 23px;
+    font-family: var(--ff-two);
+}
+.crd-tag2 {
+    color: rgba(0, 0, 0, 0.43);
+    margin: -2px;
+    padding: 0 2px 0 3px;
+    line-height: 16px;
+    height: 19px;
+    border-bottom: 2px solid #feeb4e52;
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 3px;
+    letter-spacing: .55px;
+    left: 3px;
+    float: left;
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+}

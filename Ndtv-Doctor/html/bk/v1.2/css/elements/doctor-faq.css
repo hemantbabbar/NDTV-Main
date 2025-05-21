@@ -1,0 +1,164 @@
+/*--====== Light ======--*/
+:root {
+    --vj-cl-DcFq1: #c4c8cc;
+    --vj-cl-DcFq2: #F7FEFF;
+    
+
+
+}
+
+/*--====== Dark ======--*/
+:root .day_night {}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark) {
+
+    /*--====== Dark ======--*/
+    :root {
+        --vj-cl-DcFq1: #444444;
+        --vj-cl-DcFq2: #00C1DE;
+
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {
+        
+    }
+}
+
+
+
+.DcFaq_wr {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.DcFaq_cn {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.DcFaq_ul {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+.DcFaq_li {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative
+}
+
+
+/* .DcFaq_li:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #C4C8CC;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    width: calc(100% - 40px)
+} */
+
+
+
+.DcFaq_crd {
+    border-bottom: 1px solid var(--vj-cl-rg3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 15px 0;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.DcFaq_ttl {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.36px;
+    line-height: 24px;
+    color: var(--vj-cl-dr2);
+    max-width: 328px;
+    width: 100%;
+    min-height: inherit;
+}
+
+.DcFaq_icn {
+    display: inline-block;
+    float: left;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    flex: 0 0 50px;
+}
+
+.DcFaq_icn .vj-icn-arrow-left {
+    font-size: 20px;
+}
+
+
+/* ========= Ask a Doctore Ad.========= */
+
+.AskDcHm_wr {
+    float: left;
+    width: 100%;
+    margin: 25px 0;
+    padding: 0;
+}
+
+.AskDcHm_cn {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-height: 235px;
+    overflow: hidden;
+    border-radius: 5px;
+    max-width: 465px;
+}
+
+.AskDcHm_cn img {
+    /* max-height: 250px; */
+    width: 100%;
+    margin: -5px 0 0 0;
+}
+
+
+.DcFaq_crd:hover .DcFaq_ttl{color:var(--vj-cl-dr1)}
+
+
+@media(min-width:992px){
+
+    .DcFaq_li{padding:0}
+    .DcFaq_ul{margin:0 -15px}
+    .DcFaq_crd{padding:22px 15px;}
+    .AskDcHm_wr{margin:30px 0 0}
+    .AskDcHm_cn img{ margin: -25px 0 0 0;}
+    .DcFaq_ttl{min-height:76px; font-size: 17px;}
+
+    
+.DcFaq_crd:hover{background:var(--vj-cl-DcFq2);}
+
+}

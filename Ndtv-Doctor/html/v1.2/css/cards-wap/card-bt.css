@@ -1,0 +1,105 @@
+.crd_bt {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.crd_dt {
+    color: var(--vj-cl-dr7);
+    display: inline-block;
+    float: left;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.crd_shr {
+    color: var(--vj-cl-dr2);
+    display: flex;
+    float: right;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    margin-left: 8px;
+    
+    
+    
+    height: 26px;
+    position: relative;
+    width: 26px;
+}
+
+.crd_shr .vj_icn.vj_share {
+    float: left;
+}
+
+.CpyLk_lk {
+    position: relative;
+}
+
+.CpyLk_lk .vj_icn {
+    font-size: 14px;
+}
+
+.crd-ft_bt {
+    display: flex;
+    float: left;
+    min-height: 26px;
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+    z-index: 3;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.crd-ft_bt.crd-ft_bt1 {
+    margin-top: auto;
+}
+.crd-ft_dt, .crd-ft_tg {
+    color: var(--vj-cl-dr1);
+    display: inline-block;
+    float: left;
+    font-size: 11px;
+    font-family: var(--ff-two);
+    font-weight: 500;
+    line-height: 12px;
+    margin: 4px auto 0 0;
+    padding: 0;
+    position: relative;
+}
+.crd-ft_tg {
+    border-right: 1px solid var(--vj-cl-rg3);
+    padding-right: 8px;
+}
+
+
+/*----====== Responsive Desktop ATF ======----*/
+
+
+@media (min-width: 1200px) {
+    
+.crd-ft_bt {
+    opacity: 0;
+    -moz-transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+}
+.crd-d_v1:hover .crd-ft_bt, .crd-b:hover .crd-ft_bt, .crd-c:hover .crd-ft_bt, .crd-e:hover .crd-ft_bt, .crd-f_v1:hover .crd-ft_bt, .crd-ph:hover .crd-ft_bt, .crd-rec:hover .crd-ft_bt, .crd-vo:hover .crd-ft_bt {
+    opacity: 1;
+}
+
+.crd-e .crd-ft_tg, .crd-e .crd-ft_dt, .crd-rec .crd-ft_tg, .crd-rec .crd-ft_dt, .crd-vo .crd-ft_tg, .crd-vo .crd-ft_dt {
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 10px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+.crd-e .crd_shr, .crd-rec .crd_shr, .crd-vo .crd_shr {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+}
+
+}
+

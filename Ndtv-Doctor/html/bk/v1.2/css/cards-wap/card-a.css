@@ -1,0 +1,18 @@
+/*----====== Card A ======----*/
+.crd-a {
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding-bottom: 0;
+    width: 100%;
+}
+.crd-a .crd_ttl {
+    font-size: 28px;
+    line-height: 42px;
+}
+.crd-a:hover .crd_img-full {
+    width: 100%;
+}
+.crd-a .crd_txt-wrp {
+    margin-bottom: 10px;
+}

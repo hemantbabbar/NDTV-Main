@@ -1,0 +1,79 @@
+/*----====== Card F ======----*/
+.crd-f_v1 {
+    display: inline-block;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+}
+.crd-f_v1 {
+    /* background-color: var(--vj-cl-lg); */
+    /* border: 1px solid var(--vj-cl-lg4); */
+    /* border-bottom-color: var(--vj-cl-lg4); */
+    height: 100%;
+    padding-bottom: 26px;
+    /* padding: 8px; */
+    margin: 0;
+}
+
+.crd-f_b8 {
+    border-radius: 8px;
+}
+
+.crd-f_v1 .img-gr.img-gr_d {
+    /* padding-bottom: 75%; */
+}
+
+
+.crd-f_v1 .crd_ttl {
+        /* margin-bottom: 15px; */
+        /* font-size: 16px; */
+        /* line-height: 24px; */
+}
+.crd-f_v1 .crd_txt {
+    color: var(--vj-cl-dr1);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    margin: 0;
+}
+.crd-f_v1 .crd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+}
+.crd-f_v1 .crd_img {
+    margin: 0 15px 0 0;
+    width: 194px;
+}
+
+@media (max-width: 768px) {
+.crd-f_v1 .crd_txt {
+    display: none;
+}
+.crd-f_v1 {
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    height: auto;
+}
+.vjl-md-6:last-child .crd-f_v1 {
+    border-bottom: 0 none;
+    margin-bottom: 7px;
+}
+}
+
+@media (min-width: 1600px) {
+    .crd-f_v1 {
+        padding-bottom : 16px;
+    }
+    .crd-f_v1 .crd_img {
+        width: 188px;
+    }
+}

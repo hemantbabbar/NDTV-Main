@@ -1,0 +1,68 @@
+/*----====== Card E ======----*/
+.crd-e {
+    display: inline-block;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    position: relative;
+    width: 100%;
+}
+.crd-e .crd_txt-wrp {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    position: absolute;
+    color: #fff;
+    bottom: -3px;
+    left: 0;
+    padding: 0 12px 12px;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+}
+.crd-e:hover .crd_txt-wrp {
+    padding-bottom: 18px;
+} 
+.crd-e .crd_img {
+    margin-bottom: 0;
+}
+
+
+.crd-e .crd_ttl {
+    color: #fff;
+    margin-bottom: 0;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+.crd-e .crd_lnk {
+    color: #fff;
+}
+.crd-e .crd_lnk:hover {
+    color: #fff;
+}
+.crd-e .crd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.crd-e-mid .crd_img {
+    box-shadow: 0 46px 32px -29px rgba(0, 0, 0, 0.63);
+}
+.crd-e-mid .img-gr {
+    padding-bottom: 66.4%;
+}
+.crd-e-mid .crd_txt-wrp {
+    padding: 50px 16px 20px;
+}
+
+.crd-e .crd-ft_dt, .crd-e .crd-ft_tg, .crd-e .crd_shr {
+    color: rgba(255, 255, 255, 0.85);
+}
+

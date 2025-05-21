@@ -1,0 +1,118 @@
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-cr-i1: #fff;
+    --vj-cl-cr-i2: #f9f9f9;
+    --vj-cl-cr-i3: #fff;
+}
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-cr-i1: #333333;
+    --vj-cl-cr-i2: #2f2f2f;
+    --vj-cl-cr-i3: #272727;
+}
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+        --vj-cl-cr-i1: #333333;
+        --vj-cl-cr-i2: #2f2f2f;
+        --vj-cl-cr-i3: #272727;
+    }
+    /*--====== Light ======--*/
+    :root .day_night {
+    --vj-cl-cr-i1: #fff;
+    --vj-cl-cr-i2: #f9f9f9;
+    --vj-cl-cr-i3: #fff;
+    }
+}
+
+
+
+.crd-i_mb-18 {
+    margin-bottom: 18px;
+}
+
+.crd-i {
+    background-color: var(--vj-cl-cr-i1);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.06);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: calc(100% - 12px);
+    margin-bottom: 12px;
+}
+
+.crd-i .crd_ttl {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23.5px;
+    margin-bottom: 18px;
+}
+.crd-i .crd-ft_bt, .crd-i-tp_txt .crd-ft_bt {
+    opacity: 1;
+}
+.crd-i .crd_img, .crd-i .img-gr {
+    background: var(--vj-cl-cr-i2);
+    border-radius: 8px 8px 0 0;
+}
+
+.crd-i .crd_shr {
+    background: var(--vj-cl-cr-i3);
+    z-index: 9;
+}
+
+
+
+
+
+.crd-i .crd_txt-wrp {
+    padding: 0 18px 16px;
+}
+
+.crd-i_im-ft {
+    display: inline-block;
+    font-size: 12px;
+    color: var(--vj-cl-dr7);
+    line-height: 1.6;
+    padding: 0 6px 5px 0;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 9;
+}
+.crd-i_im-li {
+    display: inline-block;
+    float: left;
+    border-right: 1px solid var(--vj-cl-rg3);
+    padding-right: 8px;
+    margin-right: 8px;
+}
+
+.crd-i_im-li:last-child {
+    border-right: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+.crd-i_im-ft-nu {
+    font-size: 12px;
+    font-weight: 600;
+    float: left;
+    line-height: 17px;
+    display: inline-block;
+}
+.crd-i_im-ft-ic {
+    display: inline-block;
+    float: left;
+    font-size: 17px;
+    margin: 0 8px 0 0;
+}
+
+
+
+
+

@@ -1,0 +1,25 @@
+
+@media (max-width: 575.98px) {
+
+/*.vjl-cntr, .home .vjl-cntr {
+    padding-right: 25px;
+    padding-left: 25px;
+}*/
+
+
+.crd-d, .crd-e, .crd-g {
+    display: inline-block;
+}
+
+.crd-f .crd_img {
+    width: 90px;
+}
+
+.crd-d .crd_img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 12px;
+}
+
+}
+

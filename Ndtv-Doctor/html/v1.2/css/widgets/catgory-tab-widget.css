@@ -1,0 +1,116 @@
+/* FAQ Category */
+
+.DcFqTtl {
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #F5F4F4;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    font-weight: 500;
+}
+
+
+.DcCatTb_wr {
+    display: inline-block;
+    float: left;
+    margin: 0 0 25px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.DcCatTb_cn {
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    display: flex;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.DcCatTb_ul {
+    display: flex;
+    float: left;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.DcCatTb_li {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.DcCatTb_lk {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 10px 12px;
+    color: var(--vj-cl-DcFqwdg3);
+    position: relative;
+}
+
+.DcCatTb_lk:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: var(--vj-cl-mtx);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.DcCatTb_lk.DcCatTb_lk-act {
+    color: var(--vj-cl-dr)
+}
+
+.DcCatTb_lk:hover:after,
+.DcCatTb_lk.DcCatTb_lk-act:after {
+    opacity: 1
+}
+
+.DcCatTb_all {
+    font-size: 12px;
+    color: var(--vj-cl-mtx);
+    padding: 10px 9px;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    /* border-left: 1px solid var(--vj-cl-rg1); */
+}
+
+.DcCatTb_all:hover {
+    color: var(--vj-cl-mtx1);
+}
+
+
+
+
+
+@media(min-width:768px) {
+
+    .DcCatTb_ul {
+        margin: 0 0 0 15px;
+        overflow: visible;
+    }
+
+    .DcCatTb_all {
+        border-left: 0
+    }
+
+    .DcCatTb_all {
+        font-size: 14px;
+    }
+}

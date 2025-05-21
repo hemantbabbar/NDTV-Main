@@ -1,0 +1,228 @@
+
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-rg1: #C4C8CC;
+    --vj-cl-rg2: #4BCADE;
+    --vj-cl-rg3: #D8D8D866;
+    --vj-bg-cl1: #00B4D0;
+    --vj-bg-cl2: #F2FCFE;
+    --vj-bg-cl3: #00B4D0;
+    --vj-bg-cl4: #abedf6;
+    --vj-cl-mtx: #00B4D1;
+    --vj-cl-mtx1: #038497;
+
+    --vj-in-ldr1: #5fe3f7;
+    --vj-in-ldr2: #09c7e4;
+    --vj-in-ldr3: #00B4D0;
+}
+
+/*--====== Dark ======--*/
+:root .day_night {
+
+    
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark) {
+
+    /*--====== Dark ======--*/
+    :root {
+
+        --vj-cl-rg1: #444444;
+        --vj-cl-rg2: #444444;
+        --vj-cl-rg3: #444444;
+
+        --vj-bg-cl1: #222222;
+        --vj-bg-cl2: #222222;
+        --vj-bg-cl3: #000;
+        --vj-bg-cl4: #00B4D0;
+
+        --vj-cl-bg: #000;
+
+
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {}
+}
+
+
+body{background-color: var(--vj-cl-bg);}
+
+.m-nv_clr.m-nv_clr1{background-color:#03c1de;}
+
+.m-nv_clr1 .log_btn{background:none;}
+
+
+.section_two{padding:0 0 50px;}
+
+
+.img-gr {
+    border-radius: 4px;
+}
+
+
+.Bg-cl1 {
+    background: var(--vj-bg-cl1);
+    padding: 60px 0;
+    color: #fff;
+}
+
+.Bg-cl2 {
+    background: var(--vj-bg-cl2);
+    padding: 60px 0;
+
+}
+
+.Bg-cl3 {
+    background: var(--vj-bg-cl3);
+    padding: 60px 0;
+
+}
+
+
+
+.Bg-cl1 .tp-ttl1,
+.Bg-cl1 .crd_lnk,
+/* .Bg-cl1 .crd_cat-lk, */
+.Bg-cl1 .crd_lnk:hover,
+.Bg-cl3 .tp-ttl1,
+.Bg-cl3 .crd_cat-lk,
+.Bg-cl3 .crd_lnk,
+.Bg-cl3 .crd_lnk:hover {
+    color: #fff;
+}
+
+.Bg-cl1 .crd_lnk:hover, .Bg-cl3 .crd_lnk:hover{opacity:0.8}
+
+.Bg-cl1 .crd_cat-lk {color:var(--vj-bg-cl4)}
+
+.Bg-cl1 .ls-ns_li {
+    border-bottom: 1px solid var(--vj-cl-rg2);
+}
+
+
+/* Video Card */
+.VdTgIm-Crd,
+.VdTgIm-Crd2 {
+    padding: 8px 8px 4px 4px;
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+.VdTgIm-Crd_lt {
+    background-color: #343232;
+    display: inline-block;
+    float: left;
+    border-radius: 3px
+}
+
+.VdTgIm-Crd_vd {
+    color: #fff;
+    float: left;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    padding: 2px 4px
+}
+
+.VdTgIm-Crd_vd .vj_play {
+    font-size: 7px;
+    margin: 0 3px 0 0
+}
+
+
+
+
+/* Photo Card Tag */
+.crdPhTg_wr {
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position:absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 88px;
+}
+
+
+.crdPhTg_cn {
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color:#fff;
+    padding: 3px 4px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+
+.crdPhTg_icn {
+    float: left;
+    margin: 0 6px 0 0;
+    padding: 0;
+    display: inline-block;
+    /* width: 100%; */
+    font-size: 16px;
+    line-height: 16px;
+    color:#000;
+}
+
+
+.crdPhTg_txt{font-size:12px;font-weight: 600;color: #000;}
+
+.m-nv_ul{margin-left:30px}
+
+
+
+
+
+@media (min-width: 1200px) {
+    .vj_icn.vj_logo-ndtv {
+        font-size: 132px;
+    }
+}
+
+@media (max-width: 768px) {
+.Bg-cl1, .Bg-cl2, .Bg-cl3{padding:30px 0;}
+}
+
+@media (max-width: 530px) {
+    .section_two {
+        padding-bottom: 30px;
+    }
+}
+
+
+
+.btn_bm,.sp_txt a.btn_bm {
+    border: 2px solid var(--vj-cl-rg1);
+}
+
+.btn_bm:hover,.sp_txt a.btn_bm:hover {background:var(--vj-cl-mtx); border-color:var(--vj-cl-mtx); color:#fff}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

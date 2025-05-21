@@ -1,0 +1,54 @@
+/*----====== Card B ======----*/
+.crd-b {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 16px;
+    height: 100%;
+    width: 100%;
+}
+.crd-b_h-at {
+    height: auto;
+}
+
+.crd-b .crd_dot-wrp .img-gr {
+    padding-bottom: 75%;
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .crd-b-tab {
+        flex-direction: row;
+        padding-bottom: 40px;
+    }
+
+    .crd-b-tab .crd_img {
+        margin-right: 18px;
+        margin-bottom: 0;
+        width: 48%;
+    }
+
+    .crd-b-tab .crd_ttl4 {
+        display: flex;
+        flex-direction: column;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 31px;
+        padding: 4px 0 0;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .crd-b.crd-b_res-bor {
+        border-bottom: 1px solid var(--vj-cl-rg1);
+        margin-bottom: 16px;
+        height: auto;
+    }
+}

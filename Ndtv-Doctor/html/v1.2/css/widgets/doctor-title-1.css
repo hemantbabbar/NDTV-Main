@@ -1,0 +1,14 @@
+.FaqLstPg_cnt {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.FaqLstPg_hd{
+    display:inline-block; width:100%; 
+    margin:0; 
+    padding:20px; 
+    background:#E4F9FC;
+}

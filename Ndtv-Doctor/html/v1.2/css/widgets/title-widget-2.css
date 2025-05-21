@@ -1,0 +1,127 @@
+/*--====== Light ======--*/
+:root {
+    --vj-cl-Dcttl2-1: #E4F9FC;
+    --vj-cl-Dcttl2-2: #fff;
+    --vj-cl-Dcttl2-3: #00000099;
+
+
+
+
+}
+
+/*--====== Dark ======--*/
+:root .day_night {}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark) {
+
+    /*--====== Dark ======--*/
+    :root {
+        --vj-cl-Dcttl2-1: #222222;
+        --vj-cl-Dcttl2-2: #393a3b;
+        --vj-cl-Dcttl2-3: #bdb9b9;
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {}
+}
+
+
+.Dcttl2_wr {
+    display: inline-block;
+    float: left;
+    margin: 0 0 20px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.Dcttl2_cn {
+    /* align-items: center; */
+    background-color: var(--vj-cl-Dcttl2-1);
+    display: flex;
+    float: left;
+    margin: 0;
+    padding: 16px;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.Dcttl2_ttl {
+    font-size: 24px;
+    color: var(--vj-cl-dr);
+    margin: 0 0 15px 0;
+    padding: 0
+}
+
+.Dcttl2_src {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 460px;
+    position: relative;
+}
+
+.Dcttl2_inp {
+    background: var(--vj-cl-Dcttl2-2);
+    color: var(--vj-cl-dr1);
+    border: 0;
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0 15px 0 40px;
+    width: 100%;
+    outline: none;
+    height: 40px;
+}
+
+.Dcttl2_btn {
+    background: none;
+    border: 0;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0 15px 0;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    height: 40px;
+    font-size: 14px;
+    color: color: var(--vj-cl-dr1);
+}
+
+
+.Dcttl2_inp-cls {
+    background: var(--vj-cl-bg1);
+    border-radius: 30px;
+    color: var(--vj-cl-dr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.Dcttl2_inp-cls:hover{background: var(--vj-cl-bg3);}
+
+.Dcttl2_inp-cls .vj_icn {
+    font-size: 8px;
+}
+
+
+@media(min-width:992px){
+
+    .Dcttl2_cn{flex-direction:row; align-items:center}
+    .Dcttl2_ttl{margin:0}
+}

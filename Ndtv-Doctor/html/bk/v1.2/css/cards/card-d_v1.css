@@ -1,0 +1,112 @@
+/*----====== Card D ======----*/
+.crd-d_v1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.crd-d_v1-ul {
+    display: flex;
+    float: left;
+    min-width:100%;
+    margin: 0 -12px 0;
+    /* width: 100%; */
+}
+.crd-d_v1-li {
+    display: inline-block;
+    float: left;
+    /* border-bottom: 1px solid var(--vj-cl-rg1); */
+    margin-bottom: 0;
+    padding: 0 12px;
+}
+
+.crd-d_v1-li:last-child {
+    border-bottom: 0 none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.crd-d_v1-3 .crd-d_v1-li {
+    width: 33.333%;
+}
+.crd-d_v1-4 .crd-d_v1-li {
+    width: 25%;
+}
+.crd-d_v1-5 .crd-d_v1-li {
+    width: 20%;
+}
+
+.crd-d_v1-6 .crd-d_v1-li {
+    width: 16.66%;
+}
+
+
+.crd-d_v1 .crd_ttl {font-size: 16px;font-weight: 600;line-height: 24px;margin-bottom: 0;}
+.crd-d_v1 .img-gr {
+
+}
+.crd-d_v1 .crd_txt {
+    margin-bottom: 0;
+}
+.crd-d_v1 .crd_txt-wrp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    flex-direction: column;
+}
+.crd-d_v1 .crd_img {
+    margin: 0 15px 0 0;
+    width: 150px;
+}
+
+
+@media (max-width: 768px) {
+    .crd-d_v1-li {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+    }
+
+    
+.crd-d_v1-4 .crd-d_v1-li, .crd-d_v1-5 .crd-d_v1-li, .crd-d_v1-6 .crd-d_v1-li {
+    width: 100%;
+}
+
+
+
+    .crd-d_v1-li .crd-b {
+    display: flex;
+    border-bottom: 1px solid var(--vj-cl-rg1);
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    flex-direction: row;
+}
+    .crd-d_v1-li:last-child  .crd-b{
+    border-bottom: 0 none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.crd-d_v1-li .crd_img {
+    width: 146px;
+    margin-right: 16px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

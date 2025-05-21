@@ -1,0 +1,369 @@
+
+
+
+
+/*--====== Light ======--*/
+:root {
+    --vj-cl-EdPk1: #ffc6ee;
+    --vj-cl-EdPk2: #000;
+}
+/*--====== Dark ======--*/
+:root .day_night {
+    --vj-cl-EdPk1: #ff84cf;
+    --vj-cl-EdPk2: #ffeafa;
+}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark){
+    /*--====== Dark ======--*/
+    :root {
+    --vj-cl-EdPk1: #ff84cf;
+    --vj-cl-EdPk2: #ffeafa;
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {
+    --vj-cl-EdPk1: #ffc6ee;
+    --vj-cl-EdPk2: #000;
+    }
+}
+
+
+
+/*--=================== Three Images ===================--*/
+
+.EdPk-4_cn {
+    display: flex;
+    /* background: var(--vj-cl-bg2); */
+    /* border: 2px solid var(--vj-cl-br2); */
+    /* border-bottom: 4px solid var(--vj-cl-br2); */
+    /* border-radius: 22px; */
+    /* box-shadow: 0.5rem 0.5rem rgb(93 67 56 / 25%); */
+    float: left;
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    border-radius: 12px;
+    margin-bottom: 35px;
+    position: relative;
+    align-items: center;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+}
+
+
+.EdPk-4_wr {
+    display: inline-block;
+    float: left;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* overflow: scroll; */
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    max-width: 1390px;
+    width: 100%;
+}
+
+.EdPk-4_wr::-webkit-scrollbar {
+    display:none
+}
+
+.EdPk-4_ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    font-size: 0;
+    white-space: normal;
+}
+
+.EdPk-4_li {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.EdPk-4_cr {
+    display: inline-block;
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-bottom: 30px;
+    position: relative;
+    MARGIN: 0;
+    width: 100%;
+}
+
+.EdPk-4_cr-im-wr {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    min-height: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.EdPk-4_cr-im-wr {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    min-height: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.EdPk-4_cr-im-gr {
+    padding-bottom: 90%;
+}
+
+.EdPk-4_li-1 .EdPk-4_cr-im-gr {
+    padding-bottom: 189.4%;
+}
+
+.EdPk-4_li-2 .EdPk-4_cr-im-gr {
+    padding-bottom: 90%;
+}
+
+
+
+
+
+/*----====== text ======----*/
+.EdPk-4_cr .crd_txt-wrp {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.72) 33%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    position: absolute;
+    color: #fff;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0;
+    padding: 0 16px 21px;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    transition: 0.3s ease all;
+}
+.EdPk-4_cr:hover .crd_txt-wrp {
+    padding-bottom: 18px;
+} 
+.EdPk-4_cr .crd_img {
+    margin-bottom: 0;
+}
+
+.EdPk-4_cr .crd_ttl {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 0;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+}
+.EdPk-4_cr .crd_lnk {
+    color: #fff;
+}
+.EdPk-4_cr .crd_lnk:hover {
+    color: #fff;
+}
+.EdPk-4_cr .crd_txt-wrp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+
+.EdPk-4_cr.crd-ft_dt, .EdPk-4_cr .crd-ft_tg {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.EdPk-4_cr .crd_shr {
+    color: var(--vj-cl-dr5);
+}
+
+
+
+
+.EdPk-4_cr:hover .crd-ft_bt {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+.EdPk-4_cn {
+    display: flex;
+    background: var(--vj-cl-bg4);
+    border: 1px solid var(--vj-cl-br1);
+    /* border-bottom: 4px solid var(--vj-cl-br2); */
+    box-shadow: 0 12px 12px rgb(0 0 0 / 11%);
+    padding: 40px 25px 40px;
+    margin: 30px 0 40px;
+    width: 100%;
+}
+    .EdPk-4_wr {
+    max-width: 1410px;
+}
+    .tp-ttl_cntr-edp {
+}
+    .tp-tsdw-tl {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 57px;
+    margin-bottom: 30px;
+}
+
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 769px) {
+
+    .crd-rec.crd-rec-mid .img-gr {
+        padding-bottom: 90%;
+    }
+    .EdPk-4_li-2 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .EdPk-4_li-2-in-li {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* padding: 0; */
+    }
+
+
+}
+
+
+
+
+@media (max-width: 1120px) {
+
+
+.EdPk-4_wr {
+    overflow-x: scroll;
+}
+    .EdPk-4_ul {
+    flex-wrap: nowrap;
+    margin: 0 -6px;
+    width: 100%;
+}
+
+.EdPk-4_li.EdPk-4_li-1 {
+    -ms-flex: 0 0 380px;
+    flex: 0 0 380px;
+    max-width: 380px;
+    padding: 0 7px;
+}
+
+.EdPk-4_li.EdPk-4_li-2 {
+    -ms-flex: 0 0 760px;
+    flex: 0 0 760px;
+    max-width: 760px;
+    padding: 0 0 0 0;
+}
+
+    
+.EdPk-4_li.EdPk-4_li-2:first-child {
+    /* padding: 0 0 0 7px; */
+}
+
+
+
+
+.EdPk-4_li-2-ul {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.EdPk-4_li-1 .EdPk-4_cr-im-gr {
+    padding-bottom: 80%;
+}
+
+    .EdPk-4_li-2 .EdPk-4_cr-im-gr {
+    padding-bottom: 80%;
+}
+
+.EdPk-4_li-2-in-li {
+    -ms-flex: 0 0 800px;
+    flex: 0 0 800px;
+    max-width: 50%;
+    padding: 0 7px;
+}
+
+}
+
+
+
+
+
+@media (max-width: 420px) {
+
+.EdPk-4_li.EdPk-4_li-2 {
+    -ms-flex: 0 0 660px;
+    flex: 0 0 660px;
+    max-width: 660px;
+}
+    .EdPk-4_li.EdPk-4_li-1 {
+    -ms-flex: 0 0 330px;
+    flex: 0 0 330px;
+    max-width: 330px;
+}
+
+}
+
+@media (max-width: 420px) {
+
+.EdPk-4_li.EdPk-4_li-2 {
+    -ms-flex: 0 0 660px;
+    flex: 0 0 660px;
+    max-width: 660px;
+}
+    .EdPk-4_li.EdPk-4_li-1 {
+    -ms-flex: 0 0 330px;
+    flex: 0 0 330px;
+    max-width: 330px;
+}
+
+}
+
+@media (max-width: 330px) {
+
+.EdPk-4_li.EdPk-4_li-2 {
+    -ms-flex: 0 0 600px;
+    flex: 0 0 600px;
+    max-width: 600px;
+}
+    .EdPk-4_li.EdPk-4_li-1 {
+    -ms-flex: 0 0 300px;
+    flex: 0 0 300px;
+    max-width: 300px;
+}
+
+}

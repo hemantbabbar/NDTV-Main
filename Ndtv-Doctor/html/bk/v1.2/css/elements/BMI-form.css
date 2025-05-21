@@ -1,0 +1,341 @@
+/*--====== Light ======--*/
+:root {
+    --vj-cl-BMI1: #808080;
+    --vj-cl-BMIbg1: #F8F8F8;
+    --vj-cl-BMIbg2: #fff;
+    --vj-cl-BMIbg3: #F8F8F8;
+    --vj-cl-BMIbg4: #fff;
+    --vj-cl-BMIbg5: #dbe2e4;
+    --vj-cl-BMIBr1: #7B7F83;
+    --vj-cl-BMIBr2: #868686;
+}
+
+/*--====== Dark ======--*/
+:root .day_night {}
+
+/*--====== Dark Mode ======--*/
+@media (prefers-color-scheme:dark) {
+
+    /*--====== Dark ======--*/
+    :root {
+        --vj-cl-BMIbg1: #222222;
+        --vj-cl-BMIbg2: #303030;
+        --vj-cl-BMIbg3: #F8F8F8;
+        --vj-cl-BMIbg4: #04CCF1;
+        --vj-cl-BMIbg5: #04ccf15e;
+        --vj-cl-BMIBr1: #7B7F83;
+        --vj-cl-BMIBr2: #3a3939;
+    }
+
+    /*--====== Light ======--*/
+    :root .day_night {}
+}
+
+
+
+* {
+    outline: none;
+}
+
+.CalcFrm_wr {
+    float: left;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.CalcFrm_cn {
+    background: var(--vj-cl-BMIbg1);
+    border-radius: 0;
+    float: left;
+    display: inline-block;
+    margin: 0 -15px;
+    padding: 20px 15px;
+    width: calc(100% + 30px);
+}
+
+/* === BMI Tabbin === */
+
+.CalcFrm_hd {
+    float: left;
+    display: inline-block;
+    margin: 0 0 30px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.CalcFrm_hd-ul {
+    border: 1px solid var(--vj-cl-BMIBr1);
+    border-radius: 30px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 4px;
+    width: 100%;
+    background: var(--vj-cl-BMIbg2);
+}
+
+
+.CalcFrm_hd-li {
+    float: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    /* flex: 1; */
+}
+
+
+.CalcFrm_hd-lk {
+    display: inline-block;
+    border-radius: 30px;
+    float: left;
+    background: transparent;
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+    color: var(--vj-cl-dr1);
+    font-size: 14px;
+    font-weight: 400;
+    /* width: 100%; */
+    transition: all .3s ease-in-out;
+}
+
+
+.CalcFrm_hd-act,
+.CalcFrm_hd-lk:hover {
+    background: #03bbdc;
+    color: #fff
+}
+
+
+.CalcFrm-ttl {
+    display: inline-block;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+
+.CalcFrm-err {
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+    color: #d41d16;
+    margin: 6px 0 0;
+}
+
+
+
+
+.BMIFrm_cn .vjl-md-6{width:50%}
+
+
+
+
+
+
+
+/* ====BMI Calc==== */
+
+
+.BMIFrm_btn {
+    float: left;
+    margin: 0 20px 0 0;
+    width: calc(50% - 20px);
+    height: 50px;
+    position: relative;
+}
+
+.BMIFrm_btn label,
+.BMIFrm_btn input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.BMIFrm_btn input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+}
+
+.BMIFrm_btn input[type="radio"]:checked+label,
+.BMIFrm_btn:hover label {
+    background: #03C1DE33;
+    border-radius: 4px;
+    border-color: #03C1DE;
+    color: var(--vj-cl-dr);
+}
+
+.BMIFrm_btn label {
+    cursor: pointer;
+    z-index: 90;
+    line-height: 1.8em;
+    background: var(--vj-cl-BMIbg2);
+    border-radius: 4px;
+    border: 1px solid var(--vj-cl-BMIBr2);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #B2B3B2;
+    transition: all .3s ease-in-out;
+}
+
+.BMIFrm_btn .vj-male {
+    font-size: 24px;
+    margin: 0 10px 0 0;
+}
+
+.BMIFrm_btn .vj-Female {
+    font-size: 26px;
+    margin: 0 6px 0 0;
+}
+
+
+.BMIFrm_cn .vjl-row {
+    margin-bottom: 18px;
+}
+
+.BMIFrm_cn .vjl-row:last-child {
+    margin-bottom: 0;
+}
+
+.BMIFrm_txt-fld {
+    display: flex;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.BMIFrm_inp {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0 10px;
+    height: 50px;
+    width: 100%;
+    border: 0;
+    background: var(--vj-cl-BMIbg2);
+    border-radius: 4px;
+    outline: none;
+    font-size: 15px;
+    color: var(--vj-cl-dr);
+    transition: all .4s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.BMIFrm_inp:focus,
+.BMIFrm_inp:focus+.BMIFrm_txt-prmt {
+    border: 1px solid var(--vj-cl-BMIbg5);
+}
+
+
+.BMIFrm_txt-prmt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin: 0 0 0 -2px;
+    padding: 0 20px;
+    height: 50px;
+    border: 0;
+    background: var(--vj-cl-BMIbg2);
+    border-radius: 0 4px 4px 0;
+    outline: none;
+    font-size: 15px;
+    transition: all .4s ease-in-out;
+    border: 1px solid transparent;
+    border-left: 1px solid var(--vj-cl-rg1);
+    color: var(--vj-cl-BMI1);
+}
+
+
+
+.BMIFrm_swth {
+    font-size: 12px;
+    color: #03B2CC;
+    float: right;
+    display: inline-block;
+    margin: 10px 0 0 0;
+}
+
+.BMIFrm_sub-btn {
+    background: var(--vj-cl-BMIbg4);
+    color: var(--vj-cl-dr);
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #c3c7cb;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    /* opacity: 0.3; */
+    transition: all .3s ease-in-out;
+}
+
+.BMIFrm_sub-btn:hover {
+    background: #03B2CC;
+    border-color: #03B2CC;
+    opacity: 1;
+    color: #fff;
+}
+
+.BMIFrm_sub-btn:disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+
+
+
+
+
+/* ===BMI Graph Image=== */
+
+.BMIChrt_wr {
+    background: var(--vj-cl-BMIbg1);
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    float: left;
+    width: calc(100% + 30px);
+    margin: 20px -15px 0;
+    padding: 15px;
+    height: 100%;
+}
+
+.BMIChrt_cn {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.BMIChrt_img {
+    max-width: 520px;
+    margin: auto;
+    width: 100%;
+}
+
+
+
+
+@media(min-width:768px){
+
+.CalcFrm_cn{padding:40px 50px; margin:0; width:100%}
+.CalcFrm_hd-lk{font-size: 15px;padding: 10px 40px;} 
+.BMIChrt_wr{    
+    width: 100%;
+    margin:0;}
+}

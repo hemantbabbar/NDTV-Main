@@ -1,0 +1,80 @@
+/*----====== Card E ======----*/
+
+
+
+.LstWg1-a .LstWg1_img img,
+.LstWg1-a .LstWg1_img2 img,
+.LstWg1-b .LstWg1_img img,
+.LstWg1-c .LstWg1_img img,
+.crd-a .crd_img img,
+.crd-b .crd_img img,
+.crd-c .crd_img img,
+.crd-d .crd_img img,
+.crd-e .crd_img img,
+.crd-h .crd_img img,
+.crd-ph .crd_img img,
+.Vd1_crd .Vd1_crd-img img,
+.lst-wig-a .lst-wig_img img,
+.EdPk-4_cr .EdPk-4_cr-im-wr .EdPk-4_im,
+.crd-f_v1 .crd_img img, .crd-c_v1 .crd_img img, .crd-c_v2 .crd_img img {
+    transform: scale(1) translateZ(0);
+    transition: opacity .6s cubic-bezier(.3,.58,.42,.9),transform .6s cubic-bezier(.3,.58,.42,.9),visibility 0s;
+}
+
+.LstWg1-a:hover .LstWg1_img img,
+.LstWg1-a:hover .LstWg1_img2 img,
+.LstWg1-b:hover .LstWg1_img img,
+.LstWg1-c:hover .LstWg1_img img,
+.crd-a:hover .crd_img img,
+.crd-b:hover .crd_img img, 
+.crd-c:hover .crd_img img, 
+.crd-d:hover .crd_img img, 
+.crd-e:hover .crd_img img, 
+.crd-h:hover .crd_img img, 
+.crd-ph:hover .crd_img img, 
+.Vd1_crd:hover .Vd1_crd-img img,
+.lst-wig-a:hover .lst-wig_img img,
+.EdPk-4_cr:hover .EdPk-4_cr-im-wr .EdPk-4_im, 
+.crd-f_v1:hover .crd_img img, .crd-c_v1:hover .crd_img img, .crd-c_v2:hover .crd_img img  {
+    transform: scale(1.06) translateZ(0);
+}
+
+.LstWg1-a .LstWg1_img,
+.LstWg1-a .LstWg1_img2,
+.LstWg1-b .LstWg1_img,
+.LstWg1-c .LstWg1_img,
+.crd-b .crd_img, 
+.crd-c .crd_img, 
+.crd-d .crd_img, 
+.crd-e .crd_img, 
+.crd-h .crd_img, 
+.crd-ph .crd_img, 
+.Vd1_crd .Vd1_crd-img,
+.lst-wig-a .lst-wig_img,
+.EdPk-4_cr .EdPk-4_cr-im-wr, 
+.crd-f_v1 .crd_img {
+    transform: scale(1) translateZ(0);
+    transition: transform .6s cubic-bezier(.3,.58,.42,.9);
+}
+
+.LstWg1-a:hover .LstWg1_img,
+.LstWg1-a:hover .LstWg1_img2,
+.LstWg1-b:hover .LstWg1_img,
+.LstWg1-c:hover .LstWg1_img,
+.crd-b:hover .crd_img,
+.crd-c:hover .crd_img,
+.crd-d:hover .crd_img,
+.crd-e:hover .crd_img,
+.crd-h:hover .crd_img,
+.crd-ph:hover .crd_img,
+.Vd1_crd .Vd1_crd-img,
+.lst-wig-a:hover .lst-wig_img,
+.EdPk-4_cr:hover .EdPk-4_cr-im-wr,
+.crd-f_v1:hover .crd_img {
+    transform: scale(0.99) translateZ(0);
+    transition-duration: .4s;
+}
+
+
+
+
